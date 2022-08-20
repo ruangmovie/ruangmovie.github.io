@@ -20,11 +20,27 @@ h1 {
     width: 20%;
     float: left;
   }
+  .tombol-lainnya {
+    color:white;
+    text-align: center;
+    width: 10%;
+    background: #2d2c4d;
+    border-radius:20px;
+    padding:5px;
+  }
 }
 @media (max-width: 900px) {
   .movie-card {
     width: 33.33%;
     float: left;
+  }
+  .tombol-lainnya {
+    color:white;
+    text-align: center;
+    width: 20%;
+    background: #2d2c4d;
+    border-radius:20px;
+    padding:5px;
   }
 }
 .card {
@@ -38,7 +54,7 @@ h1 {
 }
 .card-title {
   color:black;
-  height:52px;
+  height:49px;
   margin:-10px;
   overflow: hidden;
   text-overflow: ellipsis;
