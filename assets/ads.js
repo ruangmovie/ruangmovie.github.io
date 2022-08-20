@@ -2303,7 +2303,7 @@ const ads = [
   
 function randomads() {
   let random = ads[Math.floor(Math.random() * ads.length)];
-  iklan.innerHTML = `<a href="${random.link}"><div class="container-fluid full-width-image"><img src="${random.photo}" width="100%"><div class="modal-footer" style="border-style:none;margin-top:-6px"><img class="position-absolute bottom-0 start-50 translate-middle-x" src="assets/img/buy.png" height="60px"></a>`;
+  iklan.innerHTML = `<a href="${random.link}"><div class="container-fluid full-width-image"><img src="${random.photo}" width="100%"><div class="modal-footer" style="border-style:none;margin-top:2px"><img class="position-absolute bottom-0 start-50 translate-middle-x" src="assets/img/buy.png" height="60px"></a>`;
   ads.innerHTML = random.ads;
 }
 randomads();
