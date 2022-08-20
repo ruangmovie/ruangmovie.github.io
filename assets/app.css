@@ -1,7 +1,7 @@
 html, body {
   overflow-x: hidden;
   width:100%;
-  margin-top:30px;
+  margin-top:50px;
 }
 a {
   text-decoration: none;
@@ -276,9 +276,6 @@ img {
 	font-size:18pt;
 }
 
-#movie-wrap #hidden-div {
-  display: none;
-}
 #search-movie {
   font-size: 15px;
   border: 1px solid #ddd;
