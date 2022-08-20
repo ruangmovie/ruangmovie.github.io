@@ -199,6 +199,20 @@
   </div>
 </div>
 
+<div class="modal fade" id="myAds" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="background-color:transparent;border-style:none;margin:0;padding:0">
+      <div class="modal-header" style="border-style:none;">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color:white;border-radius:50%" onclick="myDirectAds()"></button>
+      </div>
+      <div class="modal-body">
+        <div id="iklan"></div>
+        <div id="ads"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container">
   <div style="margin-bottom:-15px">
     <a href="" onclick="myAds()"><img src="assets/img/ads2.gif" width="100%"></a>
@@ -213,9 +227,16 @@
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script defer="defer" src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
   <script src="assets/app.js"></script>
+  <script src="assets/ads.js"></script>
   
   <script>
-  function myAds() {
+    $(document).ready(function () {
+      $("#myAds").modal("show");
+    });
+  </script>
+  
+  <script>
+  function myDirectAds() {
     window.open("https://shope.ee/5UswNT9zST");
   }
   </script>
