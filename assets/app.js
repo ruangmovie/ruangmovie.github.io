@@ -1,5 +1,191 @@
 var data = [
     {
+        "title": "Menjelang Magrib (2022)",
+        "poster": "971be9fcc3bb3e9527c6d.jpg",
+        "link": "https://dood.wf/e/vc9z9gbu3ydz",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Aku Bukan Jodohnya (2021)",
+        "poster": "601542fb3161e2f462ee3.jpg",
+        "link": "https://dood.wf/e/20n8gbc57e2s",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Menunggu Bunda (2021)",
+        "poster": "8d2a3670d741ab86fb566.jpg",
+        "link": "https://dood.wf/e/a14ehxe63wjz",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kemarin (2020)",
+        "poster": "49f9499ca1073aab1d8c6.jpg",
+        "link": "https://dood.wf/e/3lwa54rcch3f",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Eyang Putri (2021)",
+        "poster": "e165b57aab9908cef8594.jpg",
+        "link": "https://dood.wf/e/hfc9sartwhpb",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Eyang Ti (2021)",
+        "poster": "17d2563751f3c77f03ad1.jpg",
+        "link": "https://dood.wf/e/px8b1goej56k",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kapan Pindah Rumah? (2021)",
+        "poster": "0507ce47c6ad93450c9ba.jpg",
+        "link": "https://dood.wf/e/mqqjk6uc3bvj",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Love of Fate (2021)",
+        "poster": "a67ba5e422b473f5aa7f2.jpg",
+        "link": "https://dood.wf/e/4iieeq85jn0a",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Senzano Savana (2021)",
+        "poster": "9ff8d937e9840d2ee2e4d.jpg",
+        "link": "https://dood.wf/e/my8tkqq63lsku",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "The Returning (2018)",
+        "poster": "e351cde10f5492e8c2a92.jpg",
+        "link": "https://dood.wf/e/iokria4c6ljr",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Rumah Dara (2009)",
+        "poster": "2c3234f834e12a7a086b9.jpg",
+        "link": "https://dood.wf/e/rayoukgmpnl7",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Gas Kuy (2021)",
+        "poster": "aa957a5877cddf11e62a9.jpg",
+        "link": "https://dood.wf/e/3zrb6qpz9lvn",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "A World Without (2021)",
+        "poster": "db1976a760ce87197d868.jpg",
+        "link": "https://dood.wf/e/2bl0jubzjk98",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Hompimpa (2021)",
+        "poster": "0ad05c51705a15f744279.jpg",
+        "link": "https://dood.wf/e/5f2p4hslyjbb",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kabut (2021)",
+        "poster": "0b1968d095c7ab842efc6.jpg",
+        "link": "https://dood.wf/e/o2ud8so2ovmy",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Aku Lupa Aku Luka (2021)",
+        "poster": "9407ebf02a7c516de60ec.jpg",
+        "link": "https://dood.wf/e/lrxz1bb3zuhi",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kain Kafan Hitam (2019)",
+        "poster": "746cd6de317437764e195.jpg",
+        "link": "https://dood.wf/e/43vozy6buqv0",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kau & Dia (2021)",
+        "poster": "940247ae5a782ba76f205.jpg",
+        "link": "https://dood.wf/e/id7mpylg9utb",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "5 cm (2012)",
+        "poster": "2bf6e9b17d0a4fef269f3.jpg",
+        "link": "https://dood.wf/e/95q47we0jprz",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Sin (2019) Extended",
+        "poster": "0809899b8fc771d84504b.jpg",
+        "link": "https://dood.wf/e/jygv4b8pz9x1",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Notebook (2021)",
+        "poster": "06bb81325126223d13704.jpg",
+        "link": "https://dood.wf/e/o4wgwhc015p8",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Balada Sepasang Kekasih Gila (2021)",
+        "poster": "3626e1eb44204726d5551.jpg",
+        "link": "https://dood.wf/e/ift4tghtopa7",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Pesan di Balik Awan (2021)",
+        "poster": "aa35ee2b11a3094491d8f.jpg",
+        "link": "https://dood.wf/e/0503soanhx7h",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Marriage (2021)",
+        "poster": "8aee3056b69b28513c5f9.jpg",
+        "link": "https://dood.wf/e/jx668881cjfe",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Jangan Sendirian (2021)",
+        "poster": "884b470f01be38ca22f02.jpg",
+        "link": "https://dood.wf/e/7fw8qnnjj3ar",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Selesai (2021)",
+        "poster": "80e21f3f1e663ec6bc04f.jpg",
+        "link": "https://dood.wf/e/qci8zvm0ixde",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Serigala Langit (2021)",
+        "poster": "69e1978168c22e5897eec.jpg",
+        "link": "https://dood.wf/e/hthbio15991g",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "The Night Comes for Us (2018)",
+        "poster": "06844542176e3de210af7.jpg",
+        "link": "https://dood.wf/e/p4psoux20i8n",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Ghibah (2021)",
+        "poster": "25047a779a6affb31f13b.jpg",
+        "link": "https://dood.wf/e/ahe1h4i6nmtw",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Sampai Jadi Debu (2021)",
+        "poster": "979ce5867fc8db673e464.jpg",
+        "link": "https://dood.wf/e/9b0eihv6yxfc",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Ali & Ratu Ratu Queens (2021)",
+        "poster": "81068c6418c343169692c.jpg",
+        "link": "https://dood.wf/e/5ahk9ymobcdw",
+        "kategori": "Indonesia"
+    },
+    {
         "title": "I Need You Baby (2022)",
         "poster": "1b930fa565ea64b2d2bd2.jpg",
         "link": "https://dood.wf/e/k5otq4df4m70",
@@ -448,7 +634,7 @@ for (var i = 0; i < data.length; i++) {
 		link = data[i].link,
 		poster = data[i].poster;
 	
-	videos += "<div class='movie-card' data-kategori='" + kategori + "' data-nama='" + nama + "' data-link='" + link + "' data-poster='"+ poster +"'><a class='button-movie' href='' data-obj='"+ i +"' onclick='myDirectAds()'><div class='card'><img src='https://telegra.ph/file/"+ poster +"' width='100%' style='aspect-ratio: 3/4;object-fit: cover;' class='card-img-top'><div class='card-body'><p class='card-title'>"+ nama +"</p></div></div></div>";
+	videos += "<div class='movie-card' data-kategori='" + kategori + "' data-nama='" + nama + "' data-link='" + link + "' data-poster='"+ poster +"'><a class='button-movie' href='' data-obj='"+ i +"'><div class='card'><img src='https://telegra.ph/file/"+ poster +"' width='100%' style='aspect-ratio: 3/4;object-fit: cover;' class='card-img-top'><div class='card-body'><p class='card-title'><b>"+ nama +"</b></p></div></div></div>";
 	
 	if (kategories.indexOf("<option value='" + kategori + "'>" + kategori + "</option>") == -1) {
 		kategories += "<option value='" + kategori + "'>" + kategori + "</option>";
