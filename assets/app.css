@@ -66,6 +66,7 @@ h1 {
   color:black;
   height:44px;
   margin:-8px;
+  margin-left:-12px;
   font-weight: 400;
   font-style: bold;
   font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
