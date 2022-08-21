@@ -1,5 +1,167 @@
 var data = [
     {
+        "title": "Paranoia (2021)",
+        "poster": "c8c945c4f7c3192024e01.jpg",
+        "link": "https://dood.la/e/3e87fe8cnnfl",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "The Sexy Doctor is Mine Ep 1",
+        "poster": "a58ec1fad7dd017914575.jpg",
+        "link": "https://dood.la/e/0zrh72e8bj27",
+        "kategori": "The Sexy Doctor is Mine (2022)"
+    },
+    {
+        "title": "The Sexy Doctor is Mine Ep 2",
+        "poster": "a58ec1fad7dd017914575.jpg",
+        "link": "https://dood.la/e/c4r3tyk31s9f",
+        "kategori": "The Sexy Doctor is Mine (2022)"
+    },
+    {
+        "title": "The Sexy Doctor is Mine Ep 3",
+        "poster": "a58ec1fad7dd017914575.jpg",
+        "link": "https://dood.la/e/xnaobzvfqd6j",
+        "kategori": "The Sexy Doctor is Mine (2022)"
+    },
+    {
+        "title": "The Sexy Doctor is Mine Ep 4",
+        "poster": "a58ec1fad7dd017914575.jpg",
+        "link": "https://dood.la/e/kqxn7gnqnhj1",
+        "kategori": "The Sexy Doctor is Mine (2022)"
+    },
+    {
+        "title": "The Sexy Doctor is Mine Ep 5",
+        "poster": "a58ec1fad7dd017914575.jpg",
+        "link": "https://dood.la/e/qnu9v8je52az",
+        "kategori": "The Sexy Doctor is Mine (2022)"
+    },
+    {
+        "title": "Serigala Terakhir Season 2 Ep 1",
+        "poster": "279710e5001806aa6981f.jpg",
+        "link": "https://dood.la/e/s1lpszohwicj",
+        "kategori": "Serigala Terakhir Season 2 (2022)"
+    },
+    {
+        "title": "Serigala Terakhir Season 2 Ep 2",
+        "poster": "279710e5001806aa6981f.jpg",
+        "link": "https://dood.la/e/rna2iwfkepay",
+        "kategori": "Serigala Terakhir Season 2 (2022)"
+    },
+    {
+        "title": "Serigala Terakhir Season 2 Ep 3",
+        "poster": "279710e5001806aa6981f.jpg",
+        "link": "https://dood.la/e/21djigoqrle5",
+        "kategori": "Serigala Terakhir Season 2 (2022)"
+    },
+    {
+        "title": "Garis Waktu (2022)",
+        "poster": "f49d1d167d356c3732239.jpg",
+        "link": "https://dood.la/e/y9k0m4g3s2mg",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Mengejar Surga (2022)",
+        "poster": "60dd496d56fa811ece2e3.jpg",
+        "link": "https://dood.la/e/8rjo0iliuevh",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Dikta & Hukum Ep 1",
+        "poster": "6a817e3e0238159473399.jpg",
+        "link": "https://dood.la/e/enfjl33aajdj",
+        "kategori": "Dikta & Hukum (2022)"
+    },
+    {
+        "title": "Dikta & Hukum Ep 2",
+        "poster": "6a817e3e0238159473399.jpg",
+        "link": "https://dood.la/e/fr95bam543na",
+        "kategori": "Dikta & Hukum (2022)"
+    },
+    {
+        "title": "Dikta & Hukum Ep 3",
+        "poster": "6a817e3e0238159473399.jpg",
+        "link": "https://dood.la/e/wve25yofc09r",
+        "kategori": "Dikta & Hukum (2022)"
+    },
+    {
+        "title": "Dikta & Hukum Ep 4",
+        "poster": "6a817e3e0238159473399.jpg",
+        "link": "https://dood.la/e/wzg9spxv4kxt",
+        "kategori": "Dikta & Hukum (2022)"
+    },
+    {
+        "title": "Cupcake Untuk Rain Ep 1",
+        "poster": "e16d5bd9cbaadc24d7b6d.jpg",
+        "link": "https://dood.la/e/w3sjyk14dm20",
+        "kategori": "Cupcake Untuk Rain (2022)"
+    },
+    {
+        "title": "Cupcake Untuk Rain Ep 2",
+        "poster": "e16d5bd9cbaadc24d7b6d.jpg",
+        "link": "https://dood.la/e/yqv8nthw7p7n",
+        "kategori": "Cupcake Untuk Rain (2022)"
+    },
+    {
+        "title": "Cupcake Untuk Rain Ep 3",
+        "poster": "e16d5bd9cbaadc24d7b6d.jpg",
+        "link": "https://dood.la/e/g3wqr0eso7oj",
+        "kategori": "Cupcake Untuk Rain (2022)"
+    },
+    {
+        "title": "Cupcake Untuk Rain Ep 4",
+        "poster": "e16d5bd9cbaadc24d7b6d.jpg",
+        "link": "https://dood.la/e/ig5vcosg6cu9",
+        "kategori": "Cupcake Untuk Rain (2022)"
+    },
+    {
+        "title": "Cupcake Untuk Rain Ep 5",
+        "poster": "e16d5bd9cbaadc24d7b6d.jpg",
+        "link": "https://dood.la/e/29o39ctdrt69",
+        "kategori": "Cupcake Untuk Rain (2022)"
+    },
+    {
+        "title": "Cupcake Untuk Rain Ep 6",
+        "poster": "e16d5bd9cbaadc24d7b6d.jpg",
+        "link": "https://dood.la/e/b8q4pn41xzob",
+        "kategori": "Cupcake Untuk Rain (2022)"
+    },
+    {
+        "title": "Yang Hilang Dalam Cinta Ep 1",
+        "poster": "199de0fd633cf3ea53747.jpg",
+        "link": "https://dood.la/e/mq3co7m6mano",
+        "kategori": "Yang Hilang Dalam Cinta (2022)"
+    },
+    {
+        "title": "Yang Hilang Dalam Cinta Ep 2",
+        "poster": "199de0fd633cf3ea53747.jpg",
+        "link": "https://dood.la/e/9o1ryrx2euoo",
+        "kategori": "Yang Hilang Dalam Cinta (2022)"
+    },
+    {
+        "title": "Yang Hilang Dalam Cinta Ep 3",
+        "poster": "199de0fd633cf3ea53747.jpg",
+        "link": "https://dood.la/e/41je016flh7t",
+        "kategori": "Yang Hilang Dalam Cinta (2022)"
+    },
+    {
+        "title": "Yang Hilang Dalam Cinta Ep 4",
+        "poster": "199de0fd633cf3ea53747.jpg",
+        "link": "https://dood.la/e/kz8ruscqld6d",
+        "kategori": "Yang Hilang Dalam Cinta (2022)"
+    },
+    {
+        "title": "Yang Hilang Dalam Cinta Ep 5",
+        "poster": "199de0fd633cf3ea53747.jpg",
+        "link": "https://dood.la/e/tipdvhuooub5",
+        "kategori": "Yang Hilang Dalam Cinta (2022)"
+    },
+    {
+        "title": "Yang Hilang Dalam Cinta Ep 6",
+        "poster": "199de0fd633cf3ea53747.jpg",
+        "link": "https://dood.la/e/wxpgnkw5f0zw",
+        "kategori": "Yang Hilang Dalam Cinta (2022)"
+    },
+    {
         "title": "Virgin Mom Ep 10 - Will We Make It?",
         "poster": "a29b252a14bd9a6920219.jpg",
         "link": "https://dood.la/e/xjbpdxrdmj92",
@@ -159,25 +321,25 @@ var data = [
         "title": "Yowis Ben Finale",
         "poster": "4562f266950ba3a1e84b7.jpg",
         "link": "https://dood.la/e/j6t9dsn738xp",
-        "kategori" : "Film Indonesia"
+        "kategori" : "Indonesia"
     },
     {
         "title": "Yowis Ben 3",
         "poster": "9b10b6c5450f265f5b16d.jpg",
         "link": "https://dood.la/e/f9h2by21rvcm",
-        "kategori" : "Film Indonesia"
+        "kategori" : "Indonesia"
     },
     {
         "title": "Yowis Ben 2",
         "poster": "1b8f40c8d90584063fa08.jpg",
         "link": "https://dood.la/e/qdizu5r5x0ph",
-        "kategori" : "Film Indonesia"
+        "kategori" : "Indonesia"
     },
     {
         "title": "Yowis Ben",
         "poster": "5c3f03e7edccc74e47e2f.jpg",
         "link": "https://dood.la/e/5xd5sx674am1",
-        "kategori" : "Film Indonesia"
+        "kategori" : "Indonesia"
     },
     {
         "title": "Yowis Ben The Series S01E12",
