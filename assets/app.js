@@ -1,5 +1,29 @@
 var data = [
     {
+        "title": "I Need You Baby (2022)",
+        "poster": "1b930fa565ea64b2d2bd2.jpg",
+        "link": "https://dood.wf/e/k5otq4df4m70",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Backstage (2021)",
+        "poster": "437fabad75ccd81e24e43.jpg",
+        "link": "https://dood.wf/e/f2ymud4e9txb",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kajeng Kliwon (2020)",
+        "poster": "6baac19fb2879c238884a.jpg",
+        "link": "https://dood.wf/e/y42zrphhyh9y",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Before Now & Then Nana (2022)",
+        "poster": "50739fcc24c0f8ab3b57c.jpg",
+        "link": "https://dood.wf/e/g02cnvkwn25r",
+        "kategori": "Indonesia"
+    },
+    {
         "title": "Paranoia (2021)",
         "poster": "c8c945c4f7c3192024e01.jpg",
         "link": "https://dood.la/e/3e87fe8cnnfl",
