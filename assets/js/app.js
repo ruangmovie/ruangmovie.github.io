@@ -1,5 +1,125 @@
 var data = [
     {
+        "title": "KKN di Desa Penari (2022)",
+        "poster": "49d9ef525ba24c3fadaa6.jpg",
+        "link": "https://dood.wf/e/vawj0yxvh94k",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Antologi Rasa (2019)",
+        "poster": "384dc79805e580d9edd17.jpg",
+        "link": "https://dood.wf/e/ustyagn72ooj",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Vidkill (2021)",
+        "poster": "8332b2a575a17b5405b1c.jpg",
+        "link": "https://dood.wf/e/694qjqot1kvy",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Nini Thowok (2018)",
+        "poster": "a38e9b7b6f03e8889aed3.jpg",
+        "link": "https://dood.wf/e/rosfylhf96om",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Ikut Aku ke Neraka (2019)",
+        "poster": "281056c00711fd8fe7f3a.jpg",
+        "link": "https://dood.wf/e/eclphrlu2tlg",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Ratu Ilmu Hitam (2019)",
+        "poster": "3dcbb6b0d515fe5b1b069.jpg",
+        "link": "https://dood.wf/e/1eon5gjr5x45",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Teka-Teki Tika (2021)",
+        "poster": "adf4a6f03bb5d5e4427c3.jpg",
+        "link": "https://dood.wf/e/wycva5e04wbv",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Dear Imamku (2021)",
+        "poster": "dfc7f67d75787e8f9cfb4.jpg",
+        "link": "https://dood.wf/e/ezn0ubx9af4l",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Merindu Cahaya De Amstel (2022)",
+        "poster": "157233c98ecee3159e24f.jpg",
+        "link": "https://dood.wf/e/c72osmxdjto9",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Mariposa (2020)",
+        "poster": "655f8653161f5fabb3eaa.jpg",
+        "link": "https://dood.wf/e/qhijo4qvddcx",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Yuni (2021)",
+        "poster": "a4f9be5d2cde1ae3a7683.jpg",
+        "link": "https://dood.wf/e/0h7zjt6cyvuj",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Father & Son (2022)",
+        "poster": "f5e433b0738889a3386ef.jpg",
+        "link": "https://dood.wf/e/h0e8j32gsqpu",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Devil on Top (2021)",
+        "poster": "3fcc2a40eea80d6d01549.jpg",
+        "link": "https://dood.wf/e/n28zmm9eev6g",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Galih & Ratna (2017)",
+        "poster": "0312d7988d9ff4f717265.jpg",
+        "link": "https://dood.wf/e/hfrajmmyq7iz",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Surga yang Tak Dirindukan 3 (2021)",
+        "poster": "a40c8941853d1ce66af9d.jpg",
+        "link": "https://dood.wf/e/7y04352qogok",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Dear Nathan: Thank You Salma (2022)",
+        "poster": "27cd3c2beb38c90b3454a.jpg",
+        "link": "https://dood.wf/e/w86attrp5v59",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Dari Jendela SMP The Movie: Biarkan Aku Menari (2022)",
+        "poster": "4afbf1250fd0b18447f1d.jpg",
+        "link": "https://dood.wf/e/bizomf8zow6d",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Hayya: The Power of Love 2 (2019)",
+        "poster": "36be292d0ad62852ec341.jpg",
+        "link": "https://dood.wf/e/y2xprda6oiyy",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "After Met You (2019)",
+        "poster": "bf3fe329c7919f65d2556.jpg",
+        "link": "https://dood.wf/e/9b6kjde0twgt",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "The Doll 2 (2017)",
+        "poster": "084238a5f2940e9fbe47f.jpg",
+        "link": "https://dood.wf/e/yrsf4rrj5ymj",
+        "kategori": "Indonesia"
+    },
+    {
         "title": "Sebelum Iblis Menjemput Ayat 2 (2020)",
         "poster": "b84c044122779390b58d8.jpg",
         "link": "https://dood.wf/e/jsorpb8pcapl",
@@ -660,7 +780,7 @@ var data = [
         "kategori": "Pertaruhan The Series (2022)"
     },
     {
-        "title": "Yowis Ben Finale",
+        "title": "Yowis Ben Finale (2021)",
         "poster": "4562f266950ba3a1e84b7.jpg",
         "link": "https://dood.la/e/j6t9dsn738xp",
         "kategori" : "Indonesia"
