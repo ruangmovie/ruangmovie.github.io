@@ -987,6 +987,7 @@ $(".button-movie").click(function(e){
   $(".sosial-media").css({"display":"none"});
   $(".iklan-banner").css({"display":"none"});
   $(".pesan").css({"display":"none"});
+  $(".cari-movie").css({"display":"none"});
 });
 
 $(".next-movie").click(function(e){
