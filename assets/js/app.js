@@ -792,13 +792,13 @@ var data = [
         "kategori" : "Indonesia"
     },
     {
-        "title": "Yowis Ben 2",
+        "title": "Yowis Ben 2 (2019)",
         "poster": "1b8f40c8d90584063fa08.jpg",
         "link": "https://dood.la/e/qdizu5r5x0ph",
         "kategori" : "Indonesia"
     },
     {
-        "title": "Yowis Ben",
+        "title": "Yowis Ben (2018)",
         "poster": "5c3f03e7edccc74e47e2f.jpg",
         "link": "https://dood.la/e/5xd5sx674am1",
         "kategori" : "Indonesia"
