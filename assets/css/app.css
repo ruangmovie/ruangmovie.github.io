@@ -3,6 +3,13 @@ html, body {
   width:100%;
   margin-top:50px;
 }
+*, ::after, ::before {
+    box-sizing: border-box;
+    outline: none !important;
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
 a {
   text-decoration: none;
   color: red;

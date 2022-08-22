@@ -809,7 +809,6 @@ $("#search-form").submit(function(e) {
 	var query = $("#search-form input").val().toLowerCase();
 
 	$(".movie-card").hide();
-	window.scrollTo(0, 210);
 	$(".movie-card").each(function() {
 		var kategori = $(this).data("nama").toLowerCase();
 
