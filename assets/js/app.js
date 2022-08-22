@@ -1,5 +1,137 @@
 var data = [
     {
+        "title": "Sebelum Iblis Menjemput Ayat 2 (2020)",
+        "poster": "b84c044122779390b58d8.jpg",
+        "link": "https://dood.wf/e/jsorpb8pcapl",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Terlalu Tampan (2019)",
+        "poster": "e2ac0fe6e4f0fb0fffff7.jpg",
+        "link": "https://dood.wf/e/213qx5tdizxw",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Akad (2022)",
+        "poster": "94ae2d41aacaecdc2a67d.jpg",
+        "link": "https://dood.wf/e/0orpbmhm48p7",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Tuhan, Minta Duit! (2022)",
+        "poster": "c61a6bb9bd5deec23d4d8.jpg",
+        "link": "https://dood.wf/e/21hzapvnusro",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Pulang (2022)",
+        "poster": "99148975e1dacdf50947d.jpg",
+        "link": "https://dood.wf/e/w4ppr16kefc0",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Seperti Dendam, Rindu Harus Dibayar Tuntas (2021)",
+        "poster": "9160ef8650a385031c421.jpg",
+        "link": "https://dood.wf/e/3i90vhl4q1t5",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Clandestine (2022)",
+        "poster": "9b5e39d0d97fd610bad4c.jpg",
+        "link": "https://dood.wf/e/aw9brqcprh8i",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "7-24 (2022)",
+        "poster": "05f4d922285ea1f5a2c7c.jpg",
+        "link": "https://dood.wf/e/mtpobnuum851",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Satu Untuk Selamanya (2022)",
+        "poster": "a67f5a3fb769eb336b9fc.jpg",
+        "link": "https://dood.wf/e/bvjqwndlurgi",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Arini by Love.inc (2022)",
+        "poster": "80e7b272d42dbe36290c9.jpg",
+        "link": "https://dood.wf/e/m9hpyoa82m25",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Tarian Lengger Maut (2021)",
+        "poster": "d05885f7d8b273c16fdee.jpg",
+        "link": "https://dood.wf/e/6uiqt1lvidb2",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kuyang the Movie (2021)",
+        "poster": "90e00a879edcd1b7142f7.jpg",
+        "link": "https://dood.wf/e/o3sz7y5n2k2t",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Pintu Surga Terakhir (2021)",
+        "poster": "b8a8e76f117c1941b389e.jpg",
+        "link": "https://dood.wf/e/golzk8d210zh",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Cinta Warung Sebelah (2022)",
+        "poster": "80ea18a6ab22193f6a4d9.jpg",
+        "link": "https://dood.wf/e/xcfjnqmb0mxu",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Ada Mertua Di Rumahku (2022)",
+        "poster": "289f4f93446ac433470a3.jpg",
+        "link": "https://dood.wf/e/7l3ywia4im9t",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Jakarta vs Everybody (2022)",
+        "poster": "24d7d7ae5e0704079c2bb.jpg",
+        "link": "https://dood.wf/e/rtzgdytaw053",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Cinta Pertama, Kedua & Ketiga (2022)",
+        "poster": "b454f89f47422cb4244f3.jpg",
+        "link": "https://dood.wf/e/yqf3gz9rr06n",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kukira Kau Rumah (2022)",
+        "poster": "e35c5f7ae0d5c503b2a42.jpg",
+        "link": "https://dood.wf/e/3ccvixeavamg",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Akhirat: A Love Story (2021)",
+        "poster": "7af5f267ceda27e85225b.jpg",
+        "link": "https://dood.wf/e/jff2hgk7q292",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Cek Ombak (Melulu) (2022)",
+        "poster": "75b6a6a53834402acff45.jpg",
+        "link": "https://dood.wf/e/z3kq247eikxj",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Enam Batang (2022)",
+        "poster": "f60455ff8b2eae5c0ea3a.jpg",
+        "link": "https://dood.wf/e/f5txrja2b63q",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Penyalin Cahaya (2021)",
+        "poster": "df9390647eda7099805b1.jpg",
+        "link": "https://dood.wf/e/yihnnqrjsuf9",
+        "kategori": "Indonesia"
+    },
+    {
         "title": "Menjelang Magrib (2022)",
         "poster": "971be9fcc3bb3e9527c6d.jpg",
         "link": "https://dood.wf/e/vc9z9gbu3ydz",
@@ -534,7 +666,7 @@ var data = [
         "kategori" : "Indonesia"
     },
     {
-        "title": "Yowis Ben 3",
+        "title": "Yowis Ben 3 (2021)",
         "poster": "9b10b6c5450f265f5b16d.jpg",
         "link": "https://dood.la/e/f9h2by21rvcm",
         "kategori" : "Indonesia"
