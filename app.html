@@ -142,54 +142,40 @@
   </div>
 </div>
   
-  
-<div class="container">
-  <div class="movies">
-		<div class="row">
-      <div class="col-5">
-  			<h1 class="judul-home">LATEST MOVIE</h1>
-  		</div>
-  		<div class="col-7" id="filter">
-    		<form>
-    			<div class="form-group">
-    				<select data-filter="kategori" class="filter-kategori filter form-control form-select" style="border:none;text-align:right;margin-top:15px">
-    					<option value="">Pilih Kategori</option>
-    					<option value="">Show All</option>
-    				</select>
-    			</div>
-    		</form>
-    	</div>
-    </div>
-    <div class="container" style="margin-top:-2px;z-index:-9999">
-      <div class="row" id="list-movie">
-        
-      </div>    
-    </div>
-    <div class="container mt-3" align="center"><button class="tombol-lainnya" id="movie-lainnya">Movie Lainnya</button>
-    </div>
-    <hr style="color:white;visibility: hidden">
-    <div id="detail-video" style="display:none;margin-top:-35px;">
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item"><a href="index.html" style="color:black">Home</a></li>
-          <li class="breadcrumb-item inner-kategori-movie" aria-current="page"></li>
-        </ol>
-      </nav>
-      <h1 class="inner-title-movie" style="margin-top:-30px;font-size:18pt;"></h1>
-      <div class="rounded-social-buttons">
-  			<a class="social-button facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://maspannn.github.io/ruangmovie/index.html" target="_blank" rel="nofollow"><i class="fab fa-facebook"></i></a>
-  			<a class="social-button twitter" href="https://twitter.com/intent/tweet?url=https://ruangmovie.github.io" target="_blank" rel="nofollow"><i class="fab fa-twitter"></i></a>
-        <a class="social-button telegram" href="tg://msg_url?url=https://maspannn.github.io/ruangmovie/index.html&text=Nonton%20Bokep%20%26%20Cari%20Asupan%20Terlengkap" target="_blank" rel="nofollow"><i class="fab fa-telegram-plane"></i></a>
-        <a class="social-button whatsapp" href="whatsapp://send?text=https://maspannn.github.io/ruangmovie/index.html" target="_blank" rel="nofollow"><i class="fab fa-whatsapp"></i></a>
-  		</div>
-      <div class="mt-4 mb-2" style="--aspect-ratio: 16/9;">
-        <embed type="text/html" class="inner-link-movie" src="" width="1600" height="900" frameborder="0"></embed>
-      </div>
-      <div>
-        <div class="button-info mt-3">
-          <button class="tombol prev-movie">Previous</button>
-          <a href="app.html" class="tombol home-movie">Home</a>
-          <button class="tombol next-movie">Next</button>
+<div class="container mb-4">
+	<div class="row">
+    <div class="col-5">
+			<h1 class="judul-home">LATEST MOVIE</h1>
+		</div>
+		<div class="col-7" id="filter">
+  		<form>
+  			<div class="form-group">
+  				<select data-filter="kategori" class="filter-kategori filter form-control form-select" style="border:none;text-align:right;margin-top:15px">
+  					<option value="">Pilih Kategori</option>
+  					<option value="">Show All</option>
+  				</select>
+  			</div>
+  		</form>
+  	</div>
+  </div>
+  <div class="container" style="margin-top:-2px;z-index:-9999">
+    <div class="row" id="list-movie">
+      
+    </div>    
+  </div>
+  <div class="container mt-3" align="center"><button class="tombol-lainnya" id="movie-lainnya">Movie Lainnya</button>
+  </div>
+</div>
+
+<div class="modal" id="player" tabindex="-1">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <a href="app.html"><div class="modal-header" style="border-style:none;">
+        <button type="button" class="btn-close" aria-label="Close" style="background-color:white;border-radius:50%;color:white;z-index:9999"></button>
+      </div></a>
+      <div class="modal-body" style="margin:-20px;overflow-y:hidden;margin-top:-90px">
+        <div class="mt-4" style="--aspect-ratio: 9/16;">
+          <embed type="text/html" class="inner-link-movie" src="" width="1600" height="900" frameborder="0"></embed>
         </div>
       </div>
     </div>

@@ -2,7 +2,7 @@ var data = [
     {
         "title": "I Need You Baby (2022)",
         "poster": "1b930fa565ea64b2d2bd2.jpg",
-        "link": "https://dood.wf/e/k5otq4df4m70",
+        "link": "https://dood.wf/e/dr209cqqnhjp",
         "kategori": "Indonesia"
     },
     {
@@ -935,7 +935,7 @@ for (var i = 0; i < data.length; i++) {
 		link = data[i].link,
 		poster = data[i].poster;
 	
-	videos += "<div class='movie-card' data-kategori='" + kategori + "' data-nama='" + nama + "' data-link='" + link + "' data-poster='"+ poster +"'><a class='button-movie' href='' data-obj='"+ i +"'><div class='card'><img src='https://telegra.ph/file/"+ poster +"' alt='" + nama + "' width='100%' style='aspect-ratio: 3/4;object-fit: cover;' class='card-img-top'><div class='card-body'><p class='card-title'><b>"+ nama +"</b></p></div></div></div>";
+	videos += "<div class='movie-card' data-kategori='" + kategori + "' data-nama='" + nama + "' data-link='" + link + "' data-poster='"+ poster +"'><a class='button-movie' data-bs-toggle='modal' data-bs-target='#player' data-obj='"+i+"'><div class='card'><img src='https://telegra.ph/file/"+ poster +"' alt='" + nama + "' width='100%' style='aspect-ratio: 3/4;object-fit: cover;' class='card-img-top'><div class='card-body'><p class='card-title'><b>"+ nama +"</b></p></div></div></div>";
 	
 	if (kategories.indexOf("<option value='" + kategori + "'>" + kategori + "</option>") == -1) {
 		kategories += "<option value='" + kategori + "'>" + kategori + "</option>";
