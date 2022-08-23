@@ -1,5 +1,26 @@
 var data = [
     {
+        "title": "Pengabdi Setan 2: Communion",
+        "poster": "599d1a539435eaa648619.jpg",
+        "download": "https://dood.wf/d/39nyikw46sqy",
+        "streaming": "https://dood.wf/e/39nyikw46sqy",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Pengabdi Setan (2017)",
+        "poster": "9ae8af49810bbb3fdbb83.jpg",
+        "download": "https://dood.wf/d/1az5mdu6scja",
+        "streaming": "https://dood.wf/e/1az5mdu6scja",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Pengabdi Setan (1982)",
+        "poster": "1f893378c0dbe82e2be26.jpg",
+        "download": "https://dood.wf/d/ietd2qj16s3p",
+        "streaming": "https://dood.wf/e/ietd2qj16s3p",
+        "kategori": "Indonesia"
+    },
+    {
         "title": "How Are You Really? (2022)",
         "poster": "0fa882480992bc3e055b1.jpg",
         "download": "https://dood.wf/d/jdi01o0pmjr9",
@@ -301,6 +322,13 @@ var data = [
         "kategori": "Indonesia"
     },
     {
+        "title": "The Doll 3 (2022)",
+        "poster": "9cdad8dd18af693d37702.jpg",
+        "download": "https://dood.wf/d/82f38iol9gqa",
+        "streaming": "https://dood.wf/e/82f38iol9gqa",
+        "kategori": "Indonesia"
+    },
+    {
         "title": "The Doll 2 (2017)",
         "poster": "084238a5f2940e9fbe47f.jpg",
         "download": "https://dood.wf/d/yrsf4rrj5ymj",
@@ -396,6 +424,13 @@ var data = [
         "poster": "b8a8e76f117c1941b389e.jpg",
         "download": "https://dood.wf/d/golzk8d210zh",
         "streaming": "https://dood.wf/e/golzk8d210zh",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Keluarga Cemara (2018)",
+        "poster": "e70cd20cdf516b1061926.jpg",
+        "download": "https://dood.wf/d/d51np0x64ixm",
+        "streaming": "https://dood.wf/e/d51np0x64ixm",
         "kategori": "Indonesia"
     },
     {
