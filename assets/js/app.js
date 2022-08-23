@@ -1,5 +1,95 @@
 var data = [
     {
+        "title": "I Need You Baby (2022)",
+        "poster": "1b930fa565ea64b2d2bd2.jpg",
+        "link": "https://dood.wf/e/k5otq4df4m70",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kajeng Kliwon (2020)",
+        "poster": "6baac19fb2879c238884a.jpg",
+        "link": "https://dood.wf/e/y42zrphhyh9y",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Paranoia (2021)",
+        "poster": "c8c945c4f7c3192024e01.jpg",
+        "link": "https://dood.la/e/3e87fe8cnnfl",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Garis Waktu (2022)",
+        "poster": "f49d1d167d356c3732239.jpg",
+        "link": "https://dood.la/e/y9k0m4g3s2mg",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Mengejar Surga (2022)",
+        "poster": "60dd496d56fa811ece2e3.jpg",
+        "link": "https://dood.la/e/8rjo0iliuevh",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Before Now & Then Nana (2022)",
+        "poster": "50739fcc24c0f8ab3b57c.jpg",
+        "link": "https://dood.wf/e/g02cnvkwn25r",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Backstage (2021)",
+        "poster": "437fabad75ccd81e24e43.jpg",
+        "link": "https://dood.wf/e/f2ymud4e9txb",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Sinar Untuk Genta (2022)",
+        "poster": "fbb173d69075bd83d2edc.jpg",
+        "link": "https://dood.wf/e/3uctcm1orlj2",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kadet 1947 (2021)",
+        "poster": "8ae16dc51dc9c110dea2e.jpg",
+        "link": "https://dood.wf/e/ca9edbl8cvbn",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Inang (2022)",
+        "poster": "7b5e037b3e48cc3856bac.jpg",
+        "link": "https://dood.wf/e/3bt1dwbte2bx",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Ben & Jody (2022)",
+        "poster": "9ba18d09e7d797f56a1f2.jpg",
+        "link": "https://dood.wf/e/akyjiccobiz2",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Makmum 2 (2021)",
+        "poster": "4914c6bf937f4e6ef7cb2.jpg",
+        "link": "https://dood.wf/e/s5iagq9lewim",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Baby Blues (2022)",
+        "poster": "6b0b330f99988c6d18bc4.jpg",
+        "link": "https://dood.wf/e/b98gth2yvc76",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kambodja (2022)",
+        "poster": "405c8e80e81fde86ea43b.jpg",
+        "link": "https://dood.wf/e/iojrvvgvrnz2",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kopi Pahit (2022)",
+        "poster": "bdd8fdd0065a314adf865.jpg",
+        "link": "https://dood.wf/e/f46tkqgct6mo",
+        "kategori": "Indonesia"
+    },
+    {
         "title": "KKN di Desa Penari (2022)",
         "poster": "49d9ef525ba24c3fadaa6.jpg",
         "link": "https://dood.wf/e/vawj0yxvh94k",
@@ -437,36 +527,7 @@ var data = [
         "link": "https://dood.wf/e/5ahk9ymobcdw",
         "kategori": "Indonesia"
     },
-    {
-        "title": "I Need You Baby (2022)",
-        "poster": "1b930fa565ea64b2d2bd2.jpg",
-        "link": "https://dood.wf/e/k5otq4df4m70",
-        "kategori": "Indonesia"
-    },
-    {
-        "title": "Backstage (2021)",
-        "poster": "437fabad75ccd81e24e43.jpg",
-        "link": "https://dood.wf/e/f2ymud4e9txb",
-        "kategori": "Indonesia"
-    },
-    {
-        "title": "Kajeng Kliwon (2020)",
-        "poster": "6baac19fb2879c238884a.jpg",
-        "link": "https://dood.wf/e/y42zrphhyh9y",
-        "kategori": "Indonesia"
-    },
-    {
-        "title": "Before Now & Then Nana (2022)",
-        "poster": "50739fcc24c0f8ab3b57c.jpg",
-        "link": "https://dood.wf/e/g02cnvkwn25r",
-        "kategori": "Indonesia"
-    },
-    {
-        "title": "Paranoia (2021)",
-        "poster": "c8c945c4f7c3192024e01.jpg",
-        "link": "https://dood.la/e/3e87fe8cnnfl",
-        "kategori": "Indonesia"
-    },
+
     {
         "title": "The Sexy Doctor is Mine Ep 1",
         "poster": "a58ec1fad7dd017914575.jpg",
@@ -514,18 +575,6 @@ var data = [
         "poster": "279710e5001806aa6981f.jpg",
         "link": "https://dood.la/e/21djigoqrle5",
         "kategori": "Serigala Terakhir Season 2 (2022)"
-    },
-    {
-        "title": "Garis Waktu (2022)",
-        "poster": "f49d1d167d356c3732239.jpg",
-        "link": "https://dood.la/e/y9k0m4g3s2mg",
-        "kategori": "Indonesia"
-    },
-    {
-        "title": "Mengejar Surga (2022)",
-        "poster": "60dd496d56fa811ece2e3.jpg",
-        "link": "https://dood.la/e/8rjo0iliuevh",
-        "kategori": "Indonesia"
     },
     {
         "title": "Dikta & Hukum Ep 1",
