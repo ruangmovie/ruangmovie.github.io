@@ -216,3 +216,16 @@ img {
   border-radius:20px;
   padding:5px;
 }
+#offcanvasBottom {
+  border-top-left-radius:10px;border-top-right-radius:10px;height:102px
+}
+.header-2 {
+  margin-top:-2px;background-color:#2d2c4d;border-top-left-radius:10px;border-top-right-radius:10px;
+}
+.close-btn {
+  background-color:#f7f7f7;margin-top:-7px;width:50px;height:5px;text-align:center;border-radius:5px
+}
+.btn {
+  background-color: #2d2c4d;
+  color:white;
+}

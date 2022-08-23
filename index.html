@@ -82,17 +82,16 @@
   </head>
 <body>
 
-<!--
+
 <div id="overlay">
   <div class="spinner"></div> 
 </div>
--->
 
 <a id="goTop">
   <i class="fa fa-chevron-up my-pesan" style="color:white"></i>
 </a>
 
-<a href="#" class="pesan" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom">
+<a href="#" class="pesan" data-bs-toggle="offcanvas" data-bs-target="#request">
   <i class="fa fa-envelope my-pesan"></i>
 </a>
 
@@ -113,7 +112,7 @@
   </form>
 </div>
 
-<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel" style="height:260px">
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="request" aria-labelledby="requestLabel" style="height:260px">
   <div class="offcanvas-header">
     <h5 class="offcanvas-title" id="offcanvasBottomLabel">Kirim Pesan</h5>
     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -184,9 +183,25 @@
         <button type="button" class="btn-close" aria-label="Close" style="background-color:white;border-radius:50%;color:white;z-index:9999"></button>
       </div></a>
       <div class="modal-body" style="margin:-20px;overflow-y:hidden;margin-top:-80px">
-        <div class="mt-4" style="--aspect-ratio: 9/16;">
-          <embed type="text/html" class="inner-link-movie" src="" width="1600" height="900" frameborder="0"></embed>
-        </div>
+        <embed type="text/html" class="inner-link-streaming" src="" width="100%" height="100%"></embed>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+  <div class="offcanvas-header header-2">
+    <h7 class="position-absolute top-5 start-50 translate-middle-x text-white">PILIH MENU DIBAWAH</h7>
+    <div class="position-absolute top-0 start-50 translate-middle close-btn" data-bs-dismiss="offcanvas" aria-label="Close">
+    </div>
+  </div>
+  <div class="offcanvas-body small">
+    <div class="row" style="text-align:center">
+      <div class="col">
+        <a href="" class="inner-link-download" onclick="myDirectAds()"><button type="button" class="btn"><i class="fa fa-download"></i>&nbsp;&nbsp;DOWNLOAD</button></a>
+      </div>
+      <div class="col">
+        <a href="" data-bs-toggle='modal' data-bs-target='#player' data-obj='"+i+"'><button type="button" class="btn"><i class="fa fa-video"></i>&nbsp;&nbsp;STREAMING</button></a>
       </div>
     </div>
   </div>
