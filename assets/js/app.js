@@ -1,5 +1,59 @@
 var data = [
     {
+        "title": "How Are You Really? (2022)",
+        "poster": "0fa882480992bc3e055b1.jpg",
+        "link": "https://dood.wf/e/jdi01o0pmjr9",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Rasyah The Wonder Kid (2022)",
+        "poster": "0ee50bbb3ebbeadd79c22.jpg",
+        "link": "https://dood.wf/e/ep2tzpmj9hhm",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "The Last Prank (2022)",
+        "poster": "2fe3abb25028d006e0a9d.jpg",
+        "link": "https://dood.wf/e/63tt491dgpms",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Misi Kafe Biru (2022)",
+        "poster": "fe681e0d5e9aedd2dd14e.jpg",
+        "link": "https://dood.wf/e/txwl710e2vdo",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Bekas Rumah Sakit (2020)",
+        "poster": "ba67515c3c361ad26d322.jpg",
+        "link": "https://dood.wf/e/vcan0p5f1k6e",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Love for Sale 2 (2019)",
+        "poster": "4d6619b49be7b7fcb3ad4.jpg",
+        "link": "https://dood.wf/e/8la2hf2dy4j3",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Titisan Setan 2 (2021)",
+        "poster": "cbcaf47afd2ea2e1e1136.jpg",
+        "link": "https://dood.wf/e/pas4130ya4xv",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Hayya 2: Hope, Dream and Reality (2022)",
+        "poster": "61f1f73a53b03ca1642a6.jpg",
+        "link": "https://dood.wf/e/v2l6fqohd3m3",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Ivanna (2022)",
+        "poster": "96c21648c08f10f194f65.jpg",
+        "link": "https://dood.wf/e/unw5gnoriuf9",
+        "kategori": "Indonesia"
+    },
+    {
         "title": "I Need You Baby (2022)",
         "poster": "1b930fa565ea64b2d2bd2.jpg",
         "link": "https://dood.wf/e/dr209cqqnhjp",
@@ -297,6 +351,36 @@ var data = [
         "title": "Ada Mertua Di Rumahku (2022)",
         "poster": "289f4f93446ac433470a3.jpg",
         "link": "https://dood.wf/e/7l3ywia4im9t",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Hantu Tanah Kusir (2010)",
+        "poster": "a08be38b3b8e3cd9af4d1.jpg",
+        "link": "https://dood.wf/e/2qw0pj7sdt8w",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Suster Keramas (2009)",
+        "poster": "762becd08e46ce82bfb57.jpg",
+        "link": "https://dood.wf/e/dutv3vif05zu",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Air Terjun Pengantin (2009)",
+        "poster": "600edc58def72099b1de3.jpg",
+        "link": "https://dood.wf/e/hfo5b515mn13",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Kawin Kontrak (2008)",
+        "poster": "dbf104ef0b89076077fb6.jpg",
+        "link": "https://dood.wf/e/dwo98nt2xcla",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Bumi Bulat Bundar (1983)",
+        "poster": "dc9f752b081f0e4d22349.jpg",
+        "link": "https://dood.wf/e/6wlrnmpzz6dg",
         "kategori": "Indonesia"
     },
     {
