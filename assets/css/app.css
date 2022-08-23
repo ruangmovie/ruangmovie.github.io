@@ -5,10 +5,7 @@ html, body {
 }
 *, ::after, ::before {
     box-sizing: border-box;
-    outline: none !important;
-    border: none !important;
     -webkit-box-shadow: none !important;
-    box-shadow: none !important;
 }
 a {
   text-decoration: none;
