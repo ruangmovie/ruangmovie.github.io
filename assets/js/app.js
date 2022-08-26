@@ -1,5 +1,26 @@
 var data = [
     {
+        "title": "Lampas Langit (2022)",
+        "poster": "5482e91fee47eed5027ea.jpg",
+        "download": "https://sbspeed.com/e/06oawfixynhx.html",
+        "streaming": "https://sbspeed.com/e/06oawfixynhx.html",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Wedding Agreement: The Series (2022)",
+        "poster": "f7223e883c12123a77ea9.jpg",
+        "download": "https://dood.wf/d/vk3bnec1a7ns",
+        "streaming": "https://dood.wf/e/vk3bnec1a7ns",
+        "kategori": "Indonesia"
+    },
+    {
+        "title": "Rumah (2022)",
+        "poster": "147cc00bc7f46d9e65f93.jpg",
+        "download": "https://chillx.top/v/zIFaP1rOwQrc/",
+        "streaming": "https://chillx.top/v/zIFaP1rOwQrc/",
+        "kategori": "Indonesia"
+    },
+    {
         "title": "Romantik Problematik (2022)",
         "poster": "7acf3cb43b48bcc747eaf.jpg",
         "download": "https://drivejwplayer.xyz/e/?WUp6dUt3aWhCYkEyNmhFY1lGV2Ezc1h1TlBHTW8rb2Y1MWMwNmV5QVB5OFdvamxjSEpGcXZYanBJTXVEUDhiSWdPZmxOcjBEOU5jZjJWbUM0V0syUGFvd2hIN3FGMnhqYTZkRmNJK0lRZXNxYzJNQ3VEM0ZSNzZDM2pYNEhMYVdHdjVtNXJ1RmNXTWg3Mk0rcWt0Z2NzRXFjWXFDOXYyaFJNd1lsL1hNa2xSdmx1WC9xZkRnL083VWxyWlU0ZkptbTd1d2cxMVdUVlEwU2xudktXVXNzdz09OjpWjRidk61e44vaCBMRDxeJ",
