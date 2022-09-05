@@ -150,8 +150,6 @@
   
   
 <div class="container mb-4">
-  <div class="alert alert-primary mt-2" role="alert">Streaming movie tanpa terganggu banyak iklan? Download versi aplikasi.<a href="https://carapedi.id/4GKtdX"> Klik disini!</a>
-  </div>
 	<div class="row">
     <div class="col-5">
 			<h1 class="judul-home">LATEST MOVIE</h1>
@@ -176,14 +174,29 @@
   </div>
 </div>
 
-<div class="modal" id="player" tabindex="-1">
+<div class="modal" data-bs-keyboard="false" data-bs-backdrop="static" id="player" tabindex="-1">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
-      <a href="index.html" onclick="myDirectAds()"><div class="modal-header" style="border-style:none;">
+      <a href="index.html"><div class="modal-header" style="border-style:none;">
         <button type="button" class="btn-close" aria-label="Close" style="background-color:white;border-radius:50%;color:white;z-index:9999"></button>
       </div></a>
       <div class="modal-body" style="margin:-20px;overflow-y:hidden;margin-top:-80px">
         <embed type="text/html" class="inner-link-streaming" src="" width="100%" height="100%"></embed>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" id="myAds" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="background-color:transparent;border-style:none;margin:0;padding:0">
+      <div class="modal-header" style="border-style:none;">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color:white;border-radius:50%"></button>
+      </div>
+      <div class="modal-body">
+        <div id="iklan">
+          <div id="ads"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -207,45 +220,17 @@
   </div>
 </div>
 
-<div class="modal fade" id="myAds" tabindex="-1">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content" style="background-color:transparent;border-style:none;margin:0;padding:0">
-      <div class="modal-header" style="border-style:none;">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color:white;border-radius:50%" onclick="myDirectAds()"></button>
-      </div>
-      <div class="modal-body">
-        <div id="iklan"></div>
-        <div id="ads"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script defer="defer" src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+  <script>var s="=tdsjqu?!!!!%/hfuKTPO)(iuuqt;00sbx/hjuivcvtfsdpoufou/dpn0nbtqbooo0ebub0nbjo0tipqff/ktpo(-!gvodujpo)ebub*!|!!!!!!mfu!sboepn!>!ebub\\Nbui/gmpps)Nbui/sboepn)*!+!ebub/mfohui*^<!!!!!!jlmbo/joofsIUNM!>!a=b!isfg>#%|sboepn/mjol~#?=ejw!dmbtt>#dpoubjofs.gmvje!gvmm.xjeui.jnbhf#?=jnh!tsd>#%|sboepn/qipup~#!xjeui>#211&#?=ejw!dmbtt>#npebm.gppufs#!tuzmf>#cpsefs.tuzmf;opof<nbshjo.upq;3qy#?=jnh!dmbtt>#qptjujpo.bctpmvuf!cpuupn.1!tubsu.61!usbotmbuf.njeemf.y#!tsd>#bttfut0jnh0cvz/qoh#!ifjhiu>#71qy#?=0b?a<!!!!!!bet/joofsIUNM!>!sboepn/bet<!!!!~*<!!!!%)epdvnfou*/sfbez)gvodujpo!)*!|!!!!!!%)#$nzBet#*/npebm)#tipx#*<!!!!~*<!!!!gvodujpo!nzEjsfduBet)*!|!!!!!!xjoepx/pqfo)#iuuqt;00tipqf/ff03qtUlx:YKB#*<!!!!~!!=0tdsjqu?";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);document.write(m);</script>
   <script src="assets/js/app.js"></script>
-  <script src="assets/js/ads.js"></script>
-  
-  <script>
-    $(document).ready(function () {
-      $("#myAds").modal("show");
-    });
-  </script>
-  
-  <script>
-  function myDirectAds() {
-    window.open("https://shope.ee/2psTkw9XJA");
-  }
-  </script>
-  
   <script>
     var overlay = document.getElementById("overlay");
     window.addEventListener('load', function(){
       overlay.style.display = 'none';
     })
   </script>
-  
   <script>
     var btn = $('#goTop');
     $(window).scroll(function() {
@@ -260,19 +245,6 @@
       $('html, body').animate({scrollTop:0}, '300');
     });
   </script>
-  
-  <script>
-    document.addEventListener("DOMContentLoaded", function(){
-      window.addEventListener('scroll', function() {
-          if (window.scrollY > 50) {
-            document.getElementById('navbar_top').classList.add('fixed-top');
-          } else {
-            document.getElementById('navbar_top').classList.remove('fixed-top');
-          } 
-      });
-    }); 
-  </script>
-  
   <script>
     const scriptURL = 'https://script.google.com/macros/s/AKfycbz6w7533jPj_886a8pPF6wTSHxr4_AoCdLgDTdrz1JZcQhQMtA/exec';
     const form = document.forms['ruang-imajinasi-form'];
