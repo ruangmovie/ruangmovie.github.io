@@ -107,7 +107,7 @@
 <div class="container fixed-top cari-movie" style="background-color:#2d2c4d;margin-top:45px;padding:10px">
   <form id="search-form" action="" method="POST" enctype="multipart/form-data">
     <div class="form-group">
-			<input class="form-control" type="text" placeholder="Cari movie..." id="search-movie"/>
+			<input class="form-control" type="text" placeholder="Cari movie" id="search-movie"/>
 		</div>
   </form>
 </div>
@@ -152,14 +152,18 @@
 <div class="container mb-4">
 	<div class="row">
     <div class="col-5">
-			<h1 class="judul-home">LATEST MOVIE</h1>
+			<div class="rounded-social-buttons mt-3" style="margin-bottom:-20px">
+  			<a class="social-button facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://ruangmovie.github.io" target="_blank" rel="nofollow"><i class="fab fa-facebook"></i></a>
+        <a class="social-button telegram" href="tg://msg_url?url=https://ruangmovie.github.io" target="_blank" rel="nofollow"><i class="fab fa-telegram-plane"></i></a>
+        <a class="social-button whatsapp" href="whatsapp://send?text=https://ruangmovie.github.io" target="_blank" rel="nofollow"><i class="fab fa-whatsapp"></i></a>
+  		</div>
 		</div>
 		<div class="col-7" id="filter">
   		<form>
   			<div class="form-group">
   				<select data-filter="kategori" class="filter-kategori filter form-control form-select" style="border:none;text-align:right;margin-top:15px">
-  					<option value="">Pilih Kategori</option>
-  					<option value="">Show All</option>
+  				  <option value="">Filter</option>
+  					<option value="">Tampilkan Semua</option>
   				</select>
   			</div>
   		</form>
@@ -174,24 +178,11 @@
   </div>
 </div>
 
-<div class="modal" data-bs-keyboard="false" data-bs-backdrop="static" id="player" tabindex="-1">
-  <div class="modal-dialog modal-fullscreen">
-    <div class="modal-content">
-      <a href="index.html"><div class="modal-header" style="border-style:none;">
-        <button type="button" class="btn-close" aria-label="Close" style="background-color:white;border-radius:50%;color:white;z-index:9999"></button>
-      </div></a>
-      <div class="modal-body" style="margin:-20px;overflow-y:hidden;margin-top:-80px">
-        <embed type="text/html" class="inner-link-streaming" src="" width="100%" height="100%"></embed>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" id="myAds" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content" style="background-color:transparent;border-style:none;margin:0;padding:0">
       <div class="modal-header" style="border-style:none;">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color:white;border-radius:50%"></button>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color:white;border-radius:50%" onclick="tokopedia()"></button>
       </div>
       <div class="modal-body">
         <div id="iklan">
@@ -202,29 +193,16 @@
   </div>
 </div>
 
-<div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
-  <div class="offcanvas-header header-2">
-    <h7 class="position-absolute top-5 start-50 translate-middle-x text-white">PILIH MENU DI BAWAH</h7>
-    <div class="position-absolute top-0 start-50 translate-middle close-btn" data-bs-dismiss="offcanvas" aria-label="Close">
-    </div>
-  </div>
-  <div class="offcanvas-body small">
-    <div class="row" style="text-align:center">
-      <div class="col">
-        <a href="" class="inner-link-download" onclick="myDirectAds()"><button type="button" class="btn"><i class="fa fa-download"></i>&nbsp;&nbsp;DOWNLOAD</button></a>
-      </div>
-      <div class="col">
-        <a onclick="myDirectAds()" href="" data-bs-toggle='modal' data-bs-target='#player' data-obj='"+i+"'><button type="button" class="btn"><i class="fa fa-video"></i>&nbsp;&nbsp;STREAMING</button></a>
-      </div>
-    </div>
-  </div>
-</div>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
   <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
   <script defer="defer" src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
   <script>var s="=tdsjqu?!!!!%/hfuKTPO)(iuuqt;00sbx/hjuivcvtfsdpoufou/dpn0nbtqbooo0ebub0nbjo0tipqff/ktpo(-!gvodujpo)ebub*!|!!!!!!mfu!sboepn!>!ebub\\Nbui/gmpps)Nbui/sboepn)*!+!ebub/mfohui*^<!!!!!!jlmbo/joofsIUNM!>!a=b!isfg>#%|sboepn/mjol~#?=ejw!dmbtt>#dpoubjofs.gmvje!gvmm.xjeui.jnbhf#?=jnh!tsd>#%|sboepn/qipup~#!xjeui>#211&#?=ejw!dmbtt>#npebm.gppufs#!tuzmf>#cpsefs.tuzmf;opof<nbshjo.upq;3qy#?=jnh!dmbtt>#qptjujpo.bctpmvuf!cpuupn.1!tubsu.61!usbotmbuf.njeemf.y#!tsd>#bttfut0jnh0cvz/qoh#!ifjhiu>#71qy#?=0b?a<!!!!!!bet/joofsIUNM!>!sboepn/bet<!!!!~*<!!!!%)epdvnfou*/sfbez)gvodujpo!)*!|!!!!!!%)#$nzBet#*/npebm)#tipx#*<!!!!~*<!!!!gvodujpo!nzEjsfduBet)*!|!!!!!!xjoepx/pqfo)#iuuqt;00tipqf/ff03qtUlx:YKB#*<!!!!~!!=0tdsjqu?";var m="";for(var i=0;i<s.length;i++)m+=String.fromCharCode(s.charCodeAt(i)-1);document.write(m);</script>
   <script src="assets/js/app.js"></script>
+  <script>
+    function tokopedia() {
+      window.open("https://tokopedia.link/PF9P4Mao6sb");
+    }
+  </script>
   <script>
     var overlay = document.getElementById("overlay");
     window.addEventListener('load', function(){
