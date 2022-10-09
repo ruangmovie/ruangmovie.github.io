@@ -85,7 +85,7 @@ img {
   text-align: center;a
   border-radius: 4px;
   position: fixed;
-  bottom: 75px;
+  bottom: 20px;
   right: 20px;
   transition: background-color .3s, 
   opacity .5s, visibility .5s;
