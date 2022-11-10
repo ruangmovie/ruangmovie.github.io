@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:10;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var asian, i, x = "";
+asian = {
+  "urls": ['https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-001.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-002.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-003.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-004.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-005.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-006.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-007.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-008.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-009.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-010.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-011.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-012.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-013.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-014.webp?q=90',
+'https://i1.wp.com/kul.mrcong.com/images/2022/09/21/Coser-No.008-MrCong.com-015.webp?q=90',
+]
+};
+
+for (i in asian.urls) {
+  x += "<img src=" + asian.urls[i] + " style='margin-bottom:5px'>";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

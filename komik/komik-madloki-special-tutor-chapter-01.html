@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i.ibb.co/r35tQDR/0002.jpg',
+'https://i.ibb.co/12JJ4Z3/0003.jpg',
+'https://i.ibb.co/x1Hb2Gx/0004.jpg',
+'https://i.ibb.co/z7Lypfn/0005.jpg',
+'https://i.ibb.co/bzTsdNH/0006.jpg',
+'https://i.ibb.co/z4G2zMp/0007.jpg',
+'https://i.ibb.co/0XG5DsQ/0008.jpg',
+'https://i.ibb.co/5FvXWBX/0009.jpg',
+'https://i.ibb.co/G2WqH7P/0010.jpg',
+'https://i.ibb.co/Y2VjX3c/0011.jpg',
+'https://i.ibb.co/RStrmgc/0012.jpg',
+'https://i.ibb.co/N3RW8gQ/0013.jpg',
+'https://i.ibb.co/6Nh1cVT/0014.jpg',
+'https://i.ibb.co/nzg9yzr/0015.jpg',
+'https://i.ibb.co/9rbxNVR/0016.jpg',
+'https://i.ibb.co/bNY5n93/0017.jpg',
+'https://i.ibb.co/ygRNCWn/0018.jpg',
+'https://i.ibb.co/wr09BCQ/0019.jpg',
+'https://i.ibb.co/rFxBSn2/0020.jpg',
+'https://i.ibb.co/nwnfdmT/0021.jpg',
+'https://i.ibb.co/dMdsG8V/0022.jpg',
+'https://i.ibb.co/wMm0LHb/0023.jpg',
+'https://i.ibb.co/0pNtBbT/0024.jpg',
+'https://i.ibb.co/Q8FsDhJ/0025.jpg',
+'https://i.ibb.co/HVb52vY/0026.jpg',
+'https://i.ibb.co/6WpNwX4/0027.jpg',
+'https://i.ibb.co/1Jw9Nh2/0028.jpg',
+'https://i.ibb.co/zh0Pmh1/0029.jpg',
+'https://i.ibb.co/4YKPDrL/0030.jpg',
+'https://i.ibb.co/9YzWNVM/0031.jpg',
+'https://i.ibb.co/Z2KBD1f/0032.jpg',
+'https://i.ibb.co/q9jqMhw/0033.jpg',
+'https://i.ibb.co/jLx22s7/0034.jpg',
+'https://i.ibb.co/w7J9H6C/0035.jpg',
+'https://i.ibb.co/r5mxsDV/0036.jpg',
+'https://i.ibb.co/YhRn145/0037.jpg',
+'https://i.ibb.co/BfzWPT4/0038.jpg',
+'https://i.ibb.co/jghpwRM/0039.jpg',
+'https://i.ibb.co/kmCZBmq/0040.jpg',
+'https://i.ibb.co/0qvgRWs/0041.jpg',
+'https://i.ibb.co/k1Bjm7h/0042.jpg',
+'https://i.ibb.co/pymxvNg/0043.jpg',
+'https://i.ibb.co/2gwkXW4/0044.jpg',
+'https://i.ibb.co/CHWdk5d/0045.jpg',
+'https://i.ibb.co/BfBLstT/0046.jpg',
+'https://i.ibb.co/BfHBvRw/0047.jpg',
+'https://i.ibb.co/7NrVp39/0048.jpg',
+'https://i.ibb.co/XzV709n/0049.jpg',
+'https://i.ibb.co/d2xhv72/0050.jpg',
+'https://i.ibb.co/p4kpTNS/0051.jpg',
+'https://i.ibb.co/74dwgDh/0052.jpg',
+'https://i.ibb.co/pZz7vy8/0053.jpg',
+'https://i.ibb.co/Wsb0n4C/0054.jpg',
+'https://i.ibb.co/rxhnMQc/0055.jpg',
+'https://i.ibb.co/FVzvVz2/0056.jpg',
+'https://i.ibb.co/1GBmJQj/0057.jpg',
+'https://i.ibb.co/HtcHSZm/0058.jpg',
+'https://i.ibb.co/k3P2gZX/0059.jpg',
+'https://i.ibb.co/4NFxTH4/0060.jpg',
+'https://i.ibb.co/1mPMCLv/0061.jpg',
+'https://i.ibb.co/31ffkPj/0062.jpg',
+'https://i.ibb.co/jD3BxN6/0063.jpg',
+'https://i.ibb.co/vdFmWft/0064.jpg',
+'https://i.ibb.co/cD9HrJn/0065.jpg',
+'https://i.ibb.co/gMrkYxr/0066.jpg',
+'https://i.ibb.co/ZzHHKRL/0067.jpg',
+'https://i.ibb.co/r4pgPQ8/0068.jpg',
+'https://i.ibb.co/5rnmDbh/0069.jpg',
+'https://i.ibb.co/T8VW9hR/0070.jpg',
+'https://i.ibb.co/tLvHp70/0071.jpg',
+'https://i.ibb.co/HnzCPv7/0072.jpg',
+'https://i.ibb.co/7zjSyHc/0073.jpg',
+'https://i.ibb.co/qdgK99V/0074.jpg',
+'https://i.ibb.co/gVCQkxC/0075.jpg',
+'https://i.ibb.co/x7hmDmZ/0076.jpg',
+'https://i.ibb.co/hZV76bn/0077.jpg',
+'https://i.ibb.co/SKXkwtP/0078.jpg',
+'https://i.ibb.co/YPnGqTH/0079.jpg',
+'https://i.ibb.co/VxfQzX4/0080.jpg',
+'https://i.ibb.co/NZzJJ2F/0081.jpg',
+'https://i.ibb.co/qj47kPB/0082.jpg',
+'https://i.ibb.co/Zff04GD/0083.jpg',
+'https://i.ibb.co/dJ7g19v/0084.jpg',
+'https://i.ibb.co/0ZjBtr4/0085.jpg',
+'https://i.ibb.co/Wp1M36K/0086.jpg',
+'https://i.ibb.co/2WBxMjV/0087.jpg',
+'https://i.ibb.co/WfrHLbg/0088.jpg',
+'https://i.ibb.co/y4vDqzN/0089.jpg',
+'https://i.ibb.co/Pryqd52/0090.jpg',
+'https://i.ibb.co/zm2gBH0/0091.jpg',
+'https://i.ibb.co/F4b07PY/0092.jpg',
+'https://i.ibb.co/9r88S4Y/0093.jpg',
+'https://i.ibb.co/5Y1Z9SF/0094.jpg',
+'https://i.ibb.co/f8P7k77/0095.jpg',
+'https://i.ibb.co/sRHQPNP/0096.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

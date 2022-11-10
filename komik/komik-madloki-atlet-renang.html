@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img65-1.jpg',
+'https://i2.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img67-1.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img69.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img71.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img73-1.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img75-1.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img77-1.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img79.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img81.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img83-1.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img85-1.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img87-1.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img89.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img91.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img93-2.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img95-2.jpg',
+'https://i2.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img97-2.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img99-1.jpg',
+'https://i2.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img101-1.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img103-2.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img105-2.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img107-2.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img109-1.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img111-1.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://comicself.xyz/wp-content/uploads/2022/09/0002-85.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/0003-82.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/0004-74.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/0005-72.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/0006-71.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/0007-65.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/0008-62.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

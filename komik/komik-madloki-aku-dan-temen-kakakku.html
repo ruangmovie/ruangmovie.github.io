@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://images2.imgbox.com/f7/3b/fGAH7Za4_o.jpg',
+'https://images2.imgbox.com/69/39/0i50qYCo_o.jpg',
+'https://images2.imgbox.com/2f/62/fWxNeMSn_o.jpg',
+'https://images2.imgbox.com/4f/97/DCWzEpJX_o.jpg',
+'https://images2.imgbox.com/b0/f5/3kKiRrn7_o.jpg',
+'https://images2.imgbox.com/d6/28/HI2pDqm8_o.jpg',
+'https://images2.imgbox.com/18/de/miA3s3vi_o.jpg',
+'https://images2.imgbox.com/2c/2c/Qpdfhb7m_o.jpg',
+'https://images2.imgbox.com/b0/90/Tw9GYNq1_o.jpg',
+'https://images2.imgbox.com/fd/75/KqIrYGP4_o.jpg',
+'https://images2.imgbox.com/28/69/oeOpiNNV_o.jpg',
+'https://images2.imgbox.com/ad/50/hIw5HvZX_o.jpg',
+'https://images2.imgbox.com/e8/f6/09CpYfeM_o.jpg',
+'https://images2.imgbox.com/e7/e7/8y1LmR0e_o.jpg',
+'https://images2.imgbox.com/91/8a/CDmhTkOz_o.jpg',
+'https://images2.imgbox.com/b5/28/v0raz4wO_o.jpg',
+'https://images2.imgbox.com/75/a8/cWTriNYq_o.jpg',
+'https://images2.imgbox.com/8e/b5/Sn7Mj9iF_o.jpg',
+'https://images2.imgbox.com/0c/9d/2YKvwUAg_o.jpg',
+'https://images2.imgbox.com/33/43/ob2x7q6M_o.jpg',
+'https://images2.imgbox.com/4a/70/afZNMDDQ_o.jpg',
+'https://images2.imgbox.com/69/08/YN8scBTz_o.jpg',
+'https://images2.imgbox.com/1b/7f/Ob90ddWt_o.jpg',
+'https://images2.imgbox.com/3b/51/noepyklt_o.jpg',
+'https://images2.imgbox.com/3b/56/2P0mG12n_o.jpg',
+'https://images2.imgbox.com/e0/7c/FigCu5qG_o.jpg',
+'https://images2.imgbox.com/24/e4/6Z4RZqDt_o.jpg',
+'https://images2.imgbox.com/7e/0f/uJ4ZFCnJ_o.jpg',
+'https://images2.imgbox.com/f7/84/L1JaMzgQ_o.jpg',
+'https://images2.imgbox.com/45/b9/iKJyYpKr_o.jpg',
+'https://images2.imgbox.com/8d/b5/HJ9LDJBg_o.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

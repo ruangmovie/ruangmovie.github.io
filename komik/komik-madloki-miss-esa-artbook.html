@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://blogger.googleusercontent.com/img/a/AVvXsEh_G_dufWrEA5epHVqtesRs76BXMPYE4G0CODcchS2f6vAPTIdMDjVlRsgquImQCGIb_YCVP2-6JMpO6OEGGmg8iMZt8ognGWL3i9WRymaOMeXvdgNDtkF7gPL0_9sn343X_lO8-r6R2QlUk63H2bV_u2jbFInKWLWl-d7SA2dmNkUkeTc8vGgmjmvi',
+'https://blogger.googleusercontent.com/img/a/AVvXsEgj4I2Mq_hw6MS6GI3H2zIEu4VDBN9OILJSRIbDpHRF0_QMruochSUjujxozysf1PuC5C6ibYZZ6fccrF1AFjlx5X5aMwm517bffT0Ay0-_aXrw-jrAtlEKVwAk9AHIydEcMsyZvp5i3bK7FX3zPkWuJlREe5wLT5QA2ZpUhkdjlbcu8pWMCTs3GrO3',
+'https://blogger.googleusercontent.com/img/a/AVvXsEiUqdjwmljnFStpGjxU4kEqXOcKZHhsoxbeFF2u8clKMdtCOXjenPWqi703DIR4LK8eIM69Vdnp8C6CYXM6ONUN50Nhl2vwTCuwxg1-88KubGddNBX3WxIJFKvauaf4aT_PrjLv9Rt9sgCzu1p-PLG2CQKUCdZYW-dXE_fqIm7tNKTHwTFyweErHk9c',
+'https://blogger.googleusercontent.com/img/a/AVvXsEhHRobyaMFHAVFbeWfhj8O4b_3NABWjTVJgW0iHMdJr6jVwJRRH_0EU3Yvp_bAPbjjfyaXAp3O8LS6Xq1Z7u96NZ7CJq1vTI9mwpnYIA6f1iG6rGFJqOKZgqOzWBljLaGkqJ6lWdVO8yv_a5TYHE1Up3x2T9tvkdGQVulSh3N8WUvYbLEqQhUiVtYFk',
+'https://blogger.googleusercontent.com/img/a/AVvXsEjxGNWZULuFz_38rrDy7QFbdWTAbKzltxoVUvV3tR0P7BLqa9YmbfdVC1P_eRUl9beeGkrLOmFcmDK76gQusnYgrvy_PJtKVfonSpdvK6_pxSYfO8d8XZw9ISFYcS_B1KAYogoKV8Hoz7sU9hZNSP9wkGyPY6glSxJZpP0sq6cCqbWgfbbc4ClB7dxx',
+'https://blogger.googleusercontent.com/img/a/AVvXsEjuIGHx91r06x5w0tqZjtCTWcVqjaglVPkUkaMbGaftDWhJpdxyXQfUwGnOzWYD42bdvHHaJtWtTWePvyAUhZJSNapiWOm0Gr9bVWBSth-kweAzoW19QKio6SztFGEzXbA6csUnvDz8C4oMwNxVlpkaDmgePHzy2NzbZgTbV8V8umA1YX9vZ6FCiPNX',
+'https://blogger.googleusercontent.com/img/a/AVvXsEiyKJGLVl8Tec9FkassfTen4Qy_HWkpIMYkS6DAKhQgzSj_BhLsIYMg43Vg-nRP8oo0V366ua7LIJEu3E-QJhBlOXNk-4ouczYtJ2HDbWGApCs2G1Zu1zqn6hKPuOiMAS0hC9JPjBXZ9SpddzauFB_z04Xl1vjdkAG_5FuqudVTPNuq9Y22QdIs9BHe',
+'https://blogger.googleusercontent.com/img/a/AVvXsEhNVJMQt9pFmdZk5aFGNHsBgpyN8EKkPr9v9zJuwNHU1P7wJ2P_keVJblrKjBvLeS9yR7_yKw8E5fbjMZ9QY0cB5OhKepbDOzmxKh7eb1pLfTpx4oec-oMrrTfHTgh7P4quFKDDqH2WMH2mFCDaSYkPfSVhswKf2AP_56HovsxPqbG0lyDsmqTdmalS',
+'https://blogger.googleusercontent.com/img/a/AVvXsEhfJ2p-DoojHbbjzY2zt0c1sMWTXJ_GSemZbCugo6Bim8r2BGQs5OhKxw32NKYGHHyg2va4G0BJggS6p_pr8_4TklmijzcceYo4jO5lc0e0JSPV0uQlzQKssj6vvDKjJcy2y3OFljPmt2wLU8Mk6Pb_j9QMRijFlxptivEQy_kvgw3KSdpkxs_PGxL5',
+'https://blogger.googleusercontent.com/img/a/AVvXsEjdIcCchaYXcURiNSsU1YgYqw1ihBu1TGBak59wKqPrBljv3woRmr0R9dpAhkqnT0L30TzYABqQyhiTKR5PZo3MbWhryrPXviUS7m2Ljoxxu9xxHmpuAn2hVrCT4zQkgokapLSGK8rqHnMAteNU2BkZxgz2S69l8QBRm69OZRiMANb_kHIwlQNw6k9k',
+'https://blogger.googleusercontent.com/img/a/AVvXsEggE_9sR7aazgBVSDumdGMIyYXsUoGz_KYLnFTv06-JMr7P_ODGGAhCH_LhDgcXAhyg0Hz3uQ7ve-WfJ7spKoJTQ9hJAVxQlpLnt2tpXyg7TpYBjcngguGeNIKPsjTEURwXHarDS3_P8_QMC4bzbRkS8Y7l6KBicdaF1Zhfoy6_cRNw2zkpiPXJFJYO',
+'https://blogger.googleusercontent.com/img/a/AVvXsEg-r8vy1aFsPXMmkLzZiGYjrkwZyjU97SfM61f03aoOIa7nvXHwQwLDKGrv6J7ulDL9NndNYbtwg9OmWOf7PTYBWvkVN61EeakOlmh1aAd3z7OugV9QE1BQHITo796EWJ1Prm9recH5mENh495l_FrI4iqqkZ_OpcLiYnk64ZEQ2OUdkIO9xHkfLrlx',
+'https://blogger.googleusercontent.com/img/a/AVvXsEjY65YCGgQ3HV9HwayaC65vQL1xGuymo_oKZ3Ejh01qGnL-Iw-37xsxKGnzoYjCwoqrqjGD0rekizsegvKBGs1ICHOxfoR-KDlVVNd8FlkNChqC8S4-WYuiqdHiZimMC26t-5MrcrZi-D7dL-v9NZJeBoyKob8yfGIsdDb1c3BUSGp-Y_6dZAVNvw4B',
+'https://blogger.googleusercontent.com/img/a/AVvXsEhI_woGR_kKN6cDopauJgqsZaWLnNC5Luh2YyqcDg53Luq_VDNrRZ9glWr-nTWU0-D9BscAoASqC_Ya1HWba-R9Sjii7Deccyz98PJQEbFWC6hllXsytAh-8PyavFfu1ROstXVXEDfjajiwPd-QAo9Rnowt-cIQ-fDHc2Fp9G9_uz0lRhdKsyKrLHo9',
+'https://blogger.googleusercontent.com/img/a/AVvXsEi1Y14SaCdJLkHqz4p3YV9AvGf0mX_KdC8vqvZv7K4-j0_vRZvO5o9ESJocuUh2dw_v0WV1R6_aST7owUm4dK_MOL49YLblqKSV9AEWbiisCiTBLaMFbyrujbGcasHfYL-XlV2q5sFEj670vGRkZJYMSArEuEGxfVzBj5BimLdestJXYGbM4WMzXwZF',
+'https://blogger.googleusercontent.com/img/a/AVvXsEja-qih_gOlC0byPVZdE-u4iYjTQKbJ1SqkOrB5UGD0ZF1Vma9vgp6d3QWPJgYSLCbXdlSik-w7LJ0tAAcdmg_22NxICPMN0gWWQQqtl6LoRP5jEyKor1oYxk77r6VdQf461alv0KaMJ_4FTapPaOQhbv_Mnx0uVSFqf3rob6ErcX8Vkp34u6oo2dit',
+'https://blogger.googleusercontent.com/img/a/AVvXsEhljahQJqUxWa-MdIfJ8g93XvV3b_Dm3StHyr5GSLZ8gP-EjBlppLjY_rK6rj-qIRozT9JedPu-KOmLrDq4YU0j438W1NqQWZGqEX_CGnvz5Ia7yUnJFoGiaEuYye8FhdmHcEQwaASjWDV3q8b7RMxdFSsSXx64kXOJVZITeqBNo2XK7EBD3NOGCuQC',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

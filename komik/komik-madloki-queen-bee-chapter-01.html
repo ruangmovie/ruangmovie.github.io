@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i0.wp.com/images2.imgbox.com/61/4d/GlcCY99b_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/a9/6f/NG2rfwX7_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/73/ea/hxyMeWWr_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/87/09/RmfgX0d2_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/7a/22/ioO7GNT2_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/99/4d/OYprDLDC_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/1e/f5/maVfbR3H_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/a3/2b/8akPwYOZ_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/18/5b/1KIMGgbU_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/64/2b/rqS4DZZi_o.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

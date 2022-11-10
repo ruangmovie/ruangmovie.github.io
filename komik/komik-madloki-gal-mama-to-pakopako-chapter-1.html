@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://comicself.xyz/wp-content/uploads/2022/03/img2.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img4.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img8.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img12.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img16.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img20.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img24.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img28-1.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img32.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img36.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img40-1.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img44.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img48.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img52.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img56.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img60.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img64.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img68.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img72.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img76.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img80.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img84.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img88.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img92.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/03/img96.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

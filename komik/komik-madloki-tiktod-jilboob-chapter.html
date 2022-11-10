@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://blogger.googleusercontent.com/img/a/AVvXsEgS4vKYpSE-0d8snbyg9q9JQZACOltbPR7RPr3Xr0PT9yLbai0650rzYghxEpAPbCAcZQcakbozi5yuuJJ6MdbHe1P8yBk8NMDvSEmDdBxIUHvuYMeV7UlUcj1T1sIpX1fFhiEFU5uv8dBCv1uNtyC32DZALEtaO45HDlXEkWl9lRirvu4G7gPWu4D0',
+'https://blogger.googleusercontent.com/img/a/AVvXsEgoqOLw33TAhsYxcMr_MjfDIxzkkul8OLRiKy3XE77oF62k8JHwchwqFIZazcvqpsE2ZKeR31FBrufdE1fMkvFKHQ8GX5l32fX4tbK08Iq9s0OHNUDlAkuNzSr6jNUoAYJrBq5KAaDYxtlJBAuR3MAAOoFZbG053HQ3u6wk-qMNkJRDJkkgj3YL7mH0',
+'https://blogger.googleusercontent.com/img/a/AVvXsEhb_6-eLEgMeRqE7ADgOpCncFsN2g4WGniZKuDERuOZC0OdaZRosGSSpWYo93mDXHxKCfhQYtsUgwWs4V_wUx0dLv8nZrH38YaQmRjcTojtSq01eqooXA7Mhn1TGaNsh1AdTnNENcsaeqsErQsgsF9-trYyXfHss-wYBeAXuix8EVmpqpI4QsSzWOPe',
+'https://blogger.googleusercontent.com/img/a/AVvXsEjmILZorQPh4GZrio3QM2LDXmMTdLcLgCHdCWtyG8puJ2Ulybgzl4vXkOplfHjGf4PhZ4vGMp0aho3FbIJKu2GvZAp1J53SW0Bq7kDZtxvolHolTPz11KRdTb4cm04cqM0Ru3wxSQr9PqXJzrleac3zkitT8xmjKDdX4YgJ5zFssFNKsDHhY29E6CrZ',
+'https://blogger.googleusercontent.com/img/a/AVvXsEiEFJzM1jSe_AZGP4YZLYIwOwchQU49ZeY02QoKn5UpLHRzZbVCbd930vIWb0GCeC1TZakPT79cdH1mEvVg__QEtpFek9m_HoImUg_VwXWd34-Zvq4riEgVWCmMhlTfp4ujQv6MdaY5Vdb5DbrpMrzZgXtqhQDpVAKn9LCzF92rayUvH5RYVCOCdb27',
+'https://blogger.googleusercontent.com/img/a/AVvXsEgeN93yHsds3u_JAk73hRohZYlO2tSEBSVk80VnyADftg9Ti4iBVA51-YNQjNF1Kg6hJ5IGlkfnolpmLh9B2naurCErVa-3WvgKG4FWL7f7aQl9QVUfdlScI4D7wiZzxSwwbBr08YzPd8tvgX5rltk0N9z6SoIgv4Vn1Z7jXv5mruyq0XdBbRyCDwZr',
+'https://blogger.googleusercontent.com/img/a/AVvXsEjPklsNOzN5L6W81QBGllJHLKnDMM0XK3oHeGqxMlZTmBW0ml6H55mTFF082Aog5T66k7NoryVGTuXMP48ttyK--4pxf26DDzpR5mixcvnTqVaVY1AOE2adyJgcvfd54HJWLPtgYH5UXOVyi3j3AwH-GJ-rlLhSmo3h1UiU0a5gWZrXoNFgkTs4MzTs',
+'https://blogger.googleusercontent.com/img/a/AVvXsEh1hqangKbw2wZuhwOCYEgvESRoYmDovI_Uf8G6P8Rms9J-drIip91LA-khpLpXR3RPS8RKldFogP1xZFEA2RMAhE9NvRKZ9SM8NwC5u8ZE7SPG2kUQrW-lsF2HSdOq1MNwK95_nl1_PRaYFRwNQ9l7NAbC9qZOuqwxTviemusP36l6K4lYtXEyp0jl',
+'https://blogger.googleusercontent.com/img/a/AVvXsEizAxSwurjESWfo3Jkbmtm-CjePtvt4iBhjawZ4zWT_hn68vf_jxHtJpQg9f88CHCMOGiyT6KbSxV1lMxyKLshR_zfs41IDuVWjnBnzLDDPNOdnJjJrQGWwn5n_qdzwUlai9Re903cvyyvFmR5ndwuiZI_W6R_ouistwIRHTKNQ_azU9kFXxcmaQudY',
+'https://blogger.googleusercontent.com/img/a/AVvXsEgbFsM5KNkDTzubd0TA5yj27bYBHxBi53lQxD7vD0g6S1Om2ABpVaMX416PaCZzeMB7FxZRoyQm4Re0fdAY6Do6K5oyQOaj4Ybtf82K1M69-Zj5nzC3VZ8LoreTmoA-JBzBk8N7fbw3-ODwXQmWYFFvk-jI65miscGaJx1kOagUdPR6N0TiQyslfzwf',
+'https://blogger.googleusercontent.com/img/a/AVvXsEghoYrJDqLfYgW-Hn-tYccWAEcIOmKS9IBHrm6k8oHz_pqgDy6RenaiK1OOLVL4XVGeoV9Ev0ryMetj8xB0KtMIJsG3_7Z7HqEBm_M5xKGGAXpl4ctVSGx72xUiAJSQvk4VH5bv9dBPU3zcPkeNqMEiH2Hg29XTL6K7s_uP_Ws9r4Vji9JtN1v2q9Ps',
+'https://blogger.googleusercontent.com/img/a/AVvXsEitnAOg7GZlkfqN2ADR2q1kR7TI7XUKVZ1VHJbCkhLcau8ZAzHU83Y8do4ZDrlkLqW3MdeconklI63UHqu44pG2SU5mPVDMNBJHiPFUvSCGs8MwqC-hBlcJpsjmUZQPAs-d5FDoEZlYueqbK4k9cwe2j7qSHuB-AHllypcLSZ1yV5UBLQfvGvyFoMIb',
+'https://blogger.googleusercontent.com/img/a/AVvXsEgfaFw0zMwh7dwIkKfGTEikQw2CQx8-p25smgLwJQBWb9rWUL8QO8Tw8fLmVSBKPoFKt0fv1pWuG6EUlDI50w557r0XfPsvB0HlaIKPEMHDXvSQjF_zrTfGU3UfTctQ4-sihyy1exbaksa2ZEWW7Wd9CMqnG1BpZyeR_dfk-c6OE5IU3mQvVEQIdZhE',
+'https://blogger.googleusercontent.com/img/a/AVvXsEinV83BeU4pfENYBqUZ3ksVSnvto2BhdpZ70cD6bY1KcET5ZyL9THNIzCciZq18-kvUsEY6d_dOLrQYhxlDgsUS2FC8clgzRxbMtdwjPMHEM0m9s8CrsKvuEXf6GAxzOzpdZupx9n54NweQxEemZ7SOQvzIKR4FGZw4Mg8ZJ4v1WiEDDjjUqKJoO_vA',
+'https://blogger.googleusercontent.com/img/a/AVvXsEgVBpl7EkIoEYHndp6Z_xKMcieYkSFWgceRJZipwc0_kmRbSm0B537MPlnwlKYD-OJkb7eBf0NTz_lhmPk5h6kBdFUrli3hA-CFM8zms_C1w-KWCcMUKSFyfW3xb9x5NXnguWQbUEkNpTc6lLVo4RshGWe57VHt8SahT-GulRTUYd3mbhx5jCuvAsLQ',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

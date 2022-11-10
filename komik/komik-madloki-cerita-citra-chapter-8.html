@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://images2.imgbox.com/57/f1/OtM07eDr_o.jpg',
+'https://images2.imgbox.com/12/51/ehDI2S2A_o.jpg',
+'https://images2.imgbox.com/d6/56/nTsdlMkM_o.jpg',
+'https://images2.imgbox.com/2c/07/jhSwr4iK_o.jpg',
+'https://images2.imgbox.com/13/0b/iIRvlm4X_o.jpg',
+'https://images2.imgbox.com/d2/43/G7m7OOdU_o.jpg',
+'https://images2.imgbox.com/ed/bb/GcuwMLFW_o.jpg',
+'https://images2.imgbox.com/a4/74/e5sGEtPi_o.jpg',
+'https://images2.imgbox.com/a2/84/dDYB51ji_o.jpg',
+'https://images2.imgbox.com/3d/d9/3TVHKxL9_o.jpg',
+'https://images2.imgbox.com/57/6d/IdgFtRqZ_o.jpg',
+'https://images2.imgbox.com/49/cc/49v7bIPq_o.jpg',
+'https://images2.imgbox.com/e3/2b/QB2hX9ia_o.jpg',
+'https://images2.imgbox.com/66/1f/jGrDTfQ9_o.jpg',
+'https://images2.imgbox.com/85/9f/FfObg7Vn_o.jpg',
+'https://images2.imgbox.com/c3/a9/4ceFlytv_o.jpg',
+'https://images2.imgbox.com/98/66/eO6uG8CU_o.jpg',
+'https://images2.imgbox.com/ec/39/8WwF17Oo_o.jpg',
+'https://images2.imgbox.com/c4/e5/tBQobcWV_o.jpg',
+'https://images2.imgbox.com/b6/08/YhfwL4t6_o.jpg',
+'https://images2.imgbox.com/86/90/dF1OYITF_o.jpg',
+'https://images2.imgbox.com/17/37/MP6GcqzS_o.jpg',
+'https://images2.imgbox.com/eb/a8/ImDqX9EH_o.jpg',
+'https://images2.imgbox.com/48/55/dWsGagND_o.jpg',
+'https://images2.imgbox.com/25/42/qwdeZ6vk_o.jpg',
+'https://images2.imgbox.com/5d/ff/3sf22R7d_o.jpg',
+'https://images2.imgbox.com/0d/1e/XkG1ZoEq_o.jpg',
+'https://images2.imgbox.com/78/11/jNehgjLn_o.jpg',
+'https://images2.imgbox.com/fe/47/qnGKjpOj_o.jpg',
+'https://images2.imgbox.com/98/41/gh8M3in9_o.jpg',
+'https://images2.imgbox.com/3b/3b/BH1b7NRL_o.jpg',
+'https://images2.imgbox.com/f1/5a/Vzrh1pjZ_o.jpg',
+'https://images2.imgbox.com/f2/3e/LEUQdKCJ_o.jpg',
+'https://images2.imgbox.com/42/69/1IfqJhGM_o.jpg',
+'https://images2.imgbox.com/de/27/cU8ZHKXZ_o.jpg',
+'https://images2.imgbox.com/36/06/zfZ1ThNj_o.jpg',
+'https://images2.imgbox.com/b1/58/Swj8jerP_o.jpg',
+'https://images2.imgbox.com/ec/e9/QJkXwScF_o.jpg',
+'https://images2.imgbox.com/54/cb/7SzvlKqc_o.jpg',
+'https://images2.imgbox.com/5d/b5/69HQ4r4G_o.jpg',
+'https://images2.imgbox.com/c4/de/iqshZG7g_o.jpg',
+'https://images2.imgbox.com/12/a0/yGtGGrFW_o.jpg',
+'https://images2.imgbox.com/e7/6c/rFOmWF5Y_o.jpg',
+'https://images2.imgbox.com/66/ec/s2VT4MUu_o.jpg',
+'https://images2.imgbox.com/19/e7/uGTNplWv_o.jpg',
+'https://images2.imgbox.com/0a/d6/jArIFPNW_o.jpg',
+'https://images2.imgbox.com/0f/cd/0lvCRm4k_o.jpg',
+'https://images2.imgbox.com/2f/53/1jkD2KIY_o.jpg',
+'https://images2.imgbox.com/80/31/PjmaJ3W8_o.jpg',
+'https://images2.imgbox.com/29/bd/pqONESHu_o.jpg',
+'https://images2.imgbox.com/88/17/xmii8OB1_o.jpg',
+'https://images2.imgbox.com/35/ac/We2O70ad_o.jpg',
+'https://images2.imgbox.com/0c/7c/7u42IOft_o.jpg',
+'https://images2.imgbox.com/32/03/hzIh3O46_o.jpg',
+'https://images2.imgbox.com/95/56/pKwlAAJM_o.jpg',
+'https://images2.imgbox.com/e8/e7/vIJJBo6l_o.jpg',
+'https://images2.imgbox.com/9e/c2/FLIXtwtP_o.jpg',
+'https://images2.imgbox.com/d4/71/yQZGMpbE_o.jpg',
+'https://images2.imgbox.com/72/25/CLO8JzKz_o.jpg',
+'https://images2.imgbox.com/e4/b5/Yu8lVMiV_o.jpg',
+'https://images2.imgbox.com/82/e0/mz2b2oQp_o.jpg',
+'https://images2.imgbox.com/51/93/LB0jdzSv_o.jpg',
+'https://images2.imgbox.com/c9/27/5nzU8pdp_o.jpg',
+'https://images2.imgbox.com/86/dc/Yxcbxmap_o.jpg',
+'https://images2.imgbox.com/e7/40/eb9ikkGg_o.jpg',
+'https://images2.imgbox.com/f5/9e/pgM2p9f1_o.jpg',
+'https://images2.imgbox.com/d8/30/s1xKHx9O_o.jpg',
+'https://images2.imgbox.com/38/75/hs9PLQ6f_o.jpg',
+'https://images2.imgbox.com/7b/09/IvD1V7l9_o.jpg',
+'https://images2.imgbox.com/0b/26/WPztLQwc_o.jpg',
+'https://images2.imgbox.com/fd/85/NA9ydUzc_o.jpg',
+'https://images2.imgbox.com/5a/f7/CsX8iq6t_o.jpg',
+'https://images2.imgbox.com/09/d3/fl7YBzii_o.jpg',
+'https://images2.imgbox.com/e2/d5/8afvyJt5_o.jpg',
+'https://images2.imgbox.com/0a/77/xeR2qvoi_o.jpg',
+'https://images2.imgbox.com/c5/df/Z9Gm116r_o.jpg',
+'https://images2.imgbox.com/91/18/zRFV85jz_o.jpg',
+'https://images2.imgbox.com/99/f1/MmVeOhqp_o.jpg',
+'https://images2.imgbox.com/26/8e/HUsQ3yXy_o.jpg',
+'https://images2.imgbox.com/26/2b/qL6Pm2uh_o.jpg',
+'https://images2.imgbox.com/fe/69/tgmYnsUG_o.jpg',
+'https://images2.imgbox.com/36/08/Na2lSeTp_o.jpg',
+'https://images2.imgbox.com/b8/c0/7V4fvaWu_o.jpg',
+'https://images2.imgbox.com/af/87/MwRq1VsW_o.jpg',
+'https://images2.imgbox.com/24/e2/N9gXSYV2_o.jpg',
+'https://images2.imgbox.com/44/f5/DKtEKtEC_o.jpg',
+'https://images2.imgbox.com/49/ac/iv9sOlut_o.jpg',
+'https://images2.imgbox.com/1b/dd/qpKWhxSC_o.jpg',
+'https://images2.imgbox.com/07/2f/mxOBKwI0_o.jpg',
+'https://images2.imgbox.com/f1/e0/M82Qkve0_o.jpg',
+'https://images2.imgbox.com/ff/41/qqmCNtC4_o.jpg',
+'https://images2.imgbox.com/57/5f/FkKhoARF_o.jpg',
+'https://images2.imgbox.com/aa/02/0zYLOiwn_o.jpg',
+'https://images2.imgbox.com/18/2b/t5OgfoaG_o.jpg',
+'https://images2.imgbox.com/a1/e7/SJdrSkQ9_o.jpg',
+'https://images2.imgbox.com/43/dc/CTzCWRT1_o.jpg',
+'https://images2.imgbox.com/92/82/7PRwat9U_o.jpg',
+'https://images2.imgbox.com/d6/6c/3rxFvFKy_o.jpg',
+'https://images2.imgbox.com/ff/e3/F2OHTyHn_o.jpg',
+'https://images2.imgbox.com/61/c7/8ldWebTz_o.jpg',
+'https://images2.imgbox.com/1e/6a/67XmB1jO_o.jpg',
+'https://images2.imgbox.com/04/c1/Vq5UTkCP_o.jpg',
+'https://images2.imgbox.com/a2/6c/3Oy4nTHS_o.jpg',
+'https://images2.imgbox.com/6b/66/J3KaN3or_o.jpg',
+'https://images2.imgbox.com/23/a7/jhA7CzZX_o.jpg',
+'https://images2.imgbox.com/1c/e3/KWbqDDCA_o.jpg',
+'https://images2.imgbox.com/bd/38/SowdQJ8d_o.jpg',
+'https://images2.imgbox.com/60/47/mGfRasZi_o.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

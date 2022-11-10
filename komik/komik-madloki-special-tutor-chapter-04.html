@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i2.wp.com/images2.imgbox.com/67/b1/rCY3FeBb_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/07/45/uWHEb0zc_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/5f/5f/d35ZjjXE_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/31/33/37Qd3j0X_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/9d/93/8BDDOR5H_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/36/14/4TrUSy55_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/cd/1b/cTR5WLM5_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/2c/70/ayQplA8c_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/38/c2/qLKau9DL_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/31/28/K9TFe6vi_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/38/b8/gTHQlZxL_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/34/e7/Z7UywOqV_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/b0/40/QRjGVsyM_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/36/76/f2rozhyX_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/a0/10/HsVQJyi3_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/ec/34/BqgsrxA2_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/6f/d9/SDpGLobs_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/94/0d/tTJdGAoO_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/2b/8a/iIHkm5zf_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/dd/c7/aYDl5WI2_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/cd/34/6I3riE2G_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/6c/6a/US2F0T2k_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/59/4c/UfRjtRcm_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/54/96/K2fHYrUR_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/17/f0/5ecRbiS0_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/3c/ee/dyupn3nW_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/5e/34/FEyqRUJO_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/fb/50/YTYWvPtR_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/b9/24/WirkuLHR_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/53/b6/HsbgPoVB_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/35/c0/kFVW3SJQ_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/d6/ae/WgUk6IfW_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/a2/97/maFTpGM0_o.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

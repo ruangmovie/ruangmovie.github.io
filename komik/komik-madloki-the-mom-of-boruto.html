@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://comicself.xyz/wp-content/uploads/2022/02/img2-8.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img4-9.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img8-9.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img12-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img16-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img20-8.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img24-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img28-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img32-9.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img36-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img40-6.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img44-6.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img48-5.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img52-5.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img56-4.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img60-4.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img64-4.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img68-4.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img72-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img76-5.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img80-4.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img84-4.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img88-4.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img92-4.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img96-5.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img100-3.jpg',
+'https://komikdewasa.me/wp-content/themes/mangareader/assets/img/readerarea.svg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

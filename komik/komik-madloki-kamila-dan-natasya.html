@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i1.wp.com/images2.imgbox.com/1a/86/y5uSiYaB_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/08/33/nfqn8SJB_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/d7/b5/lpydbFYK_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/5f/ad/C8ibq4Er_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/a8/17/5IDs827L_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/ad/02/t1xI8Ebo_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/27/1b/R5o15Wou_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/19/38/x7RzPZne_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/00/b3/XTe3DzRE_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/d6/1d/KvHK0zJl_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/e1/94/jJ14ojUo_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/29/fa/ukcaKDwz_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/29/25/XG4vNX7z_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/0d/fa/qEzUhorV_o.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

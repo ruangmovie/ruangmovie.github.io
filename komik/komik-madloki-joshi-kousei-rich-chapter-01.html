@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://comicself.xyz/wp-content/uploads/2022/02/01-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/02-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/03-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/04-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/05-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/06-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/07-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/08-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/09-6.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/10-6.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/11-5.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/12-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/13-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/14-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/15-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/16-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/17-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/18-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/19-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/20-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/21-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/22-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/23-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/24-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/25-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/26-1.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/27-1.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/28-1.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/29.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/30.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/31.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/32.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/33.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>
