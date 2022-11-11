@@ -77,6 +77,7 @@
   #myplayer{position:fixed;right:0;top:0;min-width:100%;min-height:100%}
   .grid{width:100%;list-style:none;display:grid;overflow:hidden;text-overflow:ellipsis;grid-template-rows:auto;grid-template-columns:50% 50%;grid-row-gap:0px;grid-column-gap:10px}@media (max-width:1024px){.grid{grid-template-rows:auto;grid-template-columns:48.66% 48.66%;grid-row-gap:0px;grid-column-gap:10px}
   .id{position:fixed;z-index: 1;bottom:80px;right:20px;color:white;opacity: 0.5;font-size:12pt;}
+  .tombolcari{top:10px;left:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
   .tombolbugil{bottom:540px;left:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
   .tomboldesah{bottom:475px;left:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
   .tombolasian{bottom:410px;left:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
@@ -90,8 +91,57 @@
 </head>
 <body>
 
+<div class="modal" id="cari-bokep" tabindex="-1" aria-labelledby="cari-bokepLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+    <div class="modal-content text-white" style="background-color:#2d2c4d">
+      <div class="modal-header" style="border-style:none;">
+        <div>
+          <form>
+    			<div class="form-group">
+    				<input id="searchText" class="form-control" type="text" placeholder="Cari bokep">
+      			<label style="display:none">
+      					<select id="searchField">
+      						<option value="title">Folder</option>
+      					</select>
+      			</label>
+    			</div>
+    		</form>
+  		  <script id="results" type="text/x-handlebars-template">
+        	{{#each this}}
+        	<div class="row sort-item container mb-2" data-title="{{title}}" data-link="{{link}}" data-img="{{poster}}">
+        		<div class="row mt-4" id="video-bokep"><div class="col-2"><img src="{{poster}}" style="object-fit:cover;width:50px;height:50px;margin-top:5px;margin-left:-5px;float:left;border-radius:10%;"></div><div class="col-7"><b style="text-align:left" id="judul-bokep">{{title}}</b></div><div class="col-3" style="padding-right:10px"><a href="{{link}}" onclick="shopee()" target="_blank"><button type="button" id="tombol" style="color:white;margin-top:15px">STREAMING</button></a></div></div>
+        	</div>
+        	{{/each}}
+        </script>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div style="text-align:center;padding-bottom:60px">
+          <!-- JuicyAds v3.0 -->
+          <script type="text/javascript" data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"></script>
+          <ins id="1002119" data-width="300" data-height="112"></ins>
+          <script type="text/javascript" data-cfasync="false" async>(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1002119});</script>
+          <!--JuicyAds END-->
+          <div class="mt-3" style="text-align:left" id="output"></div>
+          <nav class="navbar fixed-bottom" style="height:50px;background-color:#2d2c4d">
+            <div class="position-absolute top-0 start-50 translate-middle-x">
+              <!-- JuicyAds v3.0 -->
+              <script type="text/javascript" data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"></script>
+              <ins id="1002097" data-width="300" data-height="62"></ins>
+              <script type="text/javascript" data-cfasync="false" async>(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1002097});</script>
+              <!--JuicyAds END-->
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div style="background-color:black">
   <div id="bokep"></div>
+  <button type="button" class="tombolcari" data-bs-toggle="modal" data-bs-target="#cari-bokep"><i class="fa fa-search my-icon mt-1"></i></button>
   <button type="button" class="tombolbugil" data-bs-toggle="modal" data-bs-target="#bugil"><i class="fa fa-image my-icon mt-1"></i></button>
   <button type="button" class="tomboldesah" data-bs-toggle="modal" data-bs-target="#desah"><i class="fa fa-music my-icon mt-1"></i></button>
   <button type="button" class="tombolasian" data-bs-toggle="modal" data-bs-target="#asian"><i class="fa fa-female my-icon mt-1"></i></button>
@@ -416,9 +466,14 @@
 <script src="assets/js/pagination.min.js"></script>
 <script src="assets/js/all.js"></script><script src='assets/js/code.min.js'></script>
 <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/foundation/6.2.0/foundation.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.0/handlebars.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script>
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.0/dist/lazyload.min.js"></script>
+<script src="assets/js/search.js"></script>
 <script src="database/dood.js"></script>
+<script src="database/bokep.js"></script>
 <script src="database/cersex.js"></script>
 <script src="database/komik.js"></script>
 <script src="database/asian.js"></script>
