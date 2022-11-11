@@ -14,7 +14,7 @@ $(function () {
     {
         "title": "Ruang Imajinasi",
         "poster": "database/app/ri.jpg",
-        "link": "https://droplink.co/Ruang_Imajinasi_v_3_4"
+        "link": "https://droplink.co/RUANG_IMAJINASI_V_3_5"
     },
     {
         "title": "MLiveU - Hot Live Show Mod APK",
