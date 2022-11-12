@@ -1,5 +1,6 @@
 var tokopedia = function(){
 var link_ads = [
+    'https://tokopedia.link/XCihkticTub',
     'https://tokopedia.link/nrSsahxAKub',
     'https://tokopedia.link/h1rtv2zAKub',
     'https://tokopedia.link/dipSHWAAKub',
