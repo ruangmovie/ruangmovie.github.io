@@ -5893,37 +5893,12 @@ var indo = [
     }
 ];
 
-var indoHD_update = "";
+var indoHD = "";
 	  
 for (var i = 0; i < indo.length; i++) {
 	var title = indo[i].title,
 		link = indo[i].link,
 		poster = indo[i].poster;
-	
-	indoHD_update += "<div class='indo-card mb-3' data-nama='" + title + "'><a href='' class='button-indo' href='' data-bs-toggle='modal' data-bs-target='#player-bokep' data-obj='"+ i + "' onclick='shopee()' style='color:black'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio:16/9;object-fit:cover;border-radius:2px'><p id='judul-bokep' style='text-align:center'>" + title + "</p></div></a></div>";
-}
-
-$("#list-indo-update").html(indoHD_update);
-
-$(document).ready(function(){
-  var list = $("#list-indo-update .indo-card");
-  var numToShow = 50;
-  var button = $("#indo-lainnya");
-  var numInList = list.length;
-  list.hide();
-  if (numInList > numToShow) {
-    button.show();
-  }
-  list.slice(0, numToShow).show();
-});
-
-var indoHD = "";
-	  
-for (var i = 0; i < indo.length; i++) {
-  let random = indo[Math.floor(Math.random() * indo.length)];
-	var title = random.title,
-		link = random.link,
-		poster = random.poster;
 	
 	indoHD += "<div class='indo-card mb-3' data-nama='" + title + "'><a href='' class='button-indo' href='' data-bs-toggle='modal' data-bs-target='#player-bokep' data-obj='"+ i + "' onclick='shopee()' style='color:black'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio:16/9;object-fit:cover;border-radius:2px'><p id='judul-bokep' >" + title + "</p></div></a></div>";
 }
@@ -5945,7 +5920,7 @@ $(".button-indo").click(function(e){
 
 $(document).ready(function(){
   var list = $("#list-indo .indo-card");
-  var numToShow = 20;
+  var numToShow = 50;
   var button = $("#indo-lainnya");
   var numInList = list.length;
   list.hide();
