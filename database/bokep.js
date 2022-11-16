@@ -6135,7 +6135,7 @@ for (var i = 0; i < indo.length; i++) {
 		link = indo[i].link,
 		poster = indo[i].poster;
 	
-	indoHD += "<div class='indo-card mb-3' data-nama='" + title + "'><a href='' class='button-indo' href='' data-bs-toggle='modal' data-bs-target='#player-bokep' data-obj='"+ i + "' onclick='shopee()' style='color:black'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio:16/9;object-fit:cover;border-radius:2px'><p id='judul-bokep' >" + title + "</p></div></a></div>";
+	indoHD += "<div class='indo-card mb-3' data-nama='" + title + "'><a href='' class='button-indo' href='' data-bs-toggle='modal' data-bs-target='#player-bokep' data-obj='"+ i + "' onclick='tokopedia()' style='color:black'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio:16/9;object-fit:cover;border-radius:2px'><p id='judul-bokep' >" + title + "</p></div></a></div>";
 }
 
 $("#list-indo").html(indoHD);
