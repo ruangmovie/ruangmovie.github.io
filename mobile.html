@@ -433,7 +433,6 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.11/vue.min.js'></script>
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.0/dist/lazyload.min.js"></script>
 <script src="assets/js/search.js"></script>
-<script src="database/dood.js"></script>
 <script src="database/komik.js"></script>
 <script src="database/cersex.js"></script>
 <script src="database/bokep.js"></script>
@@ -447,9 +446,9 @@
 <script type="application/javascript" data-idzone="4799382" data-ad_first_trigger_clicks="3" data-ad_next_trigger_clicks="5" data-type="mobile" data-browser_settings="1" data-ad_trigger_method="3" src="https://a.realsrv.com/fp-interstitial.js"></script>
 <script>
   function randomBokep() {
-    let random = embed[Math.floor(Math.random() * embed.length)];
+    let random = indo[Math.floor(Math.random() * indo.length)];
     bokep.innerHTML = `<embed id="myplayer" width="100%" height="100%" src="https://dood.re/e/${random.link}" type="text/html"></embed><div class="id"><p>${random.link}</p></div>`;
-    embed.innerHTML = random.embed;
+    indo.innerHTML = random.indo;
   }
   
   randomBokep();
