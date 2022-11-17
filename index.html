@@ -133,7 +133,7 @@
     <div class="position-absolute top-0 start-50 translate-middle-x">
       <img src="assets/img/logo.png" alt="Ruang Imajinasi" class="mylogo">
     </div>
-    <span class="position-absolute top-0 end-0 cariBokep"><i class="fa fa-bell" style="font-size:16pt;margin-right:5px"></i></span>
+    <span class="position-absolute top-0 end-0 cariBokep" data-bs-toggle="modal" data-bs-target="#cari-bokep"><i class="fa fa-search" style="font-size:16pt;margin-right:5px"></i></span>
   </div>
   <div class="offcanvas offcanvas-start text-white" tabindex="1" id="offcanvasNavbar2" aria-labelledby="offcanvasNavbar2Label" style="width:330px;background-color:#2d2c5d;">
     <div class="offcanvas-header" >
@@ -181,6 +181,54 @@
     </div>
   </div>
 </nav>
+
+<div class="modal" id="cari-bokep" tabindex="-1" aria-labelledby="cari-bokepLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
+    <div class="modal-content text-white" style="background-color:#2d2c4d">
+      <div class="modal-header" style="border-style:none;">
+        <div>
+          <form>
+    			<div class="form-group">
+    				<input id="searchText" class="form-control" type="text" placeholder="Cari bokep">
+      			<label style="display:none">
+      					<select id="searchField">
+      						<option value="title">Folder</option>
+      					</select>
+      			</label>
+    			</div>
+    		</form>
+  		  <script id="results" type="text/x-handlebars-template">
+        	{{#each this}}
+        	<div class="row sort-item container mb-2" data-title="{{title}}" data-link="{{link}}" data-img="{{poster}}">
+        		<div class="row mt-4" id="video-bokep"><div class="col-2"><img src="{{poster}}" style="object-fit:cover;width:50px;height:50px;margin-top:5px;margin-left:-5px;float:left;border-radius:10%;"></div><div class="col-7"><b style="text-align:left" id="judul-bokep">{{title}}</b></div><div class="col-3" style="padding-right:10px"><a href="https:\/\/dood.re\/e\/{{link}}" target="_blank"><button type="button" id="tombol" style="color:white;margin-top:15px">STREAMING</button></a></div></div>
+        	</div>
+        	{{/each}}
+        </script>
+        </div>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div style="text-align:center;padding-bottom:60px">
+          <!-- JuicyAds v3.0 -->
+          <script type="text/javascript" data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"></script>
+          <ins id="1002119" data-width="300" data-height="112"></ins>
+          <script type="text/javascript" data-cfasync="false" async>(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1002119});</script>
+          <!--JuicyAds END-->
+          <div class="mt-3" style="text-align:left" id="output"></div>
+          <nav class="navbar fixed-bottom" style="height:50px;background-color:#2d2c4d">
+            <div class="position-absolute top-0 start-50 translate-middle-x">
+              <!-- JuicyAds v3.0 -->
+              <script type="text/javascript" data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"></script>
+              <ins id="1002097" data-width="300" data-height="62"></ins>
+              <script type="text/javascript" data-cfasync="false" async>(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1002097});</script>
+              <!--JuicyAds END-->
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
         
 <div style="margin:10px">
   <div class="mt-2" style="background-color:#F0F3F4;border-radius:20px;padding:10px;height:240px">
@@ -262,13 +310,12 @@
   </div>
   <div class="judul-awal mt-3 mb-2">Bokep Ruang Imajinasi</div>
   <hr style="visibility: hidden">
-  <div class="mt-2 mb-3">
-    <input class="cari" type="text" id="cariindo" placeholder="Cari bokep" onkeyup="mySearchIndo()"/>
+  <div class="mb-4">
+  <div id="data-bokep">
+    
   </div>
-  <div class="grid-bokep mt-2" id="list-indo">
-        
-  </div>
-  <div class="container mt-3" style="padding-bottom:60px" align="center"><button class="tombol-cersex" id="indo-lainnya">Lebih Banyak</button>
+  <div class="menupage" style="padding-bottom:35px">
+    <div id="page-bokep"></div>
   </div>
   <div style="height:100px;text-align:center;background-color:#F0F3F4;border-radius:10px">
     <!-- JuicyAds v3.0 -->
@@ -608,7 +655,7 @@
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="background-color:white;border-radius:50%;color:white;z-index:9999" onclick="shopee()"></button>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="background-color:white;border-radius:50%;color:white;z-index:9999" onclick="tokopedia()"></button>
       </div>
       <div class="modal-body" style="margin:-20px;overflow-y:hidden;margin-top:-70px">
         <div class="bg-light" style="height:100px;text-align:center">
@@ -635,7 +682,7 @@
 <div class="modal" id="player-igo" tabindex="-1">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
-      <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close" style="background-color:transparent;border-radius:50%;color:white;z-index:9999;padding:17px" onclick="shopee()"></button>
+      <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close" style="background-color:transparent;border-radius:50%;color:white;z-index:9999;padding:17px" onclick="tokopedia()"></button>
       <div class="modal-body" style="background-color:black">
         <video id="myVideo" type="video/mp4" class="inner-link-bokep" src="" width="100%" height="100%" controls controlsList="noplaybackrate"></video>
         <nav class="navbar fixed-bottom bg-light" style="height:50px">
@@ -655,7 +702,7 @@
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="background-color:white;border-radius:50%;color:white;z-index:9999" onclick="shopee()"></button>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="background-color:white;border-radius:50%;color:white;z-index:9999" onclick="tokopedia()"></button>
       </div>
       <div class="modal-body" style="margin:-20px;overflow-y:hidden;margin-top:-70px">
         <div class="bg-light" style="height:100px;text-align:center">
@@ -683,7 +730,7 @@
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
       <div class="modal-header">
-          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="background-color:white;border-radius:50%;color:white;z-index:9999" onclick="shopee()"></button>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="background-color:white;border-radius:50%;color:white;z-index:9999" onclick="tokopedia()"></button>
       </div>
       <div class="modal-body" style="margin:-20px;overflow-y:hidden;margin-top:-70px;margin-bottom:-40px">
         <div class="bg-light" style="height:100px;text-align:center">
@@ -710,7 +757,7 @@
 <div class="modal" id="player-bokep" tabindex="-1">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
-      <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close" style="background-color:transparent;border-radius:50%;color:white;z-index:9999;padding:17px" onclick="shopee()"></button>
+      <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close" style="background-color:transparent;border-radius:50%;color:white;z-index:9999;padding:17px" onclick="tokopedia()"></button>
       <div class="modal-body" style="margin:-20px;overflow-y:hidden;margin-top:-70px;background-color:black">
         <embed type="text/html" class="inner-link-indo" src="" width="100%" height="100%"></embed>
         <nav class="navbar fixed-bottom bg-light" style="height:50px">
@@ -729,7 +776,7 @@
 <div class="modal" id="player-hentai" tabindex="-1">
   <div class="modal-dialog modal-fullscreen">
     <div class="modal-content">
-      <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close" style="background-color:transparent;border-radius:50%;color:white;z-index:9999;padding:17px" onclick="shopee()"></button>
+      <button type="button" class="btn-close btn-close-white position-absolute top-0 end-0" data-bs-dismiss="modal" aria-label="Close" style="background-color:transparent;border-radius:50%;color:white;z-index:9999;padding:17px" onclick="tokopedia()"></button>
       <div class="modal-body" style="margin:-20px;overflow-y:hidden;margin-top:-70px;background-color:black">
         <video id="myVideo" type="video/mp4" class="inner-link-hentai" src="" width="100%" height="100%" controls controlsList="noplaybackrate"></video>
         <nav class="navbar fixed-bottom bg-light" style="height:50px">

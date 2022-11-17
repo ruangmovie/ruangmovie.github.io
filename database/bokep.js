@@ -5507,58 +5507,27 @@ var indo = [
     }
 ];
 
-var indoHD = "";
-	  
-for (var i = 0; i < indo.length; i++) {
-	var title = indo[i].title,
-		link = indo[i].link,
-		poster = indo[i].poster;
-	
-	indoHD += "<div class='indo-card mb-3' data-nama='" + title + "'><a href='https://dood.re/e/"+ link +"' onclick='tokopedia()' style='color:black'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio:16/9;object-fit:cover;border-radius:2px'><p id='judul-bokep' >" + title + "</p></div></a></div>";
-}
+$(function () {
+  let container = $('#page-bokep');
+  container.pagination({
+  pageSize: 50,
+  showPageNumbers: false,
+  showNavigator: true,
+  formatNavigator: 'Hal. ke-<span style="color: #f00"><b><%= currentPage %></span></b>, <b><%= totalPage %></b> Halaman, <b><%= totalNumber %></b> Video',
+  showGoInput: true,
+  showGoButton: true,
+  formatGoInput: 'Menuju halaman ke- <%= input %>',
+  position: 'top',
+  className: 'paginationjs-theme-blue',
+  dataSource: indo,
+  
+  callback: function (data, pagination) {
+      var dataHtml = '';
+      $.each(data, function (index, item) {
+          dataHtml += '<div class="row sort-item mb-3"><a href="https://dood.re/e/' + item.link + '" target="_blank" onclick="shopee()"><img id="poster" src="' + item.poster + '" alt="" width="100%" height="100%" style="object-fit:cover;aspect-ratio:16/9"></a><span id="judul-bokep" style="text-align:center">'+ item.title +'</span></div>';
+          });
 
-$("#list-indo").html(indoHD);
-
-var indoHDLength = indo.length;
-var thisElement10 = 0;
-
-function innerContent10(content){
-  $(".inner-link-indo").attr("src",indo[content].link);
-};
-
-$(".button-indo").click(function(e){
-  e.preventDefault();
-  thisElement10 = $(this).attr("data-obj");
-  innerContent10(thisElement10);
-});
-
-$(document).ready(function(){
-  var list = $("#list-indo .indo-card");
-  var numToShow = 50;
-  var button = $("#indo-lainnya");
-  var numInList = list.length;
-  list.hide();
-  if (numInList > numToShow) {
-    button.show();
-  }
-  list.slice(0, numToShow).show();
-
-  button.click(function(){
-      var showing = list.filter(':visible').length;
-      list.slice(showing - 1, showing + numToShow).fadeIn();
-      var nowShowing = list.filter(':visible').length;
-      if (nowShowing >= numInList) {
-        button.hide();
-      }
-  });
-});
-
-$(function() {
-  $("#cariindo").on("keyup", function() {
-    var value = $(this).val().toLowerCase();
-    $("#list-indo .indo-card").filter(function() {
-        $("#list-indo").show();
-        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-      });
-  });
-});
+          $("#data-bokep").html(dataHtml);
+        }
+    })
+  })
