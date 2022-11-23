@@ -994,10 +994,11 @@ var comic = [
 var komik = "";
 	  
 for (var i = 0; i < comic.length; i++) {
-	var title = comic[i].title,
-		link = comic[i].link,
-		poster = comic[i].poster,
-		episode = comic[i].episode;
+  let random = comic[Math.floor(Math.random() * comic.length)];
+	var title = random.title,
+		link = random.link,
+		poster = random.poster,
+		episode = random.episode;
 	
 	komik += "<div class='komik-card mb-2' data-nama='" + title + "' data-episode='" + episode + "'><a href='' class='button-komik' href='' data-bs-toggle='modal' data-bs-target='#player-komik' data-obj='"+ i + "' style='color:black'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio: 3/4;object-fit: cover;border-radius:2px'><span class='kategori-komik'>"+ episode +"</span><p id='judul-komik' align='left' style='margin-top:-1px'><b>" + title + "</b></p></div></a></div>";
 }
