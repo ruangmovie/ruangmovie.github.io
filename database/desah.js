@@ -26668,8 +26668,7 @@ var desah =  [
 		callback: function (data, pagination) {
       var dataHtml = '';
       $.each(data, function (index, item) {
-          let random = desah[Math.floor(Math.random() * desah.length)];
-          dataHtml += '<tr><td><hr style="visibility:hidden;margin-top:3px;margin-bottom:3px"><div class="row"><div class="col-2"><img src="https://telegra.ph/file/a76ddd04fa94896d8cc8c.png" style="width:51px;height:51px;margin-bottom:15px;float: left;border-radius:50%;"></div><div class="col-10"><audio controls controlsList="nodownload noplaybackrate" style="width:300px"><source src="https://drive.google.com/uc?export=download&id=' + random.link + '"type="audio/ogg"></audio></div></div></td><tr>';
+          dataHtml += '<tr><td><hr style="visibility:hidden;margin-top:3px;margin-bottom:3px"><div class="row"><div class="col-2"><img src="https://telegra.ph/file/a76ddd04fa94896d8cc8c.png" style="width:51px;height:51px;margin-bottom:15px;float: left;border-radius:50%;"></div><div class="col-10"><audio controls controlsList="nodownload noplaybackrate" style="width:300px"><source src="https://drive.google.com/uc?export=download&id=' + item.link + '"type="audio/ogg"></audio></div></div></td><tr>';
           });
 
           $("#data-desah").html(dataHtml);
