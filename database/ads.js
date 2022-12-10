@@ -1,10 +1,8 @@
 var ads = function(){
 var link_ads = [
 'https://shope.ee/5KcJjUCTrN',
-'https://c.lazada.co.id/t/c.bYpnKc',
 'https://shope.ee/3V7d9HHAod',
 'https://shope.ee/30BMYMJ4pY',
-'https://tokopedia.link/CBfB7lrItvb',
 'https://shope.ee/1L4yAeg1jc',
 'https://shope.ee/30BSncdLMK',
 'https://shope.ee/3AUszvci1N',
@@ -20,8 +18,9 @@ var link_ads = [
 'https://shope.ee/7pGiZXugdS',
 'https://shope.ee/7exINEvJyR',
 'https://shope.ee/5UsnnG3ZN2',
-'https://tokopedia.link/rXwopozItvb',
 'https://shope.ee/5KZNax4Ci1',
+'https://tokopedia.link/rXwopozItvb',
+'https://tokopedia.link/CBfB7lrItvb',
 'https://tokopedia.link/dipSHWAAKub',
 'https://tokopedia.link/n25IxUBAKub',
 'https://tokopedia.link/aZ3GnMCAKub',
