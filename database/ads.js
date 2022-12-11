@@ -1,5 +1,6 @@
 var ads = function(){
 var link_ads = [
+'https://tokopedia.link/CBfB7lrItvb',
 'https://shope.ee/7Uh4EYHzNY',
 'https://shope.ee/1L6QuEphAY',
 'https://shope.ee/6UoX3ndD4S',
@@ -20,7 +21,6 @@ var link_ads = [
 'https://shope.ee/5UsnnG3ZN2',
 'https://shope.ee/5KZNax4Ci1',
 'https://tokopedia.link/rXwopozItvb',
-'https://tokopedia.link/CBfB7lrItvb',
 ];
 var max_ads = (link_ads.length)
 window.open(link_ads[Math.floor(Math.random()*max_ads)]);
