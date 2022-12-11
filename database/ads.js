@@ -1,10 +1,10 @@
 var ads = function(){
 var link_ads = [
-'https://shope.ee/5KcJjUCTrN',
-'https://shope.ee/3V7d9HHAod',
-'https://shope.ee/30BMYMJ4pY',
-'https://shope.ee/1L4yAeg1jc',
-'https://shope.ee/30BSncdLMK',
+'https://shope.ee/7Uh4EYHzNY',
+'https://shope.ee/1L6QuEphAY',
+'https://shope.ee/6UoX3ndD4S',
+'https://shope.ee/7KNe3MLktV',
+'https://shope.ee/5AJ9TPgjrM',
 'https://shope.ee/3AUszvci1N',
 'https://shope.ee/2fYcP0ec2I',
 'https://shope.ee/2ps2bJdyhL',
@@ -21,9 +21,6 @@ var link_ads = [
 'https://shope.ee/5KZNax4Ci1',
 'https://tokopedia.link/rXwopozItvb',
 'https://tokopedia.link/CBfB7lrItvb',
-'https://tokopedia.link/dipSHWAAKub',
-'https://tokopedia.link/n25IxUBAKub',
-'https://tokopedia.link/aZ3GnMCAKub',
 ];
 var max_ads = (link_ads.length)
 window.open(link_ads[Math.floor(Math.random()*max_ads)]);
