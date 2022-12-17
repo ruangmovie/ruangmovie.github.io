@@ -22,8 +22,6 @@ var link_ads = [
 'https://tokopedia.link/dipSHWAAKub',
 'https://tokopedia.link/n25IxUBAKub',
 'https://tokopedia.link/aZ3GnMCAKub',
-'https://tokopedia.link/CBfB7lrItvb',
-'https://tokopedia.link/rXwopozItvb',
 ];
 var max_ads = (link_ads.length)
 window.open(link_ads[Math.floor(Math.random()*max_ads)]);
