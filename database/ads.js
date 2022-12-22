@@ -22,7 +22,6 @@ var link_ads = [
 'https://shope.ee/3KoCp7GkWC',
 'https://tokopedia.link/9S7HopEodub',
 'https://tokopedia.link/qZPdl8Eodub',
-'https://tokopedia.link/icI0X4Fodub',
 'https://tokopedia.link/hw58GUGpdub',
 'https://tokopedia.link/4Gth3wKpdub',
 ];
