@@ -12,9 +12,14 @@ $(function () {
   className: 'paginationjs-theme-blue',
   dataSource: [
     {
-        "title": "Ruang Imajinasi",
-        "poster": "database/app/ri.jpg",
-        "link": "https://droplink.co/RUANG_IMAJINASI_V_3_5"
+        "title": "Bling2 Live Mod",
+        "poster": "database/app/bling2.png",
+        "link": "https://apkadmin.com/hdqm6thjqmie/BLING2_MOD.apk.html"
+    },
+    {
+        "title": "XNXX",
+        "poster": "database/app/xnxx.png",
+        "link": "https://apkadmin.com/nf00cq4azd8y/XNXX_2022.apk.html"
     },
     {
         "title": "MLiveU - Hot Live Show Mod APK",
@@ -70,16 +75,6 @@ $(function () {
         "title": "QCute Live Mod",
         "poster": "database/app/qcute.png",
         "link": "https://droplink.co/2nFkh1Q9"
-    },
-    {
-        "title": "Bling2 Live Mod",
-        "poster": "database/app/bling2.png",
-        "link": "https://apkadmin.com/hdqm6thjqmie/BLING2_MOD.apk.html"
-    },
-    {
-        "title": "XNXX",
-        "poster": "database/app/xnxx.png",
-        "link": "https://apkadmin.com/nf00cq4azd8y/XNXX_2022.apk.html"
     },
     {
         "title": "69Live Mod",
