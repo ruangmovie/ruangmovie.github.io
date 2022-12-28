@@ -42313,7 +42313,7 @@ $(function () {
   callback: function (data, pagination) {
       var dataHtml = '';
       $.each(data, function (index, item) {
-          dataHtml += '<div class="row sort-item mb-3"><a href="https://dood.re/e/' + item.link + '" target="_blank" onclick="ads()"><img id="poster" src="' + item.poster + '" alt="" width="100%" height="100%" style="object-fit:cover;aspect-ratio:16/9"></a><span id="judul-bokep" style="text-align:center">'+ item.title +'</span></div>';
+          dataHtml += '<div class="row sort-item mb-5"><a href="https://dood.re/e/' + item.link + '" target="_blank" onclick="ads()"><img id="poster" src="' + item.poster + '" alt="" width="100%" height="100%" style="object-fit:cover;aspect-ratio:16/9"></a><span id="judul-bokep" style="text-align:center;margin-bottom:12px">'+ item.title +'</span><div class="container text-center"><div class="row"><div class="col"><a href="https://dood.re/e/' + item.link + '" onclick="ads()" target="_blank" style="color:black"><button type="button" class="btn btn-danger">STREAMING</button></a></div><div class="col"><a href="https://dood.re/d/' + item.link + '" onclick="ads()" target="_blank" style="color:black"><button type="button" class="btn btn-primary">DOWNLOAD</button></a></div><div class="col"><a href="whatsapp://send?text=https://dood.re/e/' + item.link + '" target="_blank" rel="nofollow" onclick="ads()" style="color:black"><button type="button" class="btn btn-success">BAGIKAN</button></a></div></div></div></div>';
           });
 
           $("#data-bokep").html(dataHtml);
