@@ -1,5 +1,6 @@
 var ads = function(){
 var link_ads = [
+    'https://maspannn.github.io',
     'https://shope.ee/3pmTwAtJ7S',
     'https://shope.ee/3fT3jrtwSR',
     'https://shope.ee/2ptwkKx79I',
