@@ -13,8 +13,6 @@ var link_ads = [
     'https://shope.ee/4zyRKJorkp',
     'https://shope.ee/4APKKms2Rg',
     'https://shope.ee/405u8Tsfmf',
-    'https://tokopedia.link/XCihkticTub',
-    'https://tokopedia.link/nrSsahxAKub',
     'https://tokopedia.link/h1rtv2zAKub',
     'https://tokopedia.link/dipSHWAAKub',
     'https://tokopedia.link/n25IxUBAKub',
