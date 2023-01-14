@@ -1,3 +1,20 @@
+.pesan{
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:20px;
+	right:20px;
+	background-color:#2d2c4d;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-pesan{
+	margin-top:13px;
+	font-size:18pt;
+}
 .my-float{
 	margin-top:12px;
 	font-size:18pt;
