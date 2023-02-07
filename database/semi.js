@@ -46,7 +46,91 @@ var data = [
         "poster": "5482e91fee47eed5027ea",
         "tahun": 2022,
         "link": "https://dood.re/e/a2xoua6obyrx",
-        "kategori": "Semi"
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Expensive Candy (2022)",
+        "poster": "aae5cc4d230648410b61b",
+        "tahun": 2022,
+        "link": "https://dood.yt/e/p9c9bqig5eze",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "An Affair to Forget (2022)",
+        "poster": "c5f918ff352e271023442",
+        "tahun": 2022,
+        "link": "https://dood.yt/e/lh0sdwfivtm7",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Bugso (2022)",
+        "poster": "b71bf37848d6691cfcb7e",
+        "tahun": 2022,
+        "link": "https://dood.yt/e/u57lbq0johw5",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Laruan (2022)",
+        "poster": "8d2416abd5af64564fa76",
+        "tahun": 2022,
+        "link": "https://dood.yt/e/irzsbrfzfks4",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Reroute (2022)",
+        "poster": "de561fa1b2d426584c9d0",
+        "tahun": 2022,
+        "link": "https://dood.yt/e/7vhvvdzavbqw",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "May-December-January (2022)",
+        "poster": "5482e91fee47eed5027ea",
+        "tahun": 2022,
+        "link": "https://dood.yt/e/l3rar11ys6hh",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Her Deep Love Affair (2017)",
+        "poster": "afc4bec3ecb60d6959cbc",
+        "tahun": 2017,
+        "link": "https://dood.yt/e/tgv6si12p2dc",
+        "kategori": "Korea"
+    },
+    {
+        "title": "Are You Coming?! – City of Angels (2017)",
+        "poster": "36c77d0db42f1beaca29a",
+        "tahun": 2017,
+        "link": "https://dood.yt/e/0ndkonuwroz8",
+        "kategori": "Thailand"
+    },
+    {
+        "title": "Mae Bia (2015)",
+        "poster": "bc1164430533d7b62c6c9",
+        "tahun": 2015,
+        "link": "https://dood.yt/e/rpibj3e5nrza",
+        "kategori": "Thailand"
+    },
+    {
+        "title": "Tiger Woman (2015)",
+        "poster": "734182a96172d5719a8bd",
+        "tahun": 2015,
+        "link": "https://dood.yt/e/p87v14krdh9n",
+        "kategori": "Thailand"
+    },
+    {
+        "title": "Jan Dara: The Finale (2013)",
+        "poster": "228d5386d80d9fc95d4d4",
+        "tahun": 2013,
+        "link": "https://dood.yt/e/kob7g9hlvjif",
+        "kategori": "Thailand"
+    },
+    {
+        "title": "Jan Dara: The Beginning (2012)",
+        "poster": "554a42336416d7fe8e784",
+        "tahun": 2012,
+        "link": "https://dood.yt/e/m0jfvufy2ev6",
+        "kategori": "Thailand"
     }
 ];
 
