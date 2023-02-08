@@ -91,6 +91,13 @@ var data = [
         "kategori": "Filipina"
     },
     {
+        "title": "Wrath of Desire (2020)",
+        "poster": "350424dbd8183442ef1b8",
+        "tahun": 2020,
+        "link": "https://dood.yt/e/ien1h6ox8m5r",
+        "kategori": "China"
+    },
+    {
         "title": "My Sex Doll (2020)",
         "poster": "3d587f33bad6aad0ed5c7",
         "tahun": 2020,
@@ -133,11 +140,25 @@ var data = [
         "kategori": "Thailand"
     },
     {
+        "title": "Ten Promises About Love (2016)",
+        "poster": "15b42c3d77630d2ca9be5",
+        "tahun": 2016,
+        "link": "https://dood.yt/e/1ua3dgt49f8h",
+        "kategori": "China"
+    },
+    {
         "title": "Lover Sex Addiction (2016)",
         "poster": "957a464aebab42cfd8b90",
         "tahun": 2016,
         "link": "https://dood.yt/e/gjtfnybpe0j4",
         "kategori": "Thailand"
+    },
+    {
+        "title": "Lazy Hazy Crazy (2015)",
+        "poster": "14ad18735aff96bbb43fd",
+        "tahun": 2015,
+        "link": "https://dood.yt/e/e3podlxs4cw4",
+        "kategori": "China"
     },
     {
         "title": "Mae Bia (2015)",
@@ -152,6 +173,20 @@ var data = [
         "tahun": 2015,
         "link": "https://dood.yt/e/p87v14krdh9n",
         "kategori": "Thailand"
+    },
+    {
+        "title": "S for Sex, S for Secrets (2014)",
+        "poster": "100416227bf975651de57",
+        "tahun": 2014,
+        "link": "https://dood.yt/e/krbjynbgeua7",
+        "kategori": "China"
+    },
+    {
+        "title": "Enthralled (2014)",
+        "poster": "062bda7dea9e2e987f563",
+        "tahun": 2014,
+        "link": "https://dood.yt/d/7e6ryl52f74y",
+        "kategori": "China"
     },
     {
         "title": "Spell (2014)",
@@ -180,6 +215,13 @@ var data = [
         "tahun": 2013,
         "link": "https://dood.yt/e/4rb1i0nx3v94",
         "kategori": "Thailand"
+    },
+    {
+        "title": "Due West: Our Sex Journey (2012)",
+        "poster": "8a5936b01c854b1e7093a",
+        "tahun": 2012,
+        "link": "https://dood.yt/e/51ou6n3hr8l9",
+        "kategori": "China"
     },
     {
         "title": "Ruk Khom Khom Nai Rarn Khanom Cake (2012)",
@@ -215,6 +257,13 @@ var data = [
         "tahun": 2011,
         "link": "https://dood.yt/e/8goqv0p2e2dc",
         "kategori": "Thailand"
+    },
+    {
+        "title": "3-D Sex and Zen: Extreme Ecstasy (2011)",
+        "poster": "fc7551921242e744f85d1",
+        "tahun": 2011,
+        "link": "https://dood.yt/e/0dvcimgwh071",
+        "kategori": "China"
     },
     {
         "title": "Side Line (2011)",
@@ -257,6 +306,62 @@ var data = [
         "tahun": 2010,
         "link": "https://dood.yt/e/v0ktofo8p0j7",
         "kategori": "Thailand"
+    },
+    {
+        "title": "The Forbidden Legend Sex And Chopsticks 2 (2009)",
+        "poster": "553b4d6bb39636aa73d5a",
+        "tahun": 2008,
+        "link": "https://dood.yt/e/zui9s8ioifq9",
+        "kategori": "China"
+    },
+    {
+        "title": "The Forbidden Legend: Sex & Chopsticks (2008)",
+        "poster": "bcbcf275a2449cf89e12c",
+        "tahun": 2008,
+        "link": "https://dood.yt/e/81v4cingncgi",
+        "kategori": "China"
+    },
+    {
+        "title": "A Chinese Torture Chamber Story II (1998)",
+        "poster": "fc37abb62d613c2a15ee2",
+        "tahun": 1998,
+        "link": "https://dood.yt/e/zg2zhf6brjyy",
+        "kategori": "China"
+    },
+    {
+        "title": "Island of Greed (1997)",
+        "poster": "19874c73e8eef032fd2aa",
+        "tahun": 1997,
+        "link": "https://dood.yt/e/34sb13zitfwm",
+        "kategori": "China"
+    },
+    {
+        "title": "Don’t Tell My Partner (1997)",
+        "poster": "f2afa9c97c352a1851068",
+        "tahun": 1997,
+        "link": "https://dood.yt/e/fm4af6m1txcu",
+        "kategori": "China"
+    },
+    {
+        "title": "Sex and Zen II (1996)",
+        "poster": "2e7c36fd47777235c2f00",
+        "tahun": 1996,
+        "link": "https://dood.yt/e/iuafc5cvo13c",
+        "kategori": "China"
+    },
+    {
+        "title": "A Chinese Torture Chamber Story (1994)",
+        "poster": "c4afc376d8bccf8cc8eee",
+        "tahun": 1994,
+        "link": "https://dood.yt/e/6w0bvyc2j6zu",
+        "kategori": "China"
+    },
+    {
+        "title": "Sex and Zen (1991)",
+        "poster": "2aa93f2cca26085e2a581",
+        "tahun": 1991,
+        "link": "https://dood.yt/e/syicf8tc6cl1",
+        "kategori": "China"
     },
 ];
 
