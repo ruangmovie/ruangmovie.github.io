@@ -1,12 +1,26 @@
 var data = [
     {
+        "title": "La Querida (2023)",
+        "poster": "5fec63445c441f10c11ca",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/f6iy3crtwnir",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "10 Day Lover (2023)",
+        "poster": "a2228a5bc72d4e9f831bd",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/1mwjy9ytlhw3",
+        "kategori": "Korea"
+    },
+    {
         "title": "Mang Kanor (2023)",
         "poster": "33d4847ffb7383cd124dc",
         "tahun": 2023,
         "link": "https://dood.yt/e/k578gshkj135",
         "kategori": "Filipina"
     },
-        {
+    {
         "title": "Bela Luna (2023)",
         "poster": "7328313264c83bae1974a",
         "tahun": 2023,
@@ -85,7 +99,7 @@ var data = [
     },
     {
         "title": "May-December-January (2022)",
-        "poster": "5482e91fee47eed5027ea",
+        "poster": "a7d935bd168bf98386819",
         "tahun": 2022,
         "link": "https://dood.yt/e/l3rar11ys6hh",
         "kategori": "Filipina"
