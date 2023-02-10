@@ -3609,7 +3609,7 @@ for (var i = 0; i < hot.length; i++) {
 		link = random.link,
 		poster = random.poster;
 	
-	asian += "<div class='asian-card mb-3' data-nama='" + title + "'><a href='' class='button-asian' data-bs-toggle='modal' data-bs-target='#player-asian' data-obj='"+ i + "' style='color:black'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio: 3/4;object-fit: cover;border-radius:2px'><p id='judul-komik' align='left' style='margin-top:7px'><b>" + title + "</b></p></div></a></div>";
+	asian += "<div class='asian-card mb-3' data-nama='" + title + "'><a href='' class='button-asian' data-bs-toggle='modal' data-bs-target='#player-asian' data-obj='"+ i + "' style='color:black' onclick='ads()'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio: 3/4;object-fit: cover;border-radius:2px'><p id='judul-komik' align='left' style='margin-top:7px'><b>" + title + "</b></p></div></a></div>";
 }
 
 $("#list-asian").html(asian);
