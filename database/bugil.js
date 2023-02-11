@@ -1,5 +1,92 @@
 var bugil =  [
     {
+        "link": "https://telegra.ph/file/345d863fd2b4cffaac612.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e9b31f6eb5b15b6117b0b.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/9611af8583c04f56c702e.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e89562ee92c59ef01852f.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/262d4a11cd5fabb998089.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/8504714264cf8d2ddfa07.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/754baf8f881716231ec16.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/1c5b34a818a0b325ca35d.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/6c8a79f886960052b8d47.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/4f9ec27759532376779d1.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/27c9a22592657e450381f.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/d717453e81876bc11785f.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/4cf446790ef2d561f813e.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/5c890594631e2f83f6882.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/b40f7c89cfa4164c92e9a.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/c877077eb6525ba920fa5.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/9f9619831fd5ccfd2b846.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/033350e338fd0f093daf2.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/6cf261552439b6d88b994.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/66ff73ebe4bd137d4b4d7.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/a33193a64f3890af673eb.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e14b5bc27849179855afc.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e1009191d09ea7bbf2b3f.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/ebf6c38afb6ae3454d7c8.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/341c2570b42c2f3a03e89.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/693568ce0e993258d42f5.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/b90c81a32f97f63dd9014.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/f00535e8cec3642dc3327.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/efc802aae9bdbdd81c754.jpg"
+    },
+    {
         "link": "https://telegra.ph/file/a39748cba373c222656df.jpg"
     },
     {
