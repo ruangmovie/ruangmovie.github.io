@@ -56,6 +56,34 @@ var data = [
         "kategori": "Filipina"
     },
     {
+        "title": "Boy Bastos (2022)",
+        "poster": "c8eb60560e8f11cf044ea",
+        "tahun": 2022,
+        "link": "https://dood.yt/e/c7biipzr2a7d",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Leonor Will Never Die (2022)",
+        "poster": "1b09e239166c185a919ac",
+        "tahun": 2022,
+        "link": "https://dood.yt/e/be7vytgsdg1m",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Pusoy (2022)",
+        "poster": "493666b7c22f2306fcc82",
+        "tahun": 2022,
+        "link": "https://dood.yt/e/01ta74afgskr",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Island of Desire (2022)",
+        "poster": "d0e96e09b636a02a22f49",
+        "tahun": 2022,
+        "link": "https://dood.yt/e/vtmf1tn57and",
+        "kategori": "Filipina"
+    },
+    {
         "title": "Lampas Langit (2022)",
         "poster": "5482e91fee47eed5027ea",
         "tahun": 2022,
