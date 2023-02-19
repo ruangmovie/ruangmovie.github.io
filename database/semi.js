@@ -416,7 +416,7 @@ for (var i = 0; i < data.length; i++) {
 		link = data[i].limk,
 		poster = data[i].poster;
 	
-	videos += "<div class='movie-card' data-kategori='" + kategori + "' data-nama='" + nama + "' data-streaming='" + link + "' data-poster='"+ poster +"'><a class='button-movie' data-bs-toggle='modal' data-bs-target='#player' data-obj='"+i+"'><div class='card' onclick='ads()'><img src='https://telegra.ph/file/"+ poster +".jpg' alt='" + nama + "' width='100%' style='aspect-ratio: 3/4;object-fit: cover;' class='card-img-top'><div class='card-body'><p class='card-title'><b>"+ nama +"</b></p></div></div></div>";
+	videos += "<div class='movie-card' data-kategori='" + kategori + "' data-nama='" + nama + "' data-streaming='" + link + "' data-poster='"+ poster +"'><a class='button-movie' data-bs-toggle='modal' data-bs-target='#player-movie' data-obj='"+i+"'><div class='card' onclick='ads()'><img src='https://telegra.ph/file/"+ poster +".jpg' alt='" + nama + "' width='100%' style='aspect-ratio: 3/4;object-fit: cover;' class='card-img-top'><div class='card-body'><p class='card-title'><b>"+ nama +"</b></p></div></div></div>";
 	
 	if (kategories.indexOf("<option value='" + kategori + "'>" + kategori + "</option>") == -1) {
 		kategories += "<option value='" + kategori + "'>" + kategori + "</option>";
