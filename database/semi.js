@@ -1,4 +1,4 @@
-var data = [
+var semi = [
     {
         "title": "La Querida (2023)",
         "poster": "5fec63445c441f10c11ca",
@@ -407,72 +407,35 @@ var data = [
     },
 ];
 
-var videos = "",
-	  kategories = "";
+var datasemi = "";
 	  
-for (var i = 0; i < data.length; i++) {
-	var kategori = data[i].tahun,
-		nama = data[i].title,
-		link = data[i].limk,
-		poster = data[i].poster;
+for (var i = 0; i < semi.length; i++) {
+	var title = semi[i].title,
+		link = semi[i].link,
+		poster = semi[i].poster;
 	
-	videos += "<div class='movie-card' data-kategori='" + kategori + "' data-nama='" + nama + "' data-streaming='" + link + "' data-poster='"+ poster +"'><a class='button-movie' data-bs-toggle='modal' data-bs-target='#player-movie' data-obj='"+i+"'><div class='card' onclick='ads()'><img src='https://telegra.ph/file/"+ poster +".jpg' alt='" + nama + "' width='100%' style='aspect-ratio: 3/4;object-fit: cover;' class='card-img-top'><div class='card-body'><p class='card-title'><b>"+ nama +"</b></p></div></div></div>";
-	
-	if (kategories.indexOf("<option value='" + kategori + "'>" + kategori + "</option>") == -1) {
-		kategories += "<option value='" + kategori + "'>" + kategori + "</option>";
-	}
+	datasemi += "<div class='semi-card mb-3' data-nama='" + title + "'><a href='' class='button-semi' data-bs-toggle='modal' data-bs-target='#player-semi' data-obj='"+ i + "' style='color:black' onclick='ads()'><div class='row sort-item'><img src='https://telegra.ph/file/" + poster + ".jpg' alt='" + title + "' style='max-inline-size:100%;aspect-ratio: 3/4;object-fit: cover;border-radius:2px'><p id='judul-komik' align='left' style='margin-top:7px'><b>" + title + "</b></p></div></a></div>";
 }
 
-$("#list-movie").html(videos);
-$(".filter-kategori").append(kategories);
+$("#list-semi").html(datasemi);
 
-var filtersObject = {};
+var semiLength = semi.length;
+var thisElement99 = 0;
 
-$(".filter").on("change",function() {
-	var filterName = $(this).data("filter"),
-		filterVal = $(this).val();
-	
-	if (filterVal == "") {
-		delete filtersObject[filterName];
-	} else {
-		filtersObject[filterName] = filterVal;
-	}
-	
-	var filters = "";
-	
-	for (var key in filtersObject) {
-	  	if (filtersObject.hasOwnProperty(key)) {
-			filters += "[data-"+key+"='"+filtersObject[key]+"']";
-	 	}
-	}
-	
-	if (filters == "") {
-		$(".movie-card").show();
-	} else {
-		$(".movie-card").hide();
-		$(".movie-card").hide().filter(filters).show();
-	}
-});
+function innerContent99(content){
+  $(".inner-link-semi").attr("src",semi[content].link);
+};
 
-$("#search-form").submit(function(e) {
-	e.preventDefault();
-	var query = $("#search-form input").val().toLowerCase();
-
-	$(".movie-card").hide();
-	window.scrollTo(0, 100);
-	$(".movie-card").each(function() {
-		var kategori = $(this).data("tahun").toLowerCase();
-
-		if (kategori.indexOf(query) > -1) {
-			$(this).show();
-		}
-	});
+$(".button-semi").click(function(e){
+  e.preventDefault();
+  thisElement99 = $(this).attr("data-obj");
+  innerContent99(thisElement99);
 });
 
 $(document).ready(function(){
-  var list = $("#list-movie .movie-card");
-  var numToShow = 30;
-  var button = $("#movie-lainnya");
+  var list = $("#list-semi .semi-card");
+  var numToShow = 20;
+  var button = $("#semi-lainnya");
   var numInList = list.length;
   list.hide();
   if (numInList > numToShow) {
@@ -488,21 +451,14 @@ $(document).ready(function(){
         button.hide();
       }
   });
-
 });
 
-var dataLength = data.length;
-var thisElement = 0;
-
-function innerContent(content){
-  $(".inner-title-movie").html(data[content].title);
-  $(".inner-poster-movie").attr("src",data[content].poster);
-  $(".inner-link-streaming").attr("src",data[content].link);
-  $(".inner-kategori-movie").html(data[content].kategori);
-};
-
-$(".button-movie").click(function(e){
-  e.preventDefault();
-  thisElement = $(this).attr("data-obj");
-  innerContent(thisElement);
+$(function() {
+  $("#cariSemi").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#list-semi .semi-card").filter(function() {
+        $("#list-semi").show();
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+  });
 });
