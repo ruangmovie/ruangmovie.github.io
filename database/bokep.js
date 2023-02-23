@@ -1,5 +1,90 @@
 var indo = [
     {
+        "title": "Ayaang Minta Jatah Enak Enak Sampe Puas [hwa0]",
+        "poster": "https://img.doodcdn.co/splash/nv3m4ebmwxrivuil.jpg",
+        "link": "xpecp81zy6w9"
+    },
+    {
+        "title": "Ibu Kost Ngentot Sama Brondong [lyt5]",
+        "poster": "https://img.doodcdn.co/splash/b89v2ro0xd8bsew4.jpg",
+        "link": "yjesw4kz4jr0"
+    },
+    {
+        "title": "Ayaang Ngebut Ngebut Rumah Ayaang Kosong [3ubk]",
+        "poster": "https://img.doodcdn.co/splash/el5hq6xjnjg3nc5m.jpg",
+        "link": "rlinnno3ckpm"
+    },
+    {
+        "title": "ABG Goyangannya Super Mantap Banget Ngewenya [ocz9]",
+        "poster": "https://img.doodcdn.co/splash/n7jze2lnori4on8k.jpg",
+        "link": "kzg3ra62esdu"
+    },
+    {
+        "title": "Pulang Sekolah Langsung Ngewe [7kmh]",
+        "poster": "https://img.doodcdn.co/splash/jnnvjb8vlskvqgnv.jpg",
+        "link": "0f9m33pr03kl"
+    },
+    {
+        "title": "Crottin Adek Tiri Sampe Nangis [50zo]",
+        "poster": "https://img.doodcdn.co/splash/as47el9mn79x0s0u.jpg",
+        "link": "sublhnsutne6"
+    },
+    {
+        "title": "Ewe Temen Kampus Gemoy [pf8f]",
+        "poster": "https://img.doodcdn.co/splash/ohv9umubnxw6lzhy.jpg",
+        "link": "n03xidaelf6c"
+    },
+    {
+        "title": "Gairah Ibu Tiri Tobrut Sange [ad5g]",
+        "poster": "https://img.doodcdn.co/splash/524pggj87pr44mxs.jpg",
+        "link": "iiw2ji30uf9k"
+    },
+    {
+        "title": "Hari Libur Istri Pagi Pagi Habis Mandi Layani Suami [7fy5]",
+        "poster": "https://img.doodcdn.co/splash/4l7avppj7eofvw8o.jpg",
+        "link": "chxw6pd32oo0"
+    },
+    {
+        "title": "Open BO Pake Topeng [lao1]",
+        "poster": "https://img.doodcdn.co/splash/anu2cnu5x0o4nmkl.jpg",
+        "link": "w507zbdtk0gh"
+    },
+    {
+        "title": "Ewe Dengan Pelayan Hotel [ipuf]",
+        "poster": "https://img.doodcdn.co/splash/xkuhub07k0qry1mm.jpg",
+        "link": "gavok2n6g073"
+    },
+    {
+        "title": "Di Masukkin Sampai Mentok Biar Doi Makin Semangat Kalau Lagi Tanding [sgpk]",
+        "poster": "https://img.doodcdn.co/splash/maz70yzwv3272lmd.jpg",
+        "link": "s0zag02x3yde"
+    },
+    {
+        "title": "Ngrokok Bareng Dulu Baru Ngewe [p838]",
+        "poster": "https://img.doodcdn.co/splash/g9e2jmhgfngjlqmj.jpg",
+        "link": "tc029hsl26z7"
+    },
+    {
+        "title": "Udah Mau Tidur Diajak Ngewe Dulu [ij35]",
+        "poster": "https://img.doodcdn.co/splash/5s2nc52fckoa7h3q.jpg",
+        "link": "44mme174bb1k"
+    },
+    {
+        "title": "Ngentot Model Miss Bellissimo Cakep Binal [ekpg]",
+        "poster": "https://img.doodcdn.co/splash/smer95261lq9jwsh.jpg",
+        "link": "rwsp549070d9"
+    },
+    {
+        "title": "Andai Malam Itu Bisa Lebih Panjang Yang Enak [7eoo]",
+        "poster": "https://img.doodcdn.co/splash/v3xzr5fvga5328sz.jpg",
+        "link": "17ld3muztwbs"
+    },
+    {
+        "title": "Mau Tidur Di Ewe Sama Kakak Sepupunya [t21u]",
+        "poster": "https://img.doodcdn.co/splash/n329749chtlqst9o.jpg",
+        "link": "wehp6csmhyzu"
+    },
+    {
         "title": "Ngentot Model Miss Bellissimo Cakep Binal [ekpg]",
         "poster": "https://img.doodcdn.co/splash/smer95261lq9jwsh.jpg",
         "link": "rwsp549070d9"
@@ -24589,17 +24674,21 @@ var indo = [
 $(function () {
   let container = $('#page-bokep');
   container.pagination({
-  pageSize: 30,
+  pageSize: 50,
   showPageNumbers: false,
-  showNavigator: false,
+  showNavigator: true,
+  formatNavigator: 'Hal. ke-<span style="color: #f00"><b><%= currentPage %></span></b>, <b><%= totalPage %></b> Halaman, <b><%= totalNumber %></b> Video',
+  showGoInput: true,
+  showGoButton: true,
+  formatGoInput: 'Menuju halaman ke- <%= input %>',
+  position: 'top',
   className: 'paginationjs-theme-blue',
   dataSource: indo,
   
   callback: function (data, pagination) {
       var dataHtml = '';
       $.each(data, function (index, item) {
-        let random = indo[Math.floor(Math.random() * indo.length)];
-          dataHtml += '<a href="https://dood.re/e/' + random.link + '" onclick="ads()"><img id="poster" src="' + random.poster + '" alt="" width="110%" height="100%" style="object-fit:cover;aspect-ratio:16/9;margin-left:-20px"></a><div class="row sort-item" style="margin-bottom:25px"><div class="row"><div class="col-2"><img src="assets/img/favicon.jpg" style="object-fit:cover;width:50px;height:50px;margin-top:10px;float:left;border-radius:50%;"></div><div class="col-9"><span id="judul-bokep" style="text-align:left;margin-bottom:12px">'+ random.title +'</span></div><div class="col-1"><a href="https://dood.re/d/' + random.link + '" onclick="ads()" target="_blank" style="color:black"><i class="fa fa-download" aria-hidden="true" style="margin-top:13px;float:right;margin-right:-20px;color:black"></i></a></div></div><div class="col-10" style="margin-left:68px"></div></div></div>';
+          dataHtml += '<a href="https://dood.re/e/' + item.link + '" onclick="ads()"><img id="poster" src="' + item.poster + '" alt="" width="110%" height="100%" style="object-fit:cover;aspect-ratio:16/9;margin-left:-20px"></a><div class="row sort-item" style="margin-bottom:25px"><div class="row"><div class="col-2"><img src="assets/img/favicon.jpg" style="object-fit:cover;width:50px;height:50px;margin-top:10px;float:left;border-radius:50%;"></div><div class="col-9"><span id="judul-bokep" style="text-align:left;margin-bottom:12px">'+ item.title +'</span></div><div class="col-1"><a href="https://dood.re/d/' + item.link + '" onclick="ads()" target="_blank" style="color:black"><i class="fa fa-download" aria-hidden="true" style="margin-top:13px;float:right;margin-right:-20px;color:black"></i></a></div></div><div class="col-10" style="margin-left:68px"></div></div></div>';
           });
 
           $("#data-bokep").html(dataHtml);
