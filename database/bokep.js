@@ -2470,46 +2470,6 @@ var indo = [
         "link": "vlvbrwtn0zqf"
     },
     {
-        "title": "Guru dan murid sma",
-        "poster": "https://img.doodcdn.co/splash/xiev8008txgvud0i.jpg",
-        "link": "062ito5yll6s"
-    },
-    {
-        "title": "Ibu guru (pns) sama murid  part 1",
-        "poster": "https://img.doodcdn.co/splash/ghmy37e35ncntq6o.jpg",
-        "link": "oq9agymwve9n"
-    },
-    {
-        "title": "Guru Vs Murid - DoodStream",
-        "poster": "https://img.doodcdn.co/splash/de7sgkfokzhrrrwr.jpg",
-        "link": "89u39h5u0i31"
-    },
-    {
-        "title": "pak guru privat bersama murid smp - DoodStream",
-        "poster": "https://img.doodcdn.co/splash/3ip78rime15omzxi.jpg",
-        "link": "hwltflrzuptn"
-    },
-    {
-        "title": "viral skandal murid dan guru tahun ini 2023",
-        "poster": "https://img.doodcdn.co/splash/kukkautlbugbowsq.jpg",
-        "link": "wblpvo3twgjz"
-    },
-    {
-        "title": "Skandal Sex Guru dan Murid",
-        "poster": "https://img.doodcdn.co/splash/4uokcs4sz6chxc63.jpg",
-        "link": "fjy6nsi8qyak"
-    },
-    {
-        "title": "Murid dan guru - DoodStream",
-        "poster": "https://img.doodcdn.co/splash/t15hzxtkik3mts4x.jpg",
-        "link": "0jb8alldkbsr"
-    },
-    {
-        "title": "Guru hijab dan murid",
-        "poster": "https://img.doodcdn.co/splash/jdcsn8v3foctopjc.jpg",
-        "link": "zagythvklur9"
-    },
-    {
         "title": "Ngewe Mama Temen Sendiri Pas Main Kerumahnya Enak Banget Goyangan Mamanya [77n8]",
         "poster": "https://img.doodcdn.co/splash/9lj805cw789jtykb.jpg",
         "link": "8zrfo3juu2jx"
