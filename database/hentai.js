@@ -3204,9 +3204,8 @@ var hentai = [
 var hentaiHD = "";
 	  
 for (var i = 0; i < hentai.length; i++) {
-  let random = hentai[Math.floor(Math.random() * hentai.length)];
-	var link = random.link,
-		poster = random.poster;
+	var link = hentai[i].link,
+		poster = hentai[i].poster;
 	
 	hentaiHD += "<div class='hentai-card mb-3' data-nama='" + title + "'><a href='' class='button-hentai' href='' data-bs-toggle='modal' data-bs-target='#player-hentai' data-obj='"+ i + "' style='color:black' onclick='shopee()'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio:16/9;object-fit:cover;border-radius:2px'></div></a></div>";
 }

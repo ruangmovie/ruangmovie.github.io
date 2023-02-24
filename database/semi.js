@@ -1,5 +1,12 @@
 var semi = [
     {
+        "title": "Suki (2023)",
+        "poster": "2f9bde48d466e8fa00fc3",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/86vereaj2gzf",
+        "kategori": "Filipina"
+    },
+    {
         "title": "La Querida (2023)",
         "poster": "5fec63445c441f10c11ca",
         "tahun": 2023,
