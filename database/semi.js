@@ -14,6 +14,104 @@ var semi = [
         "kategori": "Filipina"
     },
     {
+        "title": "Paraluman (2021)",
+        "poster": "8c9358694798b14b6d24e",
+        "tahun": 2021,
+        "link": "https://dood.yt/e/nrjhrfynb3ru",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Siklo (2022)",
+        "poster": "289b6b2274a62916e78ee",
+        "tahun": 2022,
+        "link": "https://dood.yt/e/uhbru6pkassv",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Hugas (2022)",
+        "poster": "27f3ec760324f214bbbeb",
+        "tahun": 2022,
+        "link": "https://dood.yt/e/7fn9gh71ghhg",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Palitan (2021)",
+        "poster": "fb4d5ea1377cb09d8297f",
+        "tahun": 2021,
+        "link": "https://dood.yt/e/ahlabhsxb2wk",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Eva (2021)",
+        "poster": "558b909df186eedad1a17",
+        "tahun": 2021,
+        "link": "https://dood.yt/e/dg3vxyvlqjf9",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "A Girl and A Guy (2021)",
+        "poster": "730b96310ebcdd4d65ff8",
+        "tahun": 2021,
+        "link": "https://dood.yt/e/iz3ufjs15tuh",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Taya (2021)",
+        "poster": "5cf46e6a6caffaab83eb0",
+        "tahun": 2021,
+        "link": "https://dood.yt/e/a19pib86riqf",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Silab (2021)",
+        "poster": "f9d27adf911edc871aa71",
+        "tahun": 2021,
+        "link": "https://dood.yt/e/j3kviwdj7xq0",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Glorious (2018)",
+        "poster": "bf4f3590f5d707e9f74c3",
+        "tahun": 2018,
+        "link": "https://dood.yt/e/n2ff7ixqdfzo",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Strands (2002)",
+        "poster": "357ef08047916e131810c",
+        "tahun": 2002,
+        "link": "https://dood.yt/e/dhncz8n4ih4u",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Sin Island (2018)",
+        "poster": "2b620c1eafc1943b84031",
+        "tahun": 2018,
+        "link": "https://dood.yt/e/1f0ckkr22bwj",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "X-Deal (2011)",
+        "poster": "933251672190f7ea0e23f",
+        "tahun": 2011,
+        "link": "https://dood.yt/e/39yxup1nmdgc",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Room 213 (2008)",
+        "poster": "acc138c792bc74cdd5aaf",
+        "tahun": 2008,
+        "link": "https://dood.yt/e/mzhi3wtpg036",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "Are You Coming?! – City of Angels (2017)",
+        "poster": "36c77d0db42f1beaca29a",
+        "tahun": 2017,
+        "link": "https://dood.yt/e/0ndkonuwroz8",
+        "kategori": "Thailand"
+    },
+    {
         "title": "10 Day Lover (2023)",
         "poster": "a2228a5bc72d4e9f831bd",
         "tahun": 2023,
@@ -179,13 +277,6 @@ var semi = [
         "poster": "5e957db9b6feb8ae3aa36",
         "tahun": 2017,
         "link": "https://dood.yt/e/1r9jxh6b02xw",
-        "kategori": "Thailand"
-    },
-    {
-        "title": "Are You Coming?! – City of Angels (2017)",
-        "poster": "36c77d0db42f1beaca29a",
-        "tahun": 2017,
-        "link": "https://dood.yt/e/0ndkonuwroz8",
         "kategori": "Thailand"
     },
     {
