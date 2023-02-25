@@ -250,15 +250,15 @@
 
 
   <div class="blocks blocks--horizontal mt-1" id="menu">
+    <div class="block"><a href="#" data-bs-toggle="modal" data-bs-target="#pap-bugil"><img src="assets/img/bugil.png" alt="" class="block__image" /><h5 class="block__title">Pap Bugil</h5></a></div>
     <div class="block"><a href="#" data-bs-toggle="modal" data-bs-target="#jepang"><img src="assets/img/jav.png" alt="" class="block__image" /><h5 class="block__title">Jepang</h5></a></div>
     <div class="block"><a href="#" data-bs-toggle="modal" data-bs-target="#china"><img src="assets/img/china.png" alt="" class="block__image" /><h5 class="block__title">China</h5></a></div>
     <div class="block"><a href="#" data-bs-toggle="modal" data-bs-target="#barat"><img src="assets/img/barat.png" alt="" class="block__image" /><h5 class="block__title">Barat</h5></a></div>
     <div class="block"><a href="#" data-bs-toggle="modal" data-bs-target="#hentai"><img src="assets/img/hentai.png" alt="" class="block__image" /><h5 class="block__title">Animasi ++</h5></a></div>
+    <div class="block"><a href="#" data-bs-toggle="modal" data-bs-target="#list-app"><img src="assets/img/apps.png" alt="" class="block__image" /><h5 class="block__title">Apk ++</h5></a></div>
     <div class="block"><a href="#" data-bs-toggle="modal" data-bs-target="#list-cersex"><img src="assets/img/cersex.png" alt="" class="block__image" /><h5 class="block__title">Cerita Sex</h5></a></div>
-    <div class="block"><a href="#" data-bs-toggle="modal" data-bs-target="#pap-bugil"><img src="assets/img/bugil.png" alt="" class="block__image" /><h5 class="block__title">Pap Bugil</h5></a></div>
     <div class="block"><a href="#" data-bs-toggle="modal" data-bs-target="#asian-babes"><img src="assets/img/cewek.png" alt="" class="block__image" /><h5 class="block__title">Asian Girls</h5></a></div>
     <div class="block"><a href="#" data-bs-toggle="modal" data-bs-target="#komik"><img src="assets/img/comic.png" alt="" class="block__image" /><h5 class="block__title">Komik ++</h5></a></div>
-    <div class="block"><a href="#" data-bs-toggle="modal" data-bs-target="#list-app"><img src="assets/img/apps.png" alt="" class="block__image" /><h5 class="block__title">Apk ++</h5></a></div>
   </div>
 
 
@@ -901,37 +901,7 @@
 <script src="assets/js/search.js"></script>
 <script src="database/bokep.js"></script>
 <script src="database/cersex.js"></script>
-<script src="database/desah.js"></script>
-<script src="database/bugil.js"></script>
-<script src="database/asian.js"></script>
-<script src="database/semi.js"></script>
-<script src="database/komik.js"></script>
-<script src="database/app.js"></script>
-<script src="database/hentai.js"></script>
-<script src="database/cav.js"></script>
-<script src="database/barat.js"></script>
-<script src="database/jav.js"></script>
 <script src="database/ads.js"></script>
 
-<script>
-    var btn = $('#goTop');
-    $(window).scroll(function() {
-      if ($(window).scrollTop() > 200) {
-        btn.addClass('show');
-      } else {
-        btn.removeClass('show');
-      }
-    });
-    btn.on('click', function(e) {
-      e.preventDefault();
-      $('html, body').animate({scrollTop:0}, '200');
-    });
-</script>
-<script>
-  $(document).ready(function () {
-    $("#myIklan").modal("show");
-  });
-</script>
-<script>const scriptURL='https://script.google.com/macros/s/AKfycbz6w7533jPj_886a8pPF6wTSHxr4_AoCdLgDTdrz1JZcQhQMtA/exec'; const form=document.forms['ruang-imajinasi-form']; const btnKirim=document.querySelector('.btn-kirim'); const btnLoading=document.querySelector('.btn-loading'); const myAlert=document.querySelector('.my-alert'); form.addEventListener('submit', (e)=>{e.preventDefault(); btnLoading.classList.toggle('d-none'); btnKirim.classList.toggle('d-none'); fetch(scriptURL,{method: 'POST', body: new FormData(form)}) .then((response)=>{btnLoading.classList.toggle('d-none'); btnKirim.classList.toggle('d-none'); myAlert.classList.toggle('d-none'); form.reset(); console.log('Success!', response);}) .catch((error)=> console.error('Error!', error.message));}); </script>
 </body>
 </html>
