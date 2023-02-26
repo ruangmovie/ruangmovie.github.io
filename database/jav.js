@@ -1,5 +1,45 @@
 var jav = [
     {
+        "title": "SSIS-363 Riko Kasumi",
+        "poster": "https://img.doodcdn.co/splash/3c1az8u17lymdp48.jpg",
+        "link": "https://dood.la/d/9xe14y7oa7pq"
+    },
+    {
+        "title": "JUL-255 Marina Shiraishi",
+        "poster": "https://img.doodcdn.co/splash/8ao144q51cplcjsf.jpg",
+        "link": "https://dood.la/d/cz23sb3xx77h"
+    },
+    {
+        "title": "JUL-873 Lily Hart",
+        "poster": "https://img.doodcdn.co/splash/cvnexje8h05cr1nx.jpg",
+        "link": "https://dood.la/d/66w3t1izbh8f"
+    },
+    {
+        "title": "JUL-823 Ririko Kinoshita",
+        "poster": "https://img.doodcdn.co/splash/tnwdb8b8g063nm02.jpg",
+        "link": "https://dood.la/d/tvy34fh73dqv"
+    },
+    {
+        "title": "JUL-826 Nao Jinguuji",
+        "poster": "https://img.doodcdn.co/splash/e3cccllz7kuwmclc.jpg",
+        "link": "https://dood.la/d/hnx2vwo1t51j"
+    },
+    {
+        "title": "JUL-847 Mina Kitano",
+        "poster": "https://img.doodcdn.co/splash/wgvchq5ll29r20wv.jpg",
+        "link": "https://dood.la/d/lcoag2ktqdma"
+    },
+    {
+        "title": "JUFE-151 Hana Haruna",
+        "poster": "https://img.doodcdn.co/splash/ne8c1397p22v1gk3.jpg",
+        "link": "https://dood.la/d/42up3idnfiut"
+    },
+    {
+        "title": "JUC-609 Momoka Nishina",
+        "poster": "https://img.doodcdn.co/splash/ohgz59s32r89a7oz.jpg",
+        "link": "https://dood.la/d/v92fru71lrk1"
+    },
+    {
         "title": "MDYD-908 | Malam Hari Di Musim Panas - Mao Kurata",
         "poster": "https://img.doodcdn.co/splash/7wjzsy2lgod1p71u.jpg",
         "link": "https://dood.la/e/2nrvo20iefbv"
@@ -169,10 +209,9 @@ var jav = [
 var jepang = "";
 	  
 for (var i = 0; i < jav.length; i++) {
-  let random = jav[Math.floor(Math.random() * jav.length)];
-	var title = random.title,
-		link = random.link,
-		poster = random.poster;
+	var title = jav[i].title,
+		link = jav[i].link,
+		poster = jav[i].poster;
 	
 	jepang += "<div class='jepang-card mb-3' data-nama='" + title + "'><a href='"+ link +"' target='_blank' style='color:black' onclick='ads()'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio: 16/9;object-fit: cover;border-radius:2px'><p id='judul-komik' align='center' style='margin-top:7px'><b>" + title + "</b></p></div></a></div>";
 }
