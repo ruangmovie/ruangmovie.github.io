@@ -1299,9 +1299,10 @@ var cav = [
 var china = "";
 	  
 for (var i = 0; i < cav.length; i++) {
-	var title = cav[i].title,
-		link = cav[i].link,
-		poster = cav[i].poster;
+  let random = cav[Math.floor(Math.random() * cav.length)];
+	var title = random.title,
+		link = random.link,
+		poster = random.poster;
 	
 	china += "<div class='china-card mb-3' data-nama='" + title + "'><a href='"+ link +"' target='_blank' style='color:black' onclick='ads()'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio: 16/9;object-fit: cover;border-radius:2px'><p id='judul-komik' align='center' style='margin-top:7px'><b>" + title + "</b></p></div></a></div>";
 }
