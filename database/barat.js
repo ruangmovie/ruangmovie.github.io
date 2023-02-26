@@ -41,7 +41,7 @@ var west = [
     },
     {
         "title": "You Know What's Better Than A Pie?",
-        "poster": "https://streamtape.xyz/e/B4x1wBmLJ2Uy0Bw",
+        "poster": "https://thumb.tapecontent.net/thumb/B4x1wBmLJ2Uy0Bw/g297MQ6B1xhqoO6.jpg",
         "link": "https://streamtape.xyz/e/B4x1wBmLJ2Uy0Bw"
     },
     {
