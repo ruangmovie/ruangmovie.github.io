@@ -821,7 +821,7 @@
   </div>
 </div>
 
-<div class="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" id="myIklan" tabindex="-1">
+<div class="modal fade" data-bs-keyboard="false" data-bs-backdrop="static" id="myAds" tabindex="-1">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content" style="background-color:transparent;border-style:none;margin:0;padding:0">
       <div class="modal-header" style="border-style:none;margin-bottom:-36px;margin-right:22px;z-index:999999">
@@ -913,7 +913,13 @@
 <script src="database/semi.js"></script>
 <script src="database/ads.js"></script>
 
-<script>
+ <script>
+    $(document).ready(function () {
+      $("#myAds").modal("show");
+    });
+ </script>
+  
+ <script>
     var btn = $('#goTop');
     $(window).scroll(function() {
       if ($(window).scrollTop() > 300) {
