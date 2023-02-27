@@ -1,4 +1,124 @@
-var west = [
+var brazz = [
+    {
+        "title": "Landlady's Ass Cums To Collect",
+        "poster": "https://img.doodcdn.com/snaps/pgm99xrh2o78ov8e.jpg",
+        "link": "https://dood.la/d/z7dhritfjlst"
+    },
+    {
+        "title": "Pornstar Training",
+        "poster": "https://img.doodcdn.co/snaps/exo63zkxkmw1bqfk.jpg",
+        "link": "https://dood.la/d/o5bifj2gisml"
+    },
+    {
+        "title": "Twinning Brunettes Threesome",
+        "poster": "https://img.doodcdn.co/snaps/hflqomvzm9020sax.jpg",
+        "link": "https://dood.la/d/ejhavvh8gvmh"
+    },
+    {
+        "title": "My Life as a Blowup Doll",
+        "poster": "https://img.doodcdn.co/snaps/sakhjvnd05sp5cub.jpg",
+        "link": "https://dood.la/d/6cs4u9qvw6yw"
+    },
+    {
+        "title": "Catfished For Pussy",
+        "poster": "https://img.doodcdn.co/snaps/84e3fpimqyt8hys0.jpg",
+        "link": "https://dood.la/d/w7jyrsjuo64j"
+    },
+    {
+        "title": "Double Blonde Domme Fantasy",
+        "poster": "https://img.doodcdn.co/snaps/bstxzva0qp192dwd.jpg",
+        "link": "https://dood.la/d/u9ptiblals89"
+    },
+    {
+        "title": "Bisexual Babes Share Their Daily Dose Of Dick",
+        "poster": "https://img.doodcdn.co/snaps/aaqee7tmkbp7z57v.jpg",
+        "link": "https://dood.la/d/rdq8ophj5sde"
+    },
+    {
+        "title": "Fucking Coworkers",
+        "poster": "https://img.doodcdn.co/snaps/wx6ojfdqfyt13c6s.jpg",
+        "link": "https://dood.la/d/fwfecy6lippp"
+    },
+    {
+        "title": "Shadowing The Workplace Slut",
+        "poster": "https://img.doodcdn.co/snaps/fqcvdt6y2vkcal9l.jpg",
+        "link": "https://dood.la/d/ia6fzzpsr7j0"
+    },
+    {
+        "title": "Rejected Housewife",
+        "poster": "https://img.doodcdn.co/snaps/i5ngk59q269odojz.jpg",
+        "link": "https://dood.la/d/1shun833qo5u"
+    },
+    {
+        "title": "Levelling up their fuck game",
+        "poster": "https://img.doodcdn.co/snaps/jq3exxx32qrdczrq.jpg",
+        "link": "https://dood.la/d/csg40j3j3f6u"
+    },
+    {
+        "title": "Wet Fantasy",
+        "poster": "https://img.doodcdn.co/snaps/x4qebtccdu4r12qt.jpg",
+        "link": "https://dood.la/d/mvvaq7c26v74"
+    },
+    {
+        "title": "Rich and Powerful Pervs",
+        "poster": "https://img.doodcdn.co/snaps/omm7vqx9wp3xm0c5.jpg",
+        "link": "https://dood.la/d/no71149qbfku"
+    },
+    {
+        "title": "Shower Me Off",
+        "poster": "https://img.doodcdn.co/snaps/ocxln5frkn7oscxt.jpg",
+        "link": "https://dood.la/d/u3199ypy5hbs"
+    },
+    {
+        "title": "Fucking Wet In The Rain",
+        "poster": "https://img.doodcdn.co/snaps/kqhkkvjreqs6led9.jpg",
+        "link": "https://dood.la/d/2tl1m6cufhxy"
+    },
+    {
+        "title": "Janice And Ruby Take it All",
+        "poster": "https://img.doodcdn.co/snaps/g40q4nmkn4eu4a28.jpg",
+        "link": "https://dood.la/d/uyivlcdofgn4"
+    },
+    {
+        "title": "A Big Dick For Big Tits",
+        "poster": "https://img.doodcdn.co/snaps/fevqripgaluk9uv4.jpg",
+        "link": "https://dood.la/d/1zl85125mvsr"
+    },
+    {
+        "title": "Kira's Ass-Full Adventure",
+        "poster": "https://img.doodcdn.co/snaps/vt95ovjqs2c3tdzu.jpg",
+        "link": "https://dood.la/d/26wdm53lr02h"
+    },
+    {
+        "title": "Jasmine's Burlesque Fantasy",
+        "poster": "https://img.doodcdn.co/snaps/2khfpefzihdr549u.jpg",
+        "link": "https://dood.la/d/rzzgu915i8fp"
+    },
+    {
+        "title": "Stepmom Soccer - Girl Cup Shootout",
+        "poster": "https://img.doodcdn.co/snaps/zy6k8luaphfg90kv.jpg",
+        "link": "https://dood.la/d/8u6agxq7xhhq"
+    },
+    {
+        "title": "Desperada",
+        "poster": "https://img.doodcdn.co/snaps/m0rmzhn2kyu9ow5e.jpg",
+        "link": "https://dood.la/d/624vs5cerev3"
+    },
+    {
+        "title": "Mega-MILF Dominates Depraved Duo",
+        "poster": "https://img.doodcdn.co/snaps/v5z0fjbfv0dr6zhx.jpg",
+        "link": "https://dood.la/d/ehudhwwhy8c2"
+    },
+    {
+        "title": "Locked On Cock",
+        "poster": "https://img.doodcdn.co/snaps/o0qah5xwq60sw7ln.jpg",
+        "link": "https://dood.la/d/pcoeitd3dsep"
+    },
+    {
+        "title": "City Boy & The Community Toy",
+        "poster": "https://telegra.ph/file/b38f9a0811e47e69f58c3.jpg",
+        "link": "https://dood.la/d/73zncgnm9r30"
+    },
     {
         "title": "Between Toes To Thick Thighs",
         "poster": "https://thumb.tapecontent.net/thumb/2qDR8kWJ7YTZDdp/bpRr6vajl0UPevg.jpg",
@@ -216,35 +336,35 @@ var west = [
     }
 ];
 
-var barat = "";
+var brazzers = "";
 	  
-for (var i = 0; i < west.length; i++) {
-	var title = west[i].title,
-		link = west[i].link,
-		poster = west[i].poster;
+for (var i = 0; i < brazz.length; i++) {
+	var title = brazz[i].title,
+		link = brazz[i].link,
+		poster = brazz[i].poster;
 	
-	barat += "<div class='barat-card mb-3' data-nama='" + title + "'><a href='"+ link +"' target='_blank' style='color:black' onclick='ads()'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio: 16/9;object-fit: cover;border-radius:2px'><p id='judul-komik' align='center' style='margin-top:7px'><b>" + title + "</b></p></div></a></div>";
+	brazzers += "<div class='brazzers-card mb-3' data-nama='" + title + "'><a href='"+ link +"' target='_blank' style='color:black' onclick='ads()'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio: 16/9;object-fit: cover;border-radius:2px'><p id='judul-komik' align='center' style='margin-top:7px'><b>" + title + "</b></p></div></a></div>";
 }
 
-$("#list-barat").html(barat);
+$("#list-brazzers").html(brazzers);
 
-var baratLength = west.length;
-var thisElementwest = 0;
+var brazzersLength = brazz.length;
+var thisElementbrazz = 0;
 
-function innerContentwest(content){
-  $(".inner-link-barat").attr("src",west[content].link);
+function innerContentbrazz(content){
+  $(".inner-link-brazzers").attr("src",brazz[content].link);
 };
 
-$(".button-barat").click(function(e){
+$(".button-brazzers").click(function(e){
   e.preventDefault();
-  thisElementwest = $(this).attr("data-obj");
-  innerContentwest(thisElementwest);
+  thisElementbrazz = $(this).attr("data-obj");
+  innerContentbrazz(thisElementbrazz);
 });
 
 $(document).ready(function(){
-  var list = $("#list-barat .barat-card");
+  var list = $("#list-brazzers .brazzers-card");
   var numToShow = 20;
-  var button = $("#barat-lainnya");
+  var button = $("#brazzers-lainnya");
   var numInList = list.length;
   list.hide();
   if (numInList > numToShow) {
@@ -263,10 +383,10 @@ $(document).ready(function(){
 });
 
 $(function() {
-  $("#caribarat").on("keyup", function() {
+  $("#caribrazzers").on("keyup", function() {
     var value = $(this).val().toLowerCase();
-    $("#list-barat .barat-card").filter(function() {
-        $("#list-barat").show();
+    $("#list-brazzers .brazzers-card").filter(function() {
+        $("#list-brazzers").show();
         $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
       });
   });
