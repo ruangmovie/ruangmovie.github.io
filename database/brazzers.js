@@ -120,6 +120,141 @@ var brazz = [
         "link": "https://dood.la/d/73zncgnm9r30"
     },
     {
+        "title": "Bella Gets Stripped And Fucked",
+        "poster": "https://img.doodcdn.co/snaps/o9ubfv0rv6u5ynv5.jpg",
+        "link": "https://dood.la/d/w32i65hiup6p"
+    },
+    {
+        "title": "Ready, Rough & Eager to Please",
+        "poster": "https://img.doodcdn.co/snaps/hsrtjf6ivkmbssoz.jpg",
+        "link": "https://dood.la/d/7xukwdccg4ff"
+    },
+    {
+        "title": "Big Natural Disasters",
+        "poster": "https://img.doodcdn.co/snaps/d8ogw4gof10in7zq.jpg",
+        "link": "https://dood.la/d/pgccenntjf14"
+    },
+    {
+        "title": "The Squirting Streamer",
+        "poster": "https://img.doodcdn.co/snaps/s0ry97sd1o8eyngl.jpg",
+        "link": "https://dood.la/d/lq3nwdjtsllc"
+    },
+    {
+        "title": "Aletta Oceans Deepest Derriere",
+        "poster": "https://img.doodcdn.co/snaps/k3xcwd9kkvz0i5fb.jpg",
+        "link": "https://dood.la/d/qq969ui5hy3c"
+    },
+    {
+        "title": "Tailored To My Pussy",
+        "poster": "https://img.doodcdn.co/snaps/fect8jdejl6kiutz.jpg",
+        "link": "https://dood.la/d/zarsxpz4859z"
+    },
+    {
+        "title": "Pervy Practices Part 1",
+        "poster": "https://img.doodcdn.co/snaps/m76j47mlfou4k2pc.jpg",
+        "link": "https://dood.la/d/1l0dvpnip9gg"
+    },
+    {
+        "title": "Pervy Practices Part 2",
+        "poster": "https://img.doodcdn.co/snaps/9zdigrilayj3vces.jpg",
+        "link": "https://dood.la/d/bro93524ub04"
+    },
+    {
+        "title": "Soaked-Panty Slutting in the Security Line",
+        "poster": "https://img.doodcdn.co/snaps/9jpdyn8admc9kqn6.jpg",
+        "link": "https://dood.la/d/g6fut1ip75he"
+    },
+    {
+        "title": "Cumming Up With The Evidence 2",
+        "poster": "https://img.doodcdn.co/snaps/a8q6ce4tj4qdaok8.jpg",
+        "link": "https://dood.la/d/3ly0701qevjh"
+    },
+    {
+        "title": "My Friends Moms Pussy",
+        "poster": "https://img.doodcdn.co/snaps/tlrrxe7km94t0uv4.jpg",
+        "link": "https://dood.la/d/eal34nqnnaq7"
+    },
+    {
+        "title": "Rimming the Plumber",
+        "poster": "https://img.doodcdn.co/snaps/b0lxl2t87y76okl2.jpg",
+        "link": "https://dood.la/d/5eecpnldi3e0"
+    },
+    {
+        "title": "Absolute Pantymonium",
+        "poster": "https://img.doodcdn.co/snaps/vpns3eqe4qfxa66r.jpg",
+        "link": "https://dood.la/d/14fbczuj6240"
+    },
+    {
+        "title": "American Bimbo Part 4 - Conservative MILF",
+        "poster": "https://img.doodcdn.co/snaps/cwx982rgi2n8ypor.jpg",
+        "link": "https://dood.la/d/s2q4typsn4x5"
+    },
+    {
+        "title": "The Geek, The Goth & The Tomboy",
+        "poster": "https://img.doodcdn.co/snaps/ix5075lttiklpzg4.jpg",
+        "link": "https://dood.la/d/sk0gehfrs35t"
+    },
+    {
+        "title": "Cheating Wifes Sub/Dom Revenge",
+        "poster": "https://img.doodcdn.co/snaps/ohflx6g6zx429jtg.jpg",
+        "link": "https://dood.la/d/mpfriro4pxoq"
+    },
+    {
+        "title": "Formal Fuckfest: Monas First Gangbang",
+        "poster": "https://img.doodcdn.co/snaps/klm79dqyyojoceem.jpg",
+        "link": "https://dood.la/d/ae2rdaqe7nxl"
+    },
+    {
+        "title": "Claiming Queen Yins Ass",
+        "poster": "https://img.doodcdn.co/snaps/d0e9rnz7sqn2foa2.jpg",
+        "link": "https://dood.la/d/q0282059is8e"
+    },
+    {
+        "title": "You Dont Love Your Wife",
+        "poster": "https://img.doodcdn.co/snaps/gv03zvwl9zkxx7ov.jpg",
+        "link": "https://dood.la/d/8f9jybrksj9p"
+    },
+    {
+        "title": "Caught Her On Cam",
+        "poster": "https://img.doodcdn.co/snaps/xfsr506f76dvihvk.jpg",
+        "link": "https://dood.la/d/sconktnk2iys"
+    },
+    {
+        "title": "Big Titty Ping Pong",
+        "poster": "https://img.doodcdn.co/snaps/eka6iox2p2mdpcah.jpg",
+        "link": "https://dood.la/d/nxset0e4numw"
+    },
+    {
+        "title": "Cheating On Him While He Eats Me Out",
+        "poster": "https://img.doodcdn.co/snaps/f7mh5q3h875kq2d6.jpg",
+        "link": "https://dood.la/d/xnb449i6srmk"
+    },
+    {
+        "title": "Pantsing My Friend's Stepmom",
+        "poster": "https://img.doodcdn.co/snaps/e440murta34o84z3.jpg",
+        "link": "https://dood.la/d/36zuyr9qt86k"
+    },
+    {
+        "title": "Social Girls Thirst Trap For Cock",
+        "poster": "https://img.doodcdn.co/snaps/gpmv5zeyu2hvv9xw.jpg",
+        "link": "https://dood.la/d/xbxsbfu24wvu"
+    },
+    {
+        "title": "Sneaky Student Gets Her Way",
+        "poster": "https://img.doodcdn.co/snaps/ctpuphv2ed1e36a5.jpg",
+        "link": "https://dood.la/d/hkd89wv2q6zq"
+    },
+    {
+        "title": "American Bimbo Part 3 - Girlboss",
+        "poster": "https://img.doodcdn.co/snaps/5rbkykjbsqhd60g2.jpg",
+        "link": "https://dood.la/d/1dq9c9jxhsw9"
+    },
+    {
+        "title": "Two Babes Dominate Amateur Tease",
+        "poster": "https://img.doodcdn.co/snaps/woulbuf22crhkasd.jpg",
+        "link": "https://dood.la/d/zdb8ainxsey2"
+    },
+    {
         "title": "Between Toes To Thick Thighs",
         "poster": "https://thumb.tapecontent.net/thumb/2qDR8kWJ7YTZDdp/bpRr6vajl0UPevg.jpg",
         "link": "https://streamtape.xyz/e/2qDR8kWJ7YTZDdp"
@@ -363,7 +498,7 @@ $(".button-brazzers").click(function(e){
 
 $(document).ready(function(){
   var list = $("#list-brazzers .brazzers-card");
-  var numToShow = 20;
+  var numToShow = 25;
   var button = $("#brazzers-lainnya");
   var numInList = list.length;
   list.hide();

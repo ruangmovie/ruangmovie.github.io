@@ -1999,7 +1999,7 @@ $(".button-china").click(function(e){
 
 $(document).ready(function(){
   var list = $("#list-china .china-card");
-  var numToShow = 20;
+  var numToShow = 25;
   var button = $("#china-lainnya");
   var numInList = list.length;
   list.hide();
