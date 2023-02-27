@@ -1,5 +1,75 @@
 var brazz = [
     {
+        "title": "Perfect Shaped For A Cum Bath",
+        "poster": "https://thumb.tapecontent.net/thumb/W6RoqZbyK6sbBXX/vwww90ygelF4gKV.jpg",
+        "link": "https://streamtape.xyz/e/W6RoqZbyK6sbBXX"
+    },
+    {
+        "title": "We Can Settle The Jealousy, Boys",
+        "poster": "https://thumb.tapecontent.net/thumb/16kPGkB8k8Fp2e/bpr1pqa1bDFKKK.jpg",
+        "link": "https://streamtape.xyz/e/16kPGkB8k8Fp2e"
+    },
+    {
+        "title": "I'm Better As A Girlfriend Than A Stepsister",
+        "poster": "https://thumb.tapecontent.net/thumb/jgPbOL64pmizWVp/Y18L6a3VZlfBVJ.jpg",
+        "link": "https://streamtape.xyz/e/jgPbOL64pmizWVp"
+    },
+    {
+        "title": "Push That Anal Creampie Back In, Please",
+        "poster": "https://thumb.tapecontent.net/thumb/9bXJVqvvZvHaQpX/XWlWgRK3QxFDaGO.jpg",
+        "link": "https://streamtape.xyz/e/9bXJVqvvZvHaQpX"
+    },
+    {
+        "title": "Too Cute To Mess Her With A Facial",
+        "poster": "https://thumb.tapecontent.net/thumb/OYdOv0pM9OtZ2Mb/2OXr20yGRlTKpv.jpg",
+        "link": "https://streamtape.xyz/e/OYdOv0pM9OtZ2Mb"
+    },
+    {
+        "title": "Not Sex, But A Thorough Good Fucking",
+        "poster": "https://thumb.tapecontent.net/thumb/VWyPavQxgzcK6yz/QyxbvgDzzkI0X2p.jpg",
+        "link": "https://streamtape.xyz/e/VWyPavQxgzcK6yz"
+    },
+    {
+        "title": "Tiny Servings, As Demanded",
+        "poster": "https://thumb.tapecontent.net/thumb/yoePlvVzbBIeK4/1j948MvZ6VtLx6.jpg",
+        "link": "https://streamtape.xyz/e/yoePlvVzbBIeK4"
+    },
+    {
+        "title": "A Natural With Opened Holes",
+        "poster": "https://thumb.tapecontent.net/thumb/4R6ooZwy99cKKxR/DZPZMAMDxKFkkDM.jpg",
+        "link": "https://streamtape.xyz/e/4R6ooZwy99cKKxR"
+    },
+    {
+        "title": "Everything Is Getting Wet Inhere",
+        "poster": "https://thumb.tapecontent.net/thumb/zr2DRLy1DvcvPW/Zw0Lagy90eSqvrZ.jpg",
+        "link": "https://streamtape.xyz/e/zr2DRLy1DvcvPW"
+    },
+    {
+        "title": "Immersive In The Right Spot",
+        "poster": "https://thumb.tapecontent.net/thumb/0D1AdawxD0TbpdK/dPwWYVLdp0ukw2Z.jpg",
+        "link": "https://streamtape.xyz/e/0D1AdawxD0TbpdK"
+    },
+    {
+        "title": "One That Can Really Grip The Shaft",
+        "poster": "https://thumb.tapecontent.net/thumb/brWmQyveeZIPVjG/6eLWrb2o0Dt93eR.jpg",
+        "link": "https://streamtape.xyz/e/brWmQyveeZIPVjG"
+    },
+    {
+        "title": "Anal Is Part Of Total Submission",
+        "poster": "https://thumb.tapecontent.net/thumb/A6ryZljr3DFXoLo/WbQqbz3jbRUbKWd.jpg",
+        "link": "https://streamtape.xyz/e/A6ryZljr3DFXoLo"
+    },
+    {
+        "title": "Just Looking To Get Pregnant, Doc",
+        "poster": "https://thumb.tapecontent.net/thumb/Pbgrxp9j4KhxLp/ZbwMaaXdo6iqLGV.jpg",
+        "link": "https://streamtape.xyz/e/Pbgrxp9j4KhxLp"
+    },
+    {
+        "title": "Some Buttons Work Remotely Better",
+        "poster": "https://thumb.tapecontent.net/thumb/DjYYYW3J36f3ZL/ApZ62DeAg2TXrDR.jpg",
+        "link": "https://streamtape.xyz/e/DjYYYW3J36f3ZL"
+    },
+    {
         "title": "Landlady's Ass Cums To Collect",
         "poster": "https://img.doodcdn.com/snaps/pgm99xrh2o78ov8e.jpg",
         "link": "https://dood.la/d/z7dhritfjlst"
