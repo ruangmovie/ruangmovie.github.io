@@ -1,5 +1,55 @@
 var brazz = [
     {
+        "title": "Work And Fuck From Home",
+        "poster": "https://img.doodcdn.co/snaps/byodacjq1cevrpmq.jpg",
+        "link": "https://dood.yt/e/ahgzgbtogill"
+    },
+    {
+        "title": "Oiled Up Pussy Play",
+        "poster": "https://img.doodcdn.co/snaps/m72tviq3mm4qlv1v.jpg",
+        "link": "https://dood.yt/e/ukffyz2cg1dm"
+    },
+    {
+        "title": "Angel With An Ass To Sin For",
+        "poster": "https://thumb.tapecontent.net/thumb/A3wbwkQ4vpIvYo/84JAVw0YzYToBxJ.jpg",
+        "link": "https://streamtape.xyz/e/A3wbwkQ4vpIvYo"
+    },
+    {
+        "title": "A Smiling Gem From The Land Of Smiles",
+        "poster": "https://thumb.tapecontent.net/thumb/Zj161GB7QRSKLl/4z2WX78q2BsG7k.jpg",
+        "link": "https://streamtape.xyz/e/Zj161GB7QRSKLl"
+    },
+    {
+        "title": "Cum And Visit More Often, Neighbor",
+        "poster": "https://thumb.tapecontent.net/thumb/OWMAXBLBm6TZdOW/yr9WWgb9x3tkPV.jpg",
+        "link": "https://streamtape.xyz/e/OWMAXBLBm6TZdOW"
+    },
+    {
+        "title": "A Surprize Within A Surprise",
+        "poster": "https://thumb.tapecontent.net/thumb/61VqrpKZp1ivMW/aZMAz1wVApSxLXG.jpg",
+        "link": "https://streamtape.xyz/e/61VqrpKZp1ivMW"
+    },
+    {
+        "title": "Enough Talk, We Shall Fuck",
+        "poster": "https://thumb.tapecontent.net/thumb/4WWr4QAJBzTOB9/qjp96B6lPvSze9J.jpg",
+        "link": "https://streamtape.xyz/e/4WWr4QAJBzTOB9"
+    },
+    {
+        "title": "Sex Benefits Us Both, So...",
+        "poster": "https://thumb.tapecontent.net/thumb/zlVqGBej7vFXWJ/grybmldR8mfqAR7.jpg",
+        "link": "https://streamtape.xyz/e/zlVqGBej7vFXWJ"
+    },
+    {
+        "title": "I'm Sure I Want You In That Hole",
+        "poster": "https://thumb.tapecontent.net/thumb/3PWY1vzXB7TRjy/WbXXbgPXaWibv2W.jpg",
+        "link": "https://streamtape.xyz/e/3PWY1vzXB7TRjy"
+    },
+    {
+        "title": "Just Fuck Us, Don't Make It Weird Bro",
+        "poster": "https://thumb.tapecontent.net/thumb/KXWxAJpBGRTweb/0d14X4zWvLSb9Dq.jpg",
+        "link": "https://streamtape.xyz/e/KXWxAJpBGRTweb"
+    },
+    {
         "title": "Perfect Shaped For A Cum Bath",
         "poster": "https://thumb.tapecontent.net/thumb/W6RoqZbyK6sbBXX/vwww90ygelF4gKV.jpg",
         "link": "https://streamtape.xyz/e/W6RoqZbyK6sbBXX"
