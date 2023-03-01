@@ -183,7 +183,7 @@
 <script>
   function randomBokep() {
     let random = indo[Math.floor(Math.random() * indo.length)];
-    bokep.innerHTML = `<embed id="myplayer" width="100%" height="100%" src="https://dood.re/e/${random.link}" type="text/html"></embed><a href="whatsapp://send?text=https://dood.re/e/${random.link}" target="_blank" rel="nofollow" onclick="ads()"><button type="button" class="tombolshare"><img class="fa fa-share my-icon mt-1"></i></button></a><a href="https://droplink.co/st?api=8b8315c6bc13a8684492a125284cd883e95e6373&url=https://dood.re/d/${random.link}" onclick="ads()" target="_blank"><button type="button" class="tomboldownload"><img class="fa fa-download my-icon mt-1"></i></button></a><div class="id"><p>${random.link}</p></div>`;
+    bokep.innerHTML = `<embed id="myplayer" width="100%" height="100%" src="https://dood.re/e/${random.link}" type="text/html"></embed><a href="whatsapp://send?text=https://dood.re/e/${random.link}" target="_blank" rel="nofollow" onclick="ads()"><button type="button" class="tombolshare"><img class="fa fa-share my-icon mt-1"></i></button></a><a href="https://droplink.co/st?api=8b8315c6bc13a8684492a125284cd883e95e6373&url=https://dood.re/d/${random.link}" onclick="ads()" target="_blank"><button type="button" class="tomboldownload"><img class="fa fa-download my-icon mt-1"></i></button></a><div class="id d-none"><p>${random.link}</p></div>`;
     indo.innerHTML = random.indo;
   }
   
