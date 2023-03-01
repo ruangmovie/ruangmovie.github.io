@@ -1,5 +1,15 @@
 var brazz = [
     {
+        "title": "The Anal Coach",
+        "poster": "https://img.doodcdn.com/snaps/a3e14t3n39rrb09n.jpg",
+        "link": "https://dood.yt/e/pgdkqtihxczb"
+    },
+    {
+        "title": "Squeezing In A Sneaky Fucking ",
+        "poster": "https://img.doodcdn.com/snaps/tzpig65x2qefz6za.jpg",
+        "link": "https://dood.yt/e/q59k7npe3rko"
+    },
+    {
         "title": "Work And Fuck From Home",
         "poster": "https://img.doodcdn.co/snaps/byodacjq1cevrpmq.jpg",
         "link": "https://dood.yt/e/ahgzgbtogill"
