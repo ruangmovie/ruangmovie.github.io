@@ -4920,7 +4920,7 @@ for (var i = 0; i < shorts.length; i++) {
 	var photo = random.poster,
 		link = random.link;
 		
-  list_bokep += "<div class='movie-card' data-link='" + link + "' data-poster='"+ photo +"' style='margin-bottom:20px'><a href='' class='button-viral' data-bs-toggle='modal' data-bs-target='#player-igo' data-obj='"+ i + "' onclick='tokopedia()'><img src='"+ photo +"' alt='" + link + "' width='100%' style='aspect-ratio:4/6;object-fit:cover;padding:1px'><div class='modal-footer text' style='border-style:none;margin-top:-140px;padding-right:50px'><img src='assets/img/play.png' height='30px'></div></a></div>";
+  list_bokep += "<div class='movie-card' data-link='" + link + "' data-poster='"+ photo +"' style='margin-bottom:20px'><a href='' class='button-viral' data-bs-toggle='modal' data-bs-target='#player-igo' data-obj='"+ i + "' onclick='ads()'><img src='"+ photo +"' alt='" + link + "' width='100%' style='aspect-ratio:4/6;object-fit:cover;padding:1px'><div class='modal-footer text' style='border-style:none;margin-top:-140px;padding-right:50px'><img src='assets/img/play.png' height='30px'></div></a></div>";
 }
 
 $("#bokeplist").html(list_bokep);

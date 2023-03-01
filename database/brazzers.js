@@ -10,6 +10,96 @@ var brazz = [
         "link": "https://dood.yt/e/q59k7npe3rko"
     },
     {
+        "title": "The Maid Really Fits Right In",
+        "poster": "https://thumb.tapecontent.net/thumb/OrGrGpyMyxSZ8v8/Dq7W6mBox0IwaJ.jpg",
+        "link": "https://streamtape.xyz/e/OrGrGpyMyxSZ8v8"
+    },
+    {
+        "title": "Payback Is A Bitch And So Am I",
+        "poster": "https://thumb.tapecontent.net/thumb/zP8QG0RQ94cQ12/Zaxvvo23pjfqvpL.jpg",
+        "link": "https://streamtape.xyz/e/zP8QG0RQ94cQ12"
+    },
+    {
+        "title": "Family Members Do Not Miss Family Fuck",
+        "poster": "https://thumb.tapecontent.net/thumb/Rj3mg3OPkMUBRe/P9Kaydq6OVc00Zr.jpg",
+        "link": "https://streamtape.xyz/e/Rj3mg3OPkMUBRe"
+    },
+    {
+        "title": "Serving Round Asses On A Picnic",
+        "poster": "https://thumb.tapecontent.net/thumb/VOYmjLLZ3ZCKljP/Qe1De2gRbzH0ZXl.jpg",
+        "link": "https://streamtape.xyz/e/VOYmjLLZ3ZCKljP"
+    },
+    {
+        "title": "I Think He Likes Watching Us, 4K",
+        "poster": "https://thumb.tapecontent.net/thumb/1O8de9y16vUe3Qr/BJ8R4b0Yp0UyYJv.jpg",
+        "link": "https://streamtape.xyz/e/1O8de9y16vUe3Qr"
+    },
+    {
+        "title": "Let's Not Get Dry Just Yet, 4K",
+        "poster": "https://thumb.tapecontent.net/thumb/pgyqZro6BdIrYY3/YBP1KalvGgcvQjL.jpg",
+        "link": "https://streamtape.xyz/e/pgyqZro6BdIrYY3"
+    },
+    {
+        "title": "Warming Up Before Club Night",
+        "poster": "https://thumb.tapecontent.net/thumb/VYgaKyDvVktKRox/7p4vjQJVlOiA34P.jpg",
+        "link": "https://streamtape.xyz/e/VYgaKyDvVktKRox"
+    },
+    {
+        "title": "She's Not A Fan Of Caution In Anal Games",
+        "poster": "https://thumb.tapecontent.net/thumb/96PdQb09J7iaxV9/69rXr97RqWU982M.jpg",
+        "link": "https://streamtape.xyz/e/96PdQb09J7iaxV9"
+    },
+    {
+        "title": "Can We Split This Crush In Three?",
+        "poster": "https://thumb.tapecontent.net/thumb/YDx98KAjOPupLG/lO6ZlQXJzvs73WW.jpg",
+        "link": "https://streamtape.xyz/e/YDx98KAjOPupLG"
+    },
+    {
+        "title": "Let Me Help You, Little Bro",
+        "poster": "https://thumb.tapecontent.net/thumb/b3zMKb9VWaCPkxd/Lp91LmaPaGsRKXy.jpg",
+        "link": "https://streamtape.xyz/e/b3zMKb9VWaCPkxd"
+    },
+    {
+        "title": "Young, Perky And The Lens Likes Her",
+        "poster": "https://thumb.tapecontent.net/thumb/ajp0mXKGKPTO7V/pxGJjgdQ4rcrQX1.jpg",
+        "link": "https://streamtape.xyz/e/ajp0mXKGKPTO7V"
+    },
+    {
+        "title": "This Angel Likes An Ungodly Ass Fuck",
+        "poster": "https://thumb.tapecontent.net/thumb/oxOoZ4gRpKTJkv1/A6vkOLPVvJtXMv3.jpg",
+        "link": "https://streamtape.xyz/e/oxOoZ4gRpKTJkv1"
+    },
+    {
+        "title": "I Want Everything Your Wife Has",
+        "poster": "https://thumb.tapecontent.net/thumb/4978ORWlq4CKM0M/DZQjPZaAxlUkrG8.jpg",
+        "link": "https://streamtape.xyz/e/4978ORWlq4CKM0M"
+    },
+    {
+        "title": "Tasting Another Flavor",
+        "poster": "https://thumb.tapecontent.net/thumb/j7BlGAYK2jCz0rr/aq0omkxkOrsxX6O.jpg",
+        "link": "https://streamtape.xyz/e/j7BlGAYK2jCz0rr"
+    },
+    {
+        "title": "Double Timing MILF, 4K",
+        "poster": "https://thumb.tapecontent.net/thumb/ywB7wk3jqlc1VbZ/OJWB2RR6WQtZBkB.jpg",
+        "link": "https://streamtape.xyz/e/ywB7wk3jqlc1VbZ"
+    },
+    {
+        "title": "It Will Be Cash Or Flesh, 4K",
+        "poster": "https://thumb.tapecontent.net/thumb/g348akDdXgUq2vR/JkjZZg7LBMIVBv.jpg",
+        "link": "https://streamtape.xyz/e/g348akDdXgUq2vR"
+    },
+    {
+        "title": "The Flow Has Moved To Throbbing",
+        "poster": "https://thumb.tapecontent.net/thumb/3oyljw6paRclmr/OAGVvJkoWoTZ4G9.jpg",
+        "link": "https://streamtape.xyz/e/3oyljw6paRclmr"
+    },
+    {
+        "title": "It's Never Just A Massage",
+        "poster": "https://thumb.tapecontent.net/thumb/0rX9ZV4e6PSblBO/YGxw2zBXXrcvbrm.jpg",
+        "link": "https://streamtape.xyz/e/0rX9ZV4e6PSblBO"
+    },
+    {
         "title": "Work And Fuck From Home",
         "poster": "https://img.doodcdn.co/snaps/byodacjq1cevrpmq.jpg",
         "link": "https://dood.yt/e/ahgzgbtogill"

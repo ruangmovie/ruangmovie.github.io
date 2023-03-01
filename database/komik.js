@@ -999,7 +999,7 @@ for (var i = 0; i < comic.length; i++) {
 		poster = comic[i].poster,
 		episode = comic[i].episode;
 	
-	komik += "<div class='komik-card mb-2' data-nama='" + title + "' data-episode='" + episode + "'><a href='' class='button-komik' href='' data-bs-toggle='modal' data-bs-target='#player-komik' data-obj='"+ i + "' style='color:black' onclick='adss()'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio: 3/4;object-fit: cover;border-radius:2px'><span class='kategori-komik'>"+ episode +"</span><p id='judul-komik' align='left' style='margin-top:-1px'><b>" + title + "</b></p></div></a></div>";
+	komik += "<div class='komik-card mb-2' data-nama='" + title + "' data-episode='" + episode + "'><a href='' class='button-komik' href='' data-bs-toggle='modal' data-bs-target='#player-komik' data-obj='"+ i + "' style='color:black' onclick='ads()'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio: 3/4;object-fit: cover;border-radius:2px'><span class='kategori-komik'>"+ episode +"</span><p id='judul-komik' align='left' style='margin-top:-1px'><b>" + title + "</b></p></div></a></div>";
 }
 
 $("#list-komik").html(komik);
