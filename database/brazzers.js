@@ -1,4 +1,14 @@
 var brazz = [
+        {
+        "title": "Lookalikes Tag Team The MILF",
+        "poster": "https://img.doodcdn.co/snaps/fvrvnraisgfyy4w4.jpg",
+        "link": "https://dood.yt/e/9liqgt1yh3np"
+    },
+    {
+        "title": "A+ For Amazing Pussy",
+        "poster": "https://img.doodcdn.co/snaps/7siqqh0jint26g7y.jpg",
+        "link": "https://dood.yt/e/4j798ykt8yq3"
+    },
     {
         "title": "The Anal Coach",
         "poster": "https://img.doodcdn.com/snaps/a3e14t3n39rrb09n.jpg",
