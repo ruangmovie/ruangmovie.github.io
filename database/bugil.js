@@ -1,5 +1,359 @@
 var bugil =  [
     {
+        "link": "https://telegra.ph/file/2d2f8d42dfc22a9228c6b.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/090a963eb4fef780cb56b.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/996ea58c5da80a5cea232.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/10d00f2c523cd6c968d93.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/17001b4b51a95265a989a.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/c9039f0ab85142c13dd9e.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/0591fa269baab4caa79bd.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/1eae81933215396d1dab3.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/666ca75a1e9fcf090e122.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/169d9a11c43d4e12c57d2.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/a619d9d0cb03db8e61679.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/0b390163db62e99ce1bd3.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/a5970431ab63f6e9d8177.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/993c1f8d416b5a6d2057e.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/37adb5cf35189718fe0a3.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/6112ae8176d3b146f9e70.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/16064b2d4f978e1915285.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/54439f77ae002a90ea8ac.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/7ccd9f541b61026017575.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/dd0e4160bfd8411a695c5.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/35d67f98b0bcb8cb9c087.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/510a086c97ca58fe09743.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/eb5f13ea83c3adcd4446a.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/1e07bc15da28d1322e56d.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/b675d7fc05046d9dcb98e.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/36c1b59430fa0511f9502.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/5bcfa08dec3a412d38cda.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/96151989eb78527b55aec.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/b77c188ab56900689ebd5.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e2019a9ca47bd4f7f3340.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/ec41cf2c9bf7e12f69534.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/9728b71fa3bb6c4448262.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/d8b19e668ad4461dcf3d8.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/c51750800154ddfbbc340.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/6f194a4a5603905ff300f.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/5c772477cabe1dc121d3e.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/72fdb142d6a14bc4f5a10.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e5a97d097a7ff1a3d6eea.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/5578e20c9138a2014ea20.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/91a1ba85903b82d76912f.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/bba2f26fe40e5c570864e.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/d3e79fd8ef8b4c080ba9b.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/ddf6196116b0c7511c5b0.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e10d5e96cb0edad3c6684.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/10d5144a5bbd30b9cf2b4.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/20473e2bc62bc6f12ec86.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/34b5b118c7671f2478b8f.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/462149eb825fe3b5add5a.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/22b9e49a11531e0b624b9.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e6b716dfa07cfb7e371e2.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/a3cffe51fccd1fae6f6b7.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/8a6f5d618512b30d08f9e.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/ae6b44971f99a8a8c32e3.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/3e201817edc20ed3c950b.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/9523b8652317ef92aaf6e.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e78fe08f2e734edd9942c.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/6df9292b792e896169979.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/362f973d9bf793f3367a9.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/afadb6c03a0c838a56bc7.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/108e0f0b9e21c9e886e29.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/86c522d73ab718e4e358a.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/2369de99b91921bf99e87.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/4e77aa8d3ccca6c49b40b.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/4d54502e5be0e9dea3d90.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/7ed33fee60115b3e3ff1f.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/f0e6133f8a5140a9295a0.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/3cf242fc9d784251c51a0.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/4a1c66efda6272a388b8c.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/4fc576bda193a474d6037.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e495a702b386f3bec3909.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/793a9f20944eceb097151.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/d9707d23a985789621a05.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/9177027f94eef01c8f225.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/366f986f4facecf1436b0.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/2ccdb5035b39cde071e2a.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/56830a45bf79c8165b9c8.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/420ce3c4fd7855f5d7ec0.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/edd2382393bddf55ab5de.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/a19a83bd8b2f46b590267.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/6e7f1f8cb2bef33b5dcf6.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/f752a2d81e61b4eff37ed.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/3b6458831a0107960c375.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/f58cc9459928f267d5968.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/6ff4e537f9339164dd19d.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/79f351d8809dad9785c97.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/40f8148b4ed378a1d50f4.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e41fc081a7b28038ea3e3.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/1f17158d32c9e0aa46109.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/6091c64a7c1a9e4f836c7.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/fb31b190b43e2f119f474.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e549451d6d4e2ff5695f4.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/6c1022a4b451a145d49d5.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/c62399cb3f3f3f186a66e.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/4864fc3d62b0665d8dada.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/92481196bab8be2adf576.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/6d7024c1422fb01133bac.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/93e8fe3d92c0eb9e80dfc.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e68a7ba3b44830202ecfd.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/974ab360fdb2e2116ce46.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/db486a5a01e518869eae4.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/889e415eb9b05ca757668.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/bae35886c6013e1d7bd30.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/9ecbf3cef1cb54ea12923.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/15c7e4eb622f7d0c161de.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/8babd6aa51e480f5665ac.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/7392ec025088d05f132e8.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/4a92047d521bf9fe5ecc1.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/31943105a455c5aa54ac5.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/cfe3fc95f7ae001c6702b.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/e7f70c55ab5c41ab28906.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/21dfd62a9aa0014dfa070.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/530595cca7eb281c56812.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/b4ab71256f778f4aa5897.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/91aadb673e75a277de33e.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/9f2748553ad73be9f2ee0.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/452450cbf67711ae461eb.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/247dff18e3fdeead47379.jpg"
+    },
+    {
+        "link": "https://telegra.ph/file/b6815832a7d6556b1aa73.jpg"
+    },
+    {
         "link": "https://telegra.ph/file/dcc9cd0bc493811cf9a6d.jpg"
     },
     {
@@ -53550,360 +53904,6 @@ var bugil =  [
     {
         "link": "https://telegra.ph/file/82e7a6edff2ff78ddd932.jpg"
     },
-    {
-        "link": "https://telegra.ph/file/2d2f8d42dfc22a9228c6b.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/090a963eb4fef780cb56b.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/996ea58c5da80a5cea232.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/10d00f2c523cd6c968d93.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/17001b4b51a95265a989a.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/c9039f0ab85142c13dd9e.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/0591fa269baab4caa79bd.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/1eae81933215396d1dab3.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/666ca75a1e9fcf090e122.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/169d9a11c43d4e12c57d2.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/a619d9d0cb03db8e61679.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/0b390163db62e99ce1bd3.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/a5970431ab63f6e9d8177.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/993c1f8d416b5a6d2057e.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/37adb5cf35189718fe0a3.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/6112ae8176d3b146f9e70.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/16064b2d4f978e1915285.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/54439f77ae002a90ea8ac.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/7ccd9f541b61026017575.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/dd0e4160bfd8411a695c5.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/35d67f98b0bcb8cb9c087.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/510a086c97ca58fe09743.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/eb5f13ea83c3adcd4446a.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/1e07bc15da28d1322e56d.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/b675d7fc05046d9dcb98e.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/36c1b59430fa0511f9502.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/5bcfa08dec3a412d38cda.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/96151989eb78527b55aec.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/b77c188ab56900689ebd5.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/e2019a9ca47bd4f7f3340.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/ec41cf2c9bf7e12f69534.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/9728b71fa3bb6c4448262.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/d8b19e668ad4461dcf3d8.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/c51750800154ddfbbc340.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/6f194a4a5603905ff300f.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/5c772477cabe1dc121d3e.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/72fdb142d6a14bc4f5a10.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/e5a97d097a7ff1a3d6eea.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/5578e20c9138a2014ea20.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/91a1ba85903b82d76912f.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/bba2f26fe40e5c570864e.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/d3e79fd8ef8b4c080ba9b.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/ddf6196116b0c7511c5b0.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/e10d5e96cb0edad3c6684.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/10d5144a5bbd30b9cf2b4.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/20473e2bc62bc6f12ec86.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/34b5b118c7671f2478b8f.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/462149eb825fe3b5add5a.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/22b9e49a11531e0b624b9.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/e6b716dfa07cfb7e371e2.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/a3cffe51fccd1fae6f6b7.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/8a6f5d618512b30d08f9e.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/ae6b44971f99a8a8c32e3.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/3e201817edc20ed3c950b.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/9523b8652317ef92aaf6e.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/e78fe08f2e734edd9942c.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/6df9292b792e896169979.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/362f973d9bf793f3367a9.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/afadb6c03a0c838a56bc7.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/108e0f0b9e21c9e886e29.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/86c522d73ab718e4e358a.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/2369de99b91921bf99e87.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/4e77aa8d3ccca6c49b40b.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/4d54502e5be0e9dea3d90.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/7ed33fee60115b3e3ff1f.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/f0e6133f8a5140a9295a0.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/3cf242fc9d784251c51a0.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/4a1c66efda6272a388b8c.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/4fc576bda193a474d6037.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/e495a702b386f3bec3909.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/793a9f20944eceb097151.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/d9707d23a985789621a05.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/9177027f94eef01c8f225.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/366f986f4facecf1436b0.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/2ccdb5035b39cde071e2a.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/56830a45bf79c8165b9c8.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/420ce3c4fd7855f5d7ec0.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/edd2382393bddf55ab5de.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/a19a83bd8b2f46b590267.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/6e7f1f8cb2bef33b5dcf6.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/f752a2d81e61b4eff37ed.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/3b6458831a0107960c375.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/f58cc9459928f267d5968.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/6ff4e537f9339164dd19d.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/79f351d8809dad9785c97.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/40f8148b4ed378a1d50f4.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/e41fc081a7b28038ea3e3.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/1f17158d32c9e0aa46109.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/6091c64a7c1a9e4f836c7.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/fb31b190b43e2f119f474.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/e549451d6d4e2ff5695f4.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/6c1022a4b451a145d49d5.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/c62399cb3f3f3f186a66e.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/4864fc3d62b0665d8dada.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/92481196bab8be2adf576.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/6d7024c1422fb01133bac.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/93e8fe3d92c0eb9e80dfc.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/e68a7ba3b44830202ecfd.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/974ab360fdb2e2116ce46.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/db486a5a01e518869eae4.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/889e415eb9b05ca757668.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/bae35886c6013e1d7bd30.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/9ecbf3cef1cb54ea12923.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/15c7e4eb622f7d0c161de.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/8babd6aa51e480f5665ac.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/7392ec025088d05f132e8.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/4a92047d521bf9fe5ecc1.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/31943105a455c5aa54ac5.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/cfe3fc95f7ae001c6702b.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/e7f70c55ab5c41ab28906.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/21dfd62a9aa0014dfa070.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/530595cca7eb281c56812.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/b4ab71256f778f4aa5897.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/91aadb673e75a277de33e.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/9f2748553ad73be9f2ee0.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/452450cbf67711ae461eb.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/247dff18e3fdeead47379.jpg"
-    },
-    {
-        "link": "https://telegra.ph/file/b6815832a7d6556b1aa73.jpg"
-    },
 ];
     
 var listElm = document.querySelector('#infinite-list');
@@ -53942,3 +53942,28 @@ listElm.addEventListener('scroll', function() {
 });
 
 loadMore();
+
+$(function () {
+  let container = $('#page-bugil');
+  container.pagination({
+  pageSize: 30,
+  showPageNumbers: false,
+  showNavigator: true,
+  formatNavigator: 'Hal. ke-<span style="color: #f00"><b><%= currentPage %></span></b>, <b><%= totalPage %></b> Halaman, <b><%= totalNumber %></b> Photo',
+  showGoInput: true,
+  showGoButton: true,
+  formatGoInput: 'Menuju halaman ke- <%= input %>',
+  position: 'top',
+  className: 'paginationjs-theme-blue',
+  dataSource: bugil,
+  
+  callback: function (data, pagination) {
+      var dataHtml = '';
+      $.each(data, function (index, item) {
+          dataHtml += '<img src="' + item.link + '" alt="" width="100%" height="100%" style="margin-bottom:5px">';
+          });
+
+          $("#data-bugil").html(dataHtml);
+        }
+    })
+  })

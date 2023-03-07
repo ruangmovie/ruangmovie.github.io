@@ -1,5 +1,20 @@
 var brazz = [
-        {
+    {
+        "title": "Pussy Whiplash",
+        "poster": "https://img.doodcdn.co/snaps/fguk2si8b40b6bbd.jpg",
+        "link": "https://dood.yt/d/bavbgou6sjtu"
+    },
+    {
+        "title": "Public Perving On A Perfect Pair",
+        "poster": "https://img.doodcdn.co/snaps/wen0w0uzrz7m9pca.jpg",
+        "link": "https://dood.yt/d/yb0hjvbajje5"
+    },
+    {
+        "title": "MILF Deals With a Couch Humper",
+        "poster": "https://img.doodcdn.co/snaps/bb2u6q0e5btsmd8g.jpg",
+        "link": "https://dood.yt/d/ndu2o0312knx"
+    },
+    {
         "title": "Lookalikes Tag Team The MILF",
         "poster": "https://img.doodcdn.co/snaps/fvrvnraisgfyy4w4.jpg",
         "link": "https://dood.yt/e/9liqgt1yh3np"
