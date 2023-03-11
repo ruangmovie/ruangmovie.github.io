@@ -1,5 +1,33 @@
 var semi = [
     {
+        "title": "Upuan (2023)",
+        "poster": "d6458c3870f4b65102b14",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/hrjynr355e8b",
+        "kategori": "Filipina"
+    },
+    {
+        "title": "I Am A Female Boss (2023)",
+        "poster": "7602763b426da6df0d6d8",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/8mnudc6jhzls",
+        "kategori": "Jepang"
+    },
+    {
+        "title": "It’s Not Love Or Money (2023)",
+        "poster": "4b8d43abdb732ac162ce1",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/0j6zsmf97mfx",
+        "kategori": "Jepang"
+    },
+    {
+        "title": "Lawa (2023)",
+        "poster": "f92b9a76f9a2e55c2e0b3",
+        "tahun": 2023,
+        "link": "https://dood.yt/e/ncr6aaos4aoy",
+        "kategori": "Filipina"
+    },
+    {
         "title": "Suki (2023)",
         "poster": "2f9bde48d466e8fa00fc3",
         "tahun": 2023,

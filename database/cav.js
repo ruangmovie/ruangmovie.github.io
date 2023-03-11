@@ -2019,7 +2019,7 @@ $(document).ready(function(){
 });
 
 $(function() {
-  $("#cariChina").on("keyup", function() {
+  $("#carichina").on("keyup", function() {
     var value = $(this).val().toLowerCase();
     $("#list-china .china-card").filter(function() {
         $("#list-china").show();
