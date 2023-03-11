@@ -79,7 +79,8 @@
 #myplayer{position:fixed;right:0;top:0;min-width:100%;min-height:100%}
 .grid{width:100%;list-style:none;display:grid;overflow:hidden;text-overflow:ellipsis;grid-template-rows:auto;grid-template-columns:50% 50%;grid-row-gap:0px;grid-column-gap:10px}@media (max-width:1024px){.grid{grid-template-rows:auto;grid-template-columns:48.66% 48.66%;grid-row-gap:0px;grid-column-gap:10px}
 .id{position:fixed;z-index: 1;bottom:80px;right:20px;color:white;opacity: 0.5;font-size:12pt;}
-.tombolcari{bottom:280px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
+.tombolcari{bottom:345px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
+.tombolrequest{bottom:280px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
 .tombolshare{bottom:215px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
 .tomboldownload{bottom:150px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
 .tombolbokep{bottom:85px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
@@ -138,6 +139,7 @@
 <div style="background-color:black">
   <div id="bokep"></div>
   <button type="button" class="tombolcari" data-bs-toggle="modal" data-bs-target="#cari-bokep"><i class="fa fa-search my-icon mt-1"></i></button>
+  <button type="button" class="tombolrequest" data-bs-toggle="offcanvas" data-bs-target="#request"><i class="fa fa-envelope my-icon mt-1"></i></button>
   <button type="button" class="tombolbokep float-bokep">
     <i class="fa fa-arrow-right my-icon mt-1"></i>
   </button>
@@ -344,11 +346,11 @@
   <div class="row">
     <div class="nav-scroller">
       <div class="nav nav-justified" style="margin-top:0px">
-        <a class="nav-link text-white link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#indonesia"><div class="sub-menu"><img src="assets/img/bokep.png" width="22px" alt="Bokep Indonesia"><span class="menu-title">INDO</span></div></a>
-        <a class="nav-link text-white link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#brazzers"><div class="sub-menu"><img src="assets/img/bokep.png" width="22px" alt="Bokep Barat"><span class="menu-title">BARAT</span></div></a>
-        <a class="nav-link text-white link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#bokep-semi"><div class="sub-menu"><img src="assets/img/semi.png" width="26px" alt="Bokep Semi" style="margin-top:-1px"><span class="menu-title">SEMI</span></div></a>
-        <a class="nav-link text-white link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#jepang"><div class="sub-menu"><img src="assets/img/bokep.png" width="22px" alt="Bokep Jepang"><span class="menu-title">JAV</span></div></a>
-        <a class="nav-link text-white link-secondary" href="" data-bs-toggle="modal" data-bs-target="#china"><div class="sub-menu"><img src="assets/img/bokep.png" width="22px" alt="Bokep China"><span class="menu-title">CAV</span></div></a>
+        <a class="nav-link text-white link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#indonesia"><div class="sub-menu"><img src="assets/img/indo.png" width="22px" alt="Bokep Indonesia"><span class="menu-title">INDO</span></div></a>
+        <a class="nav-link text-white link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#brazzers"><div class="sub-menu"><img src="assets/img/barat.png" width="22px" alt="Bokep Barat"><span class="menu-title">BARAT</span></div></a>
+        <a class="nav-link text-white link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#bokep-semi"><div class="sub-menu"><img src="assets/img/semi.png" width="25px" alt="Bokep Semi" style="margin-top:-1px"><span class="menu-title">SEMI</span></div></a>
+        <a class="nav-link text-white link-secondary" href="#" data-bs-toggle="modal" data-bs-target="#jepang"><div class="sub-menu"><img src="assets/img/jav.png" width="23px" alt="Bokep Jepang"><span class="menu-title">JAV</span></div></a>
+        <a class="nav-link text-white link-secondary" href="" data-bs-toggle="modal" data-bs-target="#china"><div class="sub-menu"><img src="assets/img/cav.png" width="22px" alt="Bokep China"><span class="menu-title">CAV</span></div></a>
       </div>
     </div>
   </div>
@@ -372,6 +374,11 @@
 <script src="database/cav.js"></script>
 <script src="database/ads.js"></script>
 <script>
+  $(document).ready(function () {
+    $("#myAds").modal("show");
+  });
+</script>
+<script>
   function randomBokep() {
     let random = indo[Math.floor(Math.random() * indo.length)];
     bokep.innerHTML = `<embed id="myplayer" width="100%" height="100%" src="https://dood.re/e/${random.link}" type="text/html"></embed><a href="whatsapp://send?text=https://dood.re/e/${random.link}" target="_blank" rel="nofollow" onclick="ads()"><button type="button" class="tombolshare"><img class="fa fa-share my-icon mt-1"></i></button></a><a href="https://droplink.co/st?api=8b8315c6bc13a8684492a125284cd883e95e6373&url=https://dood.re/d/${random.link}" onclick="ads()" target="_blank"><button type="button" class="tomboldownload"><img class="fa fa-download my-icon mt-1"></i></button></a><div class="id d-none"><p>${random.link}</p></div>`;
@@ -381,11 +388,6 @@
   randomBokep();
   
   document.querySelector("button.tombolbokep").addEventListener('click', randomBokep)
-</script>
-<script>
-  $(document).ready(function () {
-    $("#myAds").modal("show");
-  });
 </script>
 <script>
   const scriptURL = 'https://script.google.com/macros/s/AKfycbz6w7533jPj_886a8pPF6wTSHxr4_AoCdLgDTdrz1JZcQhQMtA/exec';
