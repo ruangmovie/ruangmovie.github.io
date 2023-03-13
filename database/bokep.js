@@ -1,5 +1,250 @@
 var indo = [
     {
+        "title": "Cewek Galau Di Pinggir Jalan - DoodStream",
+        "poster": "https://img.doodcdn.co/splash/yveellnn8nskd29v.jpg",
+        "link": "ads6s755ce1g"
+    },
+    {
+        "title": "Video Bokep Ngewe Paling Menantang Di Mobil Pinggir Jalan - DOOD RIP-Ngewe",
+        "poster": "https://img.doodcdn.co/splash/esh8korrk7m02rkv.jpg",
+        "link": "ftd2p7xdg79o"
+    },
+    {
+        "title": "Main di pinggir jalan yang penting ga ketahuan - DoodStream",
+        "poster": "https://img.doodcdn.co/splash/ft9fhkccnnn3odku.jpg",
+        "link": "0bizwmkgam15"
+    },
+    {
+        "title": "ngewe pinggir jalan",
+        "poster": "https://img.doodcdn.co/splash/4ooz21m1ns8fcvw0.jpg",
+        "link": "zv3v54lub3hj"
+    },
+    {
+        "title": "Gaya pacaran anak sekolahan Jilbab coklat",
+        "poster": "https://img.doodcdn.co/splash/8we4jlc8srthhidy.jpg",
+        "link": "qlw9ucrphl0e"
+    },
+    {
+        "title": "Pasangan Abg Mantap Mantap Di Pinggir Jalan Pantura",
+        "poster": "https://img.doodcdn.co/splash/8jbp29tpi1ffutih.jpg",
+        "link": "0od1rjx2m9ue"
+    },
+    {
+        "title": "Ngentot Pinggir Jalan - Playbokep",
+        "poster": "https://img.doodcdn.co/splash/htcz70hu6l0a65mn.jpg",
+        "link": "ofuy0rkaxm1w"
+    },
+    {
+        "title": "Ngewe di pinggir jalan dalam mobil",
+        "poster": "https://img.doodcdn.co/splash/vd33wez0y0hnv1zv.jpg",
+        "link": "6drnjjp7brbl"
+    },
+    {
+        "title": "driver ojol ngentod pelanggan di pinggir jalan",
+        "poster": "https://img.doodcdn.co/splash/kw39dgswj2vu1k4r.jpg",
+        "link": "df815b200g0l"
+    },
+    {
+        "title": "Main di pinggir jalan",
+        "poster": "https://img.doodcdn.co/splash/ce7rph4l0e4qszfa.jpg",
+        "link": "ym6wi8uy2j8v"
+    },
+    {
+        "title": "Ngentot Pinggir Jalan - Playbokep",
+        "poster": "https://img.doodcdn.co/splash/213z5o5b7ckjd80c.jpg",
+        "link": "m0zcnygniul5"
+    },
+    {
+        "title": "Pamer pinggir jalan - DoodStream - DoodStream",
+        "poster": "https://img.doodcdn.co/splash/mwzsgcbtxou7jbh2.jpg",
+        "link": "ayahglu0u33l"
+    },
+    {
+        "title": "Ngintip - CD Lagi Belanja Sayuran Di Pinggir Jalan",
+        "poster": "https://img.doodcdn.co/splash/cigytuqrskzcmkf8.jpg",
+        "link": "f8gvkb90yzks"
+    },
+    {
+        "title": "Stw pijat",
+        "poster": "https://img.doodcdn.co/splash/vw95fjet02lsgyl9.jpg",
+        "link": "y049zpswccml"
+    },
+    {
+        "title": "bocil dipaksa ayah tiri",
+        "poster": "https://img.doodcdn.co/splash/himdu30ufsvoo6e0.jpg",
+        "link": "b6qcu6x70oa6"
+    },
+    {
+        "title": "Chindo Abg dipaksa cowonya rame rame",
+        "poster": "https://img.doodcdn.co/splash/5yyata0wjylunsd9.jpg",
+        "link": "ryqriv8r6o0r"
+    },
+    {
+        "title": "bocil dipaksa ayah tiri",
+        "poster": "https://img.doodcdn.co/splash/miutzvlxfvsj09ua.jpg",
+        "link": "038yp1pu6pun"
+    },
+    {
+        "title": "Dipaksa ayah",
+        "poster": "https://img.doodcdn.co/splash/uifgnb0g64fcliw0.jpg",
+        "link": "q5hm60pm8gdg"
+    },
+    {
+        "title": "Anak cewk dipaksa - DoodStream",
+        "poster": "https://img.doodcdn.co/splash/rmb460rtjexxb10r.jpg",
+        "link": "z24xfdkb8nye"
+    },
+    {
+        "title": "dipaksa main sama gebetan baru - DoodStream",
+        "poster": "https://img.doodcdn.co/splash/z7rcvyjxfoanxgg0.jpg",
+        "link": "obee4bbuqyet"
+    },
+    {
+        "title": "dpakasa untuk ngentot - DoodStream",
+        "poster": "https://img.doodcdn.co/splash/3g9ok3ziuv8jx6n1.jpg",
+        "link": "v2aossl54cho"
+    },
+    {
+        "title": "Dipaksa Gangbang",
+        "poster": "https://img.doodcdn.co/splash/wldz87vlldajwqlz.jpg",
+        "link": "x58hind40aop"
+    },
+    {
+        "title": "Anak SMP Dipaksa",
+        "poster": "https://img.doodcdn.co/splash/afwtp5glglkvlwd2.jpg",
+        "link": "1oo1a06w5d22"
+    },
+    {
+        "title": "Ratu Squirt Kena Anal Kang Ojol - Prank Ojol-Dipaksa anal sama ojol - DoodS",
+        "poster": "https://img.doodcdn.co/splash/d5gtuvb788nvd3hg.jpg",
+        "link": "h6u7wbtvczj7"
+    },
+    {
+        "title": "Dipaksa pacar - DoodStream",
+        "poster": "https://img.doodcdn.co/splash/jco1nmdrogaokxa9.jpg",
+        "link": "3gv6hrmxfpgo"
+    },
+    {
+        "title": "{×}Dipaksa bapak kost",
+        "poster": "https://img.doodcdn.co/splash/ubxwqq3nk3ns06y2.jpg",
+        "link": "hpgdi0t5rw8k"
+    },
+    {
+        "title": "pura-pura gak mau dipaksa mau",
+        "poster": "https://img.doodcdn.co/splash/64t2mifl9eu8jmdh.jpg",
+        "link": "j63435ec9ta3"
+    },
+    {
+        "title": "Anak cewk dipaksa",
+        "poster": "https://img.doodcdn.co/splash/6jcygz83bm36mien.jpg",
+        "link": "fez8er1g2y0z"
+    },
+    {
+        "title": "Jilbab Dipaksa Pacarnya",
+        "poster": "https://img.doodcdn.co/splash/8rmyx4cwekgw2zrt.jpg",
+        "link": "1f66sytz21h0"
+    },
+    {
+        "title": "Si Cantik Kesakitan, dipaksa minum p*ju",
+        "poster": "https://img.doodcdn.co/splash/h6bhh01q54hb9qgj.jpg",
+        "link": "1ewnobaiavhm"
+    },
+    {
+        "title": "Bokep Hijab Paksa Pacar Yang Berjilbab Buat Nyepong Kontol Mobil",
+        "poster": "https://img.doodcdn.co/splash/ba6ubw9rxiy3h8kr.jpg",
+        "link": "yzqbpoy2vva5"
+    },
+    {
+        "title": "Cewek toge dipaksa ngewe tapi suka",
+        "poster": "https://img.doodcdn.co/splash/ghf21eptxqokacyg.jpg",
+        "link": "33frc73j68zx"
+    },
+    {
+        "title": "Jilbab di ew mmknya msih pink bgt - DoodStream",
+        "poster": "https://img.doodcdn.co/splash/1q6urnhd8gh5i6zb.jpg",
+        "link": "lf7bj4gsm8p1"
+    },
+    {
+        "title": "indo dipaksa ngewe sampe nangis",
+        "poster": "https://img.doodcdn.co/splash/i6jjxkp0pgdl4bmo.jpg",
+        "link": "y53netl398cr"
+    },
+    {
+        "title": "indo dipaksa sodok pisang",
+        "poster": "https://img.doodcdn.co/splash/09q879fd0qz1qatt.jpg",
+        "link": "keaapcupk8f2"
+    },
+    {
+        "title": "Ikan Dipaksa Nyepong",
+        "poster": "https://img.doodcdn.co/splash/yxnpo283ysmcugtr.jpg",
+        "link": "bwj84n3n5wg4"
+    },
+    {
+        "title": "Pemaksaan abg",
+        "poster": "https://img.doodcdn.co/splash/bz2plev2oudg5o9c.jpg",
+        "link": "94log57y2v24"
+    },
+    {
+        "title": "BOKEP INDO SKANDAL PEMAKSAAN UKHTI SMP DI REKAM SAMPE NANGES",
+        "poster": "https://img.doodcdn.co/splash/ydyaw92xljivo5rd.jpg",
+        "link": "ingevbnzqgnr"
+    },
+    {
+        "title": "hijab viral desah keras",
+        "poster": "https://img.doodcdn.co/splash/ximt6m09ir7ityvm.jpg",
+        "link": "js16kun3ql8z"
+    },
+    {
+        "title": "Bokep Indo 2023 Pesta Di Tempat Karaoke - DoodStream",
+        "poster": "https://img.doodcdn.co/splash/ph2y6o26h38a5eaq.jpg",
+        "link": "vj5fvagycqor"
+    },
+    {
+        "title": "Bokev Indo - Viral Tiktok Kenalan Dicafe - DoodStream",
+        "poster": "https://img.doodcdn.co/splash/0rq918yfsjm1jw38.jpg",
+        "link": "rcbzmjyof5q0"
+    },
+    {
+        "title": "Viral",
+        "poster": "https://img.doodcdn.co/splash/t3c220xm34uhgldc.jpg",
+        "link": "0y87aap107nb"
+    },
+    {
+        "title": "Lila Love Help Me Go Viral Daddy",
+        "poster": "https://img.doodcdn.co/splash/k5aaucphxfk0zp28.jpg",
+        "link": "p5zmvo7990tt"
+    },
+    {
+        "title": "Viral Konten Threesome Satu Pria Bersama Dua Gadis - DoodStream",
+        "poster": "https://img.doodcdn.co/splash/6ffgud7gsybl6lvk.jpg",
+        "link": "l2d146nl0ve6"
+    },
+    {
+        "title": "Bokep Viral Mahasiswi Bali Full Bokep Terlengkap - DoodStream - DoodStream",
+        "poster": "https://img.doodcdn.co/splash/hvsy6gdbdbv8nxsv.jpg",
+        "link": "6tsgmmgbcfus"
+    },
+    {
+        "title": "Bokep Indo Viral Guru SMA Checkin Versi Full RAJA COLI 202 360",
+        "poster": "https://img.doodcdn.co/splash/8k2gucczlnkywyp8.jpg",
+        "link": "u71173djibf1"
+    },
+    {
+        "title": "Lc Karaoke Viral Di Ajak Ngewe Di Wc",
+        "poster": "https://img.doodcdn.co/splash/ieuzro4njj9ybq7l.jpg",
+        "link": "9jd66e0xn1zn"
+    },
+    {
+        "title": "- Jesilia Oliv Makin Liar Omek Dua Sex Toys BLING2 - Bokep Jessilia 2023",
+        "poster": "https://img.doodcdn.co/splash/g323au29fqfron9c.jpg",
+        "link": "2onybsqaeky2"
+    },
+    {
+        "title": "Salonpas viral",
+        "poster": "https://img.doodcdn.co/splash/k3nxaljlivwvuisq.jpg",
+        "link": "1fgv3j8ewtbo"
+    },
+    {
         "title": "Bokep Indo Hijabber Lagi Viral Bugil Meki Hitam - Simantan-Bokep Indo Hijab",
         "poster": "https://img.doodcdn.co/splash/qz3s0ykqxa9ziyt5.jpg",
         "link": "wdg2538jqwed"
@@ -3591,27 +3836,58 @@ var indo = [
     }
 ];
 
-$(function () {
-  let container = $('#page-bokep');
-  container.pagination({
-  pageSize: 20,
-  showPageNumbers: false,
-  showNavigator: true,
-  formatNavigator: 'Hal. ke-<span style="color: #f00"><b><%= currentPage %></span></b>, <b><%= totalPage %></b> Halaman, <b><%= totalNumber %></b> Video',
-  showGoInput: true,
-  showGoButton: true,
-  formatGoInput: 'Menuju halaman ke- <%= input %>',
-  position: 'top',
-  className: 'paginationjs-theme-blue',
-  dataSource: indo,
-  
-  callback: function (data, pagination) {
-      var dataHtml = '';
-      $.each(data, function (index, item) {
-          dataHtml += '<a href="https://dood.yt/e/' + item.link + '" target="_blank" onclick="ads()"><img id="poster" src="' + item.poster + '" alt="" width="110%" height="100%" style="object-fit:cover;aspect-ratio:16/9;margin-left:-20px"></a><div class="row sort-item" style="margin-bottom:10px"><div class="row"><div class="col-2"><img src="assets/img/favicon.jpg" style="object-fit:cover;width:37px;height:37px;margin-top:10px;float:left;border-radius:50%;"></div><div class="col-9"><span id="judul-bokep" style="text-align:left;margin-left:-17px;margin-bottom:12px"><b>'+ item.title +'</b></span></div><div class="col-1"><a href="https://dood.yt/d/'+ item.link +'" target="_blank" onclick="ads()" style="color:black"><i class="fa fa-download" aria-hidden="true" style="margin-top:13px;float:right;margin-right:-20px;color:black;font-size:12pt"></i></a></div></div><div class="col-10" style="margin-left:68px"></div></div></div>';
-          });
+var terbaru = "";
+	  
+for (var i = 0; i < indo.length; i++) {
+	var title = indo[i].title,
+		link = indo[i].link,
+		poster = indo[i].poster;
+	
+	terbaru += "<div class='terbaru-card mb-3' data-nama='" + title + "'><a href='https://dood.yt/e/"+ link +"' target='_blank' style='color:black' onclick='ads()'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio: 16/9;object-fit: cover;border-radius:2px'><p id='judul-komik' align='center' style='margin-top:7px'><b>" + title + "</b></p></div></a></div>";
+}
 
-          $("#data-bokep").html(dataHtml);
-        }
-    })
-  })
+$("#list-terbaru").html(terbaru);
+
+var terbaruLength = indo.length;
+var thisElementindo = 0;
+
+function innerContentindo(content){
+  $(".inner-link-terbaru").attr("src",indo[content].link);
+};
+
+$(".button-terbaru").click(function(e){
+  e.preventDefault();
+  thisElementindo = $(this).attr("data-obj");
+  innerContentindo(thisElementindo);
+});
+
+$(document).ready(function(){
+  var list = $("#list-terbaru .terbaru-card");
+  var numToShow = 25;
+  var button = $("#terbaru-lainnya");
+  var numInList = list.length;
+  list.hide();
+  if (numInList > numToShow) {
+    button.show();
+  }
+  list.slice(0, numToShow).show();
+
+  button.click(function(){
+      var showing = list.filter(':visible').length;
+      list.slice(showing - 1, showing + numToShow).fadeIn();
+      var nowShowing = list.filter(':visible').length;
+      if (nowShowing >= numInList) {
+        button.hide();
+      }
+  });
+});
+
+$(function() {
+  $("#cariterbaru").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#list-terbaru .terbaru-card").filter(function() {
+        $("#list-terbaru").show();
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+  });
+});
