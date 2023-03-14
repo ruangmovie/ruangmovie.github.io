@@ -77,9 +77,8 @@
 <style>
 #myplayer{position:fixed;right:0;top:0;min-width:100%;min-height:100%}
 .id{position:fixed;z-index: 1;bottom:80px;right:20px;color:white;opacity: 0.5;font-size:12pt;}
-.tombolcari{bottom:410px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
-.tombollist{bottom:345px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
-.tombolrequest{bottom:280px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
+.tombolcari{bottom:345px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
+.tombollist{bottom:280px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
 .tombolshare{bottom:215px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
 .tomboldownload{bottom:150px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
 .tombolbokep{bottom:85px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
@@ -139,7 +138,6 @@
   <div id="bokep"></div>
   <button type="button" class="tombolcari" data-bs-toggle="modal" data-bs-target="#cari-bokep"><i class="fa fa-search my-icon mt-1"></i></button>
   <button type="button" class="tombollist" data-bs-toggle="modal" data-bs-target="#list-bokep"><i class="fa fa-list my-icon mt-1"></i></button>
-  <button type="button" class="tombolrequest" data-bs-toggle="offcanvas" data-bs-target="#request"><i class="fa fa-envelope my-icon mt-1"></i></button>
   <button type="button" class="tombolbokep float-bokep">
     <i class="fa fa-arrow-right my-icon mt-1"></i>
   </button>
@@ -331,42 +329,6 @@
   </div>
 </div>
 
-<div class="offcanvas offcanvas-bottom" tabindex="-1" id="request" aria-labelledby="requestLabel" style="height:260px">
-  <div class="offcanvas-header">
-    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Request</h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-  </div>
-  <div class="offcanvas-body small">
-    <div id="donasi">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <div class="alert alert-success alert-dismissible fade show d-none my-alert mb-2" role="alert">
-              <strong>Terima Kasih!</strong> Pesan anda sudah kami terima.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-            <form name="ruang-imajinasi-form">
-              <div class="mb-3">
-                <textarea class="form-control" id="pesan" rows="4" name="pesan" placeholder="Tulis pesan"></textarea>
-              </div>
-              
-              <div align="center">
-                <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
-
-                <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                Loading...
-                </button>
-              </div>
-            
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="container fixed-bottom">
   <div class="row">
     <div class="nav-scroller">
@@ -413,28 +375,6 @@
   randomBokep();
   
   document.querySelector("button.tombolbokep").addEventListener('click', randomBokep)
-</script>
-<script>
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbz6w7533jPj_886a8pPF6wTSHxr4_AoCdLgDTdrz1JZcQhQMtA/exec';
-  const form = document.forms['ruang-imajinasi-form'];
-  const btnKirim = document.querySelector('.btn-kirim');
-  const btnLoading = document.querySelector('.btn-loading');
-  const myAlert = document.querySelector('.my-alert');
-  
-  form.addEventListener('submit', (e) => {
-    e.preventDefault();
-    btnLoading.classList.toggle('d-none');
-    btnKirim.classList.toggle('d-none');
-    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-      .then((response) => {
-        btnLoading.classList.toggle('d-none');
-        btnKirim.classList.toggle('d-none');
-        myAlert.classList.toggle('d-none');
-        form.reset();
-        console.log('Success!', response);
-      })
-      .catch((error) => console.error('Error!', error.message));
-  });
 </script>
 
 </body>
