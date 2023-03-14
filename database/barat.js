@@ -1,5 +1,55 @@
 var brazz = [
     {
+        "title": "Hot Girl Bangs The Gym Instructor",
+        "poster": "https://img.doodcdn.co/snaps/krzpfj7bfcl8brvl.jpg",
+        "link": "trdqx808phzb"
+    },
+    {
+        "title": "Well-Cum to the Horny Neighbor Association",
+        "poster": "https://img.doodcdn.co/snaps/v2h1xp75dt6aheqs.jpg",
+        "link": "fo5u4q6fqk3o"
+    },
+    {
+        "title": "Hotline Hotties Come To Life",
+        "poster": "https://img.doodcdn.co/snaps/20ars56ty0iajrly.jpg",
+        "link": "fs8efg0pu69b"
+    },
+    {
+        "title": "My GF’s Roomie is a Total Thirst Trap!",
+        "poster": "https://img.doodcdn.co/snaps/a7hdg5sotxd71otd.jpg",
+        "link": "hdojpx3hidst"
+    },
+    {
+        "title": "Lured In By Lexi",
+        "poster": "https://img.doodcdn.co/snaps/m8cgg6trgfpd3ko5.jpg",
+        "link": "ne9wfme3utu1"
+    },
+    {
+        "title": "Slutty Sister Cum Dripper",
+        "poster": "https://img.doodcdn.co/snaps/ia9t8nf4e3bgw80j.jpg",
+        "link": "vmjqwim80016"
+    },
+    {
+        "title": "One Night, Done Airtight",
+        "poster": "https://img.doodcdn.co/snaps/ty0b8hou073rreih.jpg",
+        "link": "d2nyj4q12nxn"
+    },
+    {
+        "title": "In Her Mail Slot",
+        "poster": "https://img.doodcdn.co/snaps/1llihisudni6kfjq.jpg",
+        "link": "7m0bdylra2yq"
+    },
+    {
+        "title": "Hot Whip, Big Wet Tits",
+        "poster": "https://img.doodcdn.co/snaps/df98qgabv2qmd1d5.jpg",
+        "link": "ultxozlepx4i"
+    },
+    {
+        "title": "Big Natural Bedbound Babe Begs for Boner",
+        "poster": "https://img.doodcdn.co/snaps/kkfelmxq2ncj6eci.jpg",
+        "link": "a01eeft09r62"
+    },
+    {
         "title": "Pussy Whiplash",
         "poster": "https://img.doodcdn.co/snaps/fguk2si8b40b6bbd.jpg",
         "link": "https://dood.yt/d/bavbgou6sjtu"
@@ -719,10 +769,9 @@ var brazz = [
 var brazzers = "";
 	  
 for (var i = 0; i < brazz.length; i++) {
-  let random = brazz[Math.floor(Math.random() * brazz.length)];
-	var title = random.title,
-		link = random.link,
-		poster = random.poster;
+	var title = brazz[i].title,
+		link = brazz[i].link,
+		poster = brazz[i].poster;
 	
 	brazzers += "<div class='brazzers-card mb-3' data-nama='" + title + "'><a href='"+ link +"' target='_blank' style='color:black' onclick='ads()'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio: 16/9;object-fit: cover;border-radius:2px'><p id='judul-komik' align='center' style='margin-top:7px'><b>" + title + "</b></p></div></a></div>";
 }
