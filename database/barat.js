@@ -52,17 +52,17 @@ var brazz = [
     {
         "title": "Pussy Whiplash",
         "poster": "https://img.doodcdn.co/snaps/fguk2si8b40b6bbd.jpg",
-        "link": "https://dood.yt/d/bavbgou6sjtu"
+        "link": "https://dood.yt/e/bavbgou6sjtu"
     },
     {
         "title": "Public Perving On A Perfect Pair",
         "poster": "https://img.doodcdn.co/snaps/wen0w0uzrz7m9pca.jpg",
-        "link": "https://dood.yt/d/yb0hjvbajje5"
+        "link": "https://dood.yt/e/yb0hjvbajje5"
     },
     {
         "title": "MILF Deals With a Couch Humper",
         "poster": "https://img.doodcdn.co/snaps/bb2u6q0e5btsmd8g.jpg",
-        "link": "https://dood.yt/d/ndu2o0312knx"
+        "link": "https://dood.yt/e/ndu2o0312knx"
     },
     {
         "title": "Lookalikes Tag Team The MILF",
@@ -297,257 +297,257 @@ var brazz = [
     {
         "title": "Landlady's Ass Cums To Collect",
         "poster": "https://img.doodcdn.com/snaps/pgm99xrh2o78ov8e.jpg",
-        "link": "https://dood.la/d/z7dhritfjlst"
+        "link": "https://dood.la/e/z7dhritfjlst"
     },
     {
         "title": "Pornstar Training",
         "poster": "https://img.doodcdn.co/snaps/exo63zkxkmw1bqfk.jpg",
-        "link": "https://dood.la/d/o5bifj2gisml"
+        "link": "https://dood.la/e/o5bifj2gisml"
     },
     {
         "title": "Twinning Brunettes Threesome",
         "poster": "https://img.doodcdn.co/snaps/hflqomvzm9020sax.jpg",
-        "link": "https://dood.la/d/ejhavvh8gvmh"
+        "link": "https://dood.la/e/ejhavvh8gvmh"
     },
     {
         "title": "My Life as a Blowup Doll",
         "poster": "https://img.doodcdn.co/snaps/sakhjvnd05sp5cub.jpg",
-        "link": "https://dood.la/d/6cs4u9qvw6yw"
+        "link": "https://dood.la/e/6cs4u9qvw6yw"
     },
     {
         "title": "Catfished For Pussy",
         "poster": "https://img.doodcdn.co/snaps/84e3fpimqyt8hys0.jpg",
-        "link": "https://dood.la/d/w7jyrsjuo64j"
+        "link": "https://dood.la/e/w7jyrsjuo64j"
     },
     {
         "title": "Double Blonde Domme Fantasy",
         "poster": "https://img.doodcdn.co/snaps/bstxzva0qp192dwd.jpg",
-        "link": "https://dood.la/d/u9ptiblals89"
+        "link": "https://dood.la/e/u9ptiblals89"
     },
     {
         "title": "Bisexual Babes Share Their Daily Dose Of Dick",
         "poster": "https://img.doodcdn.co/snaps/aaqee7tmkbp7z57v.jpg",
-        "link": "https://dood.la/d/rdq8ophj5sde"
+        "link": "https://dood.la/e/rdq8ophj5sde"
     },
     {
         "title": "Fucking Coworkers",
         "poster": "https://img.doodcdn.co/snaps/wx6ojfdqfyt13c6s.jpg",
-        "link": "https://dood.la/d/fwfecy6lippp"
+        "link": "https://dood.la/e/fwfecy6lippp"
     },
     {
         "title": "Shadowing The Workplace Slut",
         "poster": "https://img.doodcdn.co/snaps/fqcvdt6y2vkcal9l.jpg",
-        "link": "https://dood.la/d/ia6fzzpsr7j0"
+        "link": "https://dood.la/e/ia6fzzpsr7j0"
     },
     {
         "title": "Rejected Housewife",
         "poster": "https://img.doodcdn.co/snaps/i5ngk59q269odojz.jpg",
-        "link": "https://dood.la/d/1shun833qo5u"
+        "link": "https://dood.la/e/1shun833qo5u"
     },
     {
         "title": "Levelling up their fuck game",
         "poster": "https://img.doodcdn.co/snaps/jq3exxx32qrdczrq.jpg",
-        "link": "https://dood.la/d/csg40j3j3f6u"
+        "link": "https://dood.la/e/csg40j3j3f6u"
     },
     {
         "title": "Wet Fantasy",
         "poster": "https://img.doodcdn.co/snaps/x4qebtccdu4r12qt.jpg",
-        "link": "https://dood.la/d/mvvaq7c26v74"
+        "link": "https://dood.la/e/mvvaq7c26v74"
     },
     {
         "title": "Rich and Powerful Pervs",
         "poster": "https://img.doodcdn.co/snaps/omm7vqx9wp3xm0c5.jpg",
-        "link": "https://dood.la/d/no71149qbfku"
+        "link": "https://dood.la/e/no71149qbfku"
     },
     {
         "title": "Shower Me Off",
         "poster": "https://img.doodcdn.co/snaps/ocxln5frkn7oscxt.jpg",
-        "link": "https://dood.la/d/u3199ypy5hbs"
+        "link": "https://dood.la/e/u3199ypy5hbs"
     },
     {
         "title": "Fucking Wet In The Rain",
         "poster": "https://img.doodcdn.co/snaps/kqhkkvjreqs6led9.jpg",
-        "link": "https://dood.la/d/2tl1m6cufhxy"
+        "link": "https://dood.la/e/2tl1m6cufhxy"
     },
     {
         "title": "Janice And Ruby Take it All",
         "poster": "https://img.doodcdn.co/snaps/g40q4nmkn4eu4a28.jpg",
-        "link": "https://dood.la/d/uyivlcdofgn4"
+        "link": "https://dood.la/e/uyivlcdofgn4"
     },
     {
         "title": "A Big Dick For Big Tits",
         "poster": "https://img.doodcdn.co/snaps/fevqripgaluk9uv4.jpg",
-        "link": "https://dood.la/d/1zl85125mvsr"
+        "link": "https://dood.la/e/1zl85125mvsr"
     },
     {
         "title": "Kira's Ass-Full Adventure",
         "poster": "https://img.doodcdn.co/snaps/vt95ovjqs2c3tdzu.jpg",
-        "link": "https://dood.la/d/26wdm53lr02h"
+        "link": "https://dood.la/e/26wdm53lr02h"
     },
     {
         "title": "Jasmine's Burlesque Fantasy",
         "poster": "https://img.doodcdn.co/snaps/2khfpefzihdr549u.jpg",
-        "link": "https://dood.la/d/rzzgu915i8fp"
+        "link": "https://dood.la/e/rzzgu915i8fp"
     },
     {
         "title": "Stepmom Soccer - Girl Cup Shootout",
         "poster": "https://img.doodcdn.co/snaps/zy6k8luaphfg90kv.jpg",
-        "link": "https://dood.la/d/8u6agxq7xhhq"
+        "link": "https://dood.la/e/8u6agxq7xhhq"
     },
     {
         "title": "Desperada",
         "poster": "https://img.doodcdn.co/snaps/m0rmzhn2kyu9ow5e.jpg",
-        "link": "https://dood.la/d/624vs5cerev3"
+        "link": "https://dood.la/e/624vs5cerev3"
     },
     {
         "title": "Mega-MILF Dominates Depraved Duo",
         "poster": "https://img.doodcdn.co/snaps/v5z0fjbfv0dr6zhx.jpg",
-        "link": "https://dood.la/d/ehudhwwhy8c2"
+        "link": "https://dood.la/e/ehudhwwhy8c2"
     },
     {
         "title": "Locked On Cock",
         "poster": "https://img.doodcdn.co/snaps/o0qah5xwq60sw7ln.jpg",
-        "link": "https://dood.la/d/pcoeitd3dsep"
+        "link": "https://dood.la/e/pcoeitd3dsep"
     },
     {
         "title": "City Boy & The Community Toy",
         "poster": "https://telegra.ph/file/b38f9a0811e47e69f58c3.jpg",
-        "link": "https://dood.la/d/73zncgnm9r30"
+        "link": "https://dood.la/e/73zncgnm9r30"
     },
     {
         "title": "Bella Gets Stripped And Fucked",
         "poster": "https://img.doodcdn.co/snaps/o9ubfv0rv6u5ynv5.jpg",
-        "link": "https://dood.la/d/w32i65hiup6p"
+        "link": "https://dood.la/e/w32i65hiup6p"
     },
     {
         "title": "Ready, Rough & Eager to Please",
         "poster": "https://img.doodcdn.co/snaps/hsrtjf6ivkmbssoz.jpg",
-        "link": "https://dood.la/d/7xukwdccg4ff"
+        "link": "https://dood.la/e/7xukwdccg4ff"
     },
     {
         "title": "Big Natural Disasters",
         "poster": "https://img.doodcdn.co/snaps/d8ogw4gof10in7zq.jpg",
-        "link": "https://dood.la/d/pgccenntjf14"
+        "link": "https://dood.la/e/pgccenntjf14"
     },
     {
         "title": "The Squirting Streamer",
         "poster": "https://img.doodcdn.co/snaps/s0ry97sd1o8eyngl.jpg",
-        "link": "https://dood.la/d/lq3nwdjtsllc"
+        "link": "https://dood.la/e/lq3nwdjtsllc"
     },
     {
         "title": "Aletta Oceans Deepest Derriere",
         "poster": "https://img.doodcdn.co/snaps/k3xcwd9kkvz0i5fb.jpg",
-        "link": "https://dood.la/d/qq969ui5hy3c"
+        "link": "https://dood.la/e/qq969ui5hy3c"
     },
     {
         "title": "Tailored To My Pussy",
         "poster": "https://img.doodcdn.co/snaps/fect8jdejl6kiutz.jpg",
-        "link": "https://dood.la/d/zarsxpz4859z"
+        "link": "https://dood.la/e/zarsxpz4859z"
     },
     {
         "title": "Pervy Practices Part 1",
         "poster": "https://img.doodcdn.co/snaps/m76j47mlfou4k2pc.jpg",
-        "link": "https://dood.la/d/1l0dvpnip9gg"
+        "link": "https://dood.la/e/1l0dvpnip9gg"
     },
     {
         "title": "Pervy Practices Part 2",
         "poster": "https://img.doodcdn.co/snaps/9zdigrilayj3vces.jpg",
-        "link": "https://dood.la/d/bro93524ub04"
+        "link": "https://dood.la/e/bro93524ub04"
     },
     {
         "title": "Soaked-Panty Slutting in the Security Line",
         "poster": "https://img.doodcdn.co/snaps/9jpdyn8admc9kqn6.jpg",
-        "link": "https://dood.la/d/g6fut1ip75he"
+        "link": "https://dood.la/e/g6fut1ip75he"
     },
     {
         "title": "Cumming Up With The Evidence 2",
         "poster": "https://img.doodcdn.co/snaps/a8q6ce4tj4qdaok8.jpg",
-        "link": "https://dood.la/d/3ly0701qevjh"
+        "link": "https://dood.la/e/3ly0701qevjh"
     },
     {
         "title": "My Friends Moms Pussy",
         "poster": "https://img.doodcdn.co/snaps/tlrrxe7km94t0uv4.jpg",
-        "link": "https://dood.la/d/eal34nqnnaq7"
+        "link": "https://dood.la/e/eal34nqnnaq7"
     },
     {
         "title": "Rimming the Plumber",
         "poster": "https://img.doodcdn.co/snaps/b0lxl2t87y76okl2.jpg",
-        "link": "https://dood.la/d/5eecpnldi3e0"
+        "link": "https://dood.la/e/5eecpnldi3e0"
     },
     {
         "title": "Absolute Pantymonium",
         "poster": "https://img.doodcdn.co/snaps/vpns3eqe4qfxa66r.jpg",
-        "link": "https://dood.la/d/14fbczuj6240"
+        "link": "https://dood.la/e/14fbczuj6240"
     },
     {
         "title": "American Bimbo Part 4 - Conservative MILF",
         "poster": "https://img.doodcdn.co/snaps/cwx982rgi2n8ypor.jpg",
-        "link": "https://dood.la/d/s2q4typsn4x5"
+        "link": "https://dood.la/e/s2q4typsn4x5"
     },
     {
         "title": "The Geek, The Goth & The Tomboy",
         "poster": "https://img.doodcdn.co/snaps/ix5075lttiklpzg4.jpg",
-        "link": "https://dood.la/d/sk0gehfrs35t"
+        "link": "https://dood.la/e/sk0gehfrs35t"
     },
     {
         "title": "Cheating Wifes Sub/Dom Revenge",
         "poster": "https://img.doodcdn.co/snaps/ohflx6g6zx429jtg.jpg",
-        "link": "https://dood.la/d/mpfriro4pxoq"
+        "link": "https://dood.la/e/mpfriro4pxoq"
     },
     {
         "title": "Formal Fuckfest: Monas First Gangbang",
         "poster": "https://img.doodcdn.co/snaps/klm79dqyyojoceem.jpg",
-        "link": "https://dood.la/d/ae2rdaqe7nxl"
+        "link": "https://dood.la/e/ae2rdaqe7nxl"
     },
     {
         "title": "Claiming Queen Yins Ass",
         "poster": "https://img.doodcdn.co/snaps/d0e9rnz7sqn2foa2.jpg",
-        "link": "https://dood.la/d/q0282059is8e"
+        "link": "https://dood.la/e/q0282059is8e"
     },
     {
         "title": "You Dont Love Your Wife",
         "poster": "https://img.doodcdn.co/snaps/gv03zvwl9zkxx7ov.jpg",
-        "link": "https://dood.la/d/8f9jybrksj9p"
+        "link": "https://dood.la/e/8f9jybrksj9p"
     },
     {
         "title": "Caught Her On Cam",
         "poster": "https://img.doodcdn.co/snaps/xfsr506f76dvihvk.jpg",
-        "link": "https://dood.la/d/sconktnk2iys"
+        "link": "https://dood.la/e/sconktnk2iys"
     },
     {
         "title": "Big Titty Ping Pong",
         "poster": "https://img.doodcdn.co/snaps/eka6iox2p2mdpcah.jpg",
-        "link": "https://dood.la/d/nxset0e4numw"
+        "link": "https://dood.la/e/nxset0e4numw"
     },
     {
         "title": "Cheating On Him While He Eats Me Out",
         "poster": "https://img.doodcdn.co/snaps/f7mh5q3h875kq2d6.jpg",
-        "link": "https://dood.la/d/xnb449i6srmk"
+        "link": "https://dood.la/e/xnb449i6srmk"
     },
     {
         "title": "Pantsing My Friend's Stepmom",
         "poster": "https://img.doodcdn.co/snaps/e440murta34o84z3.jpg",
-        "link": "https://dood.la/d/36zuyr9qt86k"
+        "link": "https://dood.la/e/36zuyr9qt86k"
     },
     {
         "title": "Social Girls Thirst Trap For Cock",
         "poster": "https://img.doodcdn.co/snaps/gpmv5zeyu2hvv9xw.jpg",
-        "link": "https://dood.la/d/xbxsbfu24wvu"
+        "link": "https://dood.la/e/xbxsbfu24wvu"
     },
     {
         "title": "Sneaky Student Gets Her Way",
         "poster": "https://img.doodcdn.co/snaps/ctpuphv2ed1e36a5.jpg",
-        "link": "https://dood.la/d/hkd89wv2q6zq"
+        "link": "https://dood.la/e/hkd89wv2q6zq"
     },
     {
         "title": "American Bimbo Part 3 - Girlboss",
         "poster": "https://img.doodcdn.co/snaps/5rbkykjbsqhd60g2.jpg",
-        "link": "https://dood.la/d/1dq9c9jxhsw9"
+        "link": "https://dood.la/e/1dq9c9jxhsw9"
     },
     {
         "title": "Two Babes Dominate Amateur Tease",
         "poster": "https://img.doodcdn.co/snaps/woulbuf22crhkasd.jpg",
-        "link": "https://dood.la/d/zdb8ainxsey2"
+        "link": "https://dood.la/e/zdb8ainxsey2"
     },
     {
         "title": "Between Toes To Thick Thighs",
