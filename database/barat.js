@@ -1,53 +1,93 @@
 var brazz = [
+        {
+        "title": "Slutty Assistant Loses Control",
+        "poster": "https://img.doodcdn.co/snaps/83cget86m9fkwmst.jpg",
+        "link": "https://dood.la/e/iw8ewu5iubed"
+    },
+    {
+        "title": "Flipping The Table On the Slutty Sneaky Threesome",
+        "poster": "https://img.doodcdn.co/snaps/oo1vo4svysggjp16.jpg",
+        "link": "https://dood.la/e/0seafl5edrfj"
+    },
+    {
+        "title": "Tit Fucking The Gym Slut",
+        "poster": "https://img.doodcdn.co/snaps/z19duni1mmn0kcyr.jpg",
+        "link": "https://dood.la/e/wwciz7ztvr9m"
+    },
+    {
+        "title": "Soft Swinging Turns Hardcore",
+        "poster": "https://img.doodcdn.co/snaps/3vv8avil89sb6rw5.jpg",
+        "link": "https://dood.la/e/pe5g5gah2gla"
+    },
+    {
+        "title": "Licked And Leashed",
+        "poster": "https://img.doodcdn.co/snaps/5ak1q8dlquqng5v0.jpg",
+        "link": "https://dood.la/e/9nx72i4qe9ka"
+    },
+    {
+        "title": "Sneaky Sex With Wife's Sister",
+        "poster": "https://img.doodcdn.co/snaps/ds1vyh09o9q80evm.jpg",
+        "link": "https://dood.la/e/1oh25dcd4zpu"
+    },
+    {
+        "title": "Filling In My Gaps",
+        "poster": "https://img.doodcdn.co/snaps/c9wgagfvjrf5v6q7.jpg",
+        "link": "https://dood.la/e/jctjivd3rwly"
+    },
+    {
+        "title": "Tall Sorority Sluts Corrupt The Nerd",
+        "poster": "https://img.doodcdn.co/snaps/pn2nnugh4yjikye7.jpg",
+        "link": "https://dood.la/e/89uaiijgfd4s"
+    },
     {
         "title": "Hot Girl Bangs The Gym Instructor",
         "poster": "https://img.doodcdn.co/snaps/krzpfj7bfcl8brvl.jpg",
-        "link": "trdqx808phzb"
+        "link": "https://dood.la/e/trdqx808phzb"
     },
     {
         "title": "Well-Cum to the Horny Neighbor Association",
         "poster": "https://img.doodcdn.co/snaps/v2h1xp75dt6aheqs.jpg",
-        "link": "fo5u4q6fqk3o"
+        "link": "https://dood.la/e/fo5u4q6fqk3o"
     },
     {
         "title": "Hotline Hotties Come To Life",
         "poster": "https://img.doodcdn.co/snaps/20ars56ty0iajrly.jpg",
-        "link": "fs8efg0pu69b"
+        "link": "https://dood.la/e/fs8efg0pu69b"
     },
     {
         "title": "My GF’s Roomie is a Total Thirst Trap!",
         "poster": "https://img.doodcdn.co/snaps/a7hdg5sotxd71otd.jpg",
-        "link": "hdojpx3hidst"
+        "link": "https://dood.la/e/hdojpx3hidst"
     },
     {
         "title": "Lured In By Lexi",
         "poster": "https://img.doodcdn.co/snaps/m8cgg6trgfpd3ko5.jpg",
-        "link": "ne9wfme3utu1"
+        "link": "https://dood.la/e/ne9wfme3utu1"
     },
     {
         "title": "Slutty Sister Cum Dripper",
         "poster": "https://img.doodcdn.co/snaps/ia9t8nf4e3bgw80j.jpg",
-        "link": "vmjqwim80016"
+        "link": "https://dood.la/e/vmjqwim80016"
     },
     {
         "title": "One Night, Done Airtight",
         "poster": "https://img.doodcdn.co/snaps/ty0b8hou073rreih.jpg",
-        "link": "d2nyj4q12nxn"
+        "link": "https://dood.la/e/d2nyj4q12nxn"
     },
     {
         "title": "In Her Mail Slot",
         "poster": "https://img.doodcdn.co/snaps/1llihisudni6kfjq.jpg",
-        "link": "7m0bdylra2yq"
+        "link": "https://dood.la/e/7m0bdylra2yq"
     },
     {
         "title": "Hot Whip, Big Wet Tits",
         "poster": "https://img.doodcdn.co/snaps/df98qgabv2qmd1d5.jpg",
-        "link": "ultxozlepx4i"
+        "link": "https://dood.la/e/ultxozlepx4i"
     },
     {
         "title": "Big Natural Bedbound Babe Begs for Boner",
         "poster": "https://img.doodcdn.co/snaps/kkfelmxq2ncj6eci.jpg",
-        "link": "a01eeft09r62"
+        "link": "https://dood.la/e/a01eeft09r62"
     },
     {
         "title": "Pussy Whiplash",
