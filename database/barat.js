@@ -1,5 +1,25 @@
 var brazz = [
-        {
+    {
+        "title": "Drive My Cock",
+        "poster": "https://img.doodcdn.co/snaps/lu6gapa0bj9a2yon.jpg",
+        "link": "https://dood.yt/e/bpxlbhlz38xv"
+    },
+    {
+        "title": "My Girl's Double Is Threesome Trouble",
+        "poster": "https://img.doodcdn.co/snaps/n4egb86pid7798jp.jpg",
+        "link": "https://dood.yt/e/vumtsmi9cqzx"
+    },
+    {
+        "title": "Backstage Pass To Slim Thick’s Ass",
+        "poster": "https://img.doodcdn.co/snaps/ohothjlq5xp3cen4.jpg",
+        "link": "https://dood.yt/e/sjzae7eniobs"
+    },
+    {
+        "title": "Naughty Sugar Baby",
+        "poster": "https://img.doodcdn.co/snaps/joir7gvuu8hzjpc4.jpg",
+        "link": "https://dood.yt/e/ku9uhcc1vunx"
+    },
+    {
         "title": "Slutty Assistant Loses Control",
         "poster": "https://img.doodcdn.co/snaps/83cget86m9fkwmst.jpg",
         "link": "https://dood.la/e/iw8ewu5iubed"
