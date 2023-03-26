@@ -988,7 +988,7 @@ $(".button-semi").click(function(e){
 
 $(document).ready(function(){
   var list = $("#list-semi .semi-card");
-  var numToShow = 20;
+  var numToShow = 50;
   var button = $("#semi-lainnya");
   var numInList = list.length;
   list.hide();
