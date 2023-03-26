@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i2.wp.com/comicself.xyz/wp-content/uploads/2022/04/0002-23-scaled.jpg',
+'https://i2.wp.com/comicself.xyz/wp-content/uploads/2022/04/0003-23-scaled.jpg',
+'https://i0.wp.com/comicself.xyz/wp-content/uploads/2022/04/0004-23-scaled.jpg',
+'https://i3.wp.com/comicself.xyz/wp-content/uploads/2022/04/0005-22-scaled.jpg',
+'https://i2.wp.com/comicself.xyz/wp-content/uploads/2022/04/0006-21-scaled.jpg',
+'https://i1.wp.com/comicself.xyz/wp-content/uploads/2022/04/0007-20-scaled.jpg',
+'https://i3.wp.com/comicself.xyz/wp-content/uploads/2022/04/0008-19-scaled.jpg',
+'https://i0.wp.com/comicself.xyz/wp-content/uploads/2022/04/0009-18-scaled.jpg',
+'https://i0.wp.com/comicself.xyz/wp-content/uploads/2022/04/0010-16-scaled.jpg',
+'https://i0.wp.com/comicself.xyz/wp-content/uploads/2022/04/0011-15-scaled.jpg',
+'https://i2.wp.com/comicself.xyz/wp-content/uploads/2022/04/0012-14-scaled.jpg',
+'https://i1.wp.com/comicself.xyz/wp-content/uploads/2022/04/0013-13-scaled.jpg',
+'https://i3.wp.com/comicself.xyz/wp-content/uploads/2022/04/0014-13-scaled.jpg',
+'https://i3.wp.com/comicself.xyz/wp-content/uploads/2022/04/0015-13-scaled.jpg',
+'https://i2.wp.com/comicself.xyz/wp-content/uploads/2022/04/0016-13-scaled.jpg',
+'https://i2.wp.com/comicself.xyz/wp-content/uploads/2022/04/0017-13-scaled.jpg',
+'https://i3.wp.com/comicself.xyz/wp-content/uploads/2022/04/0018-13-scaled.jpg',
+'https://i0.wp.com/comicself.xyz/wp-content/uploads/2022/04/0019-12-scaled.jpg',
+'https://i1.wp.com/comicself.xyz/wp-content/uploads/2022/04/0020-11-scaled.jpg',
+'https://i2.wp.com/comicself.xyz/wp-content/uploads/2022/04/0021-8-scaled.jpg',
+'https://i1.wp.com/comicself.xyz/wp-content/uploads/2022/04/0022-8-scaled.jpg',
+'https://i3.wp.com/comicself.xyz/wp-content/uploads/2022/04/0023-8-scaled.jpg',
+'https://i2.wp.com/comicself.xyz/wp-content/uploads/2022/04/0024-7-scaled.jpg',
+'https://i0.wp.com/comicself.xyz/wp-content/uploads/2022/04/0025-7-scaled.jpg',
+'https://i3.wp.com/comicself.xyz/wp-content/uploads/2022/04/0026-7-scaled.jpg',
+'https://i1.wp.com/comicself.xyz/wp-content/uploads/2022/04/0027-7-scaled.jpg',
+'https://i3.wp.com/comicself.xyz/wp-content/uploads/2022/04/0028-7-scaled.jpg',
+'https://i1.wp.com/comicself.xyz/wp-content/uploads/2022/04/0029-7-scaled.jpg',
+'https://i1.wp.com/comicself.xyz/wp-content/uploads/2022/04/0030-7-scaled.jpg',
+'https://i3.wp.com/comicself.xyz/wp-content/uploads/2022/04/0031-7-scaled.jpg',
+'https://i0.wp.com/comicself.xyz/wp-content/uploads/2022/04/0032-7-scaled.jpg',
+'https://i2.wp.com/comicself.xyz/wp-content/uploads/2022/04/0033-7-scaled.jpg',
+'https://i1.wp.com/comicself.xyz/wp-content/uploads/2022/04/0034-6-scaled.jpg',
+'https://i3.wp.com/comicself.xyz/wp-content/uploads/2022/04/0035-6-scaled.jpg',
+'https://i0.wp.com/comicself.xyz/wp-content/uploads/2022/04/0036-6-scaled.jpg',
+'https://i2.wp.com/comicself.xyz/wp-content/uploads/2022/04/0037-6-scaled.jpg',
+'https://i0.wp.com/comicself.xyz/wp-content/uploads/2022/04/0038-6-scaled.jpg',
+'https://i2.wp.com/comicself.xyz/wp-content/uploads/2022/04/0039-6-scaled.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://images2.imgbox.com/32/a0/91zQYDC1_o.jpg',
+'https://images2.imgbox.com/2a/d3/ogSKwVwH_o.jpg',
+'https://images2.imgbox.com/e2/5c/WgyFMpy2_o.jpg',
+'https://images2.imgbox.com/e9/4d/uixsJ4BL_o.jpg',
+'https://images2.imgbox.com/03/59/lfRHtTUb_o.jpg',
+'https://images2.imgbox.com/67/3c/sMKzd7k8_o.jpg',
+'https://images2.imgbox.com/6d/29/ZRRtmMKE_o.jpg',
+'https://images2.imgbox.com/59/e5/jbWK3mhq_o.jpg',
+'https://images2.imgbox.com/3d/98/A0TIuuSC_o.jpg',
+'https://images2.imgbox.com/5d/0b/1PsqPAk8_o.jpg',
+'https://images2.imgbox.com/49/29/l2u9x2P5_o.jpg',
+'https://images2.imgbox.com/ce/cd/UD6NjpyP_o.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

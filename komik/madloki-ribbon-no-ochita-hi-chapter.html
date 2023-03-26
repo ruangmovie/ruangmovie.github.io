@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i.ibb.co/mqhn3F4/0002.jpg',
+'https://i.ibb.co/H4JN8B2/0003.jpg',
+'https://i.ibb.co/0rXxcSB/0004.jpg',
+'https://i.ibb.co/qDF0r5t/0005.jpg',
+'https://i.ibb.co/8ryDbFq/0006.jpg',
+'https://i.ibb.co/1R8XyGm/0007.jpg',
+'https://i.ibb.co/Pw3rtLn/0008.jpg',
+'https://i.ibb.co/YXxYg7L/0009.jpg',
+'https://i.ibb.co/N19xJj7/0010.jpg',
+'https://i.ibb.co/gZXZQbh/0011.jpg',
+'https://i.ibb.co/Px2k5DW/0012.jpg',
+'https://i.ibb.co/nmcWLPW/0013.jpg',
+'https://i.ibb.co/xjwhk5j/0014.jpg',
+'https://i.ibb.co/5BzZRNG/0015.jpg',
+'https://i.ibb.co/524PGtt/0016.jpg',
+'https://i.ibb.co/SNqDgPZ/0017.jpg',
+'https://i.ibb.co/5jVw5Z0/0018.jpg',
+'https://i.ibb.co/Wvj1Tm9/0019.jpg',
+'https://i.ibb.co/qR0Q3tz/0020.jpg',
+'https://i.ibb.co/smZK314/0021.jpg',
+'https://i.ibb.co/5sTY9Lw/0022.jpg',
+'https://i.ibb.co/KsGXZBm/0023.jpg',
+'https://i.ibb.co/bP46YZn/0024.jpg',
+'https://i.ibb.co/1L1RwR0/0025.jpg',
+'https://i.ibb.co/ssGDwYZ/0026.jpg',
+'https://i.ibb.co/jysgDQS/0027.jpg',
+'https://i.ibb.co/7gmVX1T/0028.jpg',
+'https://i.ibb.co/g44n5CW/0029.jpg',
+'https://i.ibb.co/RCgX4Kc/0030.jpg',
+'https://i.ibb.co/jbqLgmS/0031.jpg',
+'https://i.ibb.co/HTmPPmY/0032.jpg',
+'https://i.ibb.co/b63g43h/0033.jpg',
+'https://i.ibb.co/VpfdcJW/0034.jpg',
+'https://i.ibb.co/YtX2sFL/0035.jpg',
+'https://i.ibb.co/DKJgXhN/0036.jpg',
+'https://i.ibb.co/bPGXm3w/0037.jpg',
+'https://i.ibb.co/6gPL63t/0038.jpg',
+'https://i.ibb.co/F3G02SP/0039.jpg',
+'https://i.ibb.co/MCMT1jJ/0040.jpg',
+'https://i.ibb.co/RH1xpcM/0041.jpg',
+'https://i.ibb.co/PzSQTZ1/0042.jpg',
+'https://i.ibb.co/PG3r8Zc/0043.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

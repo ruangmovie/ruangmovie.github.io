@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://blogger.googleusercontent.com/img/a/AVvXsEgU_BUqI5mFYNb10GRtuQ7Mx_gPLK4FrUFAB59unPrD0TPhcw5JW42177jd_vdAhC0l7joa_X_4BcfqNKG-5Zp9dJ7u9An8IlGCFhszxkY0eIJ8ee-XhX7t1zWtcfgMni_Dae42R4AfhB-TKrSb4zd2tadYDibx6Njp59cCrVcNpEX5TykiiBFclyxE',
+'https://blogger.googleusercontent.com/img/a/AVvXsEjUqfdx_5TcZbhgZv2oE3ljnvK_3ZUQirpkn3lCxwLOctH1r0lTpEtkNYMX87l37IG5pHw29t1mXYpROO788tFYIYetHkOA8RI4XKKtn3dGev5kz-zM3am9ePYYchPn7v0GAdlNJoqK4EE4xhL4UbXE177c-h2xq4nzNSjFbYyYQb8mW_9aMS-jxs7T',
+'https://blogger.googleusercontent.com/img/a/AVvXsEhtd8vky4pACZ60X9VMpPq_JhPij9JTNv7Og6WxwxspYYXDCWlG34Bcasbq3vZbkbLdN3aCoOcbjPCvZO_e6pFiojwcX9MyyUaqxCXLsxcPl-G7_Jsoa5r4tUZrmzAx4JSE9eOWm6DIlkYhOL4l-zZfFlLvrBS7dFq7MebmUQv0au_v0c1hMbnJ6QDG',
+'https://blogger.googleusercontent.com/img/a/AVvXsEi-0gcyrD8_Jrdg6abCSFD4-kVwI-a6olgKI9MEeTL4oxKliGxR8dbMrXhwPdEZ7QnFIhoK7MmonH0eeEFK09fGpTKFJss2nV6ctpjVPq37DVOR3r5e6zUq7WEDT66CTl3xUDopbCVNyq2UWc26q_34NeaANvJJTprMKvcbN0REk2mgwN5xLQT6xkoV',
+'https://blogger.googleusercontent.com/img/a/AVvXsEgiX6nsdWrkE9XJLtAcHjk8DRkcU4zfgxahyQNAZF-jP7awkkRTCjOcHAqvgyGey73QOZxNL_7n_ugSIOkazELxd2RpUXxqe8oToqXQh3ursxqfrSXZyoBjGumZHx_ad5f_OBftBt4MlASBbfCxnTqIxIYiWMNnl5z6rZ6X7x5mzAbZkZ_mhvY3pJXd',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

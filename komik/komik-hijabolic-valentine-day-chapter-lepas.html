@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://images2.imgbox.com/24/22/xh4LRkrc_o.jpg',
+'https://images2.imgbox.com/89/56/e85MICOz_o.jpg',
+'https://images2.imgbox.com/09/e0/rHT28Bwq_o.jpg',
+'https://images2.imgbox.com/99/cf/qchN3eZj_o.jpg',
+'https://images2.imgbox.com/06/93/N2fiAScF_o.jpg',
+'https://images2.imgbox.com/e9/40/zWgwn45T_o.jpg',
+'https://images2.imgbox.com/42/78/vbSDVOQq_o.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

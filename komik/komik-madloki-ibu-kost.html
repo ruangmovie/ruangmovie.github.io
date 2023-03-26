@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img93-1.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img95-1.jpg',
+'https://i2.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img97-1.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img99.jpg',
+'https://i2.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img101.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img103-1.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img105-1.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img107-1.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img109.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img111.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img113-1.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img115-1.jpg',
+'https://i2.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img117-1.jpg',
+'https://i2.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img119.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img121.jpg',
+'https://i2.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img123-1.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img125-1.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img127-1.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img129.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img131.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img133-1.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img135.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img137-1.jpg',
+'https://i2.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img139-1.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img141.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img143-1.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img145.jpg',
+'https://i2.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img147-1.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img149-1.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img151.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img153-1.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img155.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img157.jpg',
+'https://i1.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img159-1.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img161.jpg',
+'https://i0.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img163-1.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img165.jpg',
+'https://i3.wp.com/komikdewasa.me/wp-content/uploads/2022/03/img167.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

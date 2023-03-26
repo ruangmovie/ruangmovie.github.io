@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://images2.imgbox.com/57/28/DVg4Pak0_o.jpg',
+'https://images2.imgbox.com/fd/08/xLH1oPiH_o.jpg',
+'https://images2.imgbox.com/8f/cb/8YFf2zlH_o.jpg',
+'https://images2.imgbox.com/fb/eb/pAx6r01k_o.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>
