@@ -1019,7 +1019,7 @@ $(".button-komik").click(function(e){
 
 $(document).ready(function(){
   var list = $("#list-komik .komik-card");
-  var numToShow = 20;
+  var numToShow = 10;
   var button = $("#komik-lainnya");
   var numInList = list.length;
   list.hide();

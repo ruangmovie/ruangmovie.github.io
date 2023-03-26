@@ -3628,7 +3628,7 @@ $(".button-asian").click(function(e){
 
 $(document).ready(function(){
   var list = $("#list-asian .asian-card");
-  var numToShow = 20;
+  var numToShow = 10;
   var button = $("#asian-lainnya");
   var numInList = list.length;
   list.hide();

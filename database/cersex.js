@@ -20559,7 +20559,7 @@ $("#search-form").submit(function(e) {
 
 $(document).ready(function(){
   var list = $("#pages .page");
-  var numToShow = 30;
+  var numToShow = 10;
   var button = $("#cersex-lainnya");
   var numInList = list.length;
   list.hide();
