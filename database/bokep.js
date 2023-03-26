@@ -34803,7 +34803,7 @@ $(".button-terbaru").click(function(e){
 
 $(document).ready(function(){
   var list = $("#list-terbaru .terbaru-card");
-  var numToShow = 100;
+  var numToShow = 10;
   var button = $("#terbaru-lainnya");
   var numInList = list.length;
   list.hide();

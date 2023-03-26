@@ -383,7 +383,7 @@ $(".button-jepang").click(function(e){
 
 $(document).ready(function(){
   var list = $("#list-jepang .jepang-card");
-  var numToShow = 50;
+  var numToShow = 10;
   var button = $("#jepang-lainnya");
   var numInList = list.length;
   list.hide();

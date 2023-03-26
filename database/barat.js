@@ -853,7 +853,7 @@ $(".button-brazzers").click(function(e){
 
 $(document).ready(function(){
   var list = $("#list-brazzers .brazzers-card");
-  var numToShow = 50;
+  var numToShow = 10;
   var button = $("#brazzers-lainnya");
   var numInList = list.length;
   list.hide();
