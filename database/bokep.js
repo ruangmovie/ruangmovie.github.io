@@ -37254,7 +37254,7 @@ for (var i = 0; i < indo.length; i++) {
 		link = random.link,
 		poster = random.poster;
 	
-	terbaru += "<div class='terbaru-card mb-3' data-nama='" + title + "'><a href='https://dood.yt/e/"+ link +"' target='_blank' style='color:black'><div class='row sort-item'><img src='" + poster + "' alt='" + title + "' style='max-inline-size:100%;aspect-ratio: 16/9;object-fit: cover;border-radius:2px'><p id='judul-komik' align='center' style='margin-top:7px'><b>" + title + "</b></p></div></a></div>";
+	terbaru += `<div class="terbaru-card mb-3" data-nama="` + title + `"><a href="https://dood.yt/e/`+ link +`" onclick="ads()" target="_blank" style="color:black"><div class="row sort-item"><img src="` + poster + `" onerror="this.onerror=null;this.src='assets/img/error.png'" alt="` + title + `" style="max-inline-size:100%;aspect-ratio:16/9;object-fit: cover;border-radius:2px"><p id="judul-komik" align="center" style="margin-top:7px"><b>` + title + `</b></p></div></a></div>`;
 }
 
 $("#list-terbaru").html(terbaru);
