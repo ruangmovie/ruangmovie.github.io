@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i0.wp.com/images2.imgbox.com/29/b2/0C6CT3f8_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/f8/12/BNGWjFo2_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/49/17/zXiZmZsb_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/76/bc/MqJXrWgt_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/d7/3d/5PS9d9LO_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/c0/e8/jVieJAzO_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/60/db/P6wSqWmW_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/88/91/z6xsgNT4_o.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

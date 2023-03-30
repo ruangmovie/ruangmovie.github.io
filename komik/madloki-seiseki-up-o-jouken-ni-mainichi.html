@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i.ibb.co/TwpMkHY/0002.jpg',
+'https://i.ibb.co/hRX2nDS/0003.jpg',
+'https://i.ibb.co/ZMXkgwy/0004.jpg',
+'https://i.ibb.co/D5VTFTq/0005.jpg',
+'https://i.ibb.co/DVNFSKr/0006.jpg',
+'https://i.ibb.co/T0gvYPF/0007.jpg',
+'https://i.ibb.co/pQRyjPV/0008.jpg',
+'https://i.ibb.co/hXZfpBC/0009.jpg',
+'https://i.ibb.co/m4QMFdZ/0010.jpg',
+'https://i.ibb.co/bWGmY7j/0011.jpg',
+'https://i.ibb.co/y49NCQb/0012.jpg',
+'https://i.ibb.co/jG9XYr4/0013.jpg',
+'https://i.ibb.co/5vtQS6f/0014.jpg',
+'https://i.ibb.co/7NHkY29/0015.jpg',
+'https://i.ibb.co/vxsSYzh/0016.jpg',
+'https://i.ibb.co/HPsGn09/0017.jpg',
+'https://i.ibb.co/TtV9qLC/0018.jpg',
+'https://i.ibb.co/qJNG0PY/0019.jpg',
+'https://i.ibb.co/K71VVW3/0020.jpg',
+'https://i.ibb.co/JjBGsD9/0021.jpg',
+'https://i.ibb.co/tC3qYtv/0022.jpg',
+'https://i.ibb.co/sFnVzRc/0023.jpg',
+'https://i.ibb.co/TPg0JjV/0024.jpg',
+'https://i.ibb.co/grWGfwm/0025.jpg',
+'https://i.ibb.co/1mjHzNq/0026.jpg',
+'https://i.ibb.co/rwpRkmB/0027.jpg',
+'https://i.ibb.co/kQKZ1dp/0028.jpg',
+'https://i.ibb.co/7ywfwsr/0029.jpg',
+'https://i.ibb.co/T2fhff8/0030.jpg',
+'https://i.ibb.co/FXkNZyf/0031.jpg',
+'https://i.ibb.co/XZcdKC8/0032.jpg',
+'https://i.ibb.co/MCxHGpy/0033.jpg',
+'https://i.ibb.co/ZzHxbYw/0034.jpg',
+'https://i.ibb.co/FYZT1NS/0035.jpg',
+'https://i.ibb.co/g4RNPwM/0036.jpg',
+'https://i.ibb.co/bvNgcFQ/0037.jpg',
+'https://i.ibb.co/0KvKzQX/0038.jpg',
+'https://i.ibb.co/4tCNNH1/0039.jpg',
+'https://i.ibb.co/QKkw7CM/0040.jpg',
+'https://i.ibb.co/BNvjf7v/0041.jpg',
+'https://i.ibb.co/zV8rNvS/0042.jpg',
+'https://i.ibb.co/XXWstVn/0043.jpg',
+'https://i.ibb.co/41kfdGT/0044.jpg',
+'https://i.ibb.co/YNY9fm2/0045.jpg',
+'https://i.ibb.co/KDtYdkB/0046.jpg',
+'https://i.ibb.co/7nPhZmG/0047.jpg',
+'https://i.ibb.co/Qph2HG6/0048.jpg',
+'https://i.ibb.co/n622V3P/0049.jpg',
+'https://i.ibb.co/L6bNZvP/0050.jpg',
+'https://i.ibb.co/yNKWcV2/0051.jpg',
+'https://i.ibb.co/YD727RK/0052.jpg',
+'https://i.ibb.co/sRss4SG/0053.jpg',
+'https://i.ibb.co/47VS4yD/0054.jpg',
+'https://i.ibb.co/hVq9wsz/0055.jpg',
+'https://i.ibb.co/84yyHfj/0056.jpg',
+'https://i.ibb.co/M5kjBLS/0057.jpg',
+'https://i.ibb.co/r7BbJYc/0058.jpg',
+'https://i.ibb.co/JpNccyn/0059.jpg',
+'https://i.ibb.co/f9Lf1tW/0060.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

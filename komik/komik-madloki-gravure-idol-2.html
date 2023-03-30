@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i1.wp.com/images2.imgbox.com/2e/f2/nA1naGAP_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/67/00/SteFvMMp_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/25/06/kENTCGFq_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/d9/65/pLmyDU4G_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/77/20/StHsGnhD_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/c8/ca/jKLcO4ax_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/d9/4e/Yutg7tjm_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/e0/c1/sRoNxtKY_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/aa/9b/VFpUkSME_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/79/ed/QGei7oRT_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/a9/ff/EvwdHPJs_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/db/25/wx7YQ3Tj_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/f5/08/MuuORSN1_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/22/e0/ytGgP2u1_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/84/cf/eBv6L7k4_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/20/c8/53MyKhQV_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/b1/bb/urlfOR11_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/c3/58/9qz59Y4I_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/1c/af/QTneM2hE_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/e5/8a/Vm6LAKMi_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/b6/d1/GKHDRdHm_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/d3/99/SM6WfTom_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/8b/82/t2COxSYb_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/95/32/hNHabNGk_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/a9/84/0n5aDTTB_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/25/e6/7qjliEDQ_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/58/47/SLvLCwug_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/7f/8c/uJgvZ2KE_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/44/ba/M1gYlRgZ_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/76/30/0zlxwUCa_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/49/30/CsIHTYnN_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/33/d5/V2Ve6TMl_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/8f/af/PoEMpgMt_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/50/64/CK2jiGtF_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/64/26/6EUVtmoR_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/cc/f2/HZwG1F1K_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/b9/d7/rBq52vBp_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/2f/44/8saKjFot_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/aa/b2/qlhwGDRg_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/cd/e4/l8s53Ex1_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/28/da/VXYsrtut_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/83/1a/mzF3Qp5V_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/05/46/zUIlCqiY_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/37/1b/LEGIdREs_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/19/f5/3u9GinGf_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/4c/23/1LjKIJ05_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/c7/16/UVtAEEkt_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/66/d2/r48SlcvS_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/5e/c6/I43ox96e_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/18/02/jpnymAzd_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/28/ee/kKpSv4R9_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/d9/ae/4Cievv4y_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/bf/b4/YexYvFRk_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/71/30/ElqKcQdY_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/b5/fa/937F4gJh_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/a3/33/fOGUyFdP_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/22/47/kuJ4Fp2m_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/5a/d2/ndGTYVCX_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/d4/14/XPOrxiwD_o.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

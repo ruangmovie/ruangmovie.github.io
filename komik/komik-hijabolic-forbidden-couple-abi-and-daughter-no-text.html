@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i.ibb.co/DG1SXpQ/0002.jpg',
+'https://i.ibb.co/Dgz5MSb/0003.jpg',
+'https://i.ibb.co/YZT53v1/0004.jpg',
+'https://i.ibb.co/xSK7Pc3/0005.jpg',
+'https://i.ibb.co/Y0sS0w7/0006.jpg',
+'https://i.ibb.co/KGQTrYg/0007.jpg',
+'https://i.ibb.co/Pz7dChF/0008.jpg',
+'https://i.ibb.co/CWkJr7v/0009.jpg',
+'https://i.ibb.co/vhfNb2j/0010.jpg',
+'https://i.ibb.co/KDdwmhH/0011.jpg',
+'https://i.ibb.co/0V0mkdh/0012.jpg',
+'https://i.ibb.co/qFhGDjC/0013.jpg',
+'https://i.ibb.co/xq2tN8G/0014.jpg',
+'https://i.ibb.co/0JDSSmp/0015.jpg',
+'https://i.ibb.co/FsBmvts/0016.jpg',
+'https://i.ibb.co/LRHWwfS/0017.jpg',
+'https://i.ibb.co/370pxMT/0018.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

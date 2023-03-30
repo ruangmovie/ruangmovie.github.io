@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://images2.imgbox.com/3e/60/JdJga6Ph_o.jpg',
+'https://images2.imgbox.com/15/74/JyJOkH30_o.jpg',
+'https://images2.imgbox.com/f4/45/ANBLepBB_o.jpg',
+'https://images2.imgbox.com/38/aa/d0Qg5TID_o.jpg',
+'https://images2.imgbox.com/f8/6b/GgsIDi6h_o.jpg',
+'https://images2.imgbox.com/ea/8b/lA4CvhCO_o.jpg',
+'https://images2.imgbox.com/8a/30/5MTRG8re_o.jpg',
+'https://images2.imgbox.com/94/f4/jvXfmvzR_o.jpg',
+'https://images2.imgbox.com/55/a9/d36juIVP_o.jpg',
+'https://images2.imgbox.com/67/f0/P39jYz7Y_o.jpg',
+'https://images2.imgbox.com/76/1c/1ZBgDNqJ_o.jpg',
+'https://images2.imgbox.com/d8/69/WjuQJjD8_o.jpg',
+'https://images2.imgbox.com/57/b1/ztiRMiNp_o.jpg',
+'https://images2.imgbox.com/70/cd/FL20slPP_o.jpg',
+'https://images2.imgbox.com/ba/27/RTOfksg0_o.jpg',
+'https://images2.imgbox.com/68/17/Ap3H4pFq_o.jpg',
+'https://images2.imgbox.com/fd/eb/WKR1YH5p_o.jpg',
+'https://images2.imgbox.com/80/7e/E5zHeUBa_o.jpg',
+'https://images2.imgbox.com/5f/8d/jMX192jo_o.jpg',
+'https://images2.imgbox.com/f8/98/HTj8CkUz_o.jpg',
+'https://images2.imgbox.com/eb/ad/zpTugnrT_o.jpg',
+'https://images2.imgbox.com/9e/32/h6rxBl7C_o.jpg',
+'https://images2.imgbox.com/41/a6/MBne5vzz_o.jpg',
+'https://images2.imgbox.com/db/d2/qQyG77ps_o.jpg',
+'https://images2.imgbox.com/a8/88/u0Tp3OXp_o.jpg',
+'https://images2.imgbox.com/99/30/NW8SmmYd_o.jpg',
+'https://images2.imgbox.com/2f/6e/9jyDcnej_o.jpg',
+'https://images2.imgbox.com/77/8d/O7FubcPv_o.jpg',
+'https://images2.imgbox.com/7b/be/i7xL9TG4_o.jpg',
+'https://images2.imgbox.com/2d/80/QTAs8NLG_o.jpg',
+'https://images2.imgbox.com/bc/b0/fHaKaadV_o.jpg',
+'https://images2.imgbox.com/93/97/2V4v8c09_o.jpg',
+'https://images2.imgbox.com/3b/92/0SUuX8h5_o.jpg',
+]s
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

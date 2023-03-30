@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://comicself.xyz/wp-content/uploads/2022/02/img2-13.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img4-14.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img8-14.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img12-12.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img16-12.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img20-12.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img24-11.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img28-11.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img32-13.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img36-10.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img40-9.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img44-9.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img48-8.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img52-8.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img56-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img60-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img64-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img68-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img72-6.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img76-8.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img80-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img84-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img88-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img92-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/02/img96-8.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

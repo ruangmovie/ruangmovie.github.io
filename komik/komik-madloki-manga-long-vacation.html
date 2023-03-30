@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i.ibb.co/QC6DxQy/01.jpg',
+'https://i.ibb.co/0fCXQTh/02.jpg',
+'https://i.ibb.co/KNpx6vY/03.jpg',
+'https://i.ibb.co/QD6BCzM/04.jpg',
+'https://i.ibb.co/C293TnP/05.jpg',
+'https://i.ibb.co/f1143jB/06.jpg',
+'https://i.ibb.co/gW8yqFp/07.jpg',
+'https://i.ibb.co/KWYV8Jc/08.jpg',
+'https://i.ibb.co/FBGTNJd/09.jpg',
+'https://i.ibb.co/M6nBSyL/10.jpg',
+'https://i.ibb.co/3YLG8pq/11.jpg',
+'https://i.ibb.co/fppR7kX/12.jpg',
+'https://i.ibb.co/ws90bSv/13.jpg',
+'https://i.ibb.co/Z1bdsrf/14.jpg',
+'https://i.ibb.co/RyWfnKv/15.jpg',
+'https://i.ibb.co/g9dhQBV/16.jpg',
+'https://i.ibb.co/XWc8qpS/17.jpg',
+'https://i.ibb.co/rtQD2Mh/18.jpg',
+'https://i.ibb.co/J7KyTBM/19.jpg',
+'https://i.ibb.co/94qx5XT/20.jpg',
+'https://i.ibb.co/1nT0RvT/21.jpg',
+'https://i.ibb.co/5xBSFnZ/22.jpg',
+'https://i.ibb.co/QjLtrg1/23.jpg',
+'https://i.ibb.co/9W0LSGZ/24.jpg',
+'https://i.ibb.co/87zzdT7/25.jpg',
+'https://i.ibb.co/6bRHf4v/26.jpg',
+'https://i.ibb.co/7YgKP30/27.jpg',
+'https://i.ibb.co/djrzxZG/28.jpg',
+'https://i.ibb.co/Ltyr4v9/29.jpg',
+'https://i.ibb.co/GpwGgZv/30.jpg',
+'https://i.ibb.co/VL2VWKk/31.jpg',
+'https://i.ibb.co/dLh4h4n/32.jpg',
+'https://i.ibb.co/d2021xZ/33.jpg',
+'https://i.ibb.co/tqfvTqN/34.jpg',
+'https://i.ibb.co/2Y1nNZ3/35.jpg',
+'https://i.ibb.co/j68zzBw/36.jpg',
+'https://i.ibb.co/LxnSVbh/37.jpg',
+'https://i.ibb.co/jDzP6Zh/38.jpg',
+'https://i.ibb.co/fM5mMp6/39.jpg',
+'https://i.ibb.co/R0jqd82/40.jpg',
+'https://i.ibb.co/Fhj9xf7/41.jpg',
+'https://i.ibb.co/KmBXcDw/42.jpg',
+'https://i.ibb.co/yhdKKCq/43.jpg',
+'https://i.ibb.co/4fPmBjX/44.jpg',
+'https://i.ibb.co/VJBg9pQ/45.jpg',
+'https://i.ibb.co/J3rmKMw/46.jpg',
+'https://i.ibb.co/N2RSTy6/47.jpg',
+'https://i.ibb.co/RhJBDsb/48.jpg',
+'https://i.ibb.co/6gC3Nmq/49.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i2.wp.com/images2.imgbox.com/40/d3/GCh02TfO_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/a4/3d/yCZCOp4C_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/c2/89/1aGCtkfW_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/ce/6b/F08q0LFo_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/2b/75/6XN4T1Va_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/d0/9d/GbtV0hUT_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/05/dd/Mb9Ji0jX_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/d3/e6/bG8rM9Yq_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/ce/a6/PI4keWDO_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/58/eb/WrSVV1oQ_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/44/41/0kXzmIDm_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/78/49/74ZsczQ1_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/7a/4f/nVvNCIfW_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/66/f0/STKYfvw0_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/f1/38/FjGp3akN_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/5d/42/uL0Wkmv0_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/3a/e8/dcQapncr_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/f3/c5/SlheDged_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/a0/d2/9KbV1F5h_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/6b/da/L6b0fQpM_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/76/73/y0Vpv69R_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/3b/52/T5sLyERe_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/b5/31/u7r8Z298_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/82/5d/Ee8Li4nz_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/c6/7b/v5FFLomx_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/5e/e7/M7pWTOC7_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/b2/88/Y8hpF4ZW_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/f9/ac/Vk1RJN8a_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/e1/bf/BKJY0MKa_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/29/5d/omyG4lk7_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/99/a3/dLYnWeOL_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/e2/34/pmVDA1Z9_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/d5/70/iMCYwr1d_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/9a/15/Rb4YsLjM_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/7b/c6/4Zj9HdN7_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/1c/6b/DzoBYs6P_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/ff/49/fhgz6xFP_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/ce/c3/jZSSQ7qp_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/73/70/avcdrI28_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/be/2b/E5hRoR5s_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/3a/af/Aj4l6HHS_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/67/23/ixLtKSxG_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/8d/b1/I64ER6hm_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/74/d8/MqOKHDmg_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/12/03/qrDKs5ZH_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/32/b0/lMkaEfd3_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/36/c7/uZAVog9A_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/80/0c/MRxo3Acb_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/3f/79/lX2uWMgz_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/8c/23/aK04m7gK_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/93/6d/h8cbfYrZ_o.jpg',
+'https://i0.wp.com/images2.imgbox.com/2f/82/lL3pGTlg_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/54/63/HPk3nojE_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/de/e6/3uQrArwK_o.jpg',
+'https://i2.wp.com/images2.imgbox.com/32/04/bVNA7cDp_o.jpg',
+'https://i3.wp.com/images2.imgbox.com/d6/75/26iD6SEe_o.jpg',
+'https://i1.wp.com/images2.imgbox.com/21/d5/jvPXM7MQ_o.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

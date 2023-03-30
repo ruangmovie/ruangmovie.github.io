@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i2.wp.com/blogger.googleusercontent.com/img/a/AVvXsEg6Ovatj7vFO9fzLvm9_YO1Yr2t2zCp1IK98VvwAdlPTbDGwrG0OGZoMKSvC3ls4GH6SDfqvlAU0qp7eZL63eSAN6XenkKVsoPsZE4Z6zpZbcGk6hzQcPhrFGOMN7dQPPvHXcrPs0te-CSKAG2nD1U-PgNKY0V9Q260y1mb8P5b58iI8hgHcfJLpCqNrQ',
+'https://i2.wp.com/blogger.googleusercontent.com/img/a/AVvXsEj-6JhwbX0KNl0BCnx9-pu9ZbHlBPmpRlMhqx93g-KcVSAXkDHQ7yI1PhrNRjDPvdSK5sH2RguXKMWeJjbw67ZdnyNQAbZ3TECKeRS-qtGj8ucVqMc-qi-h_sXMDTRmfuHNLcTpbuWRSGFJO5xV6Gpe5egTN8f-vQelAMWklBZ8u72b_PcQSykxsBFPeQ',
+'https://i0.wp.com/blogger.googleusercontent.com/img/a/AVvXsEjSzgj4Vb_yA4LPPBu0t3jFr7sDLAiwI8Bd4V-3mSMYmpX24A6awcGSAq3qr2vv2AR_YV0qox14mdm7qzOMrlepJluht03NjSQjJJLUJUgKtabenpmrgR1lnwOydXkLZAFIZii45dd5vi4qTBjhTI7xUX4fmJcHdEkqF03L8PIJ1ZUCoUMIkY3SYYX9sg',
+'https://i0.wp.com/blogger.googleusercontent.com/img/a/AVvXsEigr2ixBHgHykjsL78c0UqOFYKeNNNavMj5LE6-MOn60ofXRyxo8ZSrEToNFZeEgIeBJtE5LoOVj6l4oGUrzSihuXtbDucBDzn4v0Ep0D7Eqhm3X_v0hiToFFqyskm-HkwvBr-Jjnmc2d4JNGTvaBsz-8dS5PuXly2tgbB3592D5gi4X7rHeWZVr-NqsA',
+'https://i1.wp.com/blogger.googleusercontent.com/img/a/AVvXsEjjfxiO6XwfKxpUgzRNO1iwUNKMou56-HDPa1rPJeGKHzeGFTtYSzJ-tjnx6iztzNlfODvpLozGZi-b7NRbhLNYelm9YbNo_ytajQFrdWez9Exic-9Fh8Po-CVbb3MuBDJkO325yoBEHLKVSfoq3vOjMuyKbwBIuZYrZw6Ej-YGJQuqjvY6XEHQkF6u9w',
+'https://i3.wp.com/blogger.googleusercontent.com/img/a/AVvXsEhMY52_-H4ICgHzr898vZjQpGFS_0WEHh2DU0ApX0Uwv1dUCn3msBo3e-OKehIBAj8qNo1gdCUU1OqBQHNn02wM1rJ6C9meyI8La_Zlm1EzDQRLlrH06b9p9IHoLSeKzsAtm9AYOzLPk0BEPKZuU2hfbinAfPL35rX-RXoUlZVyjDmodhkAZqjwrjIRVA',
+'https://i2.wp.com/blogger.googleusercontent.com/img/a/AVvXsEhL4vxwV9hc9KTr5ZyS1lpavtGbTUuIpr5XMT1rMzyRpsYB0aXvyFMiKqenyw_NcmkiA0ESxEvWg_GnmSCDeo_SbEwa_5TamvlmnLu9MlXHW-4n-RV5Dxu5solvB1tonc3m8kQ7s0tUbGWBcgVJv9TRBYduvi_0gbULb-s1gcyIYVe8F0GEFWF9D5Y0Gg',
+'https://i0.wp.com/blogger.googleusercontent.com/img/a/AVvXsEgLuFy_VCuRQDDslQQ2tJHLSImyvV4ikxYnS1FKCAKy-NDi2NJm2Ai-uhawbpsRoaomBl7CKI_BtLfT_cb-dWY27jAqcicg4aGJc7mArewxhblzOuiCU5dvpR31mUP9DPB-1EvFY0kUZJ7Q2kk9rJzZky2CWMfnIUsftdDS1tA3dAng3gqpp2w1y0Lamw',
+'https://i2.wp.com/blogger.googleusercontent.com/img/a/AVvXsEj03ebwKNotMd1j4lp_7zgqn1LcQOAFb59vhVu5XlDqnnjYyKXgBN24AQBgShrMpcVsblb0zm2UOX5CwK-zfAtmeF3ZlOZnWt5db_ORF0dFCMIUIiVihAOKVhTkqcFQ1EUTY6h7tIfuvdEdog6OJY5Fhre9UxhLaTnzvNo9HYMroJmpp8BddKw0GLca9w',
+'https://i2.wp.com/blogger.googleusercontent.com/img/a/AVvXsEgu0eS-RELwUkUPHf6Syhzy43YwGJa2DEUw4Z9CDg82BNJCDWXVIw1jSOgngOx0O85eebDXUf8zvAqDMEO0y5Xla808p5vevSYP_jd1Qiet6EhU9e0Dpi8KyQkgmF7b-3dOE7OjTSdmuDoESfaQ2MSGnGkUwJtunF5AtmzI_Z35MVXpRcwFLYXPcqHwLw',
+'https://i3.wp.com/blogger.googleusercontent.com/img/a/AVvXsEgWapZjVmNhfTq55ZDcPo82AsfzoKJXgxXn_u6-m4Ffc3-FVR_YhIJp3U-PwaBwhYcIooScNEN5CDx9n0c25Yv28OG95IJMUJ71i3u2RnR5xpJN3XGNhJIL8HGpJKce3VXbFA_PCpYvDh_7WFzHRzqz3D-k9GWIgxKScuI-bG3OSRjziFF5D8IcKVJTaQ',
+'https://i1.wp.com/blogger.googleusercontent.com/img/a/AVvXsEiCupn0GALuZbh4s5FX9mxmjSQ8kw2DmgxS4qjsNLDZOCG0J3R0TqzCyn5SdqTb4PO7LgPLiK2DLpOXbA7CB-oZDbF4tsYwbj6YKH5XPwxqinNyxQw6shTIrKrVLzmehrgxbIXMHeRO56z7N3yWY4Xs7z93_q_T83z93cQI0GCinO7N1XNErOuaRXagOA',
+'https://i1.wp.com/blogger.googleusercontent.com/img/a/AVvXsEgNUTA_jSpdfpcsp5ildi4OE4iUvQd2fHOxutZieM_iuW94TCsuI3ol8s1nOFzRprVZST4PUTkoc-JRyMFVfGOdBWF88rRFxsH-ckArQVLT0wG9WKunMxWWGyS6b0-ujjrKbZjS25k1oDjRsBa36BJj4cwBOSYOP3qKjbiFjLLTP2ftOYWsBPq-AsG-lA',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i3.wp.com/blogger.googleusercontent.com/img/a/AVvXsEgMuD8ka-K0WptsFLkpp1qRqUazx4eGkhGuV1j1ZUGvVJLG7zlz0M47Y8DyDFUgqTrWHJVPDh7_9BiWN9zkWVfqunN4Vozzy5N0ksWRYoeZbK3s2FurXrJuGgjxcn_Vroc9K9nQIJyJogFZqWOe7crTWLNRGefbQxx0-uXU97bhEhgQXMn8u1cnx52m',
+'https://i3.wp.com/blogger.googleusercontent.com/img/a/AVvXsEiGqYZlhXiDghtUOVb5Oojl-96JYHjGmfMQmMNq4I3-lv5UeQZ9PzIELjjcf8RhYX8j6qC6Lnjg0TtbCndN9a4upn63DgeOwdZwE8AzwoJP3yBkcq1hm5IdlwGnKIxRARqKNbIXH2rZnzpk3RPXw97rRagKE-702sua08mZEY7shfzj6xDHZA0YITtF',
+'https://i3.wp.com/blogger.googleusercontent.com/img/a/AVvXsEjvbRB9JGT-35LdLvCGtH5vvgSH4WRmmFZ_Sr6u95WmgjQQb3XsvbfJ9FHU2xjaEuYKZXHFyqaH0pYWdm_ke7gFMX83-WU_9SoOl9HpzRC5QBYuKKXwnweO2NogdPfJsPN1qmHM-oC2ORMnNvIB1DSejrUH8nGZaaAqMkoF0CIk88nHBMT8YzlQlARV',
+'https://i3.wp.com/blogger.googleusercontent.com/img/a/AVvXsEgaW4uNU-fTlvJu3d2_Ndc29V0hABoh83ZxI2skj3RvpZD3QubUHoJ-zqXGQHuvH9aqY9YnxlB2SajZ0Qwgjai_9qCcbSg5uM1oXeKI0LLxZig8ScKlYz0Wj_i-r-uX8hyvJN0mS0OO2y-9pkXGWtCQ2NG7498LaWNZn24avcd512GFAI3_k_k66SuW',
+'https://i3.wp.com/blogger.googleusercontent.com/img/a/AVvXsEhXOoSAw2dAqpzIHWZsk-j4Xwuool3-zFE1uJpTBaldV5IsMqNh3dkbevXJs-gDFWjpElxtr41STw-_rMrnQylrFTNIfJFeXSmtwCAV2fw84mCCoFGEkR7ewFP2oKZjjhlRXOzf1uZGLnyGYYFA-OPtsetnZn273ZPY19R8xA7dptHo41EQPSTwkw9T',
+'https://i3.wp.com/blogger.googleusercontent.com/img/a/AVvXsEjFXtUus9i8P_UvKnkwHjiJUehSSVMmvesNxzt4FrvxO-wf-zGKzldrFyKOEDujm9xEJfDEqcF-sMhP-ukimoJmmGl_b8ZTdJx1-tuO6m7XZn9FPyGk5tN4EGUeqRLUWurj9zIUZ4n7jBJ33B2KqZwDqVUCq_C3bSoPd4Wt0fbXVKT7bWwWqNFqiCJU',
+'https://i3.wp.com/blogger.googleusercontent.com/img/a/AVvXsEiFMkA208hLGGWEJ3gZjLkgsUJFrJWWVl5aeeUPGwInh7lAKIaxx2VjCf-eGluqjr9-RYPCFCHDxC-kN8j08856KzxNvgbrF5p8gOdG9HYtar1uNaxYFuP6g2tF4jlDInCsoCQMI-d6jOjUJg3pg8fOLxbXbLPJXLe3B4kC5ETFGvhrtMvpavk3rxp0',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['http://i2.wp.com/comicself.xyz/wp-content/uploads/2022/02/01-3.jpg',
+'http://i3.wp.com/comicself.xyz/wp-content/uploads/2022/02/02-3.jpg',
+'http://i3.wp.com/comicself.xyz/wp-content/uploads/2022/02/03-3.jpg',
+'http://i1.wp.com/comicself.xyz/wp-content/uploads/2022/02/04-3.jpg',
+'http://i1.wp.com/comicself.xyz/wp-content/uploads/2022/02/05-3.jpg',
+'http://i0.wp.com/comicself.xyz/wp-content/uploads/2022/02/06-3.jpg',
+'http://i0.wp.com/comicself.xyz/wp-content/uploads/2022/02/07-3.jpg',
+'http://i1.wp.com/comicself.xyz/wp-content/uploads/2022/02/08-3.jpg',
+'http://i1.wp.com/comicself.xyz/wp-content/uploads/2022/02/09-2.jpg',
+'http://i0.wp.com/comicself.xyz/wp-content/uploads/2022/02/10-2.jpg',
+'http://i0.wp.com/comicself.xyz/wp-content/uploads/2022/02/11-2.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

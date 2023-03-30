@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i.ibb.co/wMbppS4/0001.jpg',
+'https://i.ibb.co/QrVkK0z/0002.jpg',
+'https://i.ibb.co/1rdZPhH/0003.jpg',
+'https://i.ibb.co/x2D5jVw/0004.jpg',
+'https://i.ibb.co/3M8MJT6/0005.jpg',
+'https://i.ibb.co/dc515Z3/0006.jpg',
+'https://i.ibb.co/C8T4WMG/0007.jpg',
+'https://i.ibb.co/JsPjLJv/0008.jpg',
+'https://i.ibb.co/sbFVRQy/0009.jpg',
+'https://i.ibb.co/8b7GPr7/0010.jpg',
+'https://i.ibb.co/kB8qwMj/0011.jpg',
+'https://i.ibb.co/44bMzYP/0012.jpg',
+'https://i.ibb.co/30W8Rjz/0013.jpg',
+'https://i.ibb.co/PMx1rkw/0014.jpg',
+'https://i.ibb.co/2g7KRX2/0015.jpg',
+'https://i.ibb.co/8NThVVf/0016.jpg',
+'https://i.ibb.co/0GMcLDb/0017.jpg',
+'https://i.ibb.co/vsbTmgv/0018.jpg',
+'https://i.ibb.co/XtP5H5C/0019.jpg',
+'https://i.ibb.co/Qj8610W/0020.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

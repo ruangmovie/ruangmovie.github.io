@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://i.ibb.co/zN3Lz0G/0002.jpg',
+'https://i.ibb.co/y5QcX7N/0003.jpg',
+'https://i.ibb.co/tYGp2FV/0004.jpg',
+'https://i.ibb.co/CJmpHc8/0005.jpg',
+'https://i.ibb.co/k1WntqL/0006.jpg',
+'https://i.ibb.co/2YXLbSL/0007.jpg',
+'https://i.ibb.co/rsBCc1k/0008.jpg',
+'https://i.ibb.co/RHGz51X/0009.jpg',
+'https://i.ibb.co/h14vnQ1/0010.jpg',
+'https://i.ibb.co/Q9ZgrRC/0011.jpg',
+'https://i.ibb.co/r6sknn1/0012.jpg',
+'https://i.ibb.co/W0DYPW1/0013.jpg',
+'https://i.ibb.co/hMpwDV0/0014.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+    height:100%;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {
+  "urls": ['https://blogger.googleusercontent.com/img/a/AVvXsEjlOtrvX5YwzK-S9HXribd-YVSFQ6H4Hls6S3ElOAi0NQbTM8YO8_F33dWEwCEtIgmTcWVYYlGTpgFw9X-Y85S5KdLeEIiUIINrgIcO_OUDf2slkcldeGaefz71U5sCPip3A13itKhDrcPJ83P_eCyPJHh_lD-AMiUAuHPBuK3A_I8T-T9bqMwcfX_e',
+'https://blogger.googleusercontent.com/img/a/AVvXsEhc1RIOeiMFWiP2Vht8PPlKEMhzu1cCklRxOSfKMFHTeXYFF0oBWg87ZgubeRpSnTPUK71TJjSHXnwEvWK9nWUfK5SgwTLXyYDUnqehEG4uW7WcYLdPDWuNQU6q6-ZinlAylm0T-eYhuvo_hbX91nohIjOgirudbMnprAeAo7TKBy6ieY28cB2hjsfr',
+'https://blogger.googleusercontent.com/img/a/AVvXsEhy4DdB6zLNVib0bbjETc-JxBryceyQTZS6lyw6zUJkkKjgKDR4sypIeF35Tp4RjGYN3pnWN2FVjnniVd3EEsFCSSTw7wHwU8LcA7aFEgr01UAc6jkmPvtYmsp7gA4VBLRulAYRC44RXFtt_yh27SDUy7h4vXWZDeT_xp2Z9wqIn0wVr0_42vaCS9Ka',
+'https://blogger.googleusercontent.com/img/a/AVvXsEgJO6FC8ZNmajQG_dbqyzxT9ZXYmBGk1KDI7ImJWXchuPrXhG6i-OkBhtAQBhcjcOXg2x0plhNcDqvQgqAs6uogKgFycIDnNx6ji5XlzKpCWrUqiAC46Tv1u8qSnp7ui3l4-JtyeY2sd-KWC100tj5ddDE86qKQOth7RapXWmztD-RP3CtODaE_-yp3',
+'https://blogger.googleusercontent.com/img/a/AVvXsEiddgNze5d14G6jAPXvp95U6p6z6pDLkvFhazVysseoOTY5Ne2TcTM71WTl9r_o7qXcLbeenIYJhlMkHV6X3Pb47lwoRhlIAHHviX6MCKBd4skjalP4pYsbn2-rtHQJZJtL3RdUE0s0iQhzTiDB3emzil8LxrhVWX4yl19x6m9IcXOsqBgKGEOExpyD',
+'https://blogger.googleusercontent.com/img/a/AVvXsEiRtICzp2nHsdH9hsgT8bF7JdsFTwT72YdudqQt_lYjO8fqbNm_tmxH8Iu8jWlZNmcQxsNapN4rmWOH4ioTRy7kBp0NIaPD8_itFGGzHdnAuxrqi-APyMu32cw4m5ijXBlbUhm_lqDVF1DKiWzo8IA-xHZ4ktnExezeimY52SdysHZLwjxqWWd4bTk2',
+'https://blogger.googleusercontent.com/img/a/AVvXsEiBs09r4ieRy8QAPeuI75hzYny9Ifk0bkc0NRps3YzuQ2lEFc-n_EYBLNMAxXP1iT3a9m7kHqi55L4Voeif60f2-bFxg4YwyEDXnnrw-OeoqFDme9Re0WTJJI1ggGL-4G0K88HrRCZUjk7N0lExTcAVJAt8rK_Temu9rzmdaZOGLmMglPt_LozCNzFK',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>
