@@ -53960,7 +53960,7 @@ $(function () {
   callback: function (data, pagination) {
       var dataHtml = '';
       $.each(data, function (index, item) {
-          dataHtml += '<img src="' + item.link + '" alt="" width="100%" height="100%" style="margin-bottom:10px">';
+          dataHtml += '<img src="' + item.link + '" alt="" width="100%" height="100%">';
           });
 
           $("#data-bugil").html(dataHtml);
