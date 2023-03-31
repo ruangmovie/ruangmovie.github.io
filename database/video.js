@@ -1,4 +1,4 @@
-var indo = [
+var video = [
     {
         "title": "Ngewe Bunda Hijaber Montok Sampe Squirt",
         "poster": "https://img.doodcdn.co/splash/7c4aykwyenttpl1d.jpg",
@@ -39188,7 +39188,7 @@ $(function () {
   formatGoInput: 'Menuju halaman ke- <%= input %>',
   position: 'top',
   className: 'paginationjs-theme-blue',
-  dataSource: indo,
+  dataSource: video,
   
   callback: function (data, pagination) {
       var dataHtml = '';

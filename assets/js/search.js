@@ -20,11 +20,11 @@ $("#searchText, #searchField").on("change paste keyup", function() {
 	var searchText = $("#searchText").val().toLowerCase();
 	var searchField = $("#searchField").val();
 
-	var searchResult = searchEngine(searchText, searchField, indo)
+	var searchResult = searchEngine(searchText, searchField, video)
 	var html = template(searchResult);
 
 	$("#output").html(html);
-	$("#output").prepend("<span align='center' style='font-size:10pt'>Ditemukan <b>" + searchResult.length + "</b> Video. Total Video <b>" + indo.length +"</b></span>");
+	$("#output").prepend("<span align='center' style='font-size:10pt'>Ditemukan <b>" + searchResult.length + "</b> Video. Total Video <b>" + video.length +"</b></span>");
 });
 
 var $results = $('#output').isotope({
@@ -32,7 +32,7 @@ var $results = $('#output').isotope({
 });
 
 $('button.sort').click(function() {
-	var filterValue = $(this).indo(filter);
+	var filterValue = $(this).video(filter);
 	$results.isotope({
 		filter: filterValue
 		
