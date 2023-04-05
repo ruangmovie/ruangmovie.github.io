@@ -54152,7 +54152,7 @@ $(function () {
   callback: function (data, pagination) {
       var dataHtml = '';
       $.each(data, function (index, item) {
-          dataHtml += '<img src="' + item.link + '" alt="" width="100%" height="100%">';
+          dataHtml += '<img src="' + item.link + '" alt="" onclick="ads()" width="100%" height="100%">';
           });
 
           $("#data-bugil").html(dataHtml);
