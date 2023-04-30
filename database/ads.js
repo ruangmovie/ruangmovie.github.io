@@ -13,18 +13,7 @@ var link_ads = [
     'https://shope.ee/4zyRKJorkp',
     'https://shope.ee/4APKKms2Rg',
     'https://shope.ee/405u8Tsfmf',
-    'https://tokopedia.link/3CWEpyYpdub',
-    'https://tokopedia.link/LSPyLIZpdub',
     'https://www.liquidfire.mobi/redirect?sl=16&t=dr&track=170177_283645&siteid=283645',
-    'https://tokopedia.link/Q9fv2L0pdub',
-    'https://tokopedia.link/wqHC4Q1pdub',
-    'https://tokopedia.link/1OmcWZ2pdub',
-    'https://tokopedia.link/K37JA83pdub',
-    'https://tokopedia.link/W5hOWs5pdub',
-    'https://tokopedia.link/LOwn0A6pdub',
-    'https://tokopedia.link/oQBLZO7pdub',
-    'https://tokopedia.link/dAsdCU8pdub',
-    'https://tokopedia.link/6ak2Ocaqdub',
     'https://shope.ee/4V0P2vy8LR',
     'https://shope.ee/7ez1iF1OMb',
     'https://shope.ee/5pWRQbryzY',
@@ -32,9 +21,6 @@ var link_ads = [
     'https://shope.ee/3Kp6S5QQ6d',
     'https://shope.ee/9K7FhHmJ9M',
     'https://www.liquidfire.mobi/redirect?sl=16&t=dr&track=170177_283645&siteid=283645',
-    'https://tokopedia.link/XCihkticTub',
-    'https://tokopedia.link/nrSsahxAKub',
-    'https://tokopedia.link/h1rtv2zAKub',
 ];
 var max_ads = (link_ads.length)
 window.open(link_ads[Math.floor(Math.random()*max_ads)]);
