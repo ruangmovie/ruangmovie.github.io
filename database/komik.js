@@ -1037,3 +1037,13 @@ $(document).ready(function(){
       }
   });
 });
+
+$(function() {
+  $("#cariKomik").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#list-komik .komik-card").filter(function() {
+        $("#list-komik").show();
+        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+      });
+  });
+});
