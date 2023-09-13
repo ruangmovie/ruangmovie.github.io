@@ -1,6 +1,5 @@
 var ads = function(){
 var link_ads = [
-    'https://ruangmovie.github.io/semi/index.html',
     'https://shope.ee/3pmTwAtJ7S',
     'https://shope.ee/3fT3jrtwSR',
     'https://shope.ee/2ptwkKx79I',
@@ -13,7 +12,6 @@ var link_ads = [
     'https://shope.ee/7ez1iF1OMb',
     'https://shope.ee/5pWRQbryzY',
     'https://shope.ee/1L4yAeg1jc',
-    'https://ruangmovie.github.io/semi/index.html',
     'https://shope.ee/3Kp6S5QQ6d',
     'https://shope.ee/9K7FhHmJ9M',
     'https://shope.ee/5AHrWcoEPq',
@@ -26,7 +24,6 @@ var link_ads = [
     'https://shope.ee/1L4yAeg1jc',
     'https://shope.ee/3Kp6S5QQ6d',
     'https://shope.ee/9K7FhHmJ9M',
-    'https://ruangmovie.github.io/semi/index.html',
 ];
 var max_ads = (link_ads.length)
 window.open(link_ads[Math.floor(Math.random()*max_ads)]);
