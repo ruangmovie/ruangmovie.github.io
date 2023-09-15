@@ -1,5 +1,77 @@
 var data = [
     {
+        "title": "Keramat Tunggak (2023)",
+        "poster": "a992fc694c15776a257d1",
+        "country": "Indonesia",
+        "link": "https://doods.pro/e/my8kwyzvx35f8lprc2mdlkk73wa8shgo"
+    },
+    {
+        "title": "Birahi Muda (2023)",
+        "poster": "836237538c442fe898aac",
+        "country": "Indonesia",
+        "link": "https://doods.pro/e/ziehwk1q1wwinsn57ia896gbjiwy2n0g"
+    },
+    {
+        "title": "Mimi Cucu Part 2 (2023)",
+        "poster": "8dccf38737944b9501946",
+        "country": "Indonesia",
+        "link": "https://doods.pro/e/foueo0gwnvdbvf26eu39ugwkkhr6iyl2"
+    },
+    {
+        "title": "Menantu & Mertua (2023)",
+        "poster": "a31347eb41ac9768b0e92",
+        "country": "Indonesia",
+        "link": "https://doods.pro/e/c7kdhzzggvano0lwzpwkuj4rmpuvg7tg"
+    },
+    {
+        "title": "GGS - Ganteng-Ganteng Sange (2023)",
+        "poster": "cda43d8787501fe65b15a",
+        "country": "Indonesia",
+        "link": "https://doods.pro/e/im43wgidds8r58f2xsjertryfrtjuzpp"
+    },
+    {
+        "title": "Keramat Tunggak Part 2 (2023)",
+        "poster": "7df3571a7a66e161b1d5c",
+        "country": "Indonesia",
+        "link": "https://doods.pro/e/1sohubpqjpsan202x87rcammqw1g31r8"
+    },
+    {
+        "title": "Salome (2023)",
+        "poster": "21ad9a074f0d577adbf16",
+        "country": "Indonesia",
+        "link": "https://doods.pro/e/2n3tr82de7psmlre0scl1jtn8xvfsj1w"
+    },
+    {
+        "title": "Mei Mei (2023)",
+        "poster": "3cf105d0ab82c9a65b1b8",
+        "country": "Indonesia",
+        "link": "https://doods.pro/e/cwr2y27cp8rq7o2peet0hafoyg6tnlpn"
+    },
+    {
+        "title": "Mobil Goyang (2023)",
+        "poster": "ff7e8f2b2dd38fca5ad0f",
+        "country": "Indonesia",
+        "link": "https://doods.pro/e/1fxka8pbz4xbjco6njxsmrswlzy7zgp1"
+    },
+    {
+        "title": "Bunga Desa (2023)",
+        "poster": "37dbfbedcf4f1c64c4d98",
+        "country": "Indonesia",
+        "link": "https://doods.pro/e/prfa5pwl1p0s9uxco9pv09i4kwa15srg"
+    },
+    {
+        "title": "Mimi Cucu (2023)",
+        "poster": "15007a4b52678ba98990b",
+        "country": "Indonesia",
+        "link": "https://doods.pro/e/ntnl7blouyact0h0rev954qbd13qj1n4"
+    },
+    {
+        "title": "STW (2023)",
+        "poster": "2ee1a1363a23131b12584",
+        "country": "Indonesia",
+        "link": "https://doods.pro/e/d1a89fnf5qt152vosjqnb0bineoug4gs"
+    },
+    {
         "title": "Pelakor (2023)",
         "poster": "bdda19e998a66afc7ffd7",
         "country": "Indonesia",
