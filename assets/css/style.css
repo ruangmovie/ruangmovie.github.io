@@ -99,11 +99,11 @@ img {
   display: inline-block;
   color:white;
   height:45px;
-  margin-top:-27px;
+  margin-top:-25px;
   font-weight: 400;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size:12pt;
+  font-size:11pt;
   text-align: center;
   display: -webkit-box;
   -webkit-line-clamp: 2;
