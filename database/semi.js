@@ -1,5 +1,11 @@
 var data = [
     {
+        "title": "Purpose of the MZ Sisters (2023)",
+        "poster": "64933f50bd55792dbcd3e",
+        "country": "Korea",
+        "link": "https://doods.pro/e/q9z7ehmhq4nn1o1oxms8qcywnx9x52dr"
+    },
+    {
         "title": "She Does it in Her Part-time Job (2023)",
         "poster": "19dfc200dc7227dc08ceb",
         "country": "Jepang",
