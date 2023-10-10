@@ -1,5 +1,11 @@
 var comic = [    
     {
+        "title": "Unboxing Arrazyny",
+        "poster": "https://telegra.ph/file/6088fb30f6df7ccfc22be.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/unboxing-arrazyny.html"
+    },
+    {
         "title": "Komik Hijabolic Forbidden Couple Abi and Daughter",
         "poster": "https://i3.wp.com/komikdewasa.me/wp-content/uploads/2021/11/Forbidden-couple-abi.jpg",
         "episode": "Chapter No Text",

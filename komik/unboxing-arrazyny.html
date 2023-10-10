@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {"urls": 
+['https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-1.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-2.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-3.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-4.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-5.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-6.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-7.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-8.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-9.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-10.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-11.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-12.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-13.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-14.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-15.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-16.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-17.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-18.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-19.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-20.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-21.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-22.jpg',
+'https://comicself.xyz/wp-content/uploads/2022/09/Unboxing-Arrazyny-23.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>
