@@ -1,13 +1,12 @@
 html, body {
   overflow-x: hidden;
   width:100%;
-  background-color: #28282B;
 }
 .navbar{
   height:55px;
-  background-color: #28282B;
+  background-color: #2d2c4d;
 }
-
+.mylogo{width:230px;height:32px;margin-top:11px}
 *, ::after, ::before {
     box-sizing: border-box;
     -webkit-box-shadow: none !important;
@@ -39,7 +38,7 @@ html, body {
 }
 a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 h1 {
   font-size:15pt;
@@ -89,14 +88,13 @@ img {
   border:none;
   margin:-8px;
   margin-top:20px;
-  background-color: #28282B;
 }
 .card-img-top {
   border-radius:8px;
 }
 .card-title {
   display: inline-block;
-  color:white;
+  color:black;
   height:45px;
   margin-top:-25px;
   font-weight: 400;

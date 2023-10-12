@@ -20696,27 +20696,39 @@ var video = [
     },
 ];
 
-$(function () {
-  let container = $('#page-bokep');
-  container.pagination({
-  pageSize: 40,
-  showPageNumbers: false,
-  showNavigator: true,
-  formatNavigator: 'Hal. ke-<span style="color: #f00"><b><%= currentPage %></span></b>, <b><%= totalPage %></b> Halaman, <b><%= totalNumber %></b> Video',
-  showGoInput: true,
-  showGoButton: true,
-  formatGoInput: 'Menuju halaman ke- <%= input %>',
-  position: 'top',
-  className: 'paginationjs-theme-blue',
-  dataSource: video,
-  
-  callback: function (data, pagination) {
-      var dataHtml = '';
-      $.each(data, function (index, item) {
-          dataHtml += `<a href="https://dooood.com/e/` + item.link + `" target="_blank" onclick="ads()"><img id="poster" src="` + item.poster + `" onerror="this.onerror=null;this.src='assets/img/error.png'" alt="" width="110%" height="100%" style="object-fit:cover;aspect-ratio:16/9;margin-left:-20px"></a><div class="row sort-item" style="margin-bottom:10px"><div class="row"><div class="col-2"><img src="assets/img/favicon.jpg" style="object-fit:cover;width:37px;height:37px;margin-top:10px;float:left;border-radius:50%;"></div><div class="col-9"><span id="judul-bokep" style="text-align:left;margin-left:-17px;margin-bottom:12px"><b>`+ item.title +`</b></span></div><div class="col-1"><a href="https://droplink.co/st?api=8b8315c6bc13a8684492a125284cd883e95e6373&url=https://dooood.com/d/`+ item.link +`" target="_blank" onclick="ads()" style="color:black"><i class="fa fa-download" aria-hidden="true" style="margin-top:13px;float:right;margin-right:-20px;color:black;font-size:12pt"></i></a></div></div><div class="col-10" style="margin-left:68px"></div></div></div>`;
-          });
+var listElm = document.querySelector('#infinite-list');
+var loadingElm = document.querySelector('#infinite-list .loading');
 
-          $("#data-bokep").html(dataHtml);
-        }
-    })
-  })
+var PRELOAD_FROM_BOTTOM = 100;
+
+var loading = false;
+var loadMore = function() {
+  if (loading) {
+    return;
+  }
+ 
+  loading = true;
+  loadingElm.style.visibility = '';
+
+  window.setTimeout(function() {
+    loading = false;
+    for (var i = 0; i < 10; i++) {
+      let random = video[Math.floor(Math.random() *  video.length)];
+      var item = document.createElement('li');
+      item.innerHTML = `<a href="https://dooood.com/e/` + random.link + `" target="_blank" onclick="ads()"><img id="poster" src="` + random.poster + `" onerror="this.onerror=null;this.src='assets/img/error.png'" alt="" width="110%" height="100%" style="object-fit:cover;aspect-ratio:16/9;margin-left:-20px"></a><div class="row sort-item" style="margin-bottom:10px"><div class="row"><div class="col-2"><img src="assets/img/favicon.jpg" style="object-fit:cover;width:37px;height:37px;margin-top:10px;float:left;border-radius:50%;"></div><div class="col-9"><span id="judul-bokep" style="text-align:left;margin-left:-17px;margin-bottom:12px"><b>`+ random.title +`</b></span></div><div class="col-1"><a href="https://droplink.co/st?api=8b8315c6bc13a8684492a125284cd883e95e6373&url=https://dooood.com/d/`+ random.link +`" target="_blank" onclick="ads()" style="color:black"><i class="fa fa-download" aria-hidden="true" style="margin-top:13px;float:right;margin-right:-20px;color:black;font-size:12pt"></i></a></div></div><div class="col-10" style="margin-left:68px"></div></div></div>`;
+      listElm.insertBefore(item, loadingElm);
+      
+      
+      loading = false;
+      loadingElm.style.visibility = 'hidden';
+    }
+  }, 1000);
+}
+
+listElm.addEventListener('scroll', function() {
+  if (listElm.scrollTop + listElm.clientHeight >= listElm.scrollHeight - PRELOAD_FROM_BOTTOM) {
+    loadMore();
+  }
+});
+
+loadMore();
