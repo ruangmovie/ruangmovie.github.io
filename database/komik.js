@@ -1,5 +1,17 @@
 var comic = [    
     {
+        "title": "Kenangan Indah Bersama Riko Chan Yang Sexy",
+        "poster": "https://telegra.ph/file/fb669700d3fff1d1743a9.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/kenangan-indah-bersama-riko-chan-yang-sexy.html"
+    },
+    {
+        "title": "Komik Dewasa Shouta Kun Main Mama Mama an",
+        "poster": "https://telegra.ph/file/ec199ea4840d778376ce4.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/https:/komik-dewasa-shouta-kun-main-mama-mama-an.html"
+    },
+    {
         "title": "Unboxing Arrazyny",
         "poster": "https://telegra.ph/file/6088fb30f6df7ccfc22be.jpg",
         "episode": "Chapter 01",
