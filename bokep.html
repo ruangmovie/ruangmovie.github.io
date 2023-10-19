@@ -60,6 +60,10 @@
 
 </head>
 <body>
+  
+<a id="goTop">
+  <i class="fa fa-chevron-up my-float text-white"></i>
+</a>
 
 <nav class="navbar fixed-top">
   <div class="container" style="color:white">
@@ -92,12 +96,14 @@
   </div>
 </div>
 
-<nav class="navbar fixed-bottom bg-light" style="height:62px">
-  <!-- JuicyAds v3.0 -->
-  <script type="text/javascript" data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"></script>
-  <ins id="1002097" data-width="300" data-height="62"></ins>
-  <script type="text/javascript" data-cfasync="false" async>(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1002097});</script>
-  <!--JuicyAds END-->
+ <nav class="navbar fixed-bottom bg-light" style="height:50px">
+  <div class="position-absolute top-0 start-50 translate-middle-x" style="background-color:transparent">
+    <!-- JuicyAds v3.0 -->
+    <script type="text/javascript" data-cfasync="false" async src="https://poweredby.jads.co/js/jads.js"></script>
+    <ins id="1002097" data-width="300" data-height="62"></ins>
+    <script type="text/javascript" data-cfasync="false" async>(adsbyjuicy = window.adsbyjuicy || []).push({'adzone':1002097});</script>
+    <!--JuicyAds END-->
+  </div>
 </nav>
 
 <script src="assets/js/bootstrap.min.js"></script>
@@ -112,6 +118,21 @@
 <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.0/dist/lazyload.min.js"></script>
 <script src="database/video.js"></script>
 <script src="database/ads.js"></script>
+  
+  <script>
+    var btn = $('#goTop');
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+    btn.on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({scrollTop:0}, '300');
+    });
+  </script>
   
   <script type="text/javascript">
      var uid = '344715';
