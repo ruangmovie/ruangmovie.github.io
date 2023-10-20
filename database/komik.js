@@ -1,5 +1,35 @@
 var comic = [    
     {
+        "title": "Gochuumon Wa Koucha Desu Ka V.01",
+        "poster": "https://telegra.ph/file/2a7fccd186f62648d5d8b.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/gochuumon-wa-koucha-desu-ka-v-01.html"
+    },
+    {
+        "title": "Gochuumon Wa Koucha Desu Ka V.02",
+        "poster": "https://telegra.ph/file/15d1db55f7774876a078f.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/gochuumon-wa-koucha-desu-ka-v-02.html"
+    },
+    {
+        "title": "Nikmatnya Bercinta Dengan Hantu Wanita Montok",
+        "poster": "https://telegra.ph/file/5d199be2645392d6d40d1.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/nikmatnya-bercinta-dengan-hantu-wanita-montok.html"
+    },
+    {
+        "title": "Bercinta Dengan Adik Kecilku Sampai Klimaks",
+        "poster": "https://telegra.ph/file/b4e5513b89eabacc21a7e.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/bercinta-dengan-adik-kecilku-sampai-klimaks.html"
+    },
+    {
+        "title": "Puas Ngewe Foto Model Payudara Kecil Ampe Crot Di Dalam",
+        "poster": "https://telegra.ph/file/66ab2b28d57f9b90ecf59.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/puas-ngewe-foto-model-payudara-kecil-ampe-crot-di-dalam.html"
+    },
+    {
         "title": "Kenangan Indah Bersama Riko Chan Yang Sexy",
         "poster": "https://telegra.ph/file/fb669700d3fff1d1743a9.jpg",
         "episode": "Chapter 01",
