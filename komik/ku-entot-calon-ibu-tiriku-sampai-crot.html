@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {"urls": 
+['https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong03-600x450.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong04-600x847.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong05-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong06-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong07-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong08-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong09-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong10-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong11-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong12-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong13-600x848.jpg',
+'https://komikseru.lol/wp-content/uploads/2023/10/2.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong14-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong15-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong16-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong17-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong18-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong19-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong20-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong21-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong22-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong23-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong24-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong25-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong26-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong27-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong28-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong29-600x848.jpg',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/manhwaindo.cfd_Batsu-Ichi-Ko-Mochi-Mau-jadi-Ibu-Baruku-Ngesex-dulu-dong30-600x848.jpg',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>

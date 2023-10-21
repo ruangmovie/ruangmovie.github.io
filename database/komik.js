@@ -1,5 +1,41 @@
 var comic = [    
     {
+        "title": "Ku Entot Calon Ibu Tiriku Sampai Crot",
+        "poster": "https://telegra.ph/file/759b3d092294052166923.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/ku-entot-calon-ibu-tiriku-sampai-crot.html"
+    },
+    {
+        "title": "Escape Goat",
+        "poster": "https://telegra.ph/file/be2a226711d5ae18ba265.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/escape-goat.html"
+    },
+    {
+        "title": "Takao To Atago No Choppiri H Na RQ Satsueikai",
+        "poster": "https://telegra.ph/file/36e9695bfb74016763e09.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/takao-to-atago-no-choppiri-h-na-rq-satsueikai.html"
+    },
+    {
+        "title": "Mitsumeru Sono Saki Ni Kimi No Sugata",
+        "poster": "https://telegra.ph/file/1fbc95486e1c99a4a1e93.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/mitsumeru-sono-saki-ni-kimi-no-sugata.html"
+    },
+    {
+        "title": "Succubus Na Okaa-San Manga",
+        "poster": "https://telegra.ph/file/887ed565f4dbc3a94c468.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/succubus-na-okaa-san-manga.html"
+    },
+    {
+        "title": "Komik Darjeeling To No Renai Moyou",
+        "poster": "https://telegra.ph/file/d38a21c03cb09bcae52cf.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/komik-darjeeling-to-no-renai-moyou.html"
+    },
+    {
         "title": "Gochuumon Wa Koucha Desu Ka V.01",
         "poster": "https://telegra.ph/file/2a7fccd186f62648d5d8b.jpg",
         "episode": "Chapter 01",
