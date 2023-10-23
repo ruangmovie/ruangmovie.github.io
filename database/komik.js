@@ -1,5 +1,47 @@
 var comic = [    
     {
+        "title": "ABG Perawan Meki Sempit Ngewe Demi Uang",
+        "poster": "https://telegra.ph/file/3841ebf7a98505dadbae9.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/abg-perawan-meki-sempit-ngewe-demi-uang.html"
+    },
+    {
+        "title": "Puas Ngewe Sama Perawan SMA Sampe Hamil",
+        "poster": "https://telegra.ph/file/3858d5740e15ea8db9291.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/puas-ngewe-sama-perawan-sma-sampe-hamil.html"
+    },
+    {
+        "title": "Misaki Makoto Abg SMA Ketagihan Ngewe Sama Om2",
+        "poster": "https://telegra.ph/file/4a2d95375c0b12556b382.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/misaki-makoto-abg-sma-ketagihan-ngewe-sama-om2.html"
+    },
+    {
+        "title": "Yunoshima Cewe Abg Tocil Ngewe Dengan Kakak",
+        "poster": "https://telegra.ph/file/1f74630e47f6fd3a3e441.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/yunoshima-cewe-abg-tocil-ngewe-dengan-kakak.html"
+    },
+    {
+        "title": "Akarui Kazoku Seikatsu Boku Kazuma Hen",
+        "poster": "https://telegra.ph/file/ebe9dfaade860a457f96b.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/akarui-kazoku-seikatsu-boku-kazuma-hen.html"
+    },
+    {
+        "title": "Akarui Kazoku Seikatsu Boku Kazuma Hen Ch. 2",
+        "poster": "https://telegra.ph/file/313e8201a11778e159fe7.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/akarui-kazoku-seikatsu-boku-kazuma-hen-ch-2.html"
+    },
+    {
+        "title": "Kenikmatan Bercinta Dengan Gadis Pembuat Manga",
+        "poster": "https://telegra.ph/file/f475df8ebb14772917797.jpg",
+        "episode": "Chapter 01",
+        "link": "komik/kenikmatan-bercinta-dengan-gadis-pembuat-manga.html"
+    },
+    {
         "title": "Ku Entot Calon Ibu Tiriku Sampai Crot",
         "poster": "https://telegra.ph/file/759b3d092294052166923.jpg",
         "episode": "Chapter 01",

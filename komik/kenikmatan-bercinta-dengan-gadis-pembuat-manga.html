@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<style type="text/css" media="all">
+  html,body {
+    margin:0;
+  }
+  img {
+    display:block;
+    width:100%; 
+    height:100%;
+    object-fit: cover;
+  }
+</style>
+<body>
+
+<div id="preview"></div>
+
+<script>
+var komik, i, x = "";
+komik = {"urls": 
+['https://comicself-2.xyz/wp-content/uploads/2023/10/01_hokusai_1-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/02_hokusai_2-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/03_hokusai_3-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/04_hokusai_4-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/05_hokusai_5-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/06_hokusai_6-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/07_hokusai_7-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/08_hokusai_8-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/09_hokusai_9-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/10_hokusai_10-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/11_hokusai_11-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/12_hokusai_12-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/13_hokusai_13-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/14_hokusai_14-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/15_hokusai_15-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/16_hokusai_16-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/17_hokusai_17-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/18_hokusai_18-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/19_hokusai_19-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/20_hokusai_20-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/21_hokusai_21-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/22_hokusai_22-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/23_hokusai_23-600x856.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/24_hokusai_24-600x857.webp',
+'https://comicself-2.xyz/wp-content/uploads/2023/10/25_hokusai_25-600x857.webp',
+]
+};
+
+for (i in komik.urls) {
+  x += "<img src=" + komik.urls[i] + ">";
+}
+document.getElementById("preview").innerHTML = x;
+</script>
+
+</body>
+</html>
