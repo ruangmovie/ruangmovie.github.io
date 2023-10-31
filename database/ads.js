@@ -1,5 +1,6 @@
 var ads = function(){
 var link_ads = [
+    'https://tokopedia.link/VtwG0zWmeEb',
     'https://shope.ee/9zWYLwAUUP',
     'https://shope.ee/9zWYLxRY3A',
     'https://shope.ee/4KsBbYiJir',
@@ -16,16 +17,6 @@ var link_ads = [
     'https://shope.ee/2L77E4TYNH',
     'https://shope.ee/99xRMeXvwV',
     'https://shope.ee/9KGrYyxMW3',
-    'https://tokopedia.link/EeoxqLGmeEb',
-    'https://tokopedia.link/gMEepnJmeEb',
-    'https://tokopedia.link/mrNfPLKmeEb',
-    'https://tokopedia.link/KCEndyOmeEb',
-    'https://tokopedia.link/tD7VCBRmeEb',
-    'https://tokopedia.link/DY3XuDSmeEb',
-    'https://tokopedia.link/V7rrVQTmeEb',
-    'https://tokopedia.link/h2f8dMUmeEb',
-    'https://tokopedia.link/sWQyLFVmeEb',
-    'https://tokopedia.link/VtwG0zWmeEb',
     'https://shope.ee/6KdETJ8qer',
     'https://shope.ee/600O4jI2Y1',
     'https://shope.ee/9UaGFCPq0Q',
