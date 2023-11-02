@@ -1514,7 +1514,7 @@ var videos = "",
     for (var i = 0; i < data.length; i++) {
     var kategori = data[i].country,
         nama = data[i].title,
-        link = data[i].limk,
+        link = data[i].link,
         poster = data[i].poster;
 	
 	videos += "<div class='movie-card' data-kategori='" + kategori + "' data-nama='" + nama + "' data-streaming='" + link + "' data-poster='"+ poster +"'><a class='button-movie' data-bs-toggle='modal' data-bs-target='#player' data-obj='"+i+"'><div class='card' onclick='ads()'><img src='https://telegra.ph/file/"+ poster +".jpg' alt='" + nama + "' width='100%' style='aspect-ratio: 3/4;object-fit: cover;' class='card-img-top'><div class='card-body'></div><p class='card-title'><b>"+ nama +"</b></p></div></div></div>";

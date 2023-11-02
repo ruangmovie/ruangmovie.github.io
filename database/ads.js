@@ -1,6 +1,6 @@
 var ads = function(){
 var link_ads = [
-    'https://tokopedia.link/VtwG0zWmeEb',
+    'https://tokopedia.link/fKy1h21xpEb',
     'https://shope.ee/9zWYLwAUUP',
     'https://shope.ee/9zWYLxRY3A',
     'https://shope.ee/4KsBbYiJir',
