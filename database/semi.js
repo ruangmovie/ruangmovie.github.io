@@ -1,5 +1,23 @@
 var data = [
     {
+        "title": "Rental Wife (2023)",
+        "poster": "47914d692b3660b712dcb",
+        "country": "Korea",
+        "link": "https://ds2play.com/e/klz95z48zemtlbruxy1qdlg61ai7uly6"
+    },
+    {
+        "title": "Wife’s Question (2023)",
+        "poster": "7c12eddcf54f42c750911",
+        "country": "Korea",
+        "link": "https://ds2play.com/e/liv1e8b5azkr18u24g2hk68ytbbzuozg"
+    },
+    {
+        "title": "My Teacher’s Body Seduced Me (2023)",
+        "poster": "c43ef317bb8a5151b3ad3",
+        "country": "Jepang",
+        "link": "https://ds2play.com/e/qli2lkvegcvgg1iw53n27iyhp563gxlb"
+    },
+    {
         "title": "Tuhog (2023)",
         "poster": "e4c6ccfeaa4bd71138c8a",
         "country": "Filipina",
