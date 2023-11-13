@@ -75,6 +75,10 @@
 </head>
 <body>
 
+<a id="goTop">
+  <i class="fa fa-chevron-up my-float text-white"></i>
+</a>
+
 <nav class="navbar container fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
@@ -87,9 +91,9 @@
 
 <div class="container" style="margin-top:-8px">
   <div class="blocks blocks--horizontal mt-1 mb-0" id="menu" style="margin-left:-15px">
-  <div class="block"><a href="playbokep.html" onclick="ads()"><img src="assets/img/bokep.png" alt="" class="block__image" /><h5 class="block__title">Playbokep</h5></a></div>
+  <div class="block"><a href="bokep.html" onclick="ads()"><img src="assets/img/bokep.png" alt="" class="block__image" /><h5 class="block__title">Bokep</h5></a></div>
   <div class="block"><a href="bugil.html" onclick="ads()"><img src="assets/img/bugil.png" alt="" class="block__image" /><h5 class="block__title">Pap Bugil</h5></a></div>
-  <div class="block"><a href="bokep.html" onclick="ads()"><img src="assets/img/play.png" alt="" class="block__image" /><h5 class="block__title">Bokep Viral</h5></a></div>
+  <!--<div class="block"><a href="bokep.html" onclick="ads()"><img src="assets/img/play.png" alt="" class="block__image" /><h5 class="block__title">Bokep Viral</h5></a></div>-->
   <div class="block"><a href="semi.html" onclick="ads()"><img src="assets/img/semi.png" alt="" class="block__image" /><h5 class="block__title">Film Semi</h5></a></div>
   <div class="block"><a href="komik.html" onclick="ads()"><img src="assets/img/komik.png" alt="" class="block__image" /><h5 class="block__title">Komik ++</h5></a></div>
   <div class="block"><a href="desah.html" onclick="ads()"><img src="assets/img/desah.png" alt="" class="block__image" /><h5 class="block__title">Desahan</h5></a></div>
@@ -99,9 +103,18 @@
 </div>
 </div>
 
-<ul class="container" id="infinite-list" style="overflow-x:none">
+<!--<ul class="container" id="infinite-list" style="overflow-x:none">
   <img class="loading" src="assets/img/loading.gif" />
-</ul>
+</ul>-->
+
+<div class="container" style="margin-top:-10px">
+  <div id="data-bokep">
+    
+  </div>
+  <div class="menupage">
+    <div id="page-bokep"></div>
+  </div>
+</div>
 
 <div class="modal" id="cari-bokep" tabindex="-1" aria-labelledby="cari-bokepLabel" aria-hidden="true">
   <div class="modal-dialog modal-fullscreen modal-dialog-scrollable">
@@ -160,11 +173,53 @@
 <script src="database/video.js"></script>
 <script src="database/ads.js"></script>
   
+  <script>
+    var btn = $('#goTop');
+    $(window).scroll(function() {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
+    btn.on('click', function(e) {
+      e.preventDefault();
+      $('html, body').animate({scrollTop:0}, '300');
+    });
+  </script>
+  
   <script type="text/javascript">
      var uid = '344715';
      var wid = '674123';
      var pop_tag = document.createElement('script');pop_tag.src='//cdn.popcash.net/show.js';document.body.appendChild(pop_tag);
      pop_tag.onerror = function() {pop_tag = document.createElement('script');pop_tag.src='//cdn2.popcash.net/show.js';document.body.appendChild(pop_tag)};
+  </script>
+  
+  <script>
+    $(function () {
+      let container = $('#page-bokep');
+      container.pagination({
+      pageSize: 30,
+      showPageNumbers: false,
+      showNavigator: true,
+      formatNavigator: 'Hal. ke-<span style="color: #f00"><b><%= currentPage %></span></b>, <b><%= totalPage %></b> Halaman, <b><%= totalNumber %></b> Video',
+      showGoInput: true,
+      showGoButton: true,
+      formatGoInput: 'Menuju halaman ke- <%= input %>',
+      position: 'top',
+      className: 'paginationjs-theme-blue',
+      dataSource: video,
+      
+      callback: function (data, pagination) {
+          var dataHtml = '';
+          $.each(data, function (index, item) {
+              dataHtml += `<a href="https://dooood.com/e/` + item.link + `" target="_blank" onclick="ads()"><img id="poster" src="` + item.poster + `" onerror="this.onerror=null;this.src='assets/img/error.png'" alt="" width="110%" height="100%" style="object-fit:cover;aspect-ratio:16/9;margin-left:-20px"></a><div class="row sort-item" style="margin-bottom:10px"><div class="row"><div class="col-2"><img src="assets/img/favicon.jpg" style="object-fit:cover;width:37px;height:37px;margin-top:10px;float:left;border-radius:50%;"></div><div class="col-9"><span id="judul-bokep" style="text-align:left;margin-left:-17px;margin-bottom:12px"><b>`+ item.title +`</b></span></div><div class="col-1"><a href="https://droplink.co/st?api=8b8315c6bc13a8684492a125284cd883e95e6373&url=https://dooood.com/d/`+ item.link +`" target="_blank" onclick="ads()" style="color:black"><i class="fa fa-download" aria-hidden="true" style="margin-top:13px;float:right;margin-right:-20px;color:black;font-size:12pt"></i></a></div></div><div class="col-10" style="margin-left:68px"></div></div></div>`;
+              });
+    
+              $("#data-bokep").html(dataHtml);
+            }
+        })
+      })
   </script>
   
 </body>
