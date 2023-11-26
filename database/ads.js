@@ -1,6 +1,10 @@
 var ads = function(){
 var link_ads = [
     'https://shope.ee/6pa9ZhNdZL',
+    'https://shope.ee/2q4D2a39JZ',
+    'https://shope.ee/1fsFeXnAEy',
+    'https://shope.ee/8A5jOZZONw',
+    'https://shope.ee/9KHgmJo3UM',
     'https://shope.ee/5V4lzGfRJa',
     'https://shope.ee/40FyCWbwkd',
     'https://shope.ee/40FyCXbkUW',
