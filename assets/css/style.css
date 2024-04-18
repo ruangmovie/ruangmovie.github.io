@@ -1,7 +1,7 @@
 html, body {
   overflow-x: hidden;
   width:100%;
-  padding-bottom:15px;
+  padding-bottom:45px;
 }
 .navbar{
   height:55px;
@@ -57,7 +57,7 @@ img {
   text-align: center;a
   border-radius: 4px;
   position: fixed;
-  bottom: 60px;
+  bottom: 117px;
   right: 20px;
   transition: background-color .3s, 
   opacity .5s, visibility .5s;
@@ -113,7 +113,7 @@ img {
 	z-index: 999;
 	width:40px;
 	height:40px;
-	bottom:60px;
+	bottom:117px;
 	right:20px;
 	background-color:#2d2c4d;
 	color:#FFF;

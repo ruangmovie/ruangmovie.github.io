@@ -73,11 +73,11 @@
 
 <style>
 #myplayer{position:fixed;right:0;top:0;min-width:100%;min-height:100%}
-.tombolcari{bottom:345px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
-.tombolhome{bottom:280px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
-.tombolshare{bottom:215px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
-.tomboldownload{bottom:150px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
-.tombolbokep{bottom:85px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
+.tombolcari{bottom:380px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
+.tombolhome{bottom:315px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
+.tombolshare{bottom:250px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
+.tomboldownload{bottom:185px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
+.tombolbokep{bottom:120px;right:10px;border-radius:50px;box-shadow:2px 2px 3px #999;background-color:#2d2c4d;color:white;width:50px;height:50px;z-index:1;text-align:center;right:15px;position:fixed}
 </style>
 </head>
 <body>
@@ -125,6 +125,12 @@
   </button>
 </div>
 
+<nav class="navbar fixed-bottom bg-light" style="height:94px">
+  <div id="iklan">
+    <div id="ad"></div>
+  </div>
+</nav>
+
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery-1.12.4.min.js"></script>
 <script src="assets/js/all.js"></script><script src='assets/js/code.min.js'></script>
@@ -137,6 +143,7 @@
 <script src="assets/js/search.js"></script>
 <script src="database/video.js"></script>
 <script src="database/ads.js"></script>
+<script src="database/shopee.js"></script>
 <script>
   $(document).ready(function () {
     $("#myAds").modal("show");
