@@ -18,12 +18,6 @@ var data = [
         "link": "https://shope.ee/nlGp4g4T"
     },
     {
-        "nama": "Rightbox ID, Kaos kaki Olahraga Panjang, Hitam Polos, Allsize Dewasa",
-        "harga": 15200,
-        "photo": "https://affiliate.shopee.co.id/offer/product_offer/22736111958?trace=%7B%22trace_id%22%3A%220.Y9eE3SjCEJ.104%22%2C%22pre_trace_id%22%3A%220.p7ubIVOQYB.600%22%2C%22list_type%22%3A104%2C%22root_trace_id%22%3A%220.p7ubIVOQYB.600%22%2C%22root_list_type%22%3A600%2C%22depth%22%3A1%7D",
-        "link": "https://shope.ee/Vk1rk2m3a"
-    },
-    {
         "nama": "Rightbox, Kaos Kaki Pria, Motif Kantor, Panjang Sebetis, Warna Hitam, Coklat dan Navy, Allsize Dewasa",
         "harga": 12100,
         "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98v-ltofdw87semi94.webp",
