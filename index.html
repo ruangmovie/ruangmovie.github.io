@@ -74,6 +74,10 @@
   <i class="fa fa-chevron-up my-float text-white"></i>
 </a>
 
+<a href="#" class="pesan" data-bs-toggle="offcanvas" data-bs-target="#request">
+  <i class="fa fa-envelope my-pesan"></i>
+</a>
+
 <nav class="navbar container fixed-top">
   <div class="container-fluid">
     <a class="navbar-brand position-absolute top-0 start-50 translate-middle-x" href="#">
@@ -86,12 +90,12 @@
 
 <div class="container" style="margin-top:-8px;margin-bottom:-13px">
   <div class="blocks blocks--horizontal mt-1 mb-0" id="menu" style="margin-left:-15px">
-    <div class="block"><a href="https://moviebox21.github.io/" onclick="ads()"><img src="assets/img/semi.png" alt="" class="block__image" /><h5 class="block__title">Film Semi</h5></a></div>
-    <div class="block"><a href="sexclips.html" onclick="ads()"><img src="assets/img/clips.png" alt="" class="block__image" /><h5 class="block__title">Sex Clips</h5></a></div>
+    <div class="block"><a href="https://moviebox21.github.io/" onclick="ads()"><img src="assets/img/semi.png" alt="" class="block__image" /><h5 class="block__title">Bokep Semi</h5></a></div>
     <div class="block"><a href="bokep.html" onclick="ads()"><img src="assets/img/bokep.png" alt="" class="block__image" /><h5 class="block__title">Bokep Viral</h5></a></div>
+    <div class="block"><a href="sexclips.html" onclick="ads()"><img src="assets/img/clips.png" alt="" class="block__image" /><h5 class="block__title">Sex Clips</h5></a></div>
     <div class="block"><a href="bugil.html" onclick="ads()"><img src="assets/img/bugil.png" alt="" class="block__image" /><h5 class="block__title">Pap Bugil</h5></a></div>
-    <div class="block"><a href="cersex.html" onclick="ads()"><img src="assets/img/cersex.png" alt="" class="block__image" /><h5 class="block__title">Cerita Sex</h5></a></div>
     <div class="block"><a href="komik.html" onclick="ads()"><img src="assets/img/komik.png" alt="" class="block__image" /><h5 class="block__title">Komik ++</h5></a></div>
+    <div class="block"><a href="cersex.html" onclick="ads()"><img src="assets/img/cersex.png" alt="" class="block__image" /><h5 class="block__title">Cerita Sex</h5></a></div>
     <div class="block"><a href="apk.html" onclick="ads()"><img src="assets/img/apps.png" alt="" class="block__image" /><h5 class="block__title">Apk Hot</h5></a></div>
     <div class="block"><a href="desah.html" onclick="ads()"><img src="assets/img/desah.png" alt="" class="block__image" /><h5 class="block__title">Desahan</h5></a></div>
     <div class="block"><a href="sexy.html" onclick="ads()"><img src="assets/img/cewek.png" alt="" class="block__image" /><h5 class="block__title">Sexy Girls</h5></a></div>
@@ -141,6 +145,42 @@
   </div>
 </div>
 
+<div class="offcanvas container offcanvas-bottom" tabindex="-1" id="request" aria-labelledby="requestLabel" style="height:260px">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasBottomLabel">Lapor Link Rusak</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body small">
+    <div id="donasi">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="alert alert-success alert-dismissible fade show d-none my-alert mb-2" role="alert">
+              <strong>Terima Kasih!</strong> Pesan anda sudah kami terima.
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form name="ruang-imajinasi-form">
+              <div class="mb-3">
+                <textarea class="form-control" id="pesan" rows="4" name="pesan" placeholder="Tulis pesan"></textarea>
+              </div>
+              
+              <div align="center">
+                <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+
+                <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Loading...
+                </button>
+              </div>
+            
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <nav class="navbar fixed-bottom bg-light" style="height:94px">
   <div id="iklan">
     <div id="ad"></div>
@@ -181,6 +221,29 @@
      var wid = '674123';
      var pop_tag = document.createElement('script');pop_tag.src='//cdn.popcash.net/show.js';document.body.appendChild(pop_tag);
      pop_tag.onerror = function() {pop_tag = document.createElement('script');pop_tag.src='//cdn2.popcash.net/show.js';document.body.appendChild(pop_tag)};
+  </script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz6w7533jPj_886a8pPF6wTSHxr4_AoCdLgDTdrz1JZcQhQMtA/exec';
+    const form = document.forms['ruang-imajinasi-form'];
+    const btnKirim = document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+    const myAlert = document.querySelector('.my-alert');
+    
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      btnLoading.classList.toggle('d-none');
+      btnKirim.classList.toggle('d-none');
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then((response) => {
+          btnLoading.classList.toggle('d-none');
+          btnKirim.classList.toggle('d-none');
+          myAlert.classList.toggle('d-none');
+          form.reset();
+          console.log('Success!', response);
+        })
+        .catch((error) => console.error('Error!', error.message));
+    });
   </script>
   
   <script>
