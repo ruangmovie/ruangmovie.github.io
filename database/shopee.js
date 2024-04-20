@@ -1,5 +1,245 @@
 var data = [
     {
+        "nama": "[ TERBARU ] Helm ALV ULTRON pro 100% ori paket ganteng",
+        "harga": 160000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r992-lp4umv5rpthv50.webp",
+        "link": "https://shope.ee/10gLpBIhYW"
+    },
+    {
+        "nama": "Kartu Perdana XL 365GB - Gratis Unlimitid YouTube + 1GB/day",
+        "harga": 17487,
+        "photo": "https://down-ws-id.img.susercontent.com/269dc4463ba9941afc7f7986e7dc9b54.webp",
+        "link": "https://shope.ee/1Azm1UI4DZ"
+    },
+    {
+        "nama": "Gerinda dan bor dapat box paket lengkap",
+        "harga": 129600,
+        "photo": "https://down-ws-id.img.susercontent.com/sg-11134201-7rccb-ls823kkhiyw170.webp",
+        "link": "https://shope.ee/g3VQZJyEU"
+    },
+    {
+        "nama": "Sepeda Listrik Motor 48V Sepeda Listrik Dewasa Sepeda Motor Listrik Premium Mewah Model Terbaru 2023",
+        "harga": 2099000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98s-lo2f84y6xzss1a.webp",
+        "link": "https://shope.ee/qMvcsJKtX"
+    },
+    {
+        "nama": "(Diskon ongkir 70%) Ban Motor Matic Beat Vario Mio Spin Xeon Ring 14 Ukuran Depan 80/90-14 & Belakang 90/90-14",
+        "harga": 66050,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98w-llarg5zy2nma7d.webp",
+        "link": "https://shope.ee/LQf1xLEuS"
+    },
+    {
+        "nama": "Tas Selempang Pria Wanita Slingbag Casual Trendy",
+        "harga": 27500,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7qukx-lguqtgvktyhmdd.webp",
+        "link": "https://shope.ee/Vk5EGKbZV"
+    },
+    {
+        "nama": "SPEEDS Meja Kurs Lipat Set Free Meja Lipat Kursi Lipat Outdoor Indoor Tas Folding Table Chair Portable Meja Camping Piknik 031-36",
+        "harga": 142500,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7qul9-lh8n31ghft80cd.webp",
+        "link": "https://shope.ee/nodLMVaQ"
+    },
+    {
+        "nama": "Payung Lipat UV - Anti Hujan dan Sinar UV Matahari",
+        "harga": 59800,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7qukw-lg2dl8aj9p7scf.webp",
+        "link": "https://shope.ee/B7EpeLsFT"
+    },
+    {
+        "nama": "VIVO Y17/HP Y17/HP MURAH/ HP VIVO/RAM 6GB ROM 128GB /RAM 8GB ROM 256GB /Fullset /dengan AI Triple Camera, Baterai 5.000 mAh, 6GB RAM + 128GB ROM, Ultra All Screen.",
+        "harga": 726000,
+        "photo": "https://down-ws-id.img.susercontent.com/sg-11134201-23020-2swkogzbd1mve4.webp",
+        "link": "https://shope.ee/50CUaX3TRQ"
+    },
+    {
+        "nama": "ANT PROJECT - Tas Handlebar Bag TROY 3in Selempang - Tas Stang Sepeda Black Waterproof",
+        "harga": 49900,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r991-lqppmz7i3j5ee3.webp",
+        "link": "https://shope.ee/5AVumq2q6T"
+    },
+    {
+        "nama": "198VF Mesin Bor Impact Drill Screwdriver Multifunction / Bor baterai / Bor Tanpa Kabel / Bor Listrik 198Vf / Bor Listrik Set / Bor Tangan Listrik / Mesin Obeng Bor Baterai",
+        "harga": 195000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98p-ltf3la0dqmu242.webp",
+        "link": "https://shope.ee/4fZeBv4k7O"
+    },
+    {
+        "nama": "Daster Murah 100 dapat 7 baju / daster Paket 100rb grosir daster pekalongan",
+        "harga": 79999,
+        "photo": "https://down-ws-id.img.susercontent.com/sg-11134201-22090-jkzm2edr42hv18.webp",
+        "link": "https://shope.ee/4pt4OE46mR"
+    },
+    {
+        "nama": "Tas Ransel Terbaru PAKET COMBO Backpack Kuromi Sekolah Sd,smp,sma Tas Sekolah Anak Perempuan",
+        "harga": 55000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r992-llyrf5svbych4b.webp",
+        "link": "https://shope.ee/4KwnnJ60nM"
+    },
+    {
+        "nama": "Kaos Polo Pria / Polo Shirt Pria / Kaos Kerah Premium / Kaos Pria",
+        "harga": 58130,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7qukx-ljz4rgam1f6q56.webp",
+        "link": "https://shope.ee/4VGDzc5NSP"
+    },
+    {
+        "nama": "Mesin Las mig Listrik trafo las welding inverter Las Tanpa Gas Travo Inverter MIG 250 Mesin las Mesin trafo las welding travo las",
+        "harga": 366000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98w-lsml7bzvt08p18.webp",
+        "link": "https://shope.ee/40JxOh7HTK"
+    },
+    {
+        "nama": "Ready✅ mobil remot / mobil remote control / mobil mobilan / 1/18 Scale kecepatan tinggi pencahayaan otomatis",
+        "harga": 69999,
+        "photo": "https://down-ws-id.img.susercontent.com/sg-11134201-23010-cvfs5x7o7vlv7a.webp",
+        "link": "https://shope.ee/4AdNb06e8N"
+    },
+    {
+        "nama": "Sambal Cumi Asin/Pete/Bajak Ebi/Teri Medan Sambel Mr.Crispy",
+        "harga": 29900,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98o-lsb4a3699kcpeb.webp",
+        "link": "https://shope.ee/3fh7058Y9I"
+    },
+    {
+        "nama": "Paket 4 PC 100RB Kaos Mix Brand Matahari Kaos Pria 4 Pcs 100 Ribu | Kaos Pria Branded 100 Ribu 4 Pcs | Kaos Pria | Kaos Distro Pria | Baju Pria | Fashion Pria | Clothes Pria | Atasan Pria Wanita | T-shirt Pria | kaos distro 100 dapat 4 | Dunia Fashion 99",
+        "harga": 105000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98u-lp7mf15s8ygj89.webp",
+        "link": "https://shope.ee/3q0XCO7uoL"
+    },
+    {
+        "nama": "Celana Dalam Pria Boxer Hemat 6 Pcs Terbaru/Termurah",
+        "harga": 53300,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98x-lptmc83n8lbs42.webp",
+        "link": "https://shope.ee/3L4GbT9opG"
+    },
+    {
+        "nama": "YIBAO Powerbank 10000 mAh Mini Fast Charging Wireless Charger For IOS Android",
+        "harga": 109900,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98u-lru3athouhis8a.webp",
+        "link": "https://shope.ee/3VNgnm9BUJ"
+    },
+    {
+        "nama": "[ terbaru ] HELM ALV pro PAKET GANTENG",
+        "harga": 250000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98o-lsvnfm53dr3xff.webp",
+        "link": "https://shope.ee/9UetxKhwvF"
+    },
+    {
+        "nama": "ANTARESTAR Official - Tas Selempang Waterproof Tas Slempang Pria Wanita Waist Bag Crossbody Premium Outdoor",
+        "harga": 79000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98z-lqa0v1rrjjly90.webp",
+        "link": "https://shope.ee/9eyK9dhJaI"
+    },
+    {
+        "nama": "Alat Cuci Motor 150Bar mesin cuci mobil alat mesin cuci mobil 588V 988V alat cuci mobil steam alat cuci motor portable alat mesin cuci motor mesin cuci mobil",
+        "harga": 189000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134211-7r98y-lpua83ctxkk0c6.webp",
+        "link": "https://shope.ee/9pHkLwggFL"
+    },
+    {
+        "nama": "Freeknight Tas Selempang Pria Keren Multifungsi Sport USB Charge Fashion Slempang Waterproof TS713",
+        "harga": 58900,
+        "photo": "https://down-ws-id.img.susercontent.com/0d17321f0109d77e18ee5dbca11c0951.webp",
+        "link": "https://shope.ee/6051mtvH1c"
+    },
+    {
+        "nama": "TURUN HARGA 60 RIBU DAPAT 5 CELANA CHINOS PENDEK GRATIS ONGKIR",
+        "harga": 64500,
+        "photo": "https://down-ws-id.img.susercontent.com/sg-11134201-22100-6f2cep6qr7hv89.webp",
+        "link": "https://shope.ee/6AORzCudgf"
+    },
+    {
+        "nama": "GUB P30 Original Holder Handphone Dudukan Ponsel Aluminium Aloy",
+        "harga": 100000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98z-lqloszbk0a9a21.webp",
+        "link": "https://shope.ee/6KhsBVu0Li"
+    },
+    {
+        "nama": "Lemari Plastik Lemari Pakaian Plastik Susun KACA ada KUNCI",
+        "harga": 125000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134201-23020-c77ka26yulnv16.webp",
+        "link": "https://shope.ee/6V1INotN0l"
+    },
+    {
+        "nama": "YATT Kipas Angin Berdiri Listrik Premium Low Noise 3 Tingkat Kecepatan Angin / Stand Fan Elektric",
+        "harga": 69800,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98t-ltajav0iv8s413.webp",
+        "link": "https://shope.ee/5KpKzfxoNY"
+    },
+    {
+        "nama": "PANARYBODY J2027 Sepatu Pria Casual Sneakers Fashion OOTD Hangout Kuliah Kerja Travel Sepatu Cowok Modis",
+        "harga": 195000,
+        "photo": "https://down-ws-id.img.susercontent.com/cf00dc40a2537eb21036b45c5fd6a0d3.webp",
+        "link": "https://shope.ee/5V8lByxB2b"
+    },
+    {
+        "nama": "Kasur lantai Tebal6cm/Kasur gender/Matras Kasur / foldable Mattress Floor",
+        "harga": 109000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134201-23020-juwq0w4ndknvf2.webp",
+        "link": "https://shope.ee/5fSBOHwXhe"
+    },
+    {
+        "nama": "Hijas - Jas Hujan Wanita Gamis Jumbo Hijabers Premium",
+        "harga": 105000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r992-ln6z7rad46xzb1.webp",
+        "link": "https://shope.ee/5plbaavuMh"
+    },
+    {
+        "nama": "Tas Handbag Outdoor Handphone Anti Air Tas Slingbag Leher Terbaru Waterproof",
+        "harga": 29500,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7quky-lj2frmkflym3e0.webp",
+        "link": "https://shope.ee/7KaPNLqCK0"
+    },
+    {
+        "nama": "Qwertylife Workshirt Engineers Black",
+        "harga": 139000,
+        "photo": "https://down-ws-id.img.susercontent.com/sg-11134201-22120-30m85g8o4jkv50.webp",
+        "link": "https://shope.ee/7UtpZepYz3"
+    },
+    {
+        "nama": "【COD】M10 TWS Headphone Wireless Bluetooth 5.3 In Ear low-latency Earphone Mikrofon Stereo Calling With 3500mAh Powerbank - EP18",
+        "harga": 41800,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98v-lrdzzpieac1l5e.webp",
+        "link": "https://shope.ee/7fDFlxove6"
+    },
+    {
+        "nama": "Boneka Bantal Guling Crocodile / guling jumbo / guling dinosaurus / Guling karakter",
+        "harga": 99000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98v-logl9wyynb8p34.webp",
+        "link": "https://shope.ee/7pWfyGoIJ9"
+    },
+    {
+        "nama": "【Garansi 10 tahun】Lampu tenaga surya 【HOT SALE】 Lampu solar panel Lampu sorot solar cell lampu outdoor lampu sorot solar cell Super terang 600W 800W 1103 LED Sorot Surya Lampu Jalan 0 Biaya listrik sepanjang tahun Kontrol Cahaya Cerdas tahan air IP67",
+        "harga": 59000,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98u-lrv1cbf7mwc41f.webp",
+        "link": "https://shope.ee/6fKia7sjfw"
+    },
+    {
+        "nama": "(Super Live Sale) - Hand Bag Bag DIXON Multyfungsi 3 in 1 Sling Bag Kulit Anti-Air Tas Selempang Waterproof Clutch Bag Pria Wanita WaistBag Pouch Bag Waist Bag Cowok",
+        "harga": 63900,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r98o-ltszrg3tqtc276.webp",
+        "link": "https://shope.ee/6pe8mQs6Kz"
+    },
+    {
+        "nama": "[ KYLO ] Kipas Angin Lipat Portable USB Charger/Kipas Angin Meja Putar 180°",
+        "harga": 42888,
+        "photo": "https://down-ws-id.img.susercontent.com/b88870b53e50d380e8a3d66f49480268.webp",
+        "link": "https://shope.ee/6zxYyjrT02"
+    },
+    {
+        "nama": "KAOS DEWASA GRADE ORI | TSHIRT PREMIUM | BAJU DISTRO KEREN TERBARU TERMURAH",
+        "harga": 87500,
+        "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r991-lm77lbh90q7f58.webp",
+        "link": "https://shope.ee/7AGzB2qpf5"
+    },
+    {
+        "nama": "Tas Dompet Hp Handphone Smartphone Fervekto Shikai 3 in style / Tas Dompet Organizer HP Handphone Multifungsi Dompet Kartu Kalung Tangan Clutch Bag Slempang Selempang Sling Bag Distro Keren Murah Terbaru 2022 Waterproof Tahan AirUnisex Pria Wanita",
+        "harga": 67000,
+        "photo": "https://down-ws-id.img.susercontent.com/277ef77a9eb83a5e664e098610816be0.webp",
+        "link": "https://shope.ee/3L4Gc05QRM"
+    },
+    {
         "nama": "4boys- celana kasual harajuku kargo Teachwear Stretwear pria wanita",
         "harga": 124000,
         "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r991-lt3braq1fxhl4c.webp",
