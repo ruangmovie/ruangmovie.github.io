@@ -1,5 +1,47 @@
 var bugil =  [
     {
+        "link": "https://pbs.twimg.com/media/GLXYGIOasAAOclb?format=jpg&name=900x900"
+    },
+    {
+        "link": "https://pbs.twimg.com/media/GL3YhCYacAcelCy?format=jpg&name=900x900"
+    },
+    {
+        "link": "https://pbs.twimg.com/media/GMIclZBbwAAegbr?format=jpg&name=900x900"
+    },
+    {
+        "link": "https://pbs.twimg.com/media/GMF-SUsa8AAaQCo?format=jpg&name=900x900"
+    },
+    {
+        "link": "https://pbs.twimg.com/media/GMEppX3XEAAH4dr?format=jpg&name=900x900"
+    },
+    {
+        "link": "https://pbs.twimg.com/media/GMEHvi6aIAAGaFO?format=jpg&name=900x900"
+    },
+    {
+        "link": "https://pbs.twimg.com/media/GL3XhnmacAEMBxE?format=jpg&name=900x900"
+    },
+    {
+        "link": "https://pbs.twimg.com/media/GMFRCWFa4AAu3sD?format=jpg&name=900x900"
+    },
+    {
+        "link": "https://pbs.twimg.com/media/GMCbMNoasAEeBZl?format=jpg&name=small"
+    },
+    {
+        "link": "https://pbs.twimg.com/media/GMCbMNnasAIw23Q?format=jpg&name=small"
+    },
+    {
+        "link": "https://pbs.twimg.com/media/GMEyM8kaMAAgo_z?format=jpg&name=900x900"
+    },
+    {
+        "link": "https://pbs.twimg.com/media/GMEyM8nakAAclYD?format=jpg&name=900x900"
+    },
+    {
+        "link": "https://pbs.twimg.com/media/GMEuXg_bMAAAh4S?format=jpg&name=small"
+    },
+    {
+        "link": "https://pbs.twimg.com/media/GLnua2wbsAAZjs0?format=jpg&name=360x360"
+    },
+    {
         "link": "https://telegra.ph/file/2e40968ec0f7852a28e2b.jpg"
     },
     {
