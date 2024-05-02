@@ -20504,7 +20504,7 @@ for (var i = 0; i < data.length; i++) {
 		title = data[i].title,
 		link = data[i].link;
 	
-	pages += "<div class='page' data-kategori='" + kategori + "' data-nama='" + title + "' data-link='"+ link +"'><div class='row sort-item mb-2'><a class='button-cersex' href='' data-bs-toggle='modal' data-bs-target='#player-cersex' data-obj='"+i+"' style='color:black' onclick='ads()'><p id='judul-cersex' align='left'><b>" + title + "</b></p><p style='margin-left:10px;font-size:12pt'>"+ kategori +"</p></div></div>";
+	pages += "<div class='page' data-kategori='" + kategori + "' data-nama='" + title + "' data-link='"+ link +"'><div class='row sort-item mb-2'><a class='button-cersex' href='' data-bs-toggle='modal' data-bs-target='#player-cersex' data-obj='"+i+"' style='color:black'><p id='judul-cersex' align='left'><b>" + title + "</b></p><p style='margin-left:10px;font-size:12pt'>"+ kategori +"</p></div></div>";
 	
 	if (kategories.indexOf("<option value='" + kategori + "'>" + kategori + "</option>") == -1) {
 		kategories += "<option value='" + kategori + "'>" + kategori + "</option>";
