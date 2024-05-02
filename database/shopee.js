@@ -1,5 +1,485 @@
 var data = [
     {
+        "nama": "(paket 5 pcs 100 ribu) kaos saku premium dewasa pria/wanita M.L.XL.XXL",
+        "harga": 87900,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98x-lrhzenzxkwtw79.webp",
+        "link": "https://shope.ee/2fosSVhuVA"
+    },
+    {
+        "nama": "Kaos Blazer FOBDG Kaos dan Blazer Menyatu 100% Cotton Style Formal",
+        "harga": 98900,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7qul5-ljuza47pl58vc9.webp",
+        "link": "https://shope.ee/2q8IeohHAD"
+    },
+    {
+        "nama": "ANT PROJECT - Tas Selempang Pouch ANT301 Tas Handbag Distro Original",
+        "harga": 38500,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98t-lqlr47n7d9395b.webp",
+        "link": "https://shope.ee/30Rir7gdpG"
+    },
+    {
+        "nama": "Harmits Project - PILOT Waistbag Slingbag Waterproof Tas Pinggang Selempang Ringan Anti Air Pria Wanita",
+        "harga": 161500,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7qul7-lk5pve8wjuor87.webp",
+        "link": "https://shope.ee/3Al93Qg0UJ"
+    },
+    {
+        "nama": "100rb dpt 5 Celana Pendek Pria Dewasa Boardshort Premium",
+        "harga": 130000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98w-lq5osnfi0wc216.webp",
+        "link": "https://shope.ee/4fZwqBaIRc"
+    },
+    {
+        "nama": "Kaos Salur Non Pocket Biggest Cotton Combed 24s - Kaos Stripe Distro Pria Woopie Project",
+        "harga": 64500,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98p-lre71vc0mng42f.webp",
+        "link": "https://shope.ee/4ptN2UZf6f"
+    },
+    {
+        "nama": "Mr Mads - Wilder Sling Bag Tas Selempang Pria Waistbag Pria crossbody & shoulder bags",
+        "harga": 99165,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98y-lp0nom82lfjra0.webp",
+        "link": "https://shope.ee/50CnEnZ1li"
+    },
+    {
+        "nama": "Krim Pelindung matahari Anti Matahari, 60ml tahan air wajah tubuh tabir surya pemutih krim matahari tabir surya krim pelindung kulit Sunscreen UV SPF50 PA+++",
+        "harga": 17500,
+        "photo": "https://down-aka-id.img.susercontent.com/sg-11134201-7qvf6-ljgjnifa8qve75.webp",
+        "link": "https://shope.ee/5AWDR6YOQl"
+    },
+    {
+        "nama": "NEISDA - COOTA Waistbag Slingbag Waterproof Tas Pinggang Selempang Ringan Anti Air Pria Wanita",
+        "harga": 122000,
+        "photo": "https://down-aka-id.img.susercontent.com/sg-11134201-7rcdl-ltmpzjbcu66b15.webp",
+        "link": "https://shope.ee/40KG2xcpnY"
+    },
+    {
+        "nama": "KAOS DISTRO TERMURAH/PAKET 3 KAOS/KAOS PRIA WANITA/KAOSDISTROMURAH",
+        "harga": 50000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7qula-lgrpkf1eex5f69.webp",
+        "link": "https://shope.ee/4AdgFGcCSb"
+    },
+    {
+        "nama": "ANT PROJECT - Tas Selempang Pouch Bag ANT302 Tas Handbag Distro / Vape Bag Terbaru",
+        "harga": 36500,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98y-lqls8r9z96yn34.webp",
+        "link": "https://shope.ee/4Kx6RZbZ7e"
+    },
+    {
+        "nama": "JAKET PRIA BAHAN POLYESTER IMPORT TASLAN",
+        "harga": 135000,
+        "photo": "https://down-aka-id.img.susercontent.com/2ea4e3cddc86d3e38c9d15484494d60e.webp",
+        "link": "https://shope.ee/4VGWdsavmh"
+    },
+    {
+        "nama": "Celana Jeans Panjang Pria | Celana Jeans Distro Kekinian | Jeans Sobek Distro Warrior",
+        "harga": 77000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98r-lpm60mq4kbkb9e.webp",
+        "link": "https://shope.ee/g3o4ppWYy"
+    },
+    {
+        "nama": "Kepswell - Kaos Dunia ini Jahat yang baik cuma Mamah - Baju Kata Kata - Kepstore T-Shirt Viral Combed 24s Pria Unisex",
+        "harga": 82500,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98v-lo6jpb3iktmk50.webp",
+        "link": "https://shope.ee/qNEH8otE1"
+    },
+    {
+        "nama": "ANT PROJECT - Tas Handlebar Bag TROY 3in Selempang - Tas Stang Sepeda Black Waterproof",
+        "harga": 41900,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r991-lqppmz7i3j5ee3.webp",
+        "link": "https://shope.ee/10geTRoFt4"
+    },
+    {
+        "nama": "Atasan Pakaian Wanita Couple Baju Pasangan Kaos Aldira Big Stripe Oversize",
+        "harga": 69800,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98v-lrcs0ji249c692.webp",
+        "link": "https://shope.ee/1B04fkncY7"
+    },
+    {
+        "nama": "Clutch Handbag Pria Wanita BROTHERS BREMBO Anti Air Waterproof Touchscreen Layar Sentuh",
+        "harga": 47500,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98p-lptmokc5b4vz10.webp",
+        "link": "https://shope.ee/o7Hbs3uu"
+    },
+    {
+        "nama": "Baju Kemeja Pria Lengan Panjang Polos Abu-Abu Navy Hitam Maroon Putih Hem Cowok Keren Kantor dan Kasual Bahan Katun Premium",
+        "harga": 42750,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98w-lqp94n10te6eb2.webp",
+        "link": "https://shope.ee/B7XTurQZx"
+    },
+    {
+        "nama": "Mr Mads - Beaver Waist Bag - Tas Selempang Pria Tas Pinggang ShoulderBag SlingBag HandBag ChestBag (Bisa Dijadikan 5 Model) - Waterproof",
+        "harga": 124165,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98z-lt6djx2onm7o11.webp",
+        "link": "https://shope.ee/LQxgDqnF0"
+    },
+    {
+        "nama": "Sweater Pria SET /jaket pria / Hoodie Pria Olahraga rekreasi Samurai Sweater Fleece / CELANA TRAINING SPORT OLAHRAGA IMPORT PANJANG RUNNING /Sweatshirt Dickies Crewneck Putih Full",
+        "harga": 137800,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98r-lnxqoxh3cvwm26.webp",
+        "link": "https://shope.ee/VkNsWq9u3"
+    },
+    {
+        "nama": "Celana Jeans Pria Bule Celana Panjang Pria Baggy Pants Korean Style Murah Celana Oversize Pria Straight Jeans Celana Kulot Celana Slim Fit Pria Celana Santai Pria Straight Pants",
+        "harga": 128000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98o-lqo9p9q3eyxc10.webp",
+        "link": "https://shope.ee/20ZBfHkRrM"
+    },
+    {
+        "nama": "Buy 1 Get 1 Parfum Ballerina Pink Romance dan Amber Grace 30 Ml - Aroma Wanita Best Seller",
+        "harga": 29900,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98t-lsqrpfbjqfk977.webp",
+        "link": "https://shope.ee/2AsbrajoWP"
+    },
+    {
+        "nama": "Tas selempang pria MASURA 001 - tas selempang wanita - tas slempang",
+        "harga": 34900,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7qul3-ljxj62yimva0e0.webp",
+        "link": "https://shope.ee/2LC23tjBBS"
+    },
+    {
+        "nama": "Celana Kantor Formal Pria Slimfit Bahan Dasar Kain Woll Kualitas",
+        "harga": 65212,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r991-lr7kvqjw1vgd61.webp",
+        "link": "https://shope.ee/2VVSGCiXqV"
+    },
+    {
+        "nama": "Celana Pria Pelindung Bawah Celana Jogger Tipis Bernapas Elastis Pants",
+        "harga": 129000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98x-lueldmdubidyc4.webp",
+        "link": "https://shope.ee/1LJUs3mzDI"
+    },
+    {
+        "nama": "Mr Mads - Leon Hanging Wallet - Tas Selempang Pria Tas Hp Dompet Waterproof - Tas Slingbag Kecil",
+        "harga": 59165,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98q-lt6djx2om7n811.webp",
+        "link": "https://shope.ee/1Vcv4MmLsL"
+    },
+    {
+        "nama": "PAKET 4 PCS 100 RIBU BAJU ATASAN T SHIRT KAOS POCKET DISTRO MBE PRIA WANITA COWOK LAKI-LAKI COWOK DEWASA UKURAN M-L-XL-XXL-XXXL//KAOS SAKU DEPAN",
+        "harga": 100000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98r-lp120otb2tg383.webp",
+        "link": "https://shope.ee/1fwLGfliXO"
+    },
+    {
+        "nama": "Kaos Salur Big Stripe Cotton Combed 24s",
+        "harga": 69900,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r992-lorz6wrbmvwp12.webp",
+        "link": "https://shope.ee/1qFlSyl5CR"
+    },
+    {
+        "nama": "Celana Pria Pelindung Bawah Celana Jogger Tipis Bernapas Elastis Pants",
+        "harga": 129000,
+        "photo": "https://down-aka-id.img.susercontent.com/sg-11134201-7rccg-ltun4d8soir619.webp",
+        "link": "https://shope.ee/8f65bXL4Km"
+    },
+    {
+        "nama": "MR MADS - Tas Selempang Pria \"KEPLER\" Clutch Bag - Sling Bag Waterproof",
+        "harga": 89165,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r991-loz2jjhj0bdf4e.webp",
+        "link": "https://shope.ee/8pPVnqKQzp"
+    },
+    {
+        "nama": "Mr Mads - Tas Hand Bag \"RAVELIN\" 3 in one - Clutch Bag Pria - Sling Bag Pria - Tas Selempang Pria Multifungsi",
+        "harga": 85165,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98z-loz2jjhiywsz3a.webp",
+        "link": "https://shope.ee/8ziw09Jnes"
+    },
+    {
+        "nama": "(Cod)Jam Tangan Couple Alba Balok l Jarum Harga 1pcs Strap Stell/Rantai(Dikirim Jakarta)",
+        "harga": 36000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7qul3-lh60p0vo3y585b.webp",
+        "link": "https://shope.ee/9A2MCSJAJv"
+    },
+    {
+        "nama": "XXXXL / 4XL / Super Duper Jumbo CELANA DALAM WANITA PREMIUM underwear berat badan 160kg sampai 230kg / Ternyaman, Terlembut, Terbesar / Harga 1 pcs (satuan)",
+        "harga": 53100,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98r-lr9993wl9mpgc7.webp",
+        "link": "https://shope.ee/7zqOoJNbgi"
+    },
+    {
+        "nama": "Bulumata Tanpa Lem Korean Eyelashes NO GLUE Eyelash Extention No Glue Eyelashes Bulu Mata Korea Fake Eyelashes Bulu Mata Palsu Natural",
+        "harga": 19900,
+        "photo": "https://down-aka-id.img.susercontent.com/sg-11134201-22110-j0nzpjuo2qjv10.webp",
+        "link": "https://shope.ee/8A9p0cMyLl"
+    },
+    {
+        "nama": "Mr Mads - Hector Sling Bag - Tas Selempang Pria Waistbag Pria Crossbody Shoulder Bags Tas Camera",
+        "harga": 109165,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98q-lqbdighyil1ie0.webp",
+        "link": "https://shope.ee/8KTFCvML0o"
+    },
+    {
+        "nama": "Celana Cargo Panjang Pria Original Jumbo Slimfit Army Laki Laki Murah Loreng Kargo Pant Big Size Dewasa Chargo Hitam Premium Jogger Distro Cowo Jeans Tebal",
+        "harga": 84000,
+        "photo": "https://down-aka-id.img.susercontent.com/ce67a4e4d2da6eb0d1530281c99b1021.webp",
+        "link": "https://shope.ee/8UmfPELhfr"
+    },
+    {
+        "nama": "Mr Mads - Wolf Waist Bag - Tas Selempang Pria Tas Pinggang Clucth Bag Shoulder Bag Sling Bag Hand Bag Chest Bag (Bisa Dijadikan 5 Model) - Waterproof",
+        "harga": 103165,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98o-lt3cj86nvius69.webp",
+        "link": "https://shope.ee/9zbTBzFzdA"
+    },
+    {
+        "nama": "A016 / Celana dalam wanita transparan seamless/Panty wanita dewasa",
+        "harga": 26622,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98p-lpq1cz9n7ui779.webp",
+        "link": "https://shope.ee/A9utOIFMID"
+    },
+    {
+        "nama": "Mr Mads - Forlan Clutchbag - Waistbag Slingbag Handbag Pouchbag Tas Selempang Tas Pinggang - Multifungsi 4 in 1",
+        "harga": 109165,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r992-lp0nom82pn9304.webp",
+        "link": "https://shope.ee/AKEJabEixG"
+    },
+    {
+        "nama": "[TERLARIS] CELANA CHINO PANJANG PRIA UKURAN 27-38 PREMIUM QUALITY",
+        "harga": 59900,
+        "photo": "https://down-aka-id.img.susercontent.com/02b2ee251b325b081c2c7041bbaaef71.webp",
+        "link": "https://shope.ee/AUXjmuE5cJ"
+    },
+    {
+        "nama": "Troveast Windbreaker Jacket Stanley Petrol Blue",
+        "harga": 151200,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98v-lrun3sc2kg1g9b.webp",
+        "link": "https://shope.ee/3L4ZFg3C1n"
+    },
+    {
+        "nama": "KIPAS PENDINGIN MINI AC PORTABLE AIR COOLER MOBIL DAN RUANGAN",
+        "harga": 68900,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7qukx-libmye4v27dq2c.webp",
+        "link": "https://shope.ee/4VGWdoykf2"
+    },
+    {
+        "nama": "PROMO XL & AXIS",
+        "harga": 84000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r991-lpqrboerw1ria9.webp",
+        "link": "https://shope.ee/4Kx6RVzO01"
+    },
+    {
+        "nama": "PROMO KAOS POLOS 3PCS 50K BISA UNISEX",
+        "harga": 55000,
+        "photo": "https://down-aka-id.img.susercontent.com/sg-11134201-7rblg-llp3odcxoxqo41.webp",
+        "link": "https://shope.ee/4AdgFD01L0"
+    },
+    {
+        "nama": "CELANA CARGO FLEECE BAHAN TEBEL LEMBUT ADEM PRIA WANITA",
+        "harga": 66250,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98p-lno7oukithj51f.webp",
+        "link": "https://shope.ee/40KG2u0efz"
+    },
+    {
+        "nama": "Buy 1 Get 1 Parfum Ballerina Pink Romance dan Amber Grace 30 Ml - Aroma Wanita Best Seller",
+        "harga": 29900,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98t-lsqrpfbjqfk977.webp",
+        "link": "https://shope.ee/5AWDR2wDJE"
+    },
+    {
+        "nama": "Transformers T01 True Wireless Bluetooth Headset Earbuds Earphone Headphone",
+        "harga": 219000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98y-lrwhossfyy4p72.webp",
+        "link": "https://shope.ee/50CnEjwqeD"
+    },
+    {
+        "nama": "Tas Handbag Polos Waterproof Tas Pouch Bag Clutch",
+        "harga": 24000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98o-lloki8ejjsprdf.webp",
+        "link": "https://shope.ee/4ptN2QxTzC"
+    },
+    {
+        "nama": "Tas Selempang Pouch Waterproof Slingbag Pria",
+        "harga": 32500,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7qul6-li05w1mfhgbrf5.webp",
+        "link": "https://shope.ee/4fZwq7y7KB"
+    },
+    {
+        "nama": "KEMEJA MOTIF SURFING PRIA LENGAN PENDEK",
+        "harga": 34650,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98w-lpveflkf2eb2bb.webp",
+        "link": "https://shope.ee/VkNsTDymO"
+    },
+    {
+        "nama": "Nakamichi NHP-X2 Headphone Headset Wireless Bluetooth HD HIFI FM Mic",
+        "harga": 169000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134201-23020-zgu8z83ki2nv21.webp",
+        "link": "https://shope.ee/LQxgAEc7N"
+    },
+    {
+        "nama": "X Urband Absolute Jaket Baseball Varsity Full Embroider",
+        "harga": 69900,
+        "photo": "https://down-aka-id.img.susercontent.com/1ea491a01359027b9678f610f95bae58.webp",
+        "link": "https://shope.ee/B7XTrFFSM"
+    },
+    {
+        "nama": "BAYT | Niza ultiMAX handbag pria clutch slingbag",
+        "harga": 125000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r992-llrboyrdaex3e3.webp",
+        "link": "https://shope.ee/o7HYFsnL"
+    },
+    {
+        "nama": "Kaos polos paket 6pc baju 100rb semi combet PE",
+        "harga": 99000,
+        "photo": "https://down-aka-id.img.susercontent.com/sg-11134201-7rbkp-lmiaf8zbpv7d16.webp",
+        "link": "https://shope.ee/1B04fhBRQa"
+    },
+    {
+        "nama": "ThePods 3rd Generation Gen 3 2024 - (IMEI & Serial Number Detectable + Spatial Audio) - Final Upgrade Version 9D Hifi True Wireless Stereo Bluetooth Headset Earphone Earbuds - Headphone Spatial Audio TWS Charging Case - By PodsIndonesia",
+        "harga": 236400,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98o-ltke1y3598fx7d.webp",
+        "link": "https://shope.ee/10geTOC4lZ"
+    },
+    {
+        "nama": "Mr Mads - Kyler Clutch Bag - Tas Selempang Handbag Pria Sling Bag Pouch Pria Wanita (Unisex) - Waterproof",
+        "harga": 74165,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r991-loqd1st0g277b0.webp",
+        "link": "https://shope.ee/qNEH5Ci6Y"
+    },
+    {
+        "nama": "celana pendek pria distro dewasa santai murah",
+        "harga": 55000,
+        "photo": "https://down-aka-id.img.susercontent.com/72975d72da79821b4ea50ef9851664b2.webp",
+        "link": "https://shope.ee/g3o4mDLRX"
+    },
+    {
+        "nama": "MANLY - OVERSIZED TSHIRT 200 GSM KAOS POLOS OVERSIZE HEAVY COTTON With Combed 24s 200+ gsm",
+        "harga": 62370,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98o-luke5dhlxhw004.webp",
+        "link": "https://shope.ee/1qFlSv8u4m"
+    },
+    {
+        "nama": "Nokia E3100 Plus True Wireless Earbuds Bluetooth Earphone TWS Black",
+        "harga": 189000,
+        "photo": "https://down-aka-id.img.susercontent.com/sg-11134201-23020-c59pujvypbnv3f.webp",
+        "link": "https://shope.ee/1fwLGc9XPl"
+    },
+    {
+        "nama": "Mipanda APEXEL Lensa Zomm Lens Kamera Tele Zoom HP 18X ZOOM LENSA Universal 18X25 Handphone Bermata HD Ponsel Lensa Camera HP Ponsel Lensa Zoom Optik Dengan Tripod untuk Ponsel",
+        "harga": 102910,
+        "photo": "https://down-aka-id.img.susercontent.com/sg-11134201-7rd3s-lulkurebw7e1c3.webp",
+        "link": "https://shope.ee/1Vcv4JAAkk"
+    },
+    {
+        "nama": "promo 4 pcs celana pendek pria wanita dewasa santai baby terry saku resleting",
+        "harga": 83500,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r991-lmnguk6ytjfvb0.webp",
+        "link": "https://shope.ee/1LJUs0Ao5j"
+    },
+    {
+        "nama": "PAKET 4PCS 100RB Kaos Distro Pria-Wanita Size M-L-XL-XXL-XXXL PE / KAOS DISTRO // T SHIRT REGULER POLOS GELAP KAOS T-SHIRT / KAOS DITRO KEREN / KAOS SANTAI PRIA DAN WANITA DEWASA / KAOS KEREN / KAOS OVERSIZE PRIA DAN WANITA / KAOS OBLONG PRIA",
+        "harga": 100000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98x-lo22ghoe83i250.webp",
+        "link": "https://shope.ee/2VVSG96Miy"
+    },
+    {
+        "nama": "Nakamichi TW022ENC True Wireless Earbuds Bluetooth Earphone TWS Gaming HD",
+        "harga": 269000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134201-23030-qxlyf2az0kov98.webp",
+        "link": "https://shope.ee/2LC23q703x"
+    },
+    {
+        "nama": "ANTARESTAR Official - Handbag Klas Tas Selempang Pria wanita Sling Bag Handbag Korea",
+        "harga": 125000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98y-lp0bfqwgcqdpb6.webp",
+        "link": "https://shope.ee/2AsbrX7dOw"
+    },
+    {
+        "nama": "100rb dapat 5 celana pendek pria broadshot pria kekinian adem saku kanan kiri resleting",
+        "harga": 100000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98x-lm887jye7p9n72.webp",
+        "link": "https://shope.ee/20ZBfE8Gjv"
+    },
+    {
+        "nama": "Larisko Jaket Windbreaker Wexzy Anti Air Premium",
+        "harga": 175000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7qul4-ljjydpjsbtd31a.webp",
+        "link": "https://shope.ee/8UmfPAjWYC"
+    },
+    {
+        "nama": "Kemeja Vintage Pria Lengan Pendek Kemeja Polos Pria Polos Korean Style",
+        "harga": 41000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98o-lqpxaedmg3qw8d.webp",
+        "link": "https://shope.ee/8KTFCrk9tB"
+    },
+    {
+        "nama": "ANT PROJECT - Tas Handlebar Bag TROY 3in Selempang - Tas Stang Sepeda Black Waterproof",
+        "harga": 41900,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r991-lqppmz7i3j5ee3.webp",
+        "link": "https://shope.ee/8A9p0YknEA"
+    },
+    {
+        "nama": "QeelaOfficial - Celana Cargo Pendek Basic Unisex Shortpants Cargo BroadShot Premium",
+        "harga": 35000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98s-lnrzm05f88ye19.webp",
+        "link": "https://shope.ee/7zqOoFlQZ9"
+    },
+    {
+        "nama": "Sweater Pria Vintage Pakaian Pria Pullover Hoodie Warna Solid Retro Pria",
+        "harga": 112500,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98y-lspur6b35jck35.webp",
+        "link": "https://shope.ee/9A2MCOgzCO"
+    },
+    {
+        "nama": "KAOS UNIQLO POLOS / KAOS POLOS / KAOS OBLONG / KAOS PREMIUM FULLTAG / KAOS UNISEX / KAOS 30S / KAOS PRIA/ KAOS WANITA",
+        "harga": 47400,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98u-lmd89obvggqccc.webp",
+        "link": "https://shope.ee/8ziw05hcXN"
+    },
+    {
+        "nama": "Tas Selempang Bahu Pria 2in1 Bisa Slempang Dan Pouch Slempang PEGE Calio Anti Air Bahan Bimo Waterproof - PG 8979",
+        "harga": 37000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98r-llui0kjwhi236b.webp",
+        "link": "https://shope.ee/8pPVnmiFsM"
+    },
+    {
+        "nama": "HZSUM Earphone Bluetooth Olahraga Tahan Air Wireless with Mic Smart Touch Earphone TWS Mini Earbuds G9",
+        "harga": 59000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98v-lqq9teq8trlk8a.webp",
+        "link": "https://shope.ee/8f65bTitDL"
+    },
+    {
+        "nama": "Kitleler Sepatu Sneakers Pria Model Terbaru Sepatu Sneakers Pria Kualitas Import Modis Kekinian",
+        "harga": 117000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98q-lmid1a51wqku88.webp",
+        "link": "https://shope.ee/9pI2zceRqa"
+    },
+    {
+        "nama": "KAOS POLOS PREMIUM COTTON COMBED 30S",
+        "harga": 35793,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98q-luq6qqbb1aiy31.webp",
+        "link": "https://shope.ee/9eycnJf5BZ"
+    },
+    {
+        "nama": "Tas Selempang & Clucth Highmore Yeager - Tas Tangan 3in1 Original Waterproof",
+        "harga": 24960,
+        "photo": "https://affiliate.shopee.co.id/offer/product_offer/25212648381?trace=%7B%22trace_id%22%3A%220.9YLEtjUQU7.100%22%2C%22list_type%22%3A100%2C%22exp_group_ids%22%3A%5B139270%2C109082%2C105939%2C66643%2C67959%2C38837%5D%2C%22root_trace_id%22%3A%220.9YLEtjUQU7.100%22%2C%22root_list_type%22%3A100%7D",
+        "link": "https://shope.ee/9UfCb0fiWY"
+    },
+    {
+        "nama": "Tool Superman Kunci Ring Pas set 14 pcs 8-24mm kunci pas Harga murah barang berkualitas Original 100%",
+        "harga": 67900,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98p-lpuav5b1ef463b.webp",
+        "link": "https://shope.ee/9KLmOhgLrX"
+    },
+    {
+        "nama": "KREMLIN Bomber Jacket Space Putih - NOVA",
+        "harga": 449900,
+        "photo": "https://down-aka-id.img.susercontent.com/9cf88000baea0691eb2102cc41a14396.webp",
+        "link": "https://shope.ee/AUXjmqbuUm"
+    },
+    {
+        "nama": "KAOS DISTRO TERMURAH/PAKET 3 KAOS/KAOS PRIA WANITA/KAOSDISTROMURAH",
+        "harga": 50000,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7qula-lgrpkf1eex5f69.webp",
+        "link": "https://shope.ee/AKEJaXcXpl"
+    },
+    {
+        "nama": "ANT PROJECT - Tas Handlebar Bag TROY 3in Selempang - Tas Stang Sepeda Black Waterproof",
+        "harga": 69825,
+        "photo": "https://down-aka-id.img.susercontent.com/id-11134207-7r98z-lqpozgfve9bme8.webp",
+        "link": "https://shope.ee/A9utOEdBAk"
+    },
+    {
         "nama": "[ TERBARU ] Helm ALV ULTRON pro 100% ori paket ganteng",
         "harga": 160000,
         "photo": "https://down-ws-id.img.susercontent.com/id-11134207-7r992-lp4umv5rpthv50.webp",
