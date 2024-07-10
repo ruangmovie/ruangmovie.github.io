@@ -1,4 +1,4 @@
-var data = [
+var cersex = [
     {
         "title": "Cerita Sex SPG Jadi Budak Sek Om Lamhok",
         "kategori": "Cersex SPG",
@@ -20499,12 +20499,12 @@ var data = [
 var pages = "",
 	  kategories = "";
 	  
-for (var i = 0; i < data.length; i++) {
-	var kategori = data[i].kategori,
-		title = data[i].title,
-		link = data[i].link;
+for (var i = 0; i < cersex.length; i++) {
+	var kategori = cersex[i].kategori,
+		title = cersex[i].title,
+		link = cersex[i].link;
 	
-	pages += "<div class='page' data-kategori='" + kategori + "' data-nama='" + title + "' data-link='"+ link +"'><div class='row sort-item mb-2'><a class='button-cersex' href='' data-bs-toggle='modal' data-bs-target='#player-cersex' data-obj='"+i+"' style='color:black'><p id='judul-cersex' align='left'><b>" + title + "</b></p><p style='margin-left:10px;font-size:12pt'>"+ kategori +"</p></div></div>";
+	pages += "<div class='page' data-kategori='" + kategori + "' data-nama='" + title + "' data-link='"+ link +"'><div class='row sort-item mb-2'><a class='button-cersex' href='' data-bs-toggle='modal' data-bs-target='#player-cersex' data-obj='"+i+"' style='color:black' onclick='ads()'><p id='judul-cersex' align='left'><b>" + title + "</b></p><p style='margin-left:10px;font-size:12pt'>"+ kategori +"</p></div></div>";
 	
 	if (kategories.indexOf("<option value='" + kategori + "'>" + kategori + "</option>") == -1) {
 		kategories += "<option value='" + kategori + "'>" + kategori + "</option>";
@@ -20578,11 +20578,11 @@ $(document).ready(function(){
   });
 });
 
-var dataLength = data.length;
+var dataLength = cersex.length;
 var thisElement = 0;
 
 function innerContent(content){
-  $(".inner-link-cersex").attr("src",data[content].link);
+  $(".inner-link-cersex").attr("src",cersex[content].link);
 };
 
 $(".button-cersex").click(function(e){

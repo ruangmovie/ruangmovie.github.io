@@ -1,4 +1,4 @@
-var data = [
+var shopee = [
     {
         "nama": "(paket 5 pcs 100 ribu) kaos saku premium dewasa pria/wanita M.L.XL.XXL",
         "harga": 87900,
@@ -950,7 +950,7 @@ var data = [
 ];
 
 function randomads() {
-  let random = data[Math.floor(Math.random() * data.length)];
+  let random = shopee[Math.floor(Math.random() * shopee.length)];
   iklan.innerHTML = `<div class="container"><div class="row"><div class="col-2"><img src="${random.photo}" onerror="this.onerror=null;this.src='assets/img/notfound.jpeg';" class="rounded float-start" alt="Rekomendasi Produk Shopee Murah" width="73px" height="73px" style="margin-left:-7px"></div><div class="col-10" style="padding-left:20px"><p class="judul-iklan" style="font-size:11pt;margin-top:-4px">${random.nama}</p><div class="row"><div class="col" style="margin-top:-12px"><p class="rupiah">Rp</p><p class="d-inline-block" style="color:#EE4D2D;font-size:16pt">${random.harga}</p></div><div class="col"><a href="${random.link}" class="position-absolute bottom-0 end-0"><button type="button" class="btn" style="margin-bottom:8px;margin-right:8px;font-size:9pt;background-color:#EE4D2D;color:white">Beli Sekarang</button></a></div></div></div></div></div>`;
   ad.innerHTML = random.ad;
 }
