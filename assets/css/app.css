@@ -533,7 +533,7 @@ html {
     overflow-x: hidden;
     width: 100%;
     padding-top: 30px;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
     z-index: -999
 }
 
@@ -912,7 +912,7 @@ h1 {
     height: 40px;
     text-align: center;
     position: fixed;
-    bottom: 155px;
+    bottom: 57px;
     right: 10px;
     transition: background-color .3s, opacity .5s, visibility .5s;
     opacity: 0;
