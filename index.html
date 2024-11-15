@@ -11,6 +11,13 @@
   gtag('js', new Date());
   gtag('config', 'G-S3QXESY0HT');
 </script>
+
+<script type="text/javascript" data-cfasync="false">
+/*<![CDATA[/* */
+(function(){var i=window,j="fc1111cd0be73df8006e19352d5f6074",w=[["siteId",258*268+81+4740791],["minBid",0],["popundersPerIP","0"],["delayBetween",0],["default",false],["defaultPerDay",0],["topmostLayer","auto"]],d=["d3d3LmFudGlhZGJsb2Nrc3lzdGVtcy5jb20vWURmZ2wvWndZSmQvcGFuaW1hLm1pbi5qcw==","ZDNjb2Q4MHRobjdxbmQuY2xvdWRmcm9udC5uZXQvd3Bvc3RhbC5taW4uanM="],q=-1,u,l,h=function(){clearTimeout(l);q++;if(d[q]&&!(1757561395000<(new Date).getTime()&&1<q)){u=i.document.createElement("script");u.type="text/javascript";u.async=!0;var k=i.document.getElementsByTagName("script")[0];u.src="https://"+atob(d[q]);u.crossOrigin="anonymous";u.onerror=h;u.onload=function(){clearTimeout(l);i[j.slice(0,16)+j.slice(0,16)]||h()};l=setTimeout(h,5E3);k.parentNode.insertBefore(u,k)}};if(!i[j]){try{Object.freeze(i[j]=w)}catch(e){}h()}})();
+/*]]>/* */
+</script>
+
 <meta name="author" content="Ruang Imajinasi">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="publisher" content="Ruang Imajinasi">
@@ -271,7 +278,8 @@
       callback: function (data, pagination) {
           var dataHtml = '';
       $.each(data, function (index, item) {
-          dataHtml += `<a href="https://dooood.com/e/` + item.link + `" onclick="ads()"><img id="poster" src="` + item.poster + `" onerror="this.onerror=null;this.src='assets/img/error.png'" alt="" width="100%" height="100%" style="object-fit:cover;aspect-ratio:16/9"></a><div class="row sort-item" style="margin-bottom:30px"><div class="row"><div class="col-2"><img src="assets/img/favicon.jpg" style="object-fit:cover;width:37px;height:37px;margin-top:10px;float:left;border-radius:50%;"></div><div class="col-9"><span id="judul-bokep" style="text-align:left;margin-left:-17px;margin-top:10px"><b>`+ item.title +`</b></span></div><div class="col-1"><a href="https://dooood.com/d/`+ item.link +`" target="_blank" style="color:black"><i class="fa fa-download" aria-hidden="true" style="margin-top:15px;float:right;margin-right:-20px;color:black;font-size:12pt"></i></a></div></div><div class="col-10" style="margin-left:68px"></div></div></div>`;
+        let random = video[Math.floor(Math.random() * video.length)];
+          dataHtml += `<a href="https://dooood.com/e/` + random.link + `" onclick="ads()"><img id="poster" src="` + random.poster + `" onerror="this.onerror=null;this.src='assets/img/error.png'" alt="" width="100%" height="100%" style="object-fit:cover;aspect-ratio:16/9"></a><div class="row sort-item" style="margin-bottom:30px"><div class="row"><div class="col-2"><img src="assets/img/favicon.jpg" style="object-fit:cover;width:37px;height:37px;margin-top:10px;float:left;border-radius:50%;"></div><div class="col-9"><span id="judul-bokep" style="text-align:left;margin-left:-17px;margin-top:10px"><b>`+ random.title +`</b></span></div><div class="col-1"><a href="https://dooood.com/d/`+ random.link +`" target="_blank" style="color:black"><i class="fa fa-download" aria-hidden="true" style="margin-top:15px;float:right;margin-right:-20px;color:black;font-size:12pt"></i></a></div></div><div class="col-10" style="margin-left:68px"></div></div></div>`;
               });
     
               $("#data-bokep").html(dataHtml);
